@@ -27,7 +27,8 @@ load_lib multiline.exp
 if ![info exists TEST_ALWAYS_FLAGS] {
     set TEST_ALWAYS_FLAGS ""
 }
-set TEST_ALWAYS_FLAGS "-fdiagnostics-plain-output $TEST_ALWAYS_FLAGS"
+# AAP Edit
+#set TEST_ALWAYS_FLAGS "-fdiagnostics-plain-output $TEST_ALWAYS_FLAGS"
 
 proc prune_gcc_output { text } {
     global srcdir
