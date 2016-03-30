@@ -1,3 +1,12 @@
+2016-03-30  Joern Rennecke  <joern.rennecke@embecosm.com>
+
+	* testsuite/lib/gcc-dg.exp [check_effective_target_llvm]:
+	Don't use -flto-partition=none in LTO_TORTURE_OPTIONS.
+	* testsuite/lib/c-torture.exp: Likewise.
+	* testsuite/lib/target-supports.exp (check_effective_target_llvm):
+	New procedure.
+	(proc check_effective_target_lto): Return 0 for aap-*-*.
+
 2015-12-15  Simon Cook  <simon.cook@embecosm.com>
 
 	* testsuite/lib/prune.exp: Remove caret flags Clang does not understand.
