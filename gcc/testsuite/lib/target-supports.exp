@@ -9296,6 +9296,15 @@ proc check_effective_target_llvm { } {
     return 0
 }
 
+proc check_effective_target_not_llvm { } {
+
+    if [check_effective_target_llvm] {
+        return 0
+    }
+
+    return 1
+}
+
 # Return 1 if programs are intended to be run on a simulator
 # (i.e. slowly) rather than hardware (i.e. fast).
 
