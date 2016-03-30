@@ -66,6 +66,10 @@ if [info exists TORTURE_OPTIONS] {
     	      { -O2 -flto -fno-use-linker-plugin -flto-partition=none } \
 	      { -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects }
           ]
+        } elseif [check_effective_target_llvm] {
+           set LTO_TORTURE_OPTIONS [list \
+	      { -O2 -flto }
+           ]
         } else {
           set LTO_TORTURE_OPTIONS [list \
 	      { -O2 -flto -flto-partition=none } \

@@ -9284,6 +9284,18 @@ proc check_effective_target_inttypes_types { } {
     }]
 }
 
+# Return 1 if compiling with llvm / clang, and we thus have a different
+# set of options, and get different warnings / errors.
+
+proc check_effective_target_llvm { } {
+
+    if [board_info target exists llvm] {
+        return [board_info target llvm]
+    }
+
+    return 0
+}
+
 # Return 1 if programs are intended to be run on a simulator
 # (i.e. slowly) rather than hardware (i.e. fast).
 
@@ -10502,6 +10514,10 @@ proc check_effective_target_lto { } {
     }
     if { [istarget nvptx-*-*]
 	 || [istarget amdgcn-*-*] } {
+	return 0;
+    }
+    if { [istarget aap-*-*] } {
+# linker says: ... .o: file not recognized: File format not recognized
 	return 0;
     }
     return [check_no_compiler_messages lto object {
