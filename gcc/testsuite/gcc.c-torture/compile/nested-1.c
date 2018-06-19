@@ -1,5 +1,6 @@
 /* { dg-require-effective-target trampolines } */
 /* { dg-require-effective-target vla_in_struct } */
+/* { dg-require-effective-target nested_func } */
 
 typedef __SIZE_TYPE__ size_t;
 extern int printf (const char *, ...);

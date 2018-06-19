@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 /* Test whether tree inlining works with prototyped nested functions.  */
 
 extern void foo (char *x);

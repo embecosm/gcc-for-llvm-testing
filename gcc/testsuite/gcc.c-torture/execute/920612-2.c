@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 main ()
 {
   int i = 0;

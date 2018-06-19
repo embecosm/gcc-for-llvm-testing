@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fno-inline" } */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort (void);
 

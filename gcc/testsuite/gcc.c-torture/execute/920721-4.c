@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 #ifndef NO_LABEL_VALUES
 int try (int num) {
   __label__ lab1, lab2, lab3, lab4, lab5, lab6, default_lab;

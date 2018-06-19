@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 #ifndef NO_LABEL_VALUES
 main(){__label__ l;void*x(){return&&l;}goto*x();abort();return;l:exit(0);}
 #else

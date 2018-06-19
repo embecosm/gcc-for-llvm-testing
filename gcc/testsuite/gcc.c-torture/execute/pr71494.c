@@ -1,5 +1,6 @@
 /* PR middle-end/71494 */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target nested_func } */
 
 int
 main ()

@@ -1,6 +1,7 @@
 /* PR target/79494 */
 /* { dg-do compile } */
 /* { dg-require-effective-target split_stack } */
+/* { dg-require-effective-target nested_func } */
 /* { dg-options "-O2 -fsplit-stack -g" } */
 
 void

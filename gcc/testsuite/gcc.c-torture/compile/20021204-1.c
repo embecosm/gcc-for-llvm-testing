@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 /* PR c/7622 */
 
 /* Verify that GCC can handle the mix of

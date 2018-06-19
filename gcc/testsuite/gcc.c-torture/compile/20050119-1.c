@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 void write_char(char);
 int len(char*);
 void f(char *a)

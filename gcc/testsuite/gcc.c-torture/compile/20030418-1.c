@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 /* PR optimization/7675 */
 /* Contributed by Volker Reichelt */
 

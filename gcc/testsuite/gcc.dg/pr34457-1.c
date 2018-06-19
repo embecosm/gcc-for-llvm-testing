@@ -3,6 +3,7 @@
 /* { dg-require-effective-target trampolines } */
 /* { dg-require-effective-target lto } */
 /* { dg-require-effective-target vla_in_struct } */
+/* { dg-require-effective-target nested_func } */
 /* { dg-options "-flto -O2" } */
 /* { dg-additional-sources "pr34457-2.c" } */
    
