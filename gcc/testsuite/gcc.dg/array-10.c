@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 int a;
 

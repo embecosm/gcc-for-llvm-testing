@@ -1,4 +1,5 @@
 /* { dg-options "-std=c99 -pedantic-errors" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 int a[*];			/* { dg-error "not allowed in other than function prototype scope" } */
 void foo1() { int a[*]; }	/* { dg-error "not allowed in other than function prototype scope" } */

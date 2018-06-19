@@ -1,4 +1,5 @@
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target vla_in_struct } */
 
 typedef __SIZE_TYPE__ size_t;
 extern int printf (const char *, ...);

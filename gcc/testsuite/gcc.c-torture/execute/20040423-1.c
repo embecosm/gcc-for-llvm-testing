@@ -1,3 +1,5 @@
+/* { dg-require-effective-target vla_in_struct } */
+
 int
 sub1 (int i, int j)
 {

@@ -1,4 +1,5 @@
 /* PR middle-end/41935 */
+/* { dg-require-effective-target vla_in_struct } */
 
 extern void abort (void);
 

@@ -1,4 +1,5 @@
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 /* This used to fail on SPARC with an unaligned memory access.  */
 
 void foo(int n)

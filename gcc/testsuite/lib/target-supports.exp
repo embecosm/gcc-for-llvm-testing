@@ -11638,6 +11638,18 @@ proc check_effective_target_rdrand { } {
     } "-mrdrnd" ]
 }
 
+# Return 1 if the compiler supports variable length arrays in structures
+# This is not the case for Clang based compilers.
+proc check_effective_target_vla_in_struct { } {
+    return [check_no_compiler_messages vla_in_struct object {
+	void test (void)
+	{
+	    int x = 5;
+	    struct { char a[x]; }
+	}
+    } "" ]
+}
+
 # Return 1 if the target supports coprocessor instructions: cdp, ldc, ldcl,
 # stc, stcl, mcr and mrc.
 proc check_effective_target_arm_coproc1_ok_nocache { } {
