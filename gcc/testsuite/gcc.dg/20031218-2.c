@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -g" } */
+/* { dg-require-effective-target nested_func } */
 
 int f1 (int y)
 {

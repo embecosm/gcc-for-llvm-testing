@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target nested_func } */
 
 struct S {
   void (*f)(int);

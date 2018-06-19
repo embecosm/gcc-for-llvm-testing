@@ -4,6 +4,7 @@
 /* { dg-options "-O2 -pg" } */
 /* { dg-options "-O2 -pg -static" { target hppa*-*-hpux* } } */
 /* { dg-error "profiler" "No profiler support" { target xstormy16-*-* } 0 } */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort (void);
 

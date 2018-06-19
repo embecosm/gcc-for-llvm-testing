@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target nested_func } */
 /* { dg-options "-Wpadded" }
 /* The struct internally constructed for the nested function should
    not result in a warning from -Wpadded. */

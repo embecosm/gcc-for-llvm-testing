@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 int
 sub1 (char *p, int i)
 {

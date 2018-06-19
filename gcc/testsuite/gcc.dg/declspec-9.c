@@ -5,6 +5,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target nested_func } */
 
 auto void f0 (void) {} /* { dg-warning "function definition declared 'auto'" } */
 register void f1 (void) {} /* { dg-error "function definition declared 'register'" } */

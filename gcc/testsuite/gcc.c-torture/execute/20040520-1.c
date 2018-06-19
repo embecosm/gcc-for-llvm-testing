@@ -1,4 +1,5 @@
 /* PR 15454 */
+/* { dg-require-effective-target nested_func } */
 
 void abort ();
 int main () {

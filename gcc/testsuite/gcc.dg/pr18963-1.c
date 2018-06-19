@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "" } */
+/* { dg-require-effective-target nested_func } */
 
 static int barf ();
 
