@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -mavx512dq" } */
 /* { dg-require-effective-target avx512dq } */
+/* { dg-require-effective-target builtin_finite } */
 
 #define AVX512DQ
 #include "avx512f-helper.h"

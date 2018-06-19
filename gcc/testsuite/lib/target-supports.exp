@@ -12473,4 +12473,7 @@ proc check_effective_target_builtin_exit {} {
 proc check_effective_target_builtin_exp10 {} {
     return [check_builtin_support exp10 "__builtin_exp10 (0);"]
 }
+proc check_effective_target_builtin_finite {} {
+    return [check_builtin_support finite "__builtin_finite (0);"]
+}
 
