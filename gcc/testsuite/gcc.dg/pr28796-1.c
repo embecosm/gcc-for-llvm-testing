@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-ffinite-math-only" } */
+/* { dg-require-effective-target builtin_finite } */
 
 extern void link_error(void);
 
