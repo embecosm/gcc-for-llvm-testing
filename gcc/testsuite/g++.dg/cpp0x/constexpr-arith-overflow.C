@@ -1,5 +1,8 @@
 // PR c++/70507 - integer overflow builtins not constant expressions
 // { dg-do compile { target c++11 } }
+// { dg-require-effective-target builtin_add_overflow_p }
+// { dg-require-effective-target builtin_sub_overflow_p }
+// { dg-require-effective-target builtin_mul_overflow_p }
 
 #define SCHAR_MAX    __SCHAR_MAX__
 #define SHRT_MAX     __SHRT_MAX__

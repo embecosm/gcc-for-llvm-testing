@@ -12,6 +12,7 @@
 /* { dg-skip-if "Variadic funcs use different argument passing from normal funcs" { arm_hf_eabi || { csky*-*-* avr-*-* riscv*-*-* or1k*-*-* msp430-*-* amdgcn-*-* pru-*-* loongarch*-*-* } } } */
 /* { dg-skip-if "Variadic funcs have all args on stack. Normal funcs have args in registers." { nds32*-*-* } { v850*-*-* } } */
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
    
 
 #define INTEGER_ARG  5

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_exit } */
 
 typedef long unsigned int size_t;
 extern __attribute__ ((malloc)) void *mem_alloc(size_t);

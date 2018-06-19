@@ -2,7 +2,10 @@
    including PR c/71392 - SEGV calling integer overflow built-ins with a null
    pointer, (issuing a warning for such invocations).  */
 /* { dg-do compile } */
-/* { dg-additional-options "-Wnonnull" }
+/* { dg-additional-options "-Wnonnull" } */
+/* { dg-require-effective-target builtin_add_overflow_p } */
+/* { dg-require-effective-target builtin_sub_overflow_p } */
+/* { dg-require-effective-target builtin_mul_overflow_p } */
 
 /* Verify that calls with fewer or more than 3 arguments to the generic
    __builtin_op_overflow functions are rejected.  */

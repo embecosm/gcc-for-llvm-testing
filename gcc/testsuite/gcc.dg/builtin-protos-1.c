@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options -Wtraditional-conversion } */
+/* { dg-require-effect-target builtin_clrsb } */
 
 int
 test_s (signed int x)

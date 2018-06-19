@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Warray-bounds" } */
+/* { dg-require-effective-target builtin_exit } */
 
 typedef char one_buffer[512];
 static one_buffer emergency_buffer[4];

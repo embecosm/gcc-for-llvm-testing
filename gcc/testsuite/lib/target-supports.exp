@@ -12429,3 +12429,48 @@ proc check_effective_target_const_volatile_readonly_section { } {
     }
   return 1
 }
+# Various checks for the presence of GCC builtins which aren't universally
+# supported by other compilers
+
+proc check_builtin_support { id call_frag {flags ""} } {
+    return [check_no_compiler_messages builtin_$id assembly {
+	int main (void) { $call_frag }
+    } "$flags" ]
+}
+proc check_effective_target_builtin_add_overflow_p {} {
+    return [check_builtin_support add_overflow_p "__builtin_add_overflow_p (1, 2, 3);"]
+}
+proc check_effective_target_builtin_sub_overflow_p {} {
+    return [check_builtin_support sub_overflow_p "__builtin_sub_overflow_p (1, 2, 3);"]
+}
+proc check_effective_target_builtin_mul_overflow_p {} {
+    return [check_builtin_support mul_overflow_p "__builtin_mul_overflow_p (1, 2, 3);"]
+}
+proc check_effective_target_builtin_aligned_alloc {} {
+    return [check_builtin_support sub_overflow_p "__builtin_aligned_alloc (4, 10);" "-std=c11"]
+}
+proc check_effective_target_builtin_apply {} {
+    return [check_builtin_support apply "__builtin_apply (NULL);"]
+}
+proc check_effective_target_builtin_calloc {} {
+    return [check_builtin_support calloc "__builtin_calloc (10, 10);"]
+}
+proc check_effective_target_builtin_clrsb {} {
+    return [check_builtin_support clrsb "__builtin_clsrb (5);"]
+}
+proc check_effective_target_builtin_complex {} {
+    return [check_builtin_support complex "__builtin_complex (0.0, 0.0);"]
+}
+proc check_effective_target_builtin_drem {} {
+    return [check_builtin_support drem "__builtin_drem (0.0, 0.0);"]
+}
+proc check_effective_target_builtin_dwarf_reg_size {} {
+    return [check_builtin_support dwarf_reg_size "__builtin_dwarf_reg_size (0);"]
+}
+proc check_effective_target_builtin_exit {} {
+    return [check_builtin_support exit "__builtin_exit (0);"]
+}
+proc check_effective_target_builtin_exp10 {} {
+    return [check_builtin_support exp10 "__builtin_exp10 (0);"]
+}
+

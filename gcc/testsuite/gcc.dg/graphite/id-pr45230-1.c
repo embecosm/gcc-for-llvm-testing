@@ -5,6 +5,8 @@
 
    Written by Michael Meissner, March 9, 2002.  */
 
+/* { dg-require-effective-target builtin_exit } */
+
 #include <string.h>
 #include <stddef.h>
 

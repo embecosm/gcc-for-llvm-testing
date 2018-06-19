@@ -2,6 +2,7 @@
 /* { dg-options "-fsanitize=integer-divide-by-zero -Wno-div-by-zero -fno-sanitize-recover=integer-divide-by-zero" } */
 /* { dg-options "-fsanitize=integer-divide-by-zero -Wno-div-by-zero -fno-sanitize-recover=integer-divide-by-zero -Wno-volatile" { target c++ } } */
 /* { dg-shouldfail "ubsan" } */
+/* { dg-require-effective-target builtin_exit } */
 
 #include <stdio.h>
 

@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_clrsb } */
+
 #include <limits.h>
 #include <assert.h>
 

@@ -7,6 +7,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-xfail-run-if "can cause stack underflow" { amdgcn-*-* } } */
+/* { dg-require-effective-target builtin_apply } */
 
 
 #define INTEGER_ARG  5

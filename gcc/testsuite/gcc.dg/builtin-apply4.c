@@ -4,6 +4,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-xfail-run-if "can cause stack underflow" { amdgcn-*-* } } */
+/* { dg-require-effective-target builtin_apply } */
 
 extern void abort (void);
 

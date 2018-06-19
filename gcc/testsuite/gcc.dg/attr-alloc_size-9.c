@@ -4,6 +4,8 @@
    can be assumed not to alias any other valid pointer.  */
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target builtin_aligned_alloc } */
+/* { dg-require-effective-target builtin_calloc } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 
 void sink (void*);

@@ -5,6 +5,7 @@
 /* { dg-require-effective-target sse_runtime { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-mabi=altivec" { target { powerpc-*-* powerpc64-*-* } } } */
 /* { dg-require-effective-target vmx_hw { target { powerpc-*-* powerpc64--*-* } } } */
+/* { dg-require-effective-target builtin_exit } */
 
 #define vector __attribute__((vector_size(16) ))
 
