@@ -1,5 +1,6 @@
 // { dg-do run }
 // { dg-options "-fno-tree-sra" }
+/* { dg-require-effective-target builtin_calloc } */
 
 struct S
 {

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_exit } */
 
 typedef void (*argmatch_exit_fn)();
 int a;

@@ -12,6 +12,7 @@
 /* { dg-do run { xfail { ! *-*-darwin* } } } */
 /* { dg-options "-O2 -mmmx -fgnu89-inline" } */
 /* { dg-require-effective-target ia32 } */
+/* { dg-require-effective-target builtin_apply } */
 
 #include "mmx-check.h"
 

@@ -1,6 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fsanitize=unreachable" } */
-
+/* { dg-require-effective-target builtin_exit } */
 
 int a, b, c, d;
 

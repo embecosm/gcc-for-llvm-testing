@@ -3,6 +3,7 @@
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O2" } } */
 /* { dg-skip-if "" { *-*-* } { "-flto -fno-fat-lto-objects" } } */
 /* { dg-options "-fsanitize=undefined -fno-sanitize-recover=all -fdump-tree-optimized" } */
+/* { dg-require-effective-target builtin_calloc } */
 
 int a[4];
 

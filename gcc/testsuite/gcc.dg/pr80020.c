@@ -1,6 +1,7 @@
 /* PR middle-end/80020 - gcc confused about aligned_alloc argument order
    { dg-do compile }
-   { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+   { dg-options "-O2 -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target builtin_aligned_alloc } */
 
 void sink (void*);
 

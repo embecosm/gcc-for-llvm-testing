@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O2" } } */
 /* { dg-options "-fsanitize=undefined" } */
+/* { dg-require-effective-target builtin_calloc } */
 
 struct S { int a; int b; };
 

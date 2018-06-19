@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fno-guess-branch-probability" } */
+/* { dg-require-effective-target builtin_exit } */
 
 int z;
 

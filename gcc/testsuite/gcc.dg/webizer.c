@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -funroll-loops" } */
+/* { dg-require-effective-target builtin_exit } */
 typedef struct rowbox {
     int startx ;
     int endx ;

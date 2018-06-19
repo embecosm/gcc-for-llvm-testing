@@ -6,6 +6,7 @@
 
 /* { dg-do run } */
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
 
 
 #define INTEGER_ARG  5

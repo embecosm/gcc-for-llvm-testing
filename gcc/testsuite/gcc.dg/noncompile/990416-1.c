@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_dwarf_reg_size } */
+
 extern void *memcpy (void *, const void *, __SIZE_TYPE__);
 typedef int word_type;
    

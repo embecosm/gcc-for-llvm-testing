@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O2" } } */
 /* { dg-options "-fsanitize=object-size -fno-sanitize-recover=object-size" } */
+/* { dg-require-effective-target builtin_calloc } */
 
 /* Test valid uses.  */
 

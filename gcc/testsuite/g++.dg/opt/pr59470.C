@@ -3,6 +3,7 @@
 // { dg-options "-O2 -fstack-protector" }
 // { dg-additional-options "-fPIC" { target fpic } }
 // { dg-require-effective-target fstack_protector }
+// { dg-require-effective-target builtin_exit }
 
 struct A
 {

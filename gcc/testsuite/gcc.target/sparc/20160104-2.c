@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-mno-fpu" } */
+/* { dg-require-effective-target builtin_apply } */
 
 void
 foo (void)
