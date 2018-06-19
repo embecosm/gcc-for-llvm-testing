@@ -2,6 +2,7 @@
    This testcase ICEd on IA-32 at -O0 and was miscompiled otherwise,
    because std_expand_builtin_va_arg didn't handle variable size types.  */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 #include <stdarg.h>
 

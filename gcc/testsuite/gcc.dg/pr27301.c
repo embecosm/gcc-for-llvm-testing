@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -std=gnu89" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void
 foo (void *ptr, long n)
