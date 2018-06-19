@@ -2,6 +2,8 @@
    C99 5.2.4.2.2: Characteristics of floating types.
    A few simple checks on arithmetic operations. */
 
+/* { dg-require-effective-target builtin_finite } */
+
 #include "dfp-dbg.h"
 
 int main()
