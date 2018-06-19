@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "-Wno-switch-unreachable" } */
+/* { dg-require-effective-target nested_func } */
 
 void
 foo (int a)

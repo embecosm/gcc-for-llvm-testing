@@ -1,3 +1,5 @@
+/* { dg-require-effective-target nested_func } */
+
 #include <stdarg.h>
 
 main ()

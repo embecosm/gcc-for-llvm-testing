@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -g" } */
+/* { dg-require-effective-target nested_func } */
 
 extern __SIZE_TYPE__ strlen (const char *);
 

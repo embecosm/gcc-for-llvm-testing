@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wshadow -Wsystem-headers" } */
+/* { dg-require-effective-target nested_func } */
 
 #include "Wshadow-4.h"
 extern void index2 (void); /* { dg-message "declaration is here" } */

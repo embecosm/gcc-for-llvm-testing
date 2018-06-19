@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-skip-if "requires alloca" { ! alloca } { "-O0" } { "" } } */
 /* { dg-require-effective-target vla_in_struct } */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort (void);
 int

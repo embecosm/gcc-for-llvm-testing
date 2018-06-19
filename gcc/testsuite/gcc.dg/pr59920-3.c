@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O0" } */
 /* { dg-require-effective-target nonlocal_goto } */
+/* { dg-require-effective-target nested_func } */
 
 void *bar (void **);
 void *baz (int, void **);

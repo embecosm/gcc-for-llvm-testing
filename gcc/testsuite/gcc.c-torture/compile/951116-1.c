@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 f ()
 {
   long long i;
