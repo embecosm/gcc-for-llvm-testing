@@ -1,6 +1,7 @@
 /* PR c/21536 */
 /* { dg-do run } */
 /* { dg-options "-O2 -Wuninitialized" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 typedef __SIZE_TYPE__ size_t;
 extern void *malloc (size_t);

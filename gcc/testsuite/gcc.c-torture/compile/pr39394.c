@@ -1,4 +1,5 @@
 /* PR tree-optimization/39394 */
+/* { dg-require-effective-target vla_in_struct } */
 
 char *p;
 int x;

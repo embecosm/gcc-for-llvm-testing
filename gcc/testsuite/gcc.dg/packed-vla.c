@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 extern int printf (const char *, ...);
 extern void abort ();
