@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target builtin_clrsb } */
 
 unsigned int functest (unsigned int x)
 {

@@ -1,6 +1,7 @@
 // PR target/71910
 // { dg-do compile }
 // { dg-additional-options "-O2" }
+// { dg-require-effective-target builtin_exit }
 
 #include <vector>
 

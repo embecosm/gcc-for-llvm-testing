@@ -3,6 +3,7 @@
 /* { dg-additional-options "-mno-mmx" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
 /* { dg-do run } */
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
 
 extern void abort (void);
 

@@ -1,6 +1,7 @@
 /* PR tree-optimization/44539 */
 /* { dg-do compile } */
 /* { dg-options "-ftracer -freorder-blocks -O2" } */
+/* { dg-require-effective-target builtin_exit } */
 
 void bar (int file);
 extern int baz (void);

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_exit } */
 
 typedef struct
 {

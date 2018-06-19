@@ -1,4 +1,5 @@
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target builtin_exit } */
 
 __attribute__((noreturn)) void (*fn) (void);
 

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-Wl,--defsym,test1=0" } */
+/* { dg-require-effective-target builtin_exit } */
 
 extern void test1 (void) __attribute__((weak));
 
