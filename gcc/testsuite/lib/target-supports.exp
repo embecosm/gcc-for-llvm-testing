@@ -11641,7 +11641,7 @@ proc check_effective_target_rdrand { } {
 # Return 1 if the compiler supports variable length arrays in structures
 # This is not the case for Clang based compilers.
 proc check_effective_target_vla_in_struct { } {
-    return [check_no_compiler_messages vla_in_struct object {
+    return [check_no_compiler_messages vla_in_struct assembly {
 	void test (void)
 	{
 	    int x = 5;
