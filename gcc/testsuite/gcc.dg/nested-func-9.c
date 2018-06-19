@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void
 foo (int n)

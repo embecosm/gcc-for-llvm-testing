@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-g -O" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 extern void foo (void);
 

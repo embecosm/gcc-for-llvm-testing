@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void __attribute__((noinline, noclone))
 foo (int n)
