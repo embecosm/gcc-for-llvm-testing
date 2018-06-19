@@ -3,6 +3,7 @@
 
 /* Verify that non-local structures passed by invisible
    reference are correctly put in the stack.  */
+/* { dg-require-effective-target nested_func } */
 
 typedef struct {
   int a;

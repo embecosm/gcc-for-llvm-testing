@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 I_wacom ()
 {
   char buffer[50], *p;

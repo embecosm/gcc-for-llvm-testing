@@ -4,6 +4,7 @@
 
 /* Force bigger stack alignment for PowerPC EABI targets.  */
 /* { dg-options "-mno-eabi" { target powerpc-*-eabi* } } */
+/* { dg-require-effective-target nested_func } */
 
 #include <stddef.h>
 

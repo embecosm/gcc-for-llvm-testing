@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target nested_func } */
 
 void
 foo (int m)

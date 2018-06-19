@@ -1,4 +1,5 @@
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target nested_func } */
 typedef unsigned long grub_uint64_t;
 typedef grub_uint64_t grub_size_t;
 grub_cmdline_get (unsigned max_len, int echo_char)

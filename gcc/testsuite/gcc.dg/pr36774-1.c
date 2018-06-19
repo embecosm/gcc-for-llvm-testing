@@ -2,6 +2,7 @@
    Bug 36774. Test with -Wmissing-prototypes. */
 /* { dg-do compile } */
 /* { dg-options "-Wmissing-prototypes" } */
+/* { dg-require-effective-target nested_func } */
 
 int foo(int a) { /* { dg-warning "no previous prototype" } */
     int bar(int b) { return b; } /* { dg-bogus "no previous prototype" } */

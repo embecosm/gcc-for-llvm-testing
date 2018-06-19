@@ -1,5 +1,6 @@
 /* Related to PR 19484.  */
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target nested_func } */
 
 extern void foo (void) __attribute__((noreturn));
 int n;

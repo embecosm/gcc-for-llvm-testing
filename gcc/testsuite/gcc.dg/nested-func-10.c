@@ -3,6 +3,7 @@
 /* { dg-options "" } */
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target vla_in_struct } */
+/* { dg-require-effective-target nested_func } */
 
 void __attribute__((noinline, noclone))
 foo (int n)
