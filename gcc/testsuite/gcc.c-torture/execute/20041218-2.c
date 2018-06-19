@@ -1,3 +1,5 @@
+/* { dg-require-effective-target vla_in_struct } */
+
 extern void abort (void);
 
 int test(int n)

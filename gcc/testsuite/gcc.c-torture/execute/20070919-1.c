@@ -1,5 +1,6 @@
 /* PR c/33238 */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 typedef __SIZE_TYPE__ size_t;
 int memcmp (const void *, const void *, size_t);
