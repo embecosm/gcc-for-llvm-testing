@@ -3,6 +3,8 @@
 /* Origin: Kaveh R. Ghazi <ghazi@caip.rutgers.edu> */
 /* { dg-do compile } */
 /* { dg-options "-Wnonnull" } */
+/* { dg-require-effective-target builtin_fputc } */
+/* { dg-require-effective-target builtin_fputs } */
 
 #include <stddef.h>
 
