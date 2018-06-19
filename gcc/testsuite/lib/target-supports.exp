@@ -12476,4 +12476,10 @@ proc check_effective_target_builtin_exp10 {} {
 proc check_effective_target_builtin_finite {} {
     return [check_builtin_support finite "__builtin_finite (0);"]
 }
+proc check_effective_target_builtin_fputc {} {
+    return [check_builtin_support fputc "__builtin_fputc (0, NULL);"]
+}
+proc check_effective_target_builtin_fputs {} {
+    return [check_builtin_support fputs "__builtin_fputs (NULL, NULL);"]
+}
 

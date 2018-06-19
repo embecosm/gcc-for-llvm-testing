@@ -5,6 +5,9 @@
 
    Written by Kaveh R. Ghazi, 10/30/2000.  */
 
+/* { dg-require-effective-target builtin_fputc } */
+/* { dg-require-effective-target builtin_fputs } */
+
 #include <stdio.h>
 extern void abort(void);
 
