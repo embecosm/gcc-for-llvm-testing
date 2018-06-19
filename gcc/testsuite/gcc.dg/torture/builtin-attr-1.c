@@ -8,6 +8,7 @@
 
 /* { dg-do link } */
 /* { dg-options "-ffast-math" } */
+/* { dg-require-effective-target builtin_exp10 } */
 
 /* These are helper macros to test combinations of functions.  We test
    foo() != foo() with the same arguments, and expect the compiler to

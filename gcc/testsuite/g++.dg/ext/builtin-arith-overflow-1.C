@@ -1,4 +1,5 @@
 // { dg-do compile }
+// { dg-require-effective-target builtin_add_overflow_p }
 
 enum A { B = 1, C = 2, D = __builtin_add_overflow_p (B, C, 0) };
 int e[__builtin_add_overflow_p (B, C, 0) + 1];

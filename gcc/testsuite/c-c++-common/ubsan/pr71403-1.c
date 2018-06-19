@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fsanitize=unreachable" } */
+/* { dg-require-effective-target builtin_exit } */
 
 char a = -97;
 int b, c, d, e;

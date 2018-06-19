@@ -2,6 +2,7 @@
 /* Originator: Andrew Church <gcczilla@achurch.org> */
 /* { dg-do run } */
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
 
 /* This used to fail on SPARC because the (undefined) return
    value of 'bar' was overwriting that of 'foo'.  */

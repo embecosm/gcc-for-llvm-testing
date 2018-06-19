@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-fsanitize=integer-divide-by-zero -Wno-div-by-zero" } */
 /* { dg-options "-fsanitize=integer-divide-by-zero -Wno-div-by-zero -Wno-volatile" { target c++ } } */
+/* { dg-require-effective-target builtin_exit } */
 
 #include <stdio.h>
 

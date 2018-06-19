@@ -7,6 +7,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target builtin_exp10 } */
 /* { dg-final { scan-assembler-not "__builtin_" } } */
 
 /* These helper macros ensure we also check the float and long double

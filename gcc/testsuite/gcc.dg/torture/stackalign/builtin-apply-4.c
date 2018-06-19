@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fgnu89-inline" } */
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
 
 extern void abort (void);
 

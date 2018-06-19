@@ -4,6 +4,8 @@
    are treated as if they were for that purpose)..
    { dg-do compile }
    { dg-require-effective-target alloca }
+   { dg-require-effective-target builtin_aligned_alloc }
+   { dg-require-effective-target builtin_calloc }
    { dg-additional-options "-O2 -fdump-tree-optimized" } */
 
 void sink (void*);
