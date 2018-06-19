@@ -1,6 +1,7 @@
 /* PR c/36507 */
 /* { dg-do run } */
 /* { dg-options "-O0 -std=gnu99 -fgnu89-inline" } */
+/* { dg-require-effective-target nested_func } */
 
 int
 main (void)

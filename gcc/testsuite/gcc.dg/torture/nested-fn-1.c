@@ -3,6 +3,7 @@
 /* { dg-do compile } */
 /* { dg-options "-g0" } */
 /* { dg-require-effective-target trampolines } */
+/* { dg-require-effective-target nested_func } */
 
 int
 fn1 (int x)

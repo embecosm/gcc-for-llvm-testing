@@ -2,6 +2,7 @@
 /* { dg-options "-pg" } */
 /* { dg-options "-pg -static" { target hppa*-*-hpux* } } */
 /* { dg-require-profiling "-pg" } */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort(void);
 

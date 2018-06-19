@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wunused" } */
+/* { dg-require-effective-target nested_func } */
 
 int
 f1 (void)

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 extern int __dummy (void *__preg, const char *__string);
 extern int rpmatch (const char *response);
 

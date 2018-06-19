@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
 /* { dg-require-effective-target nonlocal_goto } */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort (void);
 

@@ -1,4 +1,5 @@
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target nested_func } */
 int b;
 int foo (void)
 {

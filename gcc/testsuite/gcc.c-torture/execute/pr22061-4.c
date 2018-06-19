@@ -1,4 +1,6 @@
 /* { dg-skip-if "requires alloca" { ! alloca } { "-O0" } { "" } } */
+/* { dg-require-effective-target nested_func } */
+
 void
 bar (int N)
 {

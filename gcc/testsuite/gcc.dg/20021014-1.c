@@ -4,6 +4,7 @@
 /* { dg-options "-O2 -p -static" { target hppa*-*-hpux* } } */
 /* { dg-error "profiler" "No profiler support" { target xstormy16-*-* } 0 } */
 /* { dg-message "" "consider using `-pg' instead of `-p' with gprof(1)" { target *-*-freebsd* } 0 } */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort (void);
 extern void exit (int);

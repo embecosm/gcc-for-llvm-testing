@@ -1,3 +1,5 @@
+/* { dg-require-effective-target nested_func } */
+
 int main ()
 {
   int v = 42;

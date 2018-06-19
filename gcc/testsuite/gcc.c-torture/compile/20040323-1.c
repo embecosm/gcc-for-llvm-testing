@@ -1,5 +1,6 @@
 /* PR middle-end/14694 */
 /* { dg-require-alias "" } */
+/* { dg-require-effective-target nested_func } */
 
 unsigned int _rtld_global = 1;
 extern unsigned int _rtld_local __attribute__ ((alias ("_rtld_global")));

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-funit-at-a-time -std=gnu89" } */
+/* { dg-require-effective-target nested_func } */
 
 int f(int i)
 {

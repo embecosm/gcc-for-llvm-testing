@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "" } */
+/* { dg-require-effective-target nested_func } */
 /* Verify that the search for function happens in the proper scope.  */
 
 extern void exit(int);

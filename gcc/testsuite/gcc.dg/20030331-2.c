@@ -1,5 +1,6 @@
 // { dg-options "" }
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target nested_func } */
 
 extern int printf (const char *, ...);
 

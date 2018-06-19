@@ -1,5 +1,6 @@
 /* On ARM, BAR used to get a bogus number in E due to stack
    misalignment.  */
+/* { dg-require-effective-target nested_func } */
 
 extern void abort (void);
 extern void exit (int);

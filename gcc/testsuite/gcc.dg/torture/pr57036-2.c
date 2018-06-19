@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target nonlocal_goto } */
+/* { dg-require-effective-target nested_func } */
 
 int j_;
 void g (void);

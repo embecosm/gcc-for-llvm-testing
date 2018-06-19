@@ -1,3 +1,4 @@
+/* { dg-require-effective-target nested_func } */
 struct a
 {
   int t;
