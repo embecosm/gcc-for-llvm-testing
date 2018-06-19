@@ -1,5 +1,6 @@
 /* { dg-xfail-if "can cause stack underflow" { nios2-*-* } "*" "" } */
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
 #define INTEGER_ARG  5
 
 extern void abort(void);

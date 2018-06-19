@@ -1,4 +1,5 @@
 /* { dg-require-effective-target untyped_assembly } */
+/* { dg-require-effective-target builtin_apply } */
 
 g (a, b) {}
 

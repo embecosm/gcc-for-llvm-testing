@@ -1,4 +1,5 @@
 /* { dg-options "-funsafe-math-optimizations" } */
+/* { dg-check-effective-target builtin_exp10 } */
 
 double random_double (void);
 int setjmp (void *);

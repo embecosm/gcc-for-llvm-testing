@@ -1,5 +1,7 @@
 // { dg-do run }
 // { dg-options "-O2" }
+// { dg-require-effective-target builtin_add_overflow_p }
+// { dg-require-effective-target builtin_mul_overflow_p }
 
 struct A { int i : 1; };
 struct B { int j : 3; };

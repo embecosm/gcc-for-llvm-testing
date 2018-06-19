@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cddce1" } */
+/* { dg-require-effective-target builtin_aligned_alloc } */
 
 int bar (short *p)
 {

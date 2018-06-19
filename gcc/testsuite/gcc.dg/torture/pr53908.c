@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_exit } */
 /* SEGV at comment below.  */
 typedef unsigned int size_t;
 typedef enum har {
