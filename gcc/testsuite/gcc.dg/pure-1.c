@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-ipa-pure-const" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct test_a { volatile int a; };
 

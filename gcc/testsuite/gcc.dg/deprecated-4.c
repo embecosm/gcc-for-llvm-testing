@@ -1,5 +1,6 @@
 /* Test __attribute__ ((deprecated("message"))) */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wdeprecated-declarations" } */
 
 typedef int INT1 __attribute__((deprecated("Please avoid INT1")));

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fstrict-overflow -O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* We can only unroll when using strict overflow semantics.  */
 

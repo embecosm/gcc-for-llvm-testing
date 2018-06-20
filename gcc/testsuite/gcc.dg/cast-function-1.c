@@ -6,6 +6,7 @@
    prototype than the actual one.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O3" } */
 
 int foo1(int);

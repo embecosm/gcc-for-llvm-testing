@@ -4,6 +4,7 @@
    warning from case 4.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fno-short-enums -Wsign-compare" } */
 
 int tf = 1;

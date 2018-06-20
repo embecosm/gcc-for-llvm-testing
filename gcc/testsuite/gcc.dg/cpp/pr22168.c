@@ -2,6 +2,7 @@
 /* PR preprocessor/22168 */
 
 /* { dg-do preprocess }
+/* { dg-require-effective-target gcc_frontend } */
    { dg-options -pedantic } */
 #if #foo(bar)    /* { dg-warning "GCC extension" } */
 int x;

@@ -1,5 +1,6 @@
 /* Test for -Wredundant-decls warnings */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wredundant-decls" } */
 
 int j = 5; /* { dg-message "5:note: previous" } */

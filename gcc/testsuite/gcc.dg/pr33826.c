@@ -3,6 +3,7 @@
 
 /* { dg-do compile { target { nonpic || pie_enabled } } } */
 /* { dg-options "-O1 -fdump-tree-local-pure-const1 -fdump-ipa-pure-const" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int recurse1 (int);
 int recurse2b (int);

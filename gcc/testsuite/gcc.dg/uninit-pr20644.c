@@ -1,5 +1,6 @@
 /* PR 20644 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -Wuninitialized" } */
 int foo ()
 {

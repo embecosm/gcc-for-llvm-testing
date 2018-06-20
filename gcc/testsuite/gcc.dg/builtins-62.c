@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffinite-math-only -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target c99_runtime } */
 
 double test1 (double x)

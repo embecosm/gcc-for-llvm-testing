@@ -1,4 +1,5 @@
 /* { dg-options "-O -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int f(int a, int b){
   a %= b;

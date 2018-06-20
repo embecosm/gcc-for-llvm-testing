@@ -2,8 +2,9 @@
    for anti-ranges.  Note that not all of the statements below result
    in the argument being represented as an anti-range.
 
-   { dg-do compile }
-   { dg-options "-O2 -Walloc-size-larger-than=12 -ftrack-macro-expansion=0" } */
+   { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
+/* { dg-options "-O2 -Walloc-size-larger-than=12 -ftrack-macro-expansion=0" } */
 
 #define SCHAR_MAX __SCHAR_MAX__
 #define SCHAR_MIN (-SCHAR_MAX - 1)

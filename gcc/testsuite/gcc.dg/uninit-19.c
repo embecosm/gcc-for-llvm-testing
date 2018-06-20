@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -Wuninitialized" } */
 /* { dg-additional-options "-finline-small-functions" { target avr-*-* } } */
 

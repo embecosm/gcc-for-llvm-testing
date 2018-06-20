@@ -1,5 +1,6 @@
 /* PR middle-end/79537 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-require-effective-target label_values } */

@@ -1,5 +1,6 @@
 /* PR c/49859 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo (int);
 extern int j;

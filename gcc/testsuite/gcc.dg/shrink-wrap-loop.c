@@ -1,5 +1,6 @@
 /* { dg-do compile { target { { { i?86-*-* x86_64-*-* } && lp64 } || { arm_thumb2 } } } } */
 /* { dg-options "-O2 -fdump-rtl-pro_and_epilogue"  } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo (int *p1, int *p2);
 

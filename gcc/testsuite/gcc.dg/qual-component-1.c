@@ -3,6 +3,7 @@
    union.  Bug 27697 from Frank Victor Fischer.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -Wdiscarded-array-qualifiers" } */
 
 struct s {

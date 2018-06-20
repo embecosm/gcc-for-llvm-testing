@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-alias" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { *-*-* } { "-O0" "-fno-fat-lto-objects" } { "" } } */
 
 extern void abort (void);

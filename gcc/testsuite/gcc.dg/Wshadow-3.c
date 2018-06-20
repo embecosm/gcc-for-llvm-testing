@@ -3,6 +3,7 @@
    529.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89 -Wshadow" } */
 
 int v; /* { dg-message "shadowed declaration" } */

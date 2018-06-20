@@ -1,5 +1,6 @@
 /* Test for warnings about nontraditional directives.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -Wtraditional" } */
 
 /* Block 1: K+R directives should have the # indented.  */

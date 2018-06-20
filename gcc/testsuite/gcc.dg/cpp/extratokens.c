@@ -1,6 +1,7 @@
 /* Copyright (C) 2000, 2008 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wno-deprecated" } */
 
 /* Tests all directives that do not permit excess tokens at the end of

@@ -1,5 +1,6 @@
 /* PR middle-end/59827 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int p[2][]) /* { dg-error "array type has incomplete element type" } */

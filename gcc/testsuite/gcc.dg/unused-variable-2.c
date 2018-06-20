@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunused-variable -Wno-unused-const-variable" } */
 
 static int a = 0;	  /* { dg-warning "defined but not used" } */

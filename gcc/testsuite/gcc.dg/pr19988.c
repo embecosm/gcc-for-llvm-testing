@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 double foo(double x, double y)
 {

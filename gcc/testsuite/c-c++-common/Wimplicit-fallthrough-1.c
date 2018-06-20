@@ -1,5 +1,6 @@
 /* PR c/7652 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wimplicit-fallthrough" } */
 /* Test taken from
    <http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0188r0.pdf>.  */

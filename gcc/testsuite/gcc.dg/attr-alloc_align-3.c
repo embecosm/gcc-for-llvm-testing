@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char *my_alloc1 (int len, int align) __attribute__((__alloc_align__ (2)));
 char *my_alloc2 (int align, int len) __attribute__((alloc_align (1)));

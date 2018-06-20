@@ -1,5 +1,6 @@
 /* Test invalid bit-field types: bug 18498.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int

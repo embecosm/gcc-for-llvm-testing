@@ -1,6 +1,7 @@
 /* Source: EMC.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* -fpack-struct is necessary because the warning expected requires the initial
    packing to be larger than 1, which cannot be guaranteed for all targets.
    We won't get a warning anyway if the target has "packed" structure

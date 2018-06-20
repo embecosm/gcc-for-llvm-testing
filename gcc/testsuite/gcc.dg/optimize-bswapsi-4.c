@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target bswap } */
 /* { dg-options "-O2 -fdump-tree-bswap" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-march=z900" { target s390-*-* } } */
 
 typedef unsigned char u8;

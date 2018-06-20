@@ -1,5 +1,6 @@
 /* PR tree-optimization/69802 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall" } */
 
 struct S { unsigned f : 1; };

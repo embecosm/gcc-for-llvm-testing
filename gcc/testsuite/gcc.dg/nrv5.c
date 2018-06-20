@@ -2,6 +2,7 @@
    something that may be call-clobbered. */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct { int x[20]; void *y; } S;
 typedef struct { int a; S b; } T;

@@ -1,5 +1,6 @@
 /* PR c/61162 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat -Wpointer-sign -Wpedantic" } */
 
 enum e { A };

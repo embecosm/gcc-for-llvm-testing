@@ -1,5 +1,6 @@
 /* PR66516 - missing diagnostic on taking the address of a builtin function
    { dg-do compile }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef void (F)(void);
 typedef __UINTPTR_TYPE__ uintptr_t;

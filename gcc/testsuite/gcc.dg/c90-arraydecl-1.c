@@ -1,6 +1,7 @@
 /* Test for C99 forms of array declarator: rejected in C90.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 /* Use of [*] (possibly with type qualifiers) in an array declarator with

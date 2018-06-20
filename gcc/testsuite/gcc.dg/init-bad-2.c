@@ -2,7 +2,9 @@
    standard syntax with -pedantic.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
-/* { dg-options "-std=gnu99 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
+/* { dg-options "-std=gnu99 -pedantic" } 
+ * */
 
 void f(void);
 void g(void) = f; /* { dg-error "function 'g' is initialized like a variable" } */

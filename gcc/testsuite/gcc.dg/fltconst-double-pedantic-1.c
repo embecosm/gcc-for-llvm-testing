@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic" } */
 
 double a = 1.d;		/* { dg-warning "double constant" } */

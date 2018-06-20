@@ -1,5 +1,6 @@
 /* PR c/66066 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wno-div-by-zero" } */
 
 /* Accept these unless -pedantic-errors/-Werror.  */

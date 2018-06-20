@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-profile_estimate" } */
+/* { dg-require-effective-target gcc_internals } */
 int *a,n,m;
 void test(void);
 void

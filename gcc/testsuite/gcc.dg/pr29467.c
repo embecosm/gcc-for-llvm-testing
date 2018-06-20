@@ -1,5 +1,6 @@
 /* PR c/29467 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c89 -Wpedantic" } */
 
 _Bool b; /* { dg-warning "ISO C90 does not support boolean types" } */

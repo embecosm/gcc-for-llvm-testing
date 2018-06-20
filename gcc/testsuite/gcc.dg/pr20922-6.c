@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ffast-math -fno-wrapv -fstrict-overflow -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 int f(int i)
 {
   return i >= (i - 2);

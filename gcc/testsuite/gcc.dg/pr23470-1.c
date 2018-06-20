@@ -1,6 +1,7 @@
 /* PR middle-end/23470 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ffast-math -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void link_error (void);
 

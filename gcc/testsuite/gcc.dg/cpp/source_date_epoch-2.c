@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-set-compiler-env-var SOURCE_DATE_EPOCH "AAA" } */
 
 /* Make sure that SOURCE_DATE_EPOCH is only parsed once */

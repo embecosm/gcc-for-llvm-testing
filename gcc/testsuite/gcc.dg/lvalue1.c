@@ -1,5 +1,6 @@
 /* PR c/5225 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int main()
 {

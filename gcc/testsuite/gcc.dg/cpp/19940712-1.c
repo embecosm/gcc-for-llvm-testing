@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* PR 4713 */
 
 /* dg.exp doesn't read the header files for magic comments. */

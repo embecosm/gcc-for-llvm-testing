@@ -1,5 +1,6 @@
 /* PR c/60351 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 f (int i)

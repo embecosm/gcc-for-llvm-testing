@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Check that we can merge interleaving stores that are guaranteed
    to be non-aliasing.  */

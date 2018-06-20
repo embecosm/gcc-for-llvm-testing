@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -std=gnu89" } */
 
 /* You can't do this in your own code... */

@@ -1,12 +1,13 @@
 /* { dg-do compile { target { nonpic || pie_enabled } } } */
 /* { dg-options "-O2 -Wsuggest-attribute=const -fno-finite-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int extern_const(int a) __attribute__ ((const));
 
 /* Trivial.  */
 int
 foo1(int a)  /* { dg-bogus "normally" "detect const candidate" } */
-{ /* { dg-warning "const" "detect const candidate" { target *-*-* } "8" } */ 
+{ /* { dg-warning "const" "detect const candidate" { target *-*-* } "9" } */ 
   return extern_const (a);
 }
 
@@ -14,7 +15,7 @@ foo1(int a)  /* { dg-bogus "normally" "detect const candidate" } */
 
 int __attribute__ ((noinline))
 foo2(int n)  /* { dg-bogus "normally" "detect const candidate" } */
-{ /* { dg-warning "const" "detect const candidate" { target *-*-* } "16" } */
+{ /* { dg-warning "const" "detect const candidate" { target *-*-* } "17" } */
   int ret = 0;
   int i;
   for (i=0; i<n; i++)
@@ -52,6 +53,6 @@ foo4(int n) /* { dg-warning "const\[^\n\]* normally" "detect const candidate" } 
 
 int
 foo5(int n)  /* { dg-bogus "normally" "detect const candidate" } */
-{ /* { dg-warning "const" "detect const candidate" { target *-*-* } "54" } */
+{ /* { dg-warning "const" "detect const candidate" { target *-*-* } "55" } */
   return foo2(n);
 } 

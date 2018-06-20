@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cfg" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <limits.h>
 

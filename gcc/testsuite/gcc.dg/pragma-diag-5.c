@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 #pragma GCC diagnostic /* { dg-warning "missing" "missing" } */
 /* { dg-warning "24:missing" "wrong column" { xfail *-*-* }  .-1 } */
 

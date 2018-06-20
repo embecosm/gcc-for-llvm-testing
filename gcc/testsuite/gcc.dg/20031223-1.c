@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-std=c17 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f ()
 {

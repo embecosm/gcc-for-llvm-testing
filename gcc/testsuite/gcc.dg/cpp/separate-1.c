@@ -1,6 +1,7 @@
 /* Copyright 2003 Free Software Foundation.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-save-temps" } */
 
 /* Make sure we report errors in the right line, even if separate

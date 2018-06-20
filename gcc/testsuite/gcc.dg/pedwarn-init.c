@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -Wpedantic" } */
 /* { dg-prune-output ".*near initialization for.*" } */
 

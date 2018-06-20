@@ -2,6 +2,7 @@
    -Wdeclaration-after-statement.  See also c9?-mixdecl-*.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors -Wdeclaration-after-statement" } */
 
 extern void abort (void);

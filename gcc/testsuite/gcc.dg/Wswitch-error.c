@@ -1,5 +1,6 @@
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Werror=switch -Wswitch-enum" } */
 
 enum e { e1, e2 };

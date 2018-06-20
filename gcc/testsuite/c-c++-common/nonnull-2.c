@@ -1,5 +1,6 @@
 /* Test for the bad usage of "nonnull" function attribute parms.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wnonnull-compare" } */
 
 void bar (char **);

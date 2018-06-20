@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-ftrack-macro-expansion=2" } */
 
 int foo(int, ...);

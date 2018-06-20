@@ -1,5 +1,6 @@
 /* PR c/67730 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat" } */
 
 #include "pr67730.h"

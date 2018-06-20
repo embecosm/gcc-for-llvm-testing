@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 /* { dg-options "-mno-ms-bitfields -Wno-packed-bitfield-compat" { target { i?86-*-mingw* x86_64-*-mingw* } } } */
 

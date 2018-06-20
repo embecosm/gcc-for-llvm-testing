@@ -1,6 +1,7 @@
 /* Verify diagnostics for extended identifiers refer to UCNs (in the C
    locale).  Miscellaneous diagnostics.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -Wpacked" } */
 /* { dg-require-ascii-locale "" } */
 /* { dg-skip-if "" { powerpc-ibm-aix* } } */

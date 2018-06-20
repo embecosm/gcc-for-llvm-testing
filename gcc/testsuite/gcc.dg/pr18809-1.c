@@ -2,6 +2,7 @@
 /* Origin: Andrew Pinski <pinskia@gcc.gnu.org> */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(enum E e) {}   /* { dg-error "forward ref" "forward" } */
 			/* { dg-warning "declared" "declared" { target *-*-* } .-1 } */

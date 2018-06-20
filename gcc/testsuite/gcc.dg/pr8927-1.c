@@ -1,6 +1,7 @@
 /* Bug 8927: undeclared identifiers should give an error on the line
    of that identifier, not on the line of the next token.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void

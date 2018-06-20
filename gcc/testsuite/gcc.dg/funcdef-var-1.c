@@ -2,6 +2,7 @@
    nonfunction.  Bug 28299 from Bernhard Fischer
    <aldot@gcc.gnu.org>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wmissing-prototypes" } */
 
 extern __typeof(foo) foo __asm__(""); /* { dg-error "undeclared" } */

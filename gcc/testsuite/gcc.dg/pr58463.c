@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-ealias-details -O2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct
 {

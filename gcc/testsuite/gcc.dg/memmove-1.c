@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump-times "memmove" 0 "optimized" } } */
 static const char a[100]={1,2,3,4};
 char b[1000];

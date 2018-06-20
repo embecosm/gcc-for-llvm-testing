@@ -1,5 +1,6 @@
 /* PR c/64918 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct S { int m, n; };

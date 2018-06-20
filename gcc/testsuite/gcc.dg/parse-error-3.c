@@ -1,5 +1,6 @@
 /* PR c/43384 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void c_direct(par)
      void *par = &&lab; /* { dg-error "is initialized|non-standard|outside of" } */

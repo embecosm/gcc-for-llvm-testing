@@ -3,6 +3,7 @@
 /* { dg-do compile { target aarch64*-*-* arm*-*-* i?86-*-* ia64-*-* powerpc*-*-* sparc*-*-* x86_64-*-* } } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-options "-O2 -fdump-rtl-combine-all" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef long long int int64_t;
 

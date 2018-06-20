@@ -2,6 +2,7 @@
    not redeclare an existing tag.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 /* Plain "struct s;" always declares a tag: the same as one declared

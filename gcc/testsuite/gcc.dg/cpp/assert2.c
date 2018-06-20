@@ -1,5 +1,6 @@
 /* Malformed assertion tests.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fshow-column -Wno-deprecated" } */
 
 #assert		/* { dg-error "without predicate" "assert w/o predicate" } */

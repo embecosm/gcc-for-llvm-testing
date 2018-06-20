@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgimple -fdump-tree-fixup_cfg2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int 
 __GIMPLE (ssa) *

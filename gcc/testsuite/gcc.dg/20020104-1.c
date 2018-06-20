@@ -1,6 +1,7 @@
 /* Test whether statement with no effect warnings are not given for last
    statements inside of statement expression.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -Wall" } */
 
 void bar (char *p, char *q);

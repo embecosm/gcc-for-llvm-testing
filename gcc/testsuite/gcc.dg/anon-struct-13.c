@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fplan9-extensions" } */
 
 /* Test for ambiguity when using the Plan 9 extensions.  */

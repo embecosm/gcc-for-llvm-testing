@@ -1,5 +1,6 @@
 /* PR c/25309 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 static char * name[] = {
     [0x80000000]  = "bar"

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c89 -pedantic" } */
 
 #define f(a,b)   f2(a,,b) 

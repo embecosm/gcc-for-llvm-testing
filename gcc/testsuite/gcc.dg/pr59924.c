@@ -1,5 +1,6 @@
 /* PR tree-optimization/59924 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O1 -Wall" } */
 
 struct S { struct T *a; double b; struct S *c; };

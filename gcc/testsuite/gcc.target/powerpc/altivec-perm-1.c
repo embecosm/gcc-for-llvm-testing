@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target powerpc_altivec_ok } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-O -maltivec -mno-vsx" } */
 
 typedef unsigned char V __attribute__((vector_size(16)));

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple -fwrapv" } */
+/* { dg-require-effective-target gcc_internals } */
 extern float fabsf (float);
 extern float cabsf (_Complex float);
 

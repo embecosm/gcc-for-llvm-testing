@@ -1,5 +1,6 @@
 /* PR middle-end/34088 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -Wall -Werror" } */
 
 int F0 (int);

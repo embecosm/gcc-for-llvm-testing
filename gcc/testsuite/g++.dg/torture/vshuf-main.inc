@@ -2,6 +2,7 @@
 
 // { dg-options "-std=c++11" }
 // { dg-do run }
+/* { dg-require-effective-target builtin_shuffle } */
 
 extern "C" void abort(void);
 

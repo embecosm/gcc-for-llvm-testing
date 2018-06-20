@@ -2,6 +2,7 @@
    that CSE would catch later on.  */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-dce3" } */
+/* { dg-require-effective-target gcc_internals } */
 
 double _Complex *a; 
 static const double _Complex b[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; 

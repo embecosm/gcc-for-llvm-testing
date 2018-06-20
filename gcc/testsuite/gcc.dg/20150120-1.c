@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* x + (x & 1) -> (x + 1) & ~1 */
 int

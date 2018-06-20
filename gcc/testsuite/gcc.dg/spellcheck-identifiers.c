@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wimplicit-function-declaration -fdiagnostics-show-caret" } */
 
 typedef struct GtkWidget { int dummy; } GtkWidget;

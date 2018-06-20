@@ -1,5 +1,6 @@
 /* PR c/63567 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 /* Allow initializing objects with static storage duration with

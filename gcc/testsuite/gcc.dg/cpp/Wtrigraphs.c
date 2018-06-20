@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -Wtrigraphs" } */
 
 /* Test we don't double warn for trigraphs immediately after preceding

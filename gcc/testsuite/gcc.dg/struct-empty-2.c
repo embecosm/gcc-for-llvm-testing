@@ -2,6 +2,7 @@
    -pedantic.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 struct s0 {}; /* { dg-warning "struct has no members" } */

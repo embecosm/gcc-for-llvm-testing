@@ -1,5 +1,6 @@
 /* PR 30457 warn about va_start(ap, invalid) */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99" } */
 
 /* Undefined by C99 7.15.1.4p4 (va_start):

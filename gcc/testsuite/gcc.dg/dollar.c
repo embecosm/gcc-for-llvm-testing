@@ -1,6 +1,7 @@
 /* Copyright (C) 2003 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -fno-dollars-in-identifiers } */
 
 /* Test that -fno-dollars-in-identifiers is honoured.

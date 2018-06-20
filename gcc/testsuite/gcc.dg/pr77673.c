@@ -1,6 +1,7 @@
 /* { dg-do compile { target fpic } } */
 /* { dg-require-effective-target bswap } */
 /* { dg-options "-O2 -fPIC -fdump-tree-bswap" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-march=z900" { target s390*-*-* } } */
 
 void mach_parse_compressed(unsigned char* ptr, unsigned long int* val)

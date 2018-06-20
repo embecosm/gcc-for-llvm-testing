@@ -1,5 +1,6 @@
 /* Test that -Wtype-limits is enabled by -Wextra */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-excess-errors "short=int" { target { avr-*-* } } }  */
 /* { dg-options "-Wextra" } */
 

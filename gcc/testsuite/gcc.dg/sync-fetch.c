@@ -3,6 +3,7 @@
 /* Test to verify that the diagnostic doesn't cause an ICE when any
    of the arguments to __atomic_fetch_OP is undeclared.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void test_add_undeclared_first_arg (void)
 {

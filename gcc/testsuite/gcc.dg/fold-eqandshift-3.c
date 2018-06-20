@@ -1,6 +1,7 @@
 /* PR middle-end/29726 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void foo (void);
 #if(__SIZEOF_INT__ >= 4) 

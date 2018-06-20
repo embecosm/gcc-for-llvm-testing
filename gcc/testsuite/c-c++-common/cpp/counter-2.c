@@ -2,6 +2,7 @@
    Contributed by Ollie Wild <aaw@google.com>.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -fdirectives-only } */
 
 /* Tests __COUNTER__ macro expansion is disabled inside directives with

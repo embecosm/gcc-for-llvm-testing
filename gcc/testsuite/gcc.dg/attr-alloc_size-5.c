@@ -4,6 +4,7 @@
    zero bytes.  For standard allocation functions the return value is
    implementation-defined and so relying on it may be a source of bugs.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall -Walloc-zero" } */
 
 #define SCHAR_MAX  __SCHAR_MAX__

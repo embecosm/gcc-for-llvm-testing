@@ -2,6 +2,7 @@
    prototype are present and give correct location for that prototype
    (bug 15698).  Original test.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 int	foobar ();

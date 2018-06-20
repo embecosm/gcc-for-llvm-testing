@@ -2,6 +2,7 @@
    -pedantic.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic" } */
 
 struct s { int a; } x = { }; /* { dg-warning "ISO C forbids empty initializer braces" } */

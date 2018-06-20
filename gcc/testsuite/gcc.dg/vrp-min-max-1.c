@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fdisable-tree-evrp -fdump-tree-mergephi2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int bar (void);
 

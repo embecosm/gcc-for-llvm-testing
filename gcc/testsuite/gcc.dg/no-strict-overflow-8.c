@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-strict-overflow -O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* We cannot fold i > 0 because p->a - p->b can be larger than INT_MAX
    and thus i can wrap.  Dual of Wstrict-overflow-18.c  */

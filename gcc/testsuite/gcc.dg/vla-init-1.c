@@ -2,6 +2,7 @@
    (not allowed): constructor_max_index needs to be an INTEGER_CST.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int a;

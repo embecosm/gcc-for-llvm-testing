@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ccp1-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdint.h>
 

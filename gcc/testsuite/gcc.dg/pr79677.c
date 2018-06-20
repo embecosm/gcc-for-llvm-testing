@@ -1,5 +1,6 @@
 /* PR c/79677 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wformat -Werror=format-security -Wformat" } */
 /* { dg-message "some warnings being treated as errors" "" { target *-*-* } 0 } */
 

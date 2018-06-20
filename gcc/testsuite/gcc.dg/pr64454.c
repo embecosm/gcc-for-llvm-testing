@@ -1,6 +1,7 @@
 /* PR tree-optimization/64454 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fno-ipa-icf" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned
 f1 (unsigned x)

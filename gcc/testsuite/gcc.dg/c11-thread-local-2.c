@@ -1,5 +1,6 @@
 /* Test for _Thread_local in C11.  Test of invalid code.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 _Thread_local void f (void); /* { dg-error "storage class" } */

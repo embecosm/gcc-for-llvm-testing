@@ -1,6 +1,7 @@
 /* 
    { dg-options "-ftrack-macro-expansion=2" }
    { dg-do preprocess }
+/* { dg-require-effective-target gcc_frontend } */
  */
 
 /* Test correct diagnostics when pasting in #include.

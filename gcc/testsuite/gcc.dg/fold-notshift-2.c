@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned int
 lsr (unsigned int a, unsigned int b)

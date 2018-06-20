@@ -3,6 +3,7 @@
    diagnosed.  Bug 17188.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct s0 { }; /* { dg-message "note: originally defined here" } */

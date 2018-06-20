@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target lp64 } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-msse4 -mcmodel=large" } */
 
 typedef int V __attribute__((vector_size(16)));

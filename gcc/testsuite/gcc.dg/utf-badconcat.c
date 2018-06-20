@@ -1,6 +1,7 @@
 /* Contributed by Kris Van Hees <kris.van.hees@oracle.com> */
 /* Test unsupported concatenation of char16_t/char32_t* string literals. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 void	*s0	= u"a"  "b";

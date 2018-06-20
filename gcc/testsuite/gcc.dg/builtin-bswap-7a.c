@@ -2,6 +2,7 @@
 /* { dg-require-effective-target stdint_types } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-options "-O2 -fdump-rtl-combine" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* The test is similiar to builtin-bswap-7.c but returns 1/2 instead
    of 0/1 to prevent GCC from calculating the return value with

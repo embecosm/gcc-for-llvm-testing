@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fab1 -fno-tree-dominator-opts -fno-tree-vrp" } */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (int b, int c)

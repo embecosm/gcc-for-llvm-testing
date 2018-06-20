@@ -1,6 +1,7 @@
 /* PR tree-optimization/46909 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort ();
 

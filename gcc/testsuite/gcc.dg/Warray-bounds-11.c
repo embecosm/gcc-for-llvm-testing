@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O3 -Warray-bounds=2" } */
 
 typedef __SIZE_TYPE__ size_t;

@@ -1,7 +1,7 @@
 /*
   { dg-options "-fshow-column -ftrack-macro-expansion" }
   { dg-do compile }
- */
+  { dg-require-effective-target gcc_frontend } */
 
 #define PASTED var ## iable /* { dg-error "'variable' undeclared" } */
 #define call_foo(p1, p2) \

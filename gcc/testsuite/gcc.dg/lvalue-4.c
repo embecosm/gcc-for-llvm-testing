@@ -1,5 +1,6 @@
 /* PR c/27721 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo()
 {

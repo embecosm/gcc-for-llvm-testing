@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fno-tree-dominator-opts -fno-tree-ccp -fno-tree-vrp -fno-tree-fre -fno-tree-pre -fno-code-hoisting -O2 -Wuninitialized -Werror=uninitialized -Wno-error=maybe-uninitialized" } */
 void blah();
 void bar (int);

@@ -1,6 +1,7 @@
 /* PR tree-optimization/66299 */
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-optimized -O" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target int32plus } */
 
 void

@@ -1,5 +1,6 @@
 /* See declspec-3.c . Test -Wold-style-declaration is enabled by -Wextra. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wextra" } */
 
 static int x0;

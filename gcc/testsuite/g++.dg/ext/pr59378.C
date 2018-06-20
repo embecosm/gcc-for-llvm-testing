@@ -1,4 +1,5 @@
 // { dg-do compile }
+/* { dg-require-effective-target builtin_shuffle } */
 typedef int v4si __attribute__ ((vector_size (4*sizeof(int))));
 template<int C>
 void traverse(v4si& bounds){

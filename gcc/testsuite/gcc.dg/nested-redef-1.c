@@ -1,6 +1,7 @@
 /* Test diagnosis of nested tag redefinitions.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct s0 {

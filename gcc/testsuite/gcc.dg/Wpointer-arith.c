@@ -1,5 +1,6 @@
 /* PR 35058: -Werror= works only with some warnings. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Werror=pointer-arith" } */
 void *a;
 

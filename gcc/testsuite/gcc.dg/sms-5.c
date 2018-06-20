@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fmodulo-sched -fmodulo-sched-allow-regmoves -funroll-loops -fdump-rtl-sms --param sms-min-sc=1" } */
+/* { dg-require-effective-target gcc_internals } */
 /* This is the same test as loop-2e.c test.  It is related to a fix in
    the generation of the prolog and epilog.  */
 

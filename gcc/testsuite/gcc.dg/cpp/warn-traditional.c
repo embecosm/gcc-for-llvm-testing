@@ -1,4 +1,5 @@
 // { dg-do compile }
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-options "-std=gnu99 -fdiagnostics-show-option -Wtraditional -Wno-deprecated -Wno-long-long" }
 
 #assert x(x)         // { dg-warning "suggest hiding #assert from traditional C with an indented # .-Wtraditional." }

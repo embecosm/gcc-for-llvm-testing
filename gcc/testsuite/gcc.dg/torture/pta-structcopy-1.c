@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-ealias -Wno-attributes" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 
 struct X

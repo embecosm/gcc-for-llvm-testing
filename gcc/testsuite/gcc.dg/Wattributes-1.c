@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -Wattributes } */
 
 void __attribute__((dj)) foo() { }	/* { dg-warning "attribute directive ignored" } */

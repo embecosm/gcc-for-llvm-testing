@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-release_ssa" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned int f()
 {

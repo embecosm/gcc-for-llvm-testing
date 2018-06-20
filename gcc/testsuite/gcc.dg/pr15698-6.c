@@ -4,6 +4,7 @@
    arguments.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 char *strchr(a) const char *a; { return 0; } /* { dg-warning "number of arguments doesn't match built-in prototype" } */

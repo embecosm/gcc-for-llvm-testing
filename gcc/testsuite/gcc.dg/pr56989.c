@@ -1,5 +1,6 @@
 /* PR c/56989 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void voidf (void);
 extern int intf (void);

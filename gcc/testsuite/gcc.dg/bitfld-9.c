@@ -1,6 +1,7 @@
 /* Test -funsigned-bitfields works.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-funsigned-bitfields -fsigned-char -std=gnu89" } */
 
 typedef char c;

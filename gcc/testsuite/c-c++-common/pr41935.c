@@ -1,5 +1,6 @@
 /* { dg-options "-Warray-bounds" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A
 {

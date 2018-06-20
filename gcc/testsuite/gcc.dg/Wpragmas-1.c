@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma GCC push_options
 #pragma GCC optimize ("-fno-lto") /* { dg-warning "bad option" } */

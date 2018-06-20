@@ -2,6 +2,7 @@
 /* { dg-require-effective-target stdint_types } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-options "-O -fdump-rtl-combine" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* The param setting prevents the return value from being
    calculated with arithmetic instead of doing a compare.  */

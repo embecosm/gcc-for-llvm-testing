@@ -3,6 +3,7 @@
    of old-style parameter declarations should only apply when the
    prototype is visible, not for a built-in prototype.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 float

@@ -1,5 +1,6 @@
 /* PR c/19978 : Test for duplicated warnings (unary operators).  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -Woverflow" } */
 
 #include <limits.h>

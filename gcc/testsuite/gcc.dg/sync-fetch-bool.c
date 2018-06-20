@@ -4,6 +4,7 @@
    all initialized _Bool objects have a specific representation and
    allowing atomic operations to change it would break the invariant.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors -std=c11" } */
 
 

@@ -2,6 +2,7 @@
    Similar to typespec-1.c but with -pedantic-errors.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 typedef char type;

@@ -1,6 +1,7 @@
 /* Test for C99 designated initializers */
 /* Origin: Jakub Jelinek <jakub@redhat.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 struct A {

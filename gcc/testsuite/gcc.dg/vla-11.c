@@ -4,6 +4,7 @@
    these cases).  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 void foo11a(int x[sizeof(int *(*)[*])]);	/* { dg-warning "not in a declaration" } */

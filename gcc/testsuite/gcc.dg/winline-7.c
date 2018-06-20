@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Winline -O2 -fgnu89-inline" } */
 /* { dg-require-effective-target alloca } */
 

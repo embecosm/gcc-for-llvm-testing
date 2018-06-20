@@ -1,5 +1,6 @@
 /* Gcc 3.3.1 deprecates memory inputs of non-lvalues.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void test(void)
 {

@@ -1,5 +1,6 @@
 /* PR c/70671 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar (int *);
 

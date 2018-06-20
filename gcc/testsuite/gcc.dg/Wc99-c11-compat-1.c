@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu90 -pedantic -Wc99-c11-compat" } */
 
 struct S { int i; struct { int a; }; }; /* { dg-warning "ISO C90 doesn.t support unnamed structs/unions" } */

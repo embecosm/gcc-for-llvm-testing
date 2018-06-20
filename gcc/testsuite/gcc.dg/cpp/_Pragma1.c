@@ -1,6 +1,7 @@
 /* Copyright (C) 2000 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests the _Pragma operator.  Contributed by Neil Booth 1 Nov 2000.  */
 

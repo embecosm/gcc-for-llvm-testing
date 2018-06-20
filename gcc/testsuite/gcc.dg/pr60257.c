@@ -1,5 +1,6 @@
 /* PR c/60257 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat -Woverride-init" } */
 /* { dg-prune-output ".*near initialization for.*" } */
 

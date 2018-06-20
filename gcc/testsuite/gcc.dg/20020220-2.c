@@ -2,6 +2,7 @@
    Test whether operand has no effect warning is given for compound
    expression.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wunused" } */
 
 int b;

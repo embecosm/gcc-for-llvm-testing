@@ -1,6 +1,7 @@
 /* This test needs runtime that provides __*_chk functions.  */
 /* { dg-do run { target *-*-linux* *-*-gnu* *-*-uclinux* } } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define FORTIFY_SOURCE 2
 #include "strlenopt-2.c"

@@ -1,6 +1,7 @@
 /* Test for _Atomic in C11.  Test of valid code.  See c11-atomic-2.c
    for more exhaustive tests of assignment cases.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 /* The use of _Atomic as a qualifier, and of _Atomic (type-name), give

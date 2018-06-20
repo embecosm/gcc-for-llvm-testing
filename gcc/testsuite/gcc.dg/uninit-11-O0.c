@@ -1,5 +1,6 @@
 /* Positive test for uninitialized variables.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized" } */
 
 int sink;

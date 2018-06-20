@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-tail-merge -fdump-tree-pre -fno-tree-copy-prop -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int foo (void);
 

@@ -1,5 +1,6 @@
 /* PR rtl-optimization/70174 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2" } */
 
 struct S { int f : 4; } a;

@@ -1,6 +1,7 @@
 /* PR tree-optimization/58145 */
 /* { dg-do compile { target { int32plus } } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S { unsigned int data : 32; };
 struct T { unsigned int data; };

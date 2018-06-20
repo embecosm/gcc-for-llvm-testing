@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-shorten" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void f (volatile char *p)
 {

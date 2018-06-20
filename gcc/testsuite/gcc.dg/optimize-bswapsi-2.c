@@ -2,6 +2,7 @@
 /* { dg-require-effective-target bswap } */
 /* { dg-require-effective-target stdint_types } */
 /* { dg-options "-O2 -fdump-tree-bswap" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-march=z900" { target s390*-*-* } } */
 
 #include <stdint.h>

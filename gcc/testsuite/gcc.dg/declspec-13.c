@@ -2,6 +2,7 @@
    specifiers.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89 -pedantic" } */
 
 /* typeof should act much like typedef, so the following are

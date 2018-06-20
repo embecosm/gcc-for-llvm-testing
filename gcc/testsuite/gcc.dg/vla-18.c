@@ -1,6 +1,7 @@
 /* Test diagnostics for VLA whose size folds to an integer constant at
    file scope; the diagnostic should be a pedwarn.  PR 39605.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 #define FIRST ((char*)0x80)

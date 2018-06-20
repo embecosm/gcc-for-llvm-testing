@@ -1,5 +1,6 @@
 /* Test relative line number specification extensions over what DejaGNU supports.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunused-parameter" } */
 
 void

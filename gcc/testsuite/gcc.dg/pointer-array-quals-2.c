@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wdiscarded-array-qualifiers -pedantic-errors" } */
 /* Origin: Martin Uecker <uecker@eecs.berkeley.edu> */
 void tvoid(void* x);

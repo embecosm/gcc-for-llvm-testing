@@ -1,5 +1,6 @@
 /* PR middle-end/79788 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-ftrapv" } */
 
 void bar (void);

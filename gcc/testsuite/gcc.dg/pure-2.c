@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wsuggest-attribute=pure -fno-finite-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-add-options bind_pic_locally } */
 
 extern int extern_const(int a) __attribute__ ((pure));
@@ -8,14 +9,14 @@ extern int v;
 /* Trivial.  */
 int
 foo1(int a)  /* { dg-bogus "normally" "detect pure candidate" } */
-{ /* { dg-warning "pure" "detect pure candidate" { target *-*-* } "10" } */
+{ /* { dg-warning "pure" "detect pure candidate" { target *-*-* } "11" } */
   return v;
 }
 
 /* Loops known to be normally and extern const calls should be safe.  */
 int __attribute__ ((noinline))
 foo2(int n)  /* { dg-bogus "normally" "detect pure candidate" } */
-{ /* { dg-warning "pure" "detect pure candidate" { target *-*-* } "17" } */
+{ /* { dg-warning "pure" "detect pure candidate" { target *-*-* } "18" } */
   int ret = 0;
   int i;
   for (i=0; i<n; i++)
@@ -53,6 +54,6 @@ foo4(int n)  /* { dg-warning "pure\[^\n\]* normally" "detect pure candidate" } *
 
 int
 foo5(int n)  /* { dg-bogus "normally" "detect pure candidate" } */
-{  /* { dg-warning "pure" "detect pure candidate" { target *-*-* } "55" } */
+{  /* { dg-warning "pure" "detect pure candidate" { target *-*-* } "56" } */
   return foo2(n);
 }

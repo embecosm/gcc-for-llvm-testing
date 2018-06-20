@@ -5,6 +5,7 @@
    in presence of tail recursion within a noreturn function.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wreturn-type -Wmissing-noreturn -fno-ipa-icf" } */
 
 

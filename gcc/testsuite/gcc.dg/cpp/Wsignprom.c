@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 
 /* Test that -Wall emits the warnings about integer promotion changing

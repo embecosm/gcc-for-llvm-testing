@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized -O2" } */
 /* { dg-message "warnings being treated as errors" "" {target "*-*-*"} 0 } */
 

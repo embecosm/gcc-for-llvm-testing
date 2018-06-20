@@ -1,6 +1,7 @@
 /* PR target/67089 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-if-convert -fdump-tree-widening_mul" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

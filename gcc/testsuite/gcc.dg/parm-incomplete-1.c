@@ -6,6 +6,7 @@
    C99 6.7.5.3); the precise rules are unclear.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct s;

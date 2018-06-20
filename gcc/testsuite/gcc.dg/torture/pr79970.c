@@ -1,10 +1,11 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-additional-options "-mno-sse" { target x86_64-*-* i?86-*-* } } */
 
 typedef int c __attribute__ ((__vector_size__ (16)));
 
-__attribute__((always_inline)) void d (void); /* { dg-warning "" } { dg-error 7 "inlining failed" } */
+__attribute__((always_inline)) void d (void); /* { dg-warning "" } { dg-error 8 "inlining failed" } */
 void f(c x);
 
 inline void e (c *b) {

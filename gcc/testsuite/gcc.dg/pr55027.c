@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef double v2df __attribute__ ((__vector_size__ (2 * sizeof (double))));
 

@@ -2,6 +2,7 @@
    NOP_EXPR or CONVERT_EXPR is used.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 int i;
 void

@@ -3,6 +3,7 @@
 
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 struct s { char c[1]; };
@@ -19,8 +20,8 @@ bar (void)
   &((d, b).c); /* { dg-bogus "warning" "warning in place of error" } */
   &((a = b).c); /* { dg-bogus "warning" "warning in place of error" } */
 }
-/* { dg-error "lvalue" "bad address-of" { target *-*-* } 17 }
-   { dg-error "lvalue" "bad address-of" { target *-*-* } 18 }
+/* { dg-error "lvalue" "bad address-of" { target *-*-* } 18 }
    { dg-error "lvalue" "bad address-of" { target *-*-* } 19 }
    { dg-error "lvalue" "bad address-of" { target *-*-* } 20 }
+   { dg-error "lvalue" "bad address-of" { target *-*-* } 21 }
 */

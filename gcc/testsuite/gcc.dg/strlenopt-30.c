@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
+/* { dg-require-effective-target gcc_internals } */
 
 __attribute__((no_icf))
 _Bool f1(char *s)

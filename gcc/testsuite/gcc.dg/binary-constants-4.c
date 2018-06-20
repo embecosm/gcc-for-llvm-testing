@@ -2,6 +2,7 @@
 
 /* Origin: Joerg Wunsch <j.gnu@uriah.heep.sax.de>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 void

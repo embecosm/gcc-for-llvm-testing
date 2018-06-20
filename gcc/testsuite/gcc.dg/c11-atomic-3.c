@@ -1,5 +1,6 @@
 /* Test for _Atomic in C11.  Test of invalid code.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 /* Increment and decrement are invalid for atomic complex types and

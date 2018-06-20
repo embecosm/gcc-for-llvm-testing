@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -Wtraditional-conversion } */
 /* { dg-require-effective-target builtin_clrsb } */
 

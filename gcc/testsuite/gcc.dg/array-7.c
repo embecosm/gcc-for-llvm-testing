@@ -1,6 +1,7 @@
 /* Test for array of incomplete structure type - Zack Weinberg in
    <http://gcc.gnu.org/ml/gcc-patches/2004-08/msg00108.html>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct foo;

@@ -2,6 +2,7 @@
    Origin: Kaveh R. Ghazi <ghazi@caip.rutgers.edu> 8/21/2001.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsign-compare" } */
 
 extern void bar(void);

@@ -1,5 +1,6 @@
 /* PR c/7652 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wimplicit-fallthrough -Wdeclaration-after-statement" } */
 
 /* Test we don't print bogus "mixed declarations and code" warning.  */

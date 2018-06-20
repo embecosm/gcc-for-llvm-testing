@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -fprofile-use -fopt-info-missed-ipa -Wno-missing-profile" } */
 /* { dg-options "-O -m4 -fprofile-use -fopt-info-missed-ipa -Wno-missing-profile" { target sh-*-* } } */
 

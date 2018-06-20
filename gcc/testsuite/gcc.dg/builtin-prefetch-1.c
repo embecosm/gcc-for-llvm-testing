@@ -4,6 +4,7 @@
    compile-time constants.  */
 
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void exit (int);
 

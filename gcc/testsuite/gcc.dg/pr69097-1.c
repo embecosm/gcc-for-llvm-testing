@@ -1,6 +1,7 @@
 /* PR tree-optimization/69097 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* All the x % -y below should be optimized into x % y, as
    it should never be INT_MIN % -(-1).  */
 /* { dg-final { scan-tree-dump-not "-y" "optimized" } } */

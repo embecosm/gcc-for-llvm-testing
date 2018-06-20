@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -std=gnu89" } */
 /* This test is expected to fail with an error for the redefinition of foo.
    This violates the constraint of 6.9#3 (no more than one external definition

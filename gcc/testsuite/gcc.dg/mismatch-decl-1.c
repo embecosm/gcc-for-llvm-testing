@@ -1,5 +1,6 @@
 /* This test assumes -fbuiltin and not -fansi to get "index" and "memchr" builtin DECLs.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* The bug this is testing is that if a new decl conflicts with an

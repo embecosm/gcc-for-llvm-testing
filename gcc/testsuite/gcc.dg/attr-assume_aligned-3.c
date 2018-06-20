@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char *my_alloc1 (int len) __attribute__((__assume_aligned__ (32)));
 char *my_alloc2 (int len) __attribute__((assume_aligned (32, 4)));

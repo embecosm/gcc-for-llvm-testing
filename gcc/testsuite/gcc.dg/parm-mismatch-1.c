@@ -2,6 +2,7 @@
    ().  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void f0(); /* { dg-message "note: previous declaration of 'f0'" "note" } */

@@ -1,4 +1,5 @@
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 
 extern void *memcpy (void *, const void *, __SIZE_TYPE__);

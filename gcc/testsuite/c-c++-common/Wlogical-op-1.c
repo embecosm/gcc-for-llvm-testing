@@ -1,5 +1,6 @@
 /* PR c/63357 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wlogical-op" } */
 
 #ifndef __cplusplus

@@ -1,6 +1,7 @@
 /* PR c/52577 */
 /* { dg-do compile } */
 /* { dg-options "-Wunused" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef int V __attribute__((vector_size (sizeof (int) * 4)));
 

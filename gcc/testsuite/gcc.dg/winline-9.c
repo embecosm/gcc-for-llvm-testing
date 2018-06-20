@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Winline --param large-stack-frame=10 --param large-stack-frame-growth=2 -fgnu89-inline" } */
 
 int a,b;

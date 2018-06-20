@@ -5,6 +5,7 @@
    Test that we allow directives in macro arguments.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define f(x) x
 

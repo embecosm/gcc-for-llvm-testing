@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-forwprop-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned f(unsigned a, unsigned b)
 {
