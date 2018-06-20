@@ -1,6 +1,7 @@
 /* Test vneg works correctly.  */
 /* { dg-do run } */
 /* { dg-options "--save-temps" } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #include <arm_neon.h>
 

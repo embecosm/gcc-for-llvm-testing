@@ -12497,4 +12497,10 @@ proc check_effective_target_builtin_fwrite {} {
 proc check_effective_target_builtin_sprintf {} {
     return [check_builtin_support sprintf "__builtin_sprintf (NULL, \"%d\", 1);"]
 }
+proc check_effective_target_builtin_isinf {} {
+    return [check_builtin_support isinf "__builtin_isinf (0.0);"]
+}
+proc check_effective_target_builtin_isnan {} {
+    return [check_builtin_support isnan "__builtin_isnan (0.0);"]
+}
 

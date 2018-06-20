@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -msse" } */
 /* { dg-require-effective-target sse } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #include "sse-check.h"
 #include <xmmintrin.h>

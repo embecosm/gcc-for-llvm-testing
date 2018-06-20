@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O1 -funroll-loops" } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target builtin_isnan } */
 
 extern void exit (int);
 extern void abort (void);

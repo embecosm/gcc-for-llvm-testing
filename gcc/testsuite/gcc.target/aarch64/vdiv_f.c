@@ -1,6 +1,7 @@
 /* Test vdiv works correctly.  */
 /* { dg-do run } */
 /* { dg-options "-O3 --save-temps" } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #include <arm_neon.h>
 

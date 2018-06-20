@@ -10,6 +10,7 @@
 /* { dg-additional-options "-D_HPUX_SOURCE" { target *-*-hpux* } } */
 /* { dg-require-effective-target fenv_exceptions } */
 /* { dg-require-effective-target pthread } */
+/* { dg-require-effective-target builtin_isinf } */
 /* { dg-timeout-factor 2 } */
 
 #include <fenv.h>

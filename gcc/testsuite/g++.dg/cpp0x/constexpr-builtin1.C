@@ -1,5 +1,7 @@
 // PR c++/49813
 // { dg-do compile { target c++11 } }
+// { dg-require-effective-target builtin_isinf }
+// { dg-require-effective-target builtin_isnan }
 
 inline constexpr bool
 isinf(long double __x)

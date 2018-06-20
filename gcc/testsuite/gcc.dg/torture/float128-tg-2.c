@@ -4,6 +4,7 @@
 /* { dg-add-options float128 } */
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target float128_runtime } */
+/* { dg-require-effective-target builtin_isinf } */
 
 #define WIDTH 128
 #define EXT 0

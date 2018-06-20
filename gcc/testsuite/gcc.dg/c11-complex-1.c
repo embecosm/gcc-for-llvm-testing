@@ -1,6 +1,7 @@
 /* Test complex divide does not have the bug identified in N1496.  */
 /* { dg-do run } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target builtin_isnan } */
 /* { dg-add-options ieee } */
 
 extern void abort (void);
