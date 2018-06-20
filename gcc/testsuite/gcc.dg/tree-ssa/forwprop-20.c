@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target double64 } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-O -fdump-tree-forwprop1" }  */
 
 #include <stdint.h>

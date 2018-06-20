@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test the ? : opearator, for precedence and both true and false.  */
 

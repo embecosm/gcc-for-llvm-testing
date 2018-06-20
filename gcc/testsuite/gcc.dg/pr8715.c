@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsign-compare -std=c99" } */
 
 #include <stdbool.h>

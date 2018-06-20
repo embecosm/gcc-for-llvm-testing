@@ -1,5 +1,6 @@
 /* PR c/7776 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 
 int test1(char *ptr)

@@ -1,5 +1,6 @@
 /* Test for const qualification of type of conditional expression.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int foo (int) __attribute__ ((const));

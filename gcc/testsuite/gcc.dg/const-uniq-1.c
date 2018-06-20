@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-Os -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int lookup1 (int i)
 {

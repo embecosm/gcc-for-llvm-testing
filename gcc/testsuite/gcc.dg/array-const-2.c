@@ -2,6 +2,7 @@
    folding to integer constants (used in Linux kernel,
    <http://gcc.gnu.org/ml/gcc/2009-04/msg00611.html>).  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic" } */
 
 extern int i;

@@ -1,6 +1,7 @@
 /* Test diagnostics for duplicate typedefs.  Basic diagnostics.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89 -pedantic-errors" } */
 
 typedef int I; /* { dg-message "note: previous declaration of 'I'" "note" } */

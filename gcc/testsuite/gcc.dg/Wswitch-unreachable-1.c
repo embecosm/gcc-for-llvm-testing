@@ -1,5 +1,6 @@
 /* PR c/49859 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wswitch-unreachable" } */
 
 extern void foo (int);

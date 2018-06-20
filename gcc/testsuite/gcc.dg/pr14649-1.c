@@ -1,5 +1,6 @@
 /* PR c/14649 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wpedantic" } */
 
 double atan(double);

@@ -1,6 +1,7 @@
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This tests various diagnostics about character constants, for both
    the preprocessor and the compiler.

@@ -1,6 +1,7 @@
 /* Test for constant expressions: GNU extensions.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu90 -pedantic-errors" } */
 
 int n;

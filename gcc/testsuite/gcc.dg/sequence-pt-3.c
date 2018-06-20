@@ -1,5 +1,6 @@
 /* More sequence point warning tests  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsequence-point" } */
 
 void bar(int i, int j)

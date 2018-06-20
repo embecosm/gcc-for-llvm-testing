@@ -1,6 +1,7 @@
 /* Test for diagnostics for duplicate member names in anonymous
    structures and unions.  PR 4784.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct s1

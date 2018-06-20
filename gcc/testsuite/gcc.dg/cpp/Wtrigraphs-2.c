@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -Wtrigraphs" } */
 
 /* Test warnings for trigraphs in comments, with trigraphs enabled.

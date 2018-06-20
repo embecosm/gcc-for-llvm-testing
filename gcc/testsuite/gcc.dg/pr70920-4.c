@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-options "-O2 -fdump-tree-ccp1 -Wno-int-to-pointer-cast" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdint.h>
 

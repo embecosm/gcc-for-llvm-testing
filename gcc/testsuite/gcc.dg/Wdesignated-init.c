@@ -1,5 +1,6 @@
 /* PR c/59855 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 typedef int vvv  __attribute__((designated_init)); /* { dg-error "only valid" } */

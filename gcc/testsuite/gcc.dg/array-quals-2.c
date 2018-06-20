@@ -3,6 +3,7 @@
    lost in forming composite types.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -Wno-discarded-array-qualifiers" } */
 typedef const char T[1];
 typedef const char T2[1];

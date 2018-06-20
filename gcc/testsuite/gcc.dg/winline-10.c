@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Winline -fopt-info-optimized-inline=stderr" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { int a; };
 

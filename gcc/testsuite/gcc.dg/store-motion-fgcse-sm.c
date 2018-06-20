@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-pre -fno-tree-loop-im -fgcse-sm -fdump-rtl-store_motion" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* tree-pre moves the *sum load out of the loop.  ftree-loop-im moves the *sum
    store out of the loop, so we disable it, to allow fgcse-sm to do it

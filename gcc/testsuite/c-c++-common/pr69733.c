@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-W -fdiagnostics-show-caret" } */
 /* { dg-additional-options "-Wno-volatile" { target c++ } } */
 

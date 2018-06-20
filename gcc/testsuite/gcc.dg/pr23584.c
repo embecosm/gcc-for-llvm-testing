@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-ipa-pure-const" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int test1 (void)
 {

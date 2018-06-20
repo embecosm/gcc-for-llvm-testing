@@ -1,5 +1,6 @@
 /* Bug 22308: C_TYPE_FIELDS_READONLY not updated on type variants.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct foo s;

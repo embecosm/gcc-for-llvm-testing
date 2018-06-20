@@ -1,5 +1,6 @@
 /* PR c/70859 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifdef _AIX
 #define _ISOC99_SOURCE

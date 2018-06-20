@@ -3,6 +3,7 @@
    dead too, and should be removed.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fdump-rtl-cse1" } */
+/* { dg-require-effective-target gcc_internals } */
 void foo (void);
 
 int

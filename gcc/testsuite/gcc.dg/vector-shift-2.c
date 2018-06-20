@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned vec __attribute__ ((vector_size (4*sizeof(int))));
 void

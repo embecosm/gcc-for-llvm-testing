@@ -5,6 +5,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-widening_mul" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int ArrT [10][10];
 

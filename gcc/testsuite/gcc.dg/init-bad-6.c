@@ -1,6 +1,7 @@
 /* ICE arising from bug computing composite type of zero-length array
    types: PR 35433.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 typedef int* X;

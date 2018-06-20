@@ -1,5 +1,6 @@
 /* PR30949 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 
 int func (int x);

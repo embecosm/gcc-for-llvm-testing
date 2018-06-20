@@ -1,5 +1,6 @@
 /* PR c/61077 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -fshort-enums -fshort-wchar -Wpedantic" } */
 /* { dg-prune-output ".*near initialization for.*" } */
 

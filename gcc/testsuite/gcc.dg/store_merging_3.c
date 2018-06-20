@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target non_strict_align } */
 /* { dg-options "-O2 -fdump-tree-store-merging-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Make sure stores to volatile addresses don't get combined with
    other accesses.  */

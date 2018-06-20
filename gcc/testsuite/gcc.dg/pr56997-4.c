@@ -1,6 +1,7 @@
 /* Test volatile access to unaligned field.  */
 /* { dg-do compile } */
 /* { dg-options "-fno-strict-volatile-bitfields -fdump-rtl-final" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define test_type unsigned short
 

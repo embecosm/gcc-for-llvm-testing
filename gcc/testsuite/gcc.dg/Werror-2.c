@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* This one is the baseline.  Make sure with no option we get no

@@ -1,5 +1,6 @@
 /* PR middle-end/67512 */
 /* { dg-do compile }  */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -Wuninitialized" } */
 
 extern int fn2 (void);

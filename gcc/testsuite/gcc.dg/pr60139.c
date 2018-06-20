@@ -1,5 +1,6 @@
 /* PR c/60139 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wpedantic -std=gnu89" } */
 /* { dg-prune-output ".*near initialization for.*" } */
 

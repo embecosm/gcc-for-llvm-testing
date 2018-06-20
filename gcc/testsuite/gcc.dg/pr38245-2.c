@@ -1,6 +1,7 @@
 /* PR rtl-optimization/38245 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void link_error (void);
 

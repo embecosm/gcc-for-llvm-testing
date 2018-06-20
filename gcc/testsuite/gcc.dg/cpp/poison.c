@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma GCC poison foo
 foo			/* { dg-error "foo" "use of foo" } */

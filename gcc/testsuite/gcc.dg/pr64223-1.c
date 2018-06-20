@@ -1,5 +1,6 @@
 /* PR c/64223: Test for duplicated warnings.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wformat" } */
 
 int printf (const char *, ...) __attribute__ ((__format__ (__printf__, 1, 2)));

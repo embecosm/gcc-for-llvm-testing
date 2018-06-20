@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cunrolli-details -fno-peel-loops -fno-tree-vrp -fdisable-tree-cunroll -fenable-tree-cunrolli=foo2 -fdisable-tree-cunrolli=foo" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned a[100], b[100];
 inline void bar()

@@ -1,5 +1,6 @@
 /* Test C11 alignment support.  Test valid code using stdalign.h.  */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 #include <stdalign.h>

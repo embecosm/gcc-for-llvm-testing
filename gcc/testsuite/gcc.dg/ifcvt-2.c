@@ -1,5 +1,6 @@
 /* { dg-do compile { target { { { i?86-*-* x86_64-*-* } && { ! ia32 } } || aarch64*-*-* } } } */
 /* { dg-options "-fdump-rtl-ce1 -O2 --param max-rtl-if-conversion-unpredictable-cost=100" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned char uint8_t;
 typedef unsigned int uint16_t;

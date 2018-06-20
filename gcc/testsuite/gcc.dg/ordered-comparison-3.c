@@ -1,6 +1,7 @@
 /* Test warning for ordered comparison pointer with null pointer constant. */
 /* Test with -pedantic-errors. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 extern void z();
 void *p;

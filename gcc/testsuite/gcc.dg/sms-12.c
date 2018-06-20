@@ -2,6 +2,7 @@
 /* { dg-skip-if "" { ! { aarch64*-*-* } } } */
 /* { dg-require-effective-target fpic } */
 /* { dg-options "-O2 -fmodulo-sched -funroll-loops -fdump-rtl-sms --param sms-min-sc=1 -fmodulo-sched-allow-regmoves -fPIC" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

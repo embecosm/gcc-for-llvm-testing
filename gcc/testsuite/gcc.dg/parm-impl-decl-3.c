@@ -1,6 +1,7 @@
 /* Like parm-impl-decl-1.c, but with -g.  PR 43381.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-g -std=gnu89" } */
 
 int

@@ -1,5 +1,6 @@
 /* PR c/53196 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 extern int printf (const char *, ...);

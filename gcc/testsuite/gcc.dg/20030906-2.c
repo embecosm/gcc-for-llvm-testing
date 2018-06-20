@@ -2,6 +2,7 @@
    Copyright (C) 2003 Free Software Foundation Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -finline-functions -Wreturn-type" } */
 
 extern int i;

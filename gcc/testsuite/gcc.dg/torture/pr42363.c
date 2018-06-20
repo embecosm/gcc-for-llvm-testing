@@ -1,5 +1,6 @@
 /* PR middle-end/pr42363, extended from the test for PR middle-end/37913.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-g" } */
 
 void foo (void) __attribute__ ((noreturn));

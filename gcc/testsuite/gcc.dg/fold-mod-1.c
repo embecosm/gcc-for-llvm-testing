@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-fdump-tree-gimple -fstrict-overflow" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define ABS(x) (x > 0 ? x : -x)
 

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wshadow -Wsystem-headers" } */
 /* { dg-require-effective-target nested_func } */
 

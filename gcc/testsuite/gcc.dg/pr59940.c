@@ -1,5 +1,6 @@
 /* PR c/59940 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wconversion -Woverflow" } */
 
 int f (unsigned int);

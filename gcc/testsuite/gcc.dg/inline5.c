@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -std=gnu89" } */
 /* This testcase should fail since we're redefining foo in the same
    translation unit.  */

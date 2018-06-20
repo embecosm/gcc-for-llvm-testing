@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 
 static l; /* { dg-error "type defaults to" } */

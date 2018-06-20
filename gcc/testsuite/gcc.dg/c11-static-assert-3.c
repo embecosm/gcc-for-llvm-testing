@@ -1,5 +1,6 @@
 /* Test C11 static assertions.  Invalid assertions.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 _Static_assert (__INT_MAX__ * 2, "overflow"); /* { dg-warning "integer overflow in expression" } */

@@ -1,5 +1,6 @@
 /* PR c/70859 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target builtin_isinf } */
 /* { dg-require-effective-target builtin_isnan } */
 

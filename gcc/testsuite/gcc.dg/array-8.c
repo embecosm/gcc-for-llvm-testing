@@ -1,6 +1,7 @@
 /* Test diagnostics for array references.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89" } */
 
 struct s { char c[1]; };

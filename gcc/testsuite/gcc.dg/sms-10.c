@@ -1,5 +1,6 @@
  /* { dg-do run } */
  /* { dg-options "-O2 -fmodulo-sched -fmodulo-sched-allow-regmoves -fdump-rtl-sms" } */
+/* { dg-require-effective-target gcc_internals } */
 
 
 typedef __SIZE_TYPE__ size_t;

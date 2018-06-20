@@ -1,5 +1,6 @@
 /* Test C11 static assertions.  Failed assertions.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 _Static_assert (0, "assert1"); /* { dg-error "static assertion failed: \"assert1\"" } */

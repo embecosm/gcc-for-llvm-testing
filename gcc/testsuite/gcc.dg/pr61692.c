@@ -1,5 +1,6 @@
 /*  PR 61692  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Check for ice when exceededing the max #
    of parameters to inline asm. */

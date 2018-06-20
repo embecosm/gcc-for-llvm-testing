@@ -1,5 +1,6 @@
 /* Test __auto_type.  Test invalid uses.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 __auto_type; /* { dg-error "empty declaration" } */

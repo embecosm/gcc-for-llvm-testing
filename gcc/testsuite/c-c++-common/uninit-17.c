@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wuninitialized -fno-ivopts" } */
 
 inline int foo(int x)

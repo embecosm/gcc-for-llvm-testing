@@ -1,5 +1,6 @@
 /* PR preprocessor/29612 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wtraditional" } */
 
 # 6 "pr29612-2.c"

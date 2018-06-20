@@ -1,5 +1,6 @@
 /* { dg-require-effective-target divmod_simode } */
 /* { dg-options "-O2 -fdump-tree-widening_mul-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int f(int x, int y)
 {

@@ -5,6 +5,7 @@
    functions decorated with attribute alloc_size that either overflow or
    exceed the maximum object size specified by -Walloc-size-larger-than.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall -Walloc-size-larger-than=1234" } */
 
 #define INT_MAX    __INT_MAX__

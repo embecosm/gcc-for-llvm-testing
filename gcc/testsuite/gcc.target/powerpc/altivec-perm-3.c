@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target powerpc_altivec_ok } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-skip-if "" { powerpc*le-*-* } } */
 /* { dg-options "-O -maltivec -mno-vsx" } */
 

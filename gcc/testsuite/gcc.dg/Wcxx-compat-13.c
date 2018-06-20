@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat" } */
 
 int and;			/* { dg-warning "operator" } */

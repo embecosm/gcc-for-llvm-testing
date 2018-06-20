@@ -3,6 +3,7 @@
    but this is the only reasonable interpretation).  Bug 16409, second
    testcase.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void foo(int i) { char a[][i] = {""}; } /* { dg-error "variable-sized object may not be initialized" } */

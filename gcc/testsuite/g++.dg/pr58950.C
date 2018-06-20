@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wall" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 void f(){
   int i __attribute__((vector_size(2*sizeof(int)))) = { 2, 3 };

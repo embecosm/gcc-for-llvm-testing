@@ -1,6 +1,7 @@
 /* PR middle-end/29215 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char buf[5 * sizeof (int) + 1] __attribute__((aligned (__alignof__ (int))));
 

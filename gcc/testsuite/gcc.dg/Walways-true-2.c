@@ -4,6 +4,7 @@
    Origin: Ian Lance Taylor <iant@google.com>.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Waddress" } */
 /* { dg-require-weak "" } */
 

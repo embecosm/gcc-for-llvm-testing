@@ -1,5 +1,6 @@
 /* PR c/56980 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct A { int i; } B;
 typedef union U { int i; } V;

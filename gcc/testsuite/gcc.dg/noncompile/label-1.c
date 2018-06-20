@@ -1,5 +1,6 @@
 /* Test various diagnostics of ill-formed constructs involving labels.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunused" } */
 /* { dg-require-effective-target nested_func } */
 

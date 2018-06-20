@@ -1,6 +1,7 @@
 /* Test diagnostics for calling function returning qualified void or
    other incomplete type other than void.  PR 35210.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic-errors" } */
 
 const void f_cv (void);

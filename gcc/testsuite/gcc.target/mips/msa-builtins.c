@@ -1,6 +1,7 @@
 /* Test builtins for MIPS MSA ASE instructions */
 /* { dg-do compile } */
 /* { dg-options "-mfp64 -mhard-float -mmsa" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 /* { dg-final { scan-assembler-times "msa_addv_b:.*addv\\.b.*msa_addv_b" 1 } } */
 /* { dg-final { scan-assembler-times "msa_addv_h:.*addv\\.h.*msa_addv_h" 1 } } */

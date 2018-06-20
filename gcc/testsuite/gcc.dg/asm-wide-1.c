@@ -1,6 +1,7 @@
 /* Wide string literals should not be allowed in asm.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int foo asm (L"bar"); /* { dg-error "14:a wide string is invalid in this context" } */

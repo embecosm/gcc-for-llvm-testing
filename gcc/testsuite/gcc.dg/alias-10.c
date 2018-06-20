@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -funswitch-loops -fdump-tree-unswitch-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct bitmap_element_def
 {

@@ -9,6 +9,7 @@
    Please keep changes to arith-2.c and arith-3.c in sync.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -fshow-column" } */
 
 #include <limits.h>

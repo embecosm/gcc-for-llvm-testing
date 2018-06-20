@@ -1,5 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef int veci __attribute__ ((vector_size (4 * sizeof (int))));
 

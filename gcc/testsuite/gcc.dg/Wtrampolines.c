@@ -2,6 +2,7 @@
 /* Ported to test -Wtrampolines Magnus Granberg <zorry@gentoo.org> */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target trampolines } */
 /* { dg-options "-O2 -Wtrampolines" } */
 

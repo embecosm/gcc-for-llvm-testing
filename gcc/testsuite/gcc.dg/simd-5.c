@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -std=gnu89" } */
 
 /* Ensure that we don't need a typedef to initialize a vector type.  */

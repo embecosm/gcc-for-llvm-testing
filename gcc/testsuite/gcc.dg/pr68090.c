@@ -1,5 +1,6 @@
 /* PR c/68090 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void

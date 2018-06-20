@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O -msse" } */
 /* { dg-require-effective-target sse } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 #include "isa-check.h"
 #include "sse-os-support.h"

@@ -1,5 +1,6 @@
 /* PR other/42611 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 #define L \

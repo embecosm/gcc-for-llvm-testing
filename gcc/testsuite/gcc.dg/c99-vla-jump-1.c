@@ -12,6 +12,7 @@
 
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 void fa0 (int n) {  goto a; a:{ int b[n]; { int c[n]; 0;} { int d[n]; 0;} ; int e[n]; 0;}; { int f[n]; { int g[n]; 0;}; { int h[n]; 0;}; ; int i[n]; 0;}; ; int j[n]; 0; }

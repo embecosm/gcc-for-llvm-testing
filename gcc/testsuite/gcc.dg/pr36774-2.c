@@ -1,6 +1,7 @@
 /* Nested functions shouldn't produce warnings if defined before first use.
    Bug 36774. Test with -Wmissing-declarations. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wmissing-declarations" } */
 /* { dg-require-effective-target nested_func } */
 

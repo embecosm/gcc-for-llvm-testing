@@ -1,6 +1,7 @@
 /* PR tree-optimization/56098 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fhoist-adjacent-loads -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S { volatile int i; volatile int j; };
 

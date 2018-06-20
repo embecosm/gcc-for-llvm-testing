@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-inline --save-temps" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 extern void abort (void);
 

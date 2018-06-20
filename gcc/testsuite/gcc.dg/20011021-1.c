@@ -2,6 +2,7 @@
    designated initializers.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -W -Wall -Wtraditional" } */
 
 

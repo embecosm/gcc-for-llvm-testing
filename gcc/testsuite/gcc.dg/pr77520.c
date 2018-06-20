@@ -2,6 +2,7 @@
    Verify that characters in the extended ASCII range are quoted and not
    allowed to be printed raw.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wformat" } */
 
 void f (void)

@@ -3,6 +3,7 @@
 /* Added extra line-breaks to check that diagnostics refer to correct token.
    --Per Bothner. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(void)
 {

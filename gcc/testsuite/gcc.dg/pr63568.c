@@ -1,6 +1,7 @@
 /* PR middle-end/63568 */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int
 fn1 (int a, int b, int m)

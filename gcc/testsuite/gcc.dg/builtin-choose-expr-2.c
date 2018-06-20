@@ -1,6 +1,7 @@
 /* Test diagnostic for invalid use of __builtin_choose_expr.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int a, b, c, d;

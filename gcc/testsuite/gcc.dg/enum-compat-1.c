@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk>, based on
    PR c/6024 from Richard Earnshaw <rearnsha@arm.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* Original test from PR c/6024.  */

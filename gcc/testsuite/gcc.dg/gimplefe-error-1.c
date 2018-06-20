@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fgimple" } */
 
 void __GIMPLE () foo (int a)

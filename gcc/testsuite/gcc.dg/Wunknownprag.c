@@ -1,6 +1,7 @@
 /* Copyright (C) 2002 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunknown-pragmas" } */
 
 /* We used to get "unspellable token: CPP_EOF" warnings.  */

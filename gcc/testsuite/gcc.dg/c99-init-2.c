@@ -1,6 +1,7 @@
 /* Test for C99 designated initializer warnings and errors */
 /* Origin: Jakub Jelinek <jakub@redhat.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -Wall -pedantic-errors" } */
 
 typedef struct {

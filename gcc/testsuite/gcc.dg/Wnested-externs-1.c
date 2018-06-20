@@ -1,6 +1,7 @@
 /* Test -Wnested-externs.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wnested-externs" } */
 
 int a;

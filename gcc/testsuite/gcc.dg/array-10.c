@@ -2,6 +2,7 @@
    Bugs 25161 and 27020.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 /* { dg-require-effective-target vla_in_struct } */
 

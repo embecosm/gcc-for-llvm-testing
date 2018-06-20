@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-tail-merge -fdump-tree-pre" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S {
   int i;

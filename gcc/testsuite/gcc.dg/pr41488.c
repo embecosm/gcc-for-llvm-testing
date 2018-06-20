@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ivcanon-scev" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct struct_t
 {

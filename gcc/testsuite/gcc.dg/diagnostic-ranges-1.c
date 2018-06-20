@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fdiagnostics-show-caret -Wall" } */
 
 void test_range_of_unused_variable (void)

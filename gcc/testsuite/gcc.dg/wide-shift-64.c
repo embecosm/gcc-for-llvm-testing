@@ -1,5 +1,6 @@
 /* { dg-do compile { target mips*-*-* sparc*-*-* } } */
 /* { dg-options "-O2 -fdump-rtl-combine" } */
+/* { dg-require-effective-target gcc_internals } */
 
 long long
 load1 (int data)

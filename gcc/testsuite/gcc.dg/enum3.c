@@ -1,6 +1,7 @@
 /* Test for non-integer enum values.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 enum e { E, F };

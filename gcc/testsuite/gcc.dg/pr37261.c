@@ -1,6 +1,7 @@
 /* PR c/37261 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned
 foo (int x)

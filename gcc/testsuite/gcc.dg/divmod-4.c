@@ -1,5 +1,6 @@
 /* { dg-require-effective-target divmod } */
 /* { dg-options "-O2 -fdump-tree-widening_mul-details" } */
+/* { dg-require-effective-target gcc_internals } */
 /* mod comes before div in same bb.  */ 
 
 typedef int SImode __attribute__((mode(SI)));

@@ -5,6 +5,7 @@
    But it is of course ok if we warn in bar about uninitialized use
    of j.  (not xfailed alternative)  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O1 -Wuninitialized" } */
 
 inline int

@@ -1,5 +1,6 @@
 /* Check for "noreturn" warning in main. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wmissing-noreturn -ffreestanding" } */
 extern void exit (int) __attribute__ ((__noreturn__));
 

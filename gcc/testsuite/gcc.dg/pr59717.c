@@ -1,5 +1,6 @@
 /* PR c/59717 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu11 -Wno-implicit-function-declaration" } */
 
 void

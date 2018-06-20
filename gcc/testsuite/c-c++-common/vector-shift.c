@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-prune-output "in evaluation of" } */
 #define vector(elcount, type)  \
 __attribute__((vector_size((elcount)*sizeof(type)))) type

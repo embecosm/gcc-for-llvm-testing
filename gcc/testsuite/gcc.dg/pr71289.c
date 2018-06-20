@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int f(unsigned a, unsigned b, unsigned *c)
 {

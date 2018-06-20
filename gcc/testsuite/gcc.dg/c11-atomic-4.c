@@ -2,6 +2,7 @@
 /* Test we diagnose accessing elements of atomic structures or unions,
    which is undefined behavior (C11 6.5.2.3#5).  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 struct S { int x; };

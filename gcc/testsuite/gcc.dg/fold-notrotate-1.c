@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define INT_BITS  (sizeof (int) * __CHAR_BIT__)
 #define ROL(x, y) ((x) << (y) | (x) >> (INT_BITS - (y)))

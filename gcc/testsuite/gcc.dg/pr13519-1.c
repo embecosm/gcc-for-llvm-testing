@@ -4,6 +4,7 @@
    from Kalle Olavi Niemitalo <kon@iki.fi>, adapted to a testcase by
    Joseph Myers <jsm@polyomino.org.uk>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void fn(void)

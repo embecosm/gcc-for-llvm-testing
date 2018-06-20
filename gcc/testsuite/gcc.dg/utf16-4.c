@@ -1,6 +1,7 @@
 /* Contributed by Kris Van Hees <kris.van.hees@oracle.com> */
 /* Expected errors for char16_t character constants. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 typedef __CHAR16_TYPE__ char16_t;

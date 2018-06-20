@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -freciprocal-math -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void do_div (_Complex double *a, _Complex double *b)
 {

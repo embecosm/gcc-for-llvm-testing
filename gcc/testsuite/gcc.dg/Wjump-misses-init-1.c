@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wjump-misses-init -Wno-switch-unreachable" } */
 int
 f1 (int a)

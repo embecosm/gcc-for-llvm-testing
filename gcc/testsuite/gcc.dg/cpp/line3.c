@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wwrite-strings" } */ 
 /* The purpose of this test is to ensure that line numbers in diagnostics
    are accurate after macros whose arguments contain newlines and are

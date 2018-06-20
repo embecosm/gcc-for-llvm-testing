@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fdisable-tree-einline -fdisable-ipa-inline -Wno-attributes" } */
+/* { dg-require-effective-target gcc_internals } */
 int g;
 __attribute__((always_inline)) void bar (void)
 {

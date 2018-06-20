@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fmodulo-sched -fstrict-aliasing -fdump-rtl-sms -fmodulo-sched-allow-regmoves --param sms-min-sc=1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

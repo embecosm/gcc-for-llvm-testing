@@ -1,5 +1,6 @@
 /* Test non-constant operands in overflowed expressions.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -Woverflow" } */
 
 #include <limits.h>

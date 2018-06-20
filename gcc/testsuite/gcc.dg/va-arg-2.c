@@ -2,6 +2,7 @@
    file which issues an #error telling the user to convert their code.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <varargs.h>  /* { dg-bogus "varargs.h" "missing file" } */
 

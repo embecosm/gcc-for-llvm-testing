@@ -1,5 +1,6 @@
 /* PR c/18079 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 
 __attribute__ ((noinline))

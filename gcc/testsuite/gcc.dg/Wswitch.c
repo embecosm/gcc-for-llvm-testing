@@ -1,5 +1,6 @@
 /* PR c/4475, PR c++/3780 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wswitch" } */
 
 enum e { e1, e2 };

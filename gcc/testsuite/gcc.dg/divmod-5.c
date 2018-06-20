@@ -1,5 +1,6 @@
 /* { dg-require-effective-target divmod_simode } */
 /* { dg-options "-O2 -fdump-tree-widening_mul-details" } */
+/* { dg-require-effective-target gcc_internals } */
 /* div and mod are not in same bb and
    bb's containing div and mod don't dominate each other.  */
 

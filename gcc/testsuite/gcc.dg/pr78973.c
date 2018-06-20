@@ -4,6 +4,7 @@
    deeper investigation turned out to be a true positive.
 
    { dg-do compile }
+/* { dg-require-effective-target gcc_frontend } */
    { dg-options "-O2 -Wall" } */
 
 static void f (void *p, int n)

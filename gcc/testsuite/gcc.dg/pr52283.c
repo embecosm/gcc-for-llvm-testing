@@ -1,6 +1,7 @@
 /* Test for case labels not integer constant expressions but folding
    to integer constants (used in Linux kernel).  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 extern unsigned int u;

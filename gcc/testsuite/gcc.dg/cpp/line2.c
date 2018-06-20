@@ -3,6 +3,7 @@
    by Alexandre Oliva  <oliva@lsd.ic.unicamp.br>  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #line 1
 #line 0 

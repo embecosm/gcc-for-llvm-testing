@@ -2,6 +2,7 @@
    __builtin_constant_p if that call is itself inside a conditional
    expression with __builtin_constant_p condition.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int foo(void);
 

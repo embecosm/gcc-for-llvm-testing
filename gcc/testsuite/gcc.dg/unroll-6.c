@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-rtl-loop2_unroll -funroll-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target int32plus } */
 
 void abort (void);

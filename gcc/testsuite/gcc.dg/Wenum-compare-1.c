@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wenum-compare" } */
 enum E1 { A, B, C };
 enum E2 { D, E, F };

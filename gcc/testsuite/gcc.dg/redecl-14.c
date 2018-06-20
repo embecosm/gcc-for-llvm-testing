@@ -2,6 +2,7 @@
    Bug 21342.  Test type in inner scope is correct.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 typedef int IA[];

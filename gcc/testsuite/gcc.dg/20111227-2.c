@@ -2,6 +2,7 @@
    redundant zero extends with zero extend to wider mode.  */
 /* { dg-do compile  { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-fdump-rtl-ree -O -free" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

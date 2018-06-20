@@ -1,6 +1,7 @@
 /* Invalid use of __builtin_va_start should not cause an ICE.  Bug
    17301.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int

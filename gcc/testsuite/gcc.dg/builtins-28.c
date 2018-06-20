@@ -1,6 +1,7 @@
 /* Test that creal and cimag built-in functions do not return lvalues.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 extern float crealf (float _Complex);

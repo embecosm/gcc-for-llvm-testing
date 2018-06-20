@@ -1,6 +1,7 @@
 /* Test warning for comparison non-null address with null pointer constant. */
 /* Origin: Pawel Sikora <pluto@agmk.net> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Waddress" } */
 extern void z();
 

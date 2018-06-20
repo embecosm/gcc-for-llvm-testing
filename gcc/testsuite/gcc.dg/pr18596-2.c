@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-funit-at-a-time -std=gnu89" } */
 /* { dg-require-effective-target nested_func } */
 

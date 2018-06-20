@@ -4,6 +4,7 @@
    gcc.dg/tls/diag-*.c.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fgnu89-inline" } */
 
 /* Duplicate specifiers.  */

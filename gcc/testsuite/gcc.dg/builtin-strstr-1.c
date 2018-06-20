@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump-not "link_error" "optimized" } } */
 /* { dg-final { scan-tree-dump-not "__builtin_strstr" "optimized" } } */
 /* { dg-final { scan-tree-dump-times "return p_\[0-9]*.D.;" 1 "optimized" } } */

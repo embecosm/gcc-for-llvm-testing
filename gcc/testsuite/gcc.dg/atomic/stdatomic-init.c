@@ -4,6 +4,7 @@
    there are no calls to __atomic_store_N with a non-zero last argument.  */
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple -std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump-times "__atomic_store_. \\(\[^\n\r]*, 0\\)" 54 "gimple" } } */
 /* { dg-final { scan-tree-dump-not "__atomic_store_. \\(\[^\n\r]*, \[1-5\]\\)" "gimple" } } */
 

@@ -1,5 +1,6 @@
 /* PR c/35017 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 static int a = 6;

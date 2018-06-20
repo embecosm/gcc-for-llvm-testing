@@ -1,6 +1,7 @@
 /* Origin: PR c/179 from Gray Watson <gray@256.com>, adapted as a testcase
    by Joseph Myers <jsm28@cam.ac.uk>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized" } */
 extern void foo (int *);
 extern void bar (int);

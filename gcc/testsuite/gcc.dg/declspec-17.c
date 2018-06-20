@@ -2,6 +2,7 @@
    declarations.  Test with -pedantic-errors.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89 -pedantic-errors" } */
 
 void

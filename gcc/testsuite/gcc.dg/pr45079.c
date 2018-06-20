@@ -1,5 +1,6 @@
 /* PR c/45079 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (const char *p, int cond, int a, int b)

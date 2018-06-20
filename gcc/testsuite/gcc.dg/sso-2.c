@@ -1,6 +1,7 @@
 /* Test support of scalar_storage_order attribute */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct __attribute__((scalar_storage_order("big-endian"))) S1
 {

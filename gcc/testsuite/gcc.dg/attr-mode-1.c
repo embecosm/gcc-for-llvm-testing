@@ -1,5 +1,6 @@
 /* PR c/17384 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 typedef struct __attribute__((mode(SI))) { 

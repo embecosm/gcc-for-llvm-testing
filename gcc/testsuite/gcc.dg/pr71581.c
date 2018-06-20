@@ -1,5 +1,6 @@
 /* PR middle-end/71581 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized" } */
 
 _Complex float

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-strict-aliasing -fdump-rtl-expand" } */
+/* { dg-require-effective-target gcc_internals } */
 union U {
   int a;
   float b;

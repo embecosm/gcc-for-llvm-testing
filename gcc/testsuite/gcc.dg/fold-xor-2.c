@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 int f (int a, int b) {
 	return ~(a ^ -(b + 1));
 }

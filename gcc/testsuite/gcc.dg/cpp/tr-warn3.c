@@ -3,6 +3,7 @@
    warnings inside unused clauses because they are often hidden this
    way on purpose.  However they do still require indentation for K&R.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -Wtraditional" } */
 
 #if 1

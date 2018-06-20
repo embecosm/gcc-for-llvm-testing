@@ -1,6 +1,7 @@
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -std=c99" } */
 
 /* This tests various diagnostics with -pedantic about escape

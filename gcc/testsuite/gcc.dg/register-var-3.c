@@ -1,5 +1,6 @@
 /* { dg-options "" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 register int r0; /* { dg-error "register name not specified" } */
 register int bp; /* { dg-error "register name not specified" } */
 register int sp; /* { dg-error "register name not specified" } */

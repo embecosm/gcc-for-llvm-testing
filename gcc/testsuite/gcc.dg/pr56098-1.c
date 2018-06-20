@@ -1,6 +1,7 @@
 /* PR tree-optimization/56098 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 volatile int *p;
 

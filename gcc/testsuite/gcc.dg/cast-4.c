@@ -2,6 +2,7 @@
    Test with -pedantic-errors.  */
 /* Origin: Carlos O'Donell <carlos@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic-errors" } */
 
 extern int i;

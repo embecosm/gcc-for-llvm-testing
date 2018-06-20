@@ -2,6 +2,7 @@
    are emitted properly.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wno-format -std=gnu99 -ftrack-macro-expansion=0 -fno-tree-dse" } */
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-skip-if "packed attribute missing for t" { "epiphany-*-*" } }
 
 extern void abort (void);

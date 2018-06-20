@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int vec __attribute__((vector_size(2*sizeof(int))));
 

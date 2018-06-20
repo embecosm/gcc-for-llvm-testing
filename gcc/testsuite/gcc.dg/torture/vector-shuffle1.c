@@ -1,5 +1,6 @@
 /* PR54219 */
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 extern void abort (void);
 

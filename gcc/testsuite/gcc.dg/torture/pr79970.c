@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-additional-options "-mno-sse" { target x86_64-*-* i?86-*-* } } */
 

@@ -3,7 +3,9 @@
    is folded into a constant and dead code that depends on it is
    eliminated.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O0 -fdump-tree-ssa" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define concat(a, b)   a ## b
 #define CAT(a, b)      concat (a, b)

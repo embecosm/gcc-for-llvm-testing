@@ -2,6 +2,7 @@
    integer type.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 int a[] = { [(void *)0] = 1 }; /* { dg-bogus "warning" "warning in place of error" } */

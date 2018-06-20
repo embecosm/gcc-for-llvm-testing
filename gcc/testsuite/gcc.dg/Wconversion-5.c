@@ -1,5 +1,6 @@
 /* PR c++/34198 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wconversion" } */
 
 signed char sc;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-expand" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct { char a[2]; } __attribute__((__packed__)) TU2;
 unsigned short get16_unaligned(const void *p) {

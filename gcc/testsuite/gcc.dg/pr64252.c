@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef unsigned int V __attribute__((vector_size (32)));
 

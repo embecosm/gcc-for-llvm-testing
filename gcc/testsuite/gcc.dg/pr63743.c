@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-rtl-expand-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 double
 libcall_dep (double x, double y)

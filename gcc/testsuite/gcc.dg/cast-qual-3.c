@@ -1,5 +1,6 @@
 /* PR 55383 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wcast-qual" } */
 
 void set(void*);

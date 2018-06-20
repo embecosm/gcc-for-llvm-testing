@@ -1,5 +1,6 @@
 /* Test C11 _Generic.  Test we follow the resolution of DR#423.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 char const *a = _Generic ("bla", char *: "");

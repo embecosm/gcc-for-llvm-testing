@@ -1,5 +1,6 @@
 /* Parse error recovery
 { dg-do compile }
+/* { dg-require-effective-target gcc_frontend } */
 { dg-options "-fsyntax-only" }
 */
 

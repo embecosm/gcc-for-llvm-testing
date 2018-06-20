@@ -1,5 +1,6 @@
 /* PR 30551 -Wmain is not enabled by default. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void main(char a) {} /* { dg-bogus "first argument of .main. should be .int." "int" } */

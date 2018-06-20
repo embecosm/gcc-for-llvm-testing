@@ -1,6 +1,7 @@
 /* Test for compound literals: in C99 only.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 struct s { int a; int b; };

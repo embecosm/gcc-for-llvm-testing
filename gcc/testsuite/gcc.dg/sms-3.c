@@ -1,6 +1,8 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fmodulo-sched -funroll-loops -fdump-rtl-sms --param sms-min-sc=1 -fmodulo-sched-allow-regmoves" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -fmodulo-sched -funroll-loops -fdump-rtl-sms --param sms-min-sc=1 -fmodulo-sched-allow-regmoves -fno-sched-pressure" { target powerpc*-*-* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

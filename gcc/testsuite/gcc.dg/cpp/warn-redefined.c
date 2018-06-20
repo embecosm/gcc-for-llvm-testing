@@ -1,4 +1,5 @@
 // { dg-do preprocess }
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-options "-std=gnu99 -fdiagnostics-show-option -Wbuiltin-macro-redefined" }
 
 #ifndef __TIME__

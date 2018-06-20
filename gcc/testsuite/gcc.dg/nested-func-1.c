@@ -1,6 +1,7 @@
 /* Test for proper errors for break and continue in nested functions.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wno-switch-unreachable" } */
 /* { dg-require-effective-target nested_func } */
 

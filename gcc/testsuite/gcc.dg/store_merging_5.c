@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Make sure that non-aliasing non-constant interspersed stores do not
    stop chains.  */

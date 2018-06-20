@@ -1,6 +1,7 @@
 /* Test for prototype followed by old-style definition, as in
    dremf-type-compat-3.c but with a non-built-in function.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 
 float f (float, float); /* { dg-error "prototype declaration" } */

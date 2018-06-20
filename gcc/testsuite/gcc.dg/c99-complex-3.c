@@ -2,6 +2,7 @@
    is still a keyword and must give a syntax error if used rather than
    being treated as an identifier.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 float _Imaginary; /* { dg-error "expected" } */

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-alias "" } */
 /* { dg-options "-O2 -funit-at-a-time" } */
 

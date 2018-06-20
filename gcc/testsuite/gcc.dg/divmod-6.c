@@ -1,5 +1,6 @@
 /* { dg-require-effective-target divmod } */
 /* { dg-options "-O2 -fdump-tree-widening_mul-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int SImode __attribute__((mode(SI)));
 typedef unsigned USImode __attribute__((mode(SI)));

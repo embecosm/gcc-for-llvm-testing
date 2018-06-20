@@ -1,5 +1,6 @@
 /* { dg-do compile { target { ! ia32 } } } */
 /* { dg-options "-O2 -mavx512vl -mno-avx512bw" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef char V1 __attribute__((vector_size (16)));
 typedef short V2 __attribute__((vector_size (16)));

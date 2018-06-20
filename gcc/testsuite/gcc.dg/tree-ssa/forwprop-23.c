@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef long vec __attribute__ ((vector_size (2 * sizeof (long))));
 

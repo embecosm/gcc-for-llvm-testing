@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <limits.h>
 
 #if defined(__LP64__) || defined(_WIN64)

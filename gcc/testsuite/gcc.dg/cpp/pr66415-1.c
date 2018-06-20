@@ -1,5 +1,6 @@
 /* PR c/66415 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wformat -fdiagnostics-show-caret" } */
 /* { dg-set-compiler-env-var COLUMNS "83" } */
 

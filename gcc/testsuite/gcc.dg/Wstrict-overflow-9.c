@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fstrict-overflow -O2 -Wstrict-overflow=2" } */
 
 /* Source: Ian Lance Taylor.  */

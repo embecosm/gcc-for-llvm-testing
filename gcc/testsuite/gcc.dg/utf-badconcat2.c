@@ -1,5 +1,6 @@
 /* Test unsupported concatenation of UTF-8 string literals. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 void	*s0	= u8"a"   "b";

@@ -1,5 +1,6 @@
 /* PR 16302 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wlogical-op" } */
 void bar (int);
 int

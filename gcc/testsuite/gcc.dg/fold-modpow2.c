@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned int
 my_mod (unsigned int a, unsigned int b)

@@ -2,6 +2,7 @@
    -pedantic-errors.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89 -pedantic-errors" } */
 
 /* If a declaration does not declare a declarator, it must declare a

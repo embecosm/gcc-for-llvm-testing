@@ -1,6 +1,7 @@
 /* Test for constant expressions: cases involving VLAs, at file scope.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 /* It appears address constants may contain casts to variably modified

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { *-*-* } { "-fno-fat-lto-objects" } { "" } } */
 
 struct __jmp_buf_tag { int mask; };

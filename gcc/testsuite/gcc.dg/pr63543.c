@@ -1,5 +1,6 @@
 /* PR c/63543 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S;
 union U;

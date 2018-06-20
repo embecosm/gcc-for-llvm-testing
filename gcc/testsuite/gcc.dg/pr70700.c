@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ealias-graph" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S
 {

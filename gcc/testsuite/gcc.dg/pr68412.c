@@ -1,5 +1,6 @@
 /* PR c/68412 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -Wextra" } */
 
 #define M (sizeof (int) * __CHAR_BIT__)

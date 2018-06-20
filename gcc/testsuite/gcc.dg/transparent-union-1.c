@@ -1,5 +1,6 @@
 /* PR c/20043 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 extern void f0 (int *);

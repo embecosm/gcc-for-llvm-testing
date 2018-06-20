@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* MUL_OVERFLOW should not be folded into unsigned multiplication,
    because it sometimes overflows and sometimes does not.  */

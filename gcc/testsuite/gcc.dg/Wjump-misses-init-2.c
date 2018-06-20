@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wjump-misses-init -std=c99" } */
 extern void f1 ();
 int

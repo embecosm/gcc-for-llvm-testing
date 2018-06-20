@@ -1,5 +1,6 @@
 /* PR 28079 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 #line 18446744073709551616 /* { dg-warning "line number out of range" } */

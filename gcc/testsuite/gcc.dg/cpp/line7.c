@@ -2,6 +2,7 @@
    39647.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 #define EMPTY_OBJ

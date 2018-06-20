@@ -1,5 +1,6 @@
 /* If not gnu99, the u8 prefix should be parsed as separate tokens. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89" } */
 
 const void	*s0 = u8"a";		/* { dg-error "undeclared" "undeclared" } */

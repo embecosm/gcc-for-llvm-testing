@@ -1,6 +1,7 @@
 /* PR 29062 
 { dg-do compile }
 { dg-options "-std=c17 -pedantic-errors -fsyntax-only" }
+{ dg-require-effective-target gcc_frontend }
 */
 
 int f(int x)

@@ -2,6 +2,7 @@
    nasty ICE due to messed up parser context.  Problem originally found
    during bootstrap; this is synthetic.  -zw  */
 /* { dg-do compile } 
+/* { dg-require-effective-target gcc_frontend } */
    { dg-options -Wempty-body } */
 
 void foo (int x)

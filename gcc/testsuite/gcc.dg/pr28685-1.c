@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fno-ipa-icf" }  */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Should produce <=.  */
 int test1 (int a, int b)

@@ -2,6 +2,7 @@
    qualifiers are now ignored for all purposes (except that _Atomic
    still affects the type), but should still get warnings.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -Wignored-qualifiers" } */
 
 const int f1 (void); /* { dg-warning "qualifiers ignored" } */

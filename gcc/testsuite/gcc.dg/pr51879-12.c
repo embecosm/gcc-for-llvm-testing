@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-tail-merge -fdump-tree-pre -fno-code-hoisting" } */
+/* { dg-require-effective-target gcc_internals } */
 
 __attribute__((pure)) int bar (int);
 __attribute__((pure)) int bar2 (int);

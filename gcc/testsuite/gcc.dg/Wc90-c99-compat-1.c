@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu90 -Wpedantic -Wc90-c99-compat" } */
 
 _Bool b; /* { dg-warning "ISO C90 does not support boolean types" } */

@@ -4,6 +4,7 @@
 
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 int foo (); /* { dg-message "note: previous declaration" "different qualifiers" } */

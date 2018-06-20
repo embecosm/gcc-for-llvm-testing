@@ -1,5 +1,6 @@
 /* Test __attribute__ ((deprecated)) */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wdeprecated-declarations" } */
 
 #if 1

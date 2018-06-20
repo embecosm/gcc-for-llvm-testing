@@ -2,6 +2,7 @@
    Origin: Dodji Seketeli <dodji@redhat.com>
    { dg-options "-std=iso9899:1999 -pedantic" } 
    { dg-do compile } 
+/* { dg-require-effective-target gcc_frontend } */
  */
 
 #include "system-binary-constants-1.h"

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char c[4] __attribute__ ((aligned (4)));
 

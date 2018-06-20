@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* No special options--in particular, turn off the default
    -pedantic-errors option.  */

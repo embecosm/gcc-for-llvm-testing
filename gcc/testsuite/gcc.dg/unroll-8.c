@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-loop2_unroll -funroll-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 struct a {int a[7];};
 int t(struct a *a, int n)
 {

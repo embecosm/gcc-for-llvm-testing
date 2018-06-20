@@ -1,5 +1,6 @@
 /* Test C11 _Noreturn.  Test valid code using stdnoreturn.h.  */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 #include <stdnoreturn.h>

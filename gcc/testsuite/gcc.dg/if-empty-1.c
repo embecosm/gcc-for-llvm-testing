@@ -1,6 +1,7 @@
 /* Test diagnostics for empty bodies in if / else.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wempty-body" } */
 
 void

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-strict-overflow -O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Dual of strict-overflow-5.c.  */
 

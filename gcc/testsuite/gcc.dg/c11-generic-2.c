@@ -1,5 +1,6 @@
 /* Test C11 _Generic.  Error cases.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 struct incomplete;

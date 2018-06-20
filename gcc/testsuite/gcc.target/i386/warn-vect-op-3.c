@@ -1,5 +1,6 @@
 /* { dg-do compile { target { ! ia32 } } }  */
 /* { dg-options "-mno-sse -Wvector-operation-performance" }  */
+/* { dg-require-effective-target builtin_shuffle } */
 #define vector(elcount, type)  \
 __attribute__((vector_size((elcount)*sizeof(type)))) type
 
