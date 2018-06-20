@@ -3,6 +3,7 @@
    A few simple checks on arithmetic operations. */
 
 /* { dg-require-effective-target builtin_finite } */
+/* { dg-require-effective-target builtin_isinf } */
 
 #include "dfp-dbg.h"
 

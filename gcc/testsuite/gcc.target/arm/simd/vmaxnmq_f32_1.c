@@ -2,6 +2,7 @@
 
 /* { dg-do run } */
 /* { dg-require-effective-target arm_v8_neon_hw } */
+/* { dg-require-effective-target builtin_isnan } */
 /* { dg-options "-save-temps -O3 -march=armv8-a" } */
 /* { dg-add-options arm_v8_neon } */
 

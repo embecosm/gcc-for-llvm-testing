@@ -1,5 +1,7 @@
 /* PR c/70859 */
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 static void *p;
 static double *d;

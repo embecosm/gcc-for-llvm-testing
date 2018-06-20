@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target inf } */
 /* { dg-options "-O1 -fno-trapping-math -fno-finite-math-only -fdump-tree-optimized" } */
+/* { dg-require-effective-target builtin_isinf } */
   
 extern void f(int);
 extern void link_error ();

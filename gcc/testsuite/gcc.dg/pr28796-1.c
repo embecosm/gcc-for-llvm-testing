@@ -1,6 +1,8 @@
 /* { dg-do link } */
 /* { dg-options "-ffinite-math-only" } */
 /* { dg-require-effective-target builtin_finite } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 extern void link_error(void);
 

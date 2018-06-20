@@ -1,5 +1,6 @@
 /* { dg-do run { target { powerpc*-*-linux* powerpc*-*-darwin* powerpc*-*-aix* rs6000-*-* } } } */
 /* { dg-options "-std=c99 -mlong-double-128 -O2" } */
+/* { dg-require-effective-target builtin_isinf } */
 
 #include <float.h>
 

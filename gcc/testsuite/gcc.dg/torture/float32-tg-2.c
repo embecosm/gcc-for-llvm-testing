@@ -4,6 +4,7 @@
 /* { dg-add-options float32 } */
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target float32_runtime } */
+/* { dg-require-effective-target builtin_isinf } */
 
 #define WIDTH 32
 #define EXT 0

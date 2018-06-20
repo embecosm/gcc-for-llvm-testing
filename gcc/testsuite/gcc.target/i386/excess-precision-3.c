@@ -2,6 +2,7 @@
    necessary.  */
 /* { dg-do run } */
 /* { dg-options "-O2 -mfpmath=387 -fexcess-precision=standard" } */
+/* { dg-require-effective-target builtin_isinf } */
 
 #include <float.h>
 #include <stdarg.h>
