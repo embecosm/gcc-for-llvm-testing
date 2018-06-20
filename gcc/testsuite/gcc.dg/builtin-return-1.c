@@ -4,6 +4,7 @@
 /* { dg-xfail-run-if "PR36571 untyped return is char register" { "avr-*-*" } } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-require-effective-target builtin_apply } */
+/* { dg-require-effective-target builtin_return } */
 /* This used to fail on SPARC because the (undefined) return
    value of 'bar' was overwriting that of 'foo'.  */
 
