@@ -1,5 +1,6 @@
 /* Test exercising -Wrawmem-overflow and -Wstringop-overflow warnings.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wstringop-overflow=1" } */
 /* { dg-require-effective-target builtin_malloc } */
 

@@ -2,6 +2,7 @@
    return slot are call-clobbered.  */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #ifdef __SPU__
 /* SPU returns aggregates up to 1172 bytes in registers.  */

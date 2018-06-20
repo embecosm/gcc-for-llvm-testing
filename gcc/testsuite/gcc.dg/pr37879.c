@@ -1,5 +1,6 @@
 /* PR tree-optimization/37879 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2" } */
 
 static inline void bar (int) __attribute__ ((noreturn));

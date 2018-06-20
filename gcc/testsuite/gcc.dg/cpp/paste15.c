@@ -1,5 +1,6 @@
 /* PR preprocessor/20077 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define a   a ## ## /* { dg-error "end of a macro expansion" } */
 #define b() b ## ## /* { dg-error "end of a macro expansion" } */

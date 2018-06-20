@@ -4,6 +4,7 @@
    gcc 2.7.2.3 passes, egcs-1.1.2 and egcs-ss-19990428 fail.
    http://gcc.gnu.org/ml/gcc-bugs/1998-08/msg00645.html */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wcast-qual" } */
 void
 good_cast(const void *bar)

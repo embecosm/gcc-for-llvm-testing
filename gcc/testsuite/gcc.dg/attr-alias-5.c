@@ -1,6 +1,7 @@
 /* Verify diagnostics for aliases to strings containing extended
    identifiers or bad characters.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 /* { dg-require-alias "" } */
 /* { dg-require-ascii-locale "" } */

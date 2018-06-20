@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-rtl-ira-details-blocks" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target c99_runtime } */
 
 #include <math.h>

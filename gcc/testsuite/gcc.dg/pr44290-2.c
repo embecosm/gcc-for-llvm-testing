@@ -1,5 +1,6 @@
 /* { dg-do compile { target arm*-*-* avr-*-* mcore-*-* rx-*-* spu-*-* } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static unsigned long __attribute__((naked))
 foo (unsigned long base)

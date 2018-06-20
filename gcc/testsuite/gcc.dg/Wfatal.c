@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Woverflow -Werror=div-by-zero -Wfatal-errors" } */
 #include <limits.h>
 

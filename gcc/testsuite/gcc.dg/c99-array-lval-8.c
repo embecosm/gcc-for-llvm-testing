@@ -2,6 +2,7 @@
    containing arrays do not remain when those arrays decay to
    pointers.  PR 35235.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 int a;

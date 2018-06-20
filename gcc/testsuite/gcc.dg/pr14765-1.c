@@ -1,6 +1,7 @@
 /* Empty statement expressions should get void type.  Bug 14765 from
    Serge Belyshev <belyshev@lubercy.com>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 int a;

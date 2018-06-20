@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fshow-column -std=gnu89" } */
 /* test redeclarations with void and implicit int */
 extern foo1(); /* { dg-message "8:note: previous declaration" } */

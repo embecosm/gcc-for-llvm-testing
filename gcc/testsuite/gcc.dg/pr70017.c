@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fstack-check=generic" } */
 
 /* Check that the expected warning is issued for large frames.  */

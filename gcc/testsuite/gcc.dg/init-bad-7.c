@@ -1,5 +1,6 @@
 /* PR c/37724 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic" } */
 
 struct f

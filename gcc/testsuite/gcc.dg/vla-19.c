@@ -1,6 +1,7 @@
 /* Test diagnostics for variably modified function return types.  PR
    39564.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99" } */
 
 int a;

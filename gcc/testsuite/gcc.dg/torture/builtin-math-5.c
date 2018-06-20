@@ -7,6 +7,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void foof (_Complex float);
 extern void foo (_Complex double);

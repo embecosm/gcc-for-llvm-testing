@@ -1,5 +1,6 @@
 /* PR c/65345 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 _Atomic int i = 3;

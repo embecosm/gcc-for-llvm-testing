@@ -1,5 +1,6 @@
 /* PR 30551 -Wmain is enabled by -pedantic-errors. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 /* { dg-skip-if "-Wmain not enabled with -pedantic on SPU" { spu-*-* } } */
 void main(char a) {} /* { dg-error "first argument of .main. should be .int." "int" } */

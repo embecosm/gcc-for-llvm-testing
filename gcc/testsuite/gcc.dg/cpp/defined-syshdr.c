@@ -1,5 +1,6 @@
 # 1 "defined-syshdr.c" 1
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wexpansion-to-defined" } */
 
 #define defined_outside_sys_hdr   defined FOO

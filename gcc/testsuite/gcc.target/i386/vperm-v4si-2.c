@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target ssse3 } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-O -mssse3" } */
 
 #include "isa-check.h"

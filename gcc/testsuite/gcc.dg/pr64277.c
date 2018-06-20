@@ -1,6 +1,7 @@
 /* PR tree-optimization/64277 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -Wall -Werror -fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump "loop with 5 iterations completely unrolled" "cunroll" } } */
 /* { dg-final { scan-tree-dump "loop with 6 iterations completely unrolled" "cunroll" } } */
 

@@ -1,6 +1,7 @@
 /* PR c/71858 */
 /* Only consider function names, function pointers and macros for implicit function declarations.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wimplicit-function-declaration -fdiagnostics-show-caret" } */
 
 void fn1abcd (void);

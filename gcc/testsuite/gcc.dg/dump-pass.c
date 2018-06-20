@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-passes" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned res;
 

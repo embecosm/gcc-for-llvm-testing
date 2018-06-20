@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wattributes" } */
 /* { dg-message "some warnings being treated as errors" "" {target "*-*-*"} 0 } */
 /* Make sure the pragma enables the error.  */

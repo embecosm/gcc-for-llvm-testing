@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat" } */
 
 struct { int f1; } g1;		/* { dg-warning "C\[+\]\[+\]" } */

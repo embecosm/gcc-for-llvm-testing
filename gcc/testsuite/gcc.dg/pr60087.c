@@ -1,5 +1,6 @@
 /* PR c/60087 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsign-compare" } */
 
 void

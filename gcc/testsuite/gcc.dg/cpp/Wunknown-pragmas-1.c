@@ -1,6 +1,7 @@
 /* Copyright 2003 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunknown-pragmas" } */
 
 /* Make sure we get warnings in the expected lines.  */

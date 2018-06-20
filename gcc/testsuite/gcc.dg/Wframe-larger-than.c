@@ -3,6 +3,7 @@
    Origin: Seongbae Park <seongbae.park@gmail.com> */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wframe-larger-than=2048" } */
 
 extern void func(char *);

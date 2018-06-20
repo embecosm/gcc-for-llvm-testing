@@ -1,6 +1,7 @@
 /* PR tree-optimization/46309 */
 /* { dg-do compile { target { { ! logical_op_short_circuit } || { mips*-*-* avr*-*-* } } } } */
 /* { dg-options "-O2 -fdump-tree-reassoc-details" } */
+/* { dg-require-effective-target gcc_internals } */
 /* The transformation depends on BRANCH_COST being greater than 1
    (see the notes in the PR), so try to force that.  */
 /* { dg-additional-options "-mtune=octeon2" { target mips*-*-* } } */

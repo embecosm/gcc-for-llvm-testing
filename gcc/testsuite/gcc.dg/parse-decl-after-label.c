@@ -1,5 +1,6 @@
 /* PR 29062 
 { dg-do compile }
+/* { dg-require-effective-target gcc_frontend } */
 { dg-options "-fsyntax-only" }
 */
 

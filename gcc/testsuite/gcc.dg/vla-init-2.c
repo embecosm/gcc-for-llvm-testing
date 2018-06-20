@@ -3,6 +3,7 @@
    but this is the only reasonable interpretation).  Bug 16409, first
    testcase.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 const int i = 1;

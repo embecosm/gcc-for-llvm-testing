@@ -1,5 +1,6 @@
 /* PR c/59846 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wlogical-op -Wtype-limits" } */
 
 _Bool

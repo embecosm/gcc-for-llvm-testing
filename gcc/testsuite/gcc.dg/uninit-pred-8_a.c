@@ -1,5 +1,6 @@
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized -O2" } */
 /* Pick a particular tuning to pin down BRANCH_COST.  */
 /* { dg-additional-options "-mtune=cortex-a15" { target arm*-*-* } } */

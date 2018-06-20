@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int t;
 extern void link_error(void);

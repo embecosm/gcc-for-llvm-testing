@@ -1,5 +1,6 @@
 /* Test whether the -Wcast-qual handles cv-qualified functions correctly.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wcast-qual" } */
 
 typedef int (intfn_t) (int);

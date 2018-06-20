@@ -2,6 +2,7 @@
    wording of the diagnostic.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wbad-function-cast" } */
 
 void vf(void);

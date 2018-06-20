@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target arm_neon_ok } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-O2" } */
 /* { dg-add-options arm_neon } */
 

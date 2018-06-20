@@ -2,6 +2,7 @@
    Contributed by Mike Coleman <mcoleman2@kc.rr.com> */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma pack(pop)               /* { dg-warning "without matching" } */
 

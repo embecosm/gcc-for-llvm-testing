@@ -2,6 +2,7 @@
    string manipulation builtins involving ranges of sizes and strings
    of varying lengths.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -ftrack-macro-expansion=0" } */
 
 #define INT_MAX      __INT_MAX__

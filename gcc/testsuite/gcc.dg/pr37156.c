@@ -1,5 +1,6 @@
 /* PR debug/37156 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -g" } */
 
 __attribute__ ((warning ("is experimental"))) int bar (int, int *, int *, int);

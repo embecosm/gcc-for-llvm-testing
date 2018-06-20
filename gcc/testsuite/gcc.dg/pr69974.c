@@ -1,5 +1,6 @@
 /* PR c/69974 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S;
 char foo (struct S *);

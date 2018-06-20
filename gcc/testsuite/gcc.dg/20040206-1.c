@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -W -Wall" } */
 /*  PR c/13127
     On the tree-ssa this used to warn about an anonymous

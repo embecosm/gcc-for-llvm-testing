@@ -3,6 +3,7 @@
    of static variables.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 /* { dg-require-effective-target nested_func } */
 

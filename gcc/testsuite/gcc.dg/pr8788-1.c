@@ -1,5 +1,6 @@
 /* PR inline-asm/8788 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2" } */
 
 typedef struct {

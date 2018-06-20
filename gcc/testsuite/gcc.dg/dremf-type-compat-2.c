@@ -5,6 +5,7 @@
    16666.  Test with -pedantic, where the problem should still be
    diagnosed.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 float dremf (float, float); /* { dg-warning "prototype declaration" } */

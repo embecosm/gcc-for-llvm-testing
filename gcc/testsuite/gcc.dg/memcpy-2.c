@@ -1,5 +1,6 @@
 /* PR middle-end/38454 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2" } */
 
 typedef __SIZE_TYPE__ size_t;

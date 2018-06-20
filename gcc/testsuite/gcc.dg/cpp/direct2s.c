@@ -6,6 +6,7 @@
    should be identical.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-save-temps -ansi -pedantic-errors -ftrack-macro-expansion=0" } */
 
 #define HASH #

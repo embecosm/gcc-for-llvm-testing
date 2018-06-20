@@ -1,6 +1,7 @@
 /* Test for the "nonnull" function attribute.  */
 /* Origin: Jason Thorpe <thorpej@wasabisystems.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wnonnull" } */
 
 #include <stddef.h>

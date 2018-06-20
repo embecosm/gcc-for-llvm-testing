@@ -12,6 +12,7 @@
 
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 void fc0 (int n) {  goto a; a:{ typedef int (*b)[n]; { typedef int (*c)[n]; 0;} { typedef int (*d)[n]; 0;} ; typedef int (*e)[n]; 0;}; { typedef int (*f)[n]; { typedef int (*g)[n]; 0;}; { typedef int (*h)[n]; 0;}; ; typedef int (*i)[n]; 0;}; ; typedef int (*j)[n]; 0; }

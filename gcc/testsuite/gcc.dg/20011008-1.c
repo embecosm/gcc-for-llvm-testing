@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O0 -fshow-column" } */
 
 struct { int; int q; } a; /* { dg-warning "13:does not declare anything" } */

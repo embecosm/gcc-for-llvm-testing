@@ -1,6 +1,7 @@
 /* PR c/71969 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99 -fno-gnu89-inline -O2 -fdump-tree-einline-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 volatile int v;
 #define S v++;

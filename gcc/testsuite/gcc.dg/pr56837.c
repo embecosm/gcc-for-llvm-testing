@@ -2,6 +2,7 @@
    supported 4x int vectors, 4-byte int.  */
 /* { dg-do compile { target { i?86-*-* x86_64-*-* powerpc*-*-* } } } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-msse2" { target ia32 } } */
 /* { dg-additional-options "-mvsx -maltivec" { target powerpc*-*-* } } */
 

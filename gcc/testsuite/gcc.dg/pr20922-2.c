@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fwrapv -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 int f (int i)
 {
   return (i - 2) > i;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple -Wno-int-to-pointer-cast" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdint.h>
 

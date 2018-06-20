@@ -1,4 +1,5 @@
 // { dg-do preprocess }
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-options "-std=gnu99 -fdiagnostics-show-option -Wcomments" }
 
 /* /* */  // { dg-warning "4: \"\.\*\" within comment .-Wcomment." }

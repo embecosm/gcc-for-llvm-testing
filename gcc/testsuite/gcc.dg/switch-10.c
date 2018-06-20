@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-cfg" }  */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump "case 0:" "cfg" } }  */
 /* { dg-final { scan-tree-dump-not "case 1 ... 255:" "cfg" } }  */
 #include <stdint.h>

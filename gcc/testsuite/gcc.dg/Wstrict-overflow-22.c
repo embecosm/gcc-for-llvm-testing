@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fstrict-overflow -O2 -Wstrict-overflow=3" } */
 
 /* Source: Ian Lance Taylor.  Based on strict-overflow-6.c.  */

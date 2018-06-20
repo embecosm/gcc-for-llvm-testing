@@ -1,6 +1,7 @@
 /* Verify that cpp doesn't screw up the line numbering when a macro argument
    extends over multiple lines.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define FOO(x)  /* nothing */
 

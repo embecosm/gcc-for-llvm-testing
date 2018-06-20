@@ -1,6 +1,7 @@
 /* PR tree-optimization/69097 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump-times "-y" 17 "optimized" } } */
 
 int

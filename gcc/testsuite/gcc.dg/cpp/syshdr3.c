@@ -2,6 +2,7 @@
 /* Origin: PR preprocessor/7263 */
 /* { dg-options "-pedantic -std=c89 -ftrack-macro-expansion=1" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This tests the proprer suppression of warning coming from macro
    defined in system headers and expanded in a non-system header

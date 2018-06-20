@@ -2,6 +2,7 @@
 
 /* { dg-do compile { target { powerpc*-*-* } } } */
 /* { dg-options "-O1 -fdump-rtl-loop2_invariant" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void f(int *a)
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-rtl-cse1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort(void);
 

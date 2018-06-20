@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int f(double aaa, double bbb){
   int xa = __builtin_isunordered(aaa, aaa);

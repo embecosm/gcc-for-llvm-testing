@@ -1,5 +1,6 @@
 /* Test -Wsizeof-pointer-memaccess warnings.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -Wno-sizeof-array-argument" } */
 /* Test just twice, once with -O0 non-fortified, once with -O2 fortified.  */
 /* { dg-skip-if "" { *-*-* }  { "*" } { "-O0" "-O2" } } */

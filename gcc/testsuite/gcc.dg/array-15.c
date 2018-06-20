@@ -1,5 +1,6 @@
 /* PR c/69262 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 struct S

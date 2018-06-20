@@ -1,6 +1,7 @@
 /*  Origin PR c/53702
     { dg-options "-Wunused-local-typedefs" }
     { dg-do compile }
+/* { dg-require-effective-target gcc_frontend } */
     { dg-require-effective-target nested_func }
 */
 

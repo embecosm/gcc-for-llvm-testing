@@ -1,6 +1,7 @@
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wshadow -pedantic-errors" } */
 
 /* Source: Neil Booth, 5 Dec 2001.  */

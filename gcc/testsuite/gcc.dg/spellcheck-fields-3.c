@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fdiagnostics-show-caret -std=c99" } */
 
 /* Tests of incorrect name initializers.

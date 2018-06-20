@@ -1,6 +1,7 @@
 /* Test for diagnostics for constant overflow.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99" } */
 
 #include <limits.h>

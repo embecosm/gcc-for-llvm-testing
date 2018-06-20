@@ -1,5 +1,6 @@
 /* PR preprocessor/65238 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __has_attribute(
 #endif

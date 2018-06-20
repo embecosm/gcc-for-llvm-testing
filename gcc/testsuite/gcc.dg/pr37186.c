@@ -1,5 +1,6 @@
 /* PR 37186 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -Werror -Wno-error=pointer-sign" } */
 
 int foo(signed char *); /* { dg-message "note: expected 'signed char \\*' but argument is of type 'unsigned char \\*'" } */

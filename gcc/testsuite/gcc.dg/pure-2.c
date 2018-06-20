@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wsuggest-attribute=pure" } */
 /* { dg-add-options bind_pic_locally } */
 

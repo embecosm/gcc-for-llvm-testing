@@ -7,6 +7,7 @@
 /* 
    { dg-options "-ftrack-macro-expansion=0" }
    { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define HASH #
 #define HASHDEFINE #define

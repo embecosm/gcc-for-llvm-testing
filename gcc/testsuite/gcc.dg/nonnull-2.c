@@ -1,6 +1,7 @@
 /* Test for the invalid use of the "nonnull" function attribute.  */
 /* Origin: Jason Thorpe <thorpej@wasabisystems.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void func1 () __attribute__((nonnull)); /* { dg-error "without arguments" } */
 

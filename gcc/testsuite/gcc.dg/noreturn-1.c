@@ -1,5 +1,6 @@
 /* Check for various valid and erroneous "noreturn" cases. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wmissing-noreturn" } */
 
 extern void exit (int);

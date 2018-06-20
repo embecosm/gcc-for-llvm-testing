@@ -1,6 +1,7 @@
 /* PR middle-end/31096 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define signval_pos(name, op) \
 int name (int a, int b) \

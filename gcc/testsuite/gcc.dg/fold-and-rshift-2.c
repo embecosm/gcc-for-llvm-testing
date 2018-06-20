@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #if __SIZEOF_INT__ < 4
 #define unsigned __UINT32_TYPE__

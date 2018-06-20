@@ -3,6 +3,7 @@
 
 /* { dg-do compile { target { { i?86-*-* x86_64-*-* } && nonpic } } } */
 /* { dg-options "-Os -fdump-rtl-loop2_invariant" } */
+/* { dg-require-effective-target gcc_internals } */
 
 const volatile int g_361 = 3L;
 volatile int g_2 = 0L;

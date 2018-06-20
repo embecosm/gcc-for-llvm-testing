@@ -1,5 +1,6 @@
 /* PR target/27421 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A
 {

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -fshow-column" } */
 
 double a = 1.ld;	/* { dg-error "12:invalid suffix" } */

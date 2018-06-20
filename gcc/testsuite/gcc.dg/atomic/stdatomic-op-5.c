@@ -2,6 +2,7 @@
    we generate correct code.  */
 /* { dg-do run } */
 /* { dg-options "-std=c11 -pedantic-errors -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdatomic.h>
 

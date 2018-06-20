@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat" } */
 typedef struct s { const int i; } s; /* { dg-message "should be initialized" } */
 union u {const int a; double b;}; /* { dg-message "should be initialized" } */

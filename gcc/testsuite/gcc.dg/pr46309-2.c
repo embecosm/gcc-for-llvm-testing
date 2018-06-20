@@ -1,6 +1,7 @@
 /* PR tree-optimization/46309 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-ipa-icf -fdump-tree-reassoc-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo (void);
 

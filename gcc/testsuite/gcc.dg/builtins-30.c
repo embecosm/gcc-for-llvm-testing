@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -Wshadow -fshow-column" } */
 
 extern double strtod (const char *, char **);

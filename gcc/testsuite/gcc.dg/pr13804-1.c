@@ -2,6 +2,7 @@
    union should name the type involved.  Bug 13804.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct s0 { int a; };

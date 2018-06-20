@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O1 -Wshift-count-negative -Wshift-count-overflow" } */
 
 typedef unsigned int v1qi_t __attribute__((mode(QI), vector_size(1)));

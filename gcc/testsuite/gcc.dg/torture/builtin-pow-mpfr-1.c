@@ -8,6 +8,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern double testit()
 {

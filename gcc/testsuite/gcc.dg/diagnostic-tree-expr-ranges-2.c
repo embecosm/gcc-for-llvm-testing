@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized -fdiagnostics-show-caret" } */
 
 int test_uninit_1 (void)

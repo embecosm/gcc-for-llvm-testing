@@ -7,6 +7,7 @@
    appropriate.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -Wtraditional } */
 
 #define f(x) x

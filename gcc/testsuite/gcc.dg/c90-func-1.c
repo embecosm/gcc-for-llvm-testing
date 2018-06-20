@@ -1,6 +1,7 @@
 /* Test that we diagnose the __func__ predefined identifier in
    C90 pedantic mode.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 void

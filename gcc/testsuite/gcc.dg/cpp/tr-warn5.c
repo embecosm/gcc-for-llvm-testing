@@ -2,6 +2,7 @@
    Note, gcc should omit these warnings in system header files.
    By Kaveh R. Ghazi <ghazi@caip.rutgers.edu> 8/22/2000.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wtraditional" } */
 
 #if +1 /* { dg-warning "unary plus operator" "unary plus operator" } */

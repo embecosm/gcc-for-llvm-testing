@@ -1,5 +1,6 @@
 /* Test C11 _Noreturn.  Test valid code.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 _Noreturn void exit (int);

@@ -7,6 +7,7 @@
    http://deja.com/getdoc.xp?AN=524271595&fmt=text by Peter Seebach.
 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 extern int bar (void);
