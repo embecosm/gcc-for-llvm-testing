@@ -2,6 +2,7 @@
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O2" } } */
 /* { dg-options "-fsanitize=undefined" } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_free } */
 
 /* Sanity-test -fsanitize=object-size.  We use -fsanitize=undefined option
    to check that this feature doesn't clash with -fsanitize=bounds et al.  */

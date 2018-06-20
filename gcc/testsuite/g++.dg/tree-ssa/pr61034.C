@@ -1,5 +1,6 @@
 // { dg-do compile }
 // { dg-options "-O2 -fdump-tree-fre3 -fdump-tree-optimized" }
+// { dg-require-effective-target builtin_free }
 
 #define assume(x) if(!(x))__builtin_unreachable()
 
