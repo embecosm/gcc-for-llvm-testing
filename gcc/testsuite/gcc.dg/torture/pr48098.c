@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_malloc } */
 
 void
 foo (int n)

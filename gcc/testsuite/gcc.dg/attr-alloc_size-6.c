@@ -7,6 +7,7 @@
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target builtin_aligned_alloc } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-O0 -Wall -Walloc-size-larger-than=12345 -Wno-use-after-free" } */
 
 #define MAXOBJSZ  12345

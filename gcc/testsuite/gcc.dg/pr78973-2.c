@@ -6,6 +6,7 @@
 
    { dg-do compile }
    { dg-require-effective-target int32plus }
+   { dg-require-effective-target builtin_malloc }
    { dg-options "-O2 -Walloc-size-larger-than=4" }  */
 
 void *p;

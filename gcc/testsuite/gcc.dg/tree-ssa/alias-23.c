@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 typedef struct A { int i; double d; } A;
 

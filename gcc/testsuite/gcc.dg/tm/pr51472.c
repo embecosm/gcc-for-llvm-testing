@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O  --param tm-max-aggregate-size=32" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-require-effective-target builtin_malloc } */
 
 typedef int __attribute__ ((vector_size (16))) vectype;
 vectype v;

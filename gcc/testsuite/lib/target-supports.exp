@@ -12485,4 +12485,7 @@ proc check_effective_target_builtin_fputs {} {
 proc check_effective_target_builtin_free {} {
     return [check_builtin_support free "__builtin_free (NULL);"]
 }
+proc check_effective_target_builtin_malloc {} {
+    return [check_builtin_support malloc "__builtin_malloc (1);"]
+}
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-Walloca-larger-than=5000 -O2" } */
 
  char *

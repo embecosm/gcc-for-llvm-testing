@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -mstringop-strategy=unrolled_loop -mtune=nocona" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 #define PATTERN 0xdeadbeef
 #define SIZE    32

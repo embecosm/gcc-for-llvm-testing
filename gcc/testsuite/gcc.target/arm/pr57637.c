@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-inline" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 typedef struct _GtkCssStyleProperty GtkCssStyleProperty;
 

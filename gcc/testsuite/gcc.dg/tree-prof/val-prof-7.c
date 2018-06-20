@@ -1,5 +1,6 @@
 /* { dg-options "-O2 -fdump-ipa-profile-optimized -mtune=core2" } */
 /* { dg-skip-if "" { ! { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target builtin_malloc } */
 
 char *buffer1;
 char *buffer2;

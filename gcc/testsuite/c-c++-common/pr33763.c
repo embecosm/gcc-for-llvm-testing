@@ -1,6 +1,7 @@
 /* PR tree-optimization/33763 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 typedef struct
 {
