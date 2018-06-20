@@ -3,6 +3,7 @@
    -Wvla-larger-than, and -Walloc-size-larger-than options.  The former
    two more specific options override the more general latter option.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-O -Walloc-size-larger-than=123 -Walloca-larger-than=234 -Wvla-larger-than=345" } */

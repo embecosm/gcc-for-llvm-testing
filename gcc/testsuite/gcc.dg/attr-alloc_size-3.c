@@ -6,6 +6,7 @@
    exceed the default maximum object size (with -Walloc-size-larger-than
    not explicitly specified).  */
 /* { dg-do compile { target size32plus } } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall" } */
 
 #define SCHAR_MAX  __SCHAR_MAX__

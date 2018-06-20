@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-w -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Things that should be folded.  */
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu89 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 w *x; /* { dg-error "unknown type name 'w'" } */
 

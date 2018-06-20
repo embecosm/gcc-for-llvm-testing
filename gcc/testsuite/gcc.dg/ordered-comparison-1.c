@@ -1,6 +1,7 @@
 /* Test warning for ordered comparison pointer with null pointer constant. */
 /* Tested with no warning option. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 extern void z();
 void *p;

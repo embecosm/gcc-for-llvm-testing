@@ -1,5 +1,6 @@
 /* PR c/64637 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunused" } */
 
 void g ();

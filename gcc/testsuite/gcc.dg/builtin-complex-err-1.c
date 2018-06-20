@@ -1,5 +1,6 @@
 /* Test __builtin_complex errors.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 typedef double D;

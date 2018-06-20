@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -Wunsuffixed-float-constants" } */
 
 #define VAL 0.5;

@@ -3,6 +3,7 @@
    Reduced testcase from Volker Reichelt <reichelt@gcc.gnu.org>.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wmissing-prototypes" } */
 
 int foo;

@@ -4,6 +4,7 @@
 
 /* { dg-do compile { target { { i?86-*-* x86_64-*-* } && lp64 } } } */
 /* { dg-options "-O2 -fira-loop-pressure -fdump-rtl-loop2_invariant " } */
+/* { dg-require-effective-target gcc_internals } */
 
 float tt;
 extern void foo2 (int *, int *, int *, int *, int *, int *);

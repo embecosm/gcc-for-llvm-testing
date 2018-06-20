@@ -1,6 +1,7 @@
 /* PR c/78408 */
 /* { dg-do compile { target size32plus } } */
 /* { dg-options "-O2 -fdump-tree-fab1-details" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-final { scan-tree-dump-times "after previous" 17 "fab1" } } */
 
 struct S { char a[33]; };

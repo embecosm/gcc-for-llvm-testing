@@ -1,5 +1,6 @@
 /* PR target/51106 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-skip-if "RTL error" { "*-*-*" } { "-fno-fat-lto-objects" } { "" } } */
 /* { dg-skip-if "" { powerpc-ibm-aix* } } */
 

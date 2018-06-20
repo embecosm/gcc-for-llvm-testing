@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-rtl-loop2_invariant" } */
 /* { dg-additional-options "-fno-pie" { target pie } } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 f (double *a)

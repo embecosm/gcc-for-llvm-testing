@@ -3,6 +3,7 @@
    stripped).  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 __extension__ typedef __SIZE_TYPE__ size_t;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffinite-math-only -fno-signed-zeros -fstrict-overflow -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 double g (double a)
 {

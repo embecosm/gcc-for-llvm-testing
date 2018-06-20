@@ -1,5 +1,6 @@
 /* Test diagnostics for empty bodies in do / while.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wempty-body" } */
 
 void

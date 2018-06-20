@@ -1,5 +1,6 @@
 /* PR c/59871 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunused" } */
 
 extern int bar ();

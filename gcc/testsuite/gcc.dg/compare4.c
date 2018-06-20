@@ -2,6 +2,7 @@
    Origin: Kaveh R. Ghazi <ghazi@caip.rutgers.edu> 5/13/2001.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fshow-column -Wsign-compare -fstrict-overflow" } */
 
 extern void bar(void);

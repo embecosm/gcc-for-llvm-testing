@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fmodulo-sched -fdump-rtl-sms" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int th, h, em, nlwm, nlwS, nlw, sy;
 void

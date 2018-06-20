@@ -2,6 +2,7 @@
    options (and so cause the driver to exit prematurely, as in this
    testcase, or have other unintended effects).  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Xassembler -dumpmachine" } */
 
 int int x; /* { dg-error "two or more data types" } */

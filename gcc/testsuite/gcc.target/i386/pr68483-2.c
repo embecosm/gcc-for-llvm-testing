@@ -1,6 +1,7 @@
 /* PR target/68483 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -msse2 -mno-sse3" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef int V __attribute__((vector_size (16)));
 

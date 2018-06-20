@@ -1,5 +1,6 @@
 /* PR c/37772 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void

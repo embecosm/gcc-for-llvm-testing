@@ -2,6 +2,7 @@
    are OK there).  Test with -pedantic-errors.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 
 __extension__ const char *a = __func__; /* { dg-error "'__func__' is not defined outside of function scope" "undef" } */

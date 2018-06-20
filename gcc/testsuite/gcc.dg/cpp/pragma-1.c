@@ -1,6 +1,7 @@
 /* Verify that preprocessor does not insert redundant newlines
    after #pragma */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 int
 main ()
 {

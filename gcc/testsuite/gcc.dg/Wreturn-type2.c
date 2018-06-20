@@ -1,6 +1,7 @@
 /* Test for cases that should not get the unconditional warning about
    missing return.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

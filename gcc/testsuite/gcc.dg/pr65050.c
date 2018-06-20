@@ -1,5 +1,6 @@
 /* PR c/65050 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int A[];
 struct S { int i; A a[5]; } s; /* { dg-error "array type has incomplete element type 'A' {aka 'int\\\[\\\]'}" } */

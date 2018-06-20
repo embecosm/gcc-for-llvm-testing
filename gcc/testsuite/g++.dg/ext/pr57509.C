@@ -1,4 +1,5 @@
 /* { dg-do compile { target c++11 } } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 template <bool> struct enable_if {};
 template <> struct enable_if<true> {typedef void type;};

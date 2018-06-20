@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Waddress -Wattributes" } */
 
 /* Make sure the command line option enables the warning.  */

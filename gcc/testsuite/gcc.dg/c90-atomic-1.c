@@ -1,5 +1,6 @@
 /* Test for _Atomic: not in C90.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c90 -pedantic-errors" } */
 
 _Atomic int i; /* { dg-error "_Atomic" } */

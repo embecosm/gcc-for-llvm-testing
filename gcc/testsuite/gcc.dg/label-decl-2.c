@@ -1,6 +1,7 @@
 /* Test diagnostics for label declarations.  Test with -pedantic.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 typedef int b;

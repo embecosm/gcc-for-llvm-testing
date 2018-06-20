@@ -1,5 +1,6 @@
 /* PR c/23075 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wreturn-type" } */
 
 int

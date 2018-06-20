@@ -1,5 +1,6 @@
 /* { dg-do compile { target sqrt_insn } } */
-/* { dg-options "-fdump-tree-powcabs -Ofast --param max-pow-sqrt-depth=8" } */
+/* { dg-options "-fdump-tree-powcabs -fdump-tree-sincos -Ofast --param max-pow-sqrt-depth=8" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-mfloat-abi=softfp -mfpu=neon-vfpv4" { target arm*-*-* } } */
 
 double

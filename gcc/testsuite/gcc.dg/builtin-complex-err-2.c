@@ -1,6 +1,7 @@
 /* Test __builtin_complex errors.  Verify it does not allow quiet
    creation of complex types in C90.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c90 -pedantic-errors" } */
 
 void

@@ -1,6 +1,7 @@
 /* PR middle-end/21137  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 extern void foo();
 
 void test1(int a)

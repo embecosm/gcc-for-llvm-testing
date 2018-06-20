@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fmath-errno -fdump-tree-cdce-details -fdump-tree-optimized -lm" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target large_double } */
 /* { dg-final { scan-tree-dump "cdce1.c:17: \[^\n\r]* function call is shrink-wrapped into error conditions\." "cdce" } } */

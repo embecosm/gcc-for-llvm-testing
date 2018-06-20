@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O0 -fno-math-errno -fdump-rtl-expand" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern float sqrtf(float);
 

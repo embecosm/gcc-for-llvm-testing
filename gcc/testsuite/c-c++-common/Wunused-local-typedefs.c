@@ -1,6 +1,7 @@
 /*  Origin PR c++/33255
     { dg-options "-Wunused-local-typedefs" }
     { dg-do compile }
+    { dg-require-effective-target gcc_frontend }
 */
 
 void

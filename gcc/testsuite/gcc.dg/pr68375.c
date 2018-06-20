@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized-graph" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, c, d, e, g, h;
 short f;

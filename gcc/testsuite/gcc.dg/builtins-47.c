@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -ffast-math -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern double sqrt (double);
 extern double pow (double, double);

@@ -2,6 +2,7 @@
    This one inspired by java/class.c:build_utf8_ref.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -Wuninitialized" } */
 
 #include <stddef.h>

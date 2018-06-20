@@ -1,5 +1,6 @@
 /* Reduced from https://sourceware.org/bugzilla/show_bug.cgi?id=20978 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wnonnull" } */
 
 int

@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-ira" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char ip[10];
 int total;

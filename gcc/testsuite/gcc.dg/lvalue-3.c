@@ -2,6 +2,7 @@
    from a read-only field is diagnosed.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct s { const int a; } x;

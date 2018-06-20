@@ -1,5 +1,6 @@
 /* PR c++/79984 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wnonnull-compare" } */
 
 enum { r = 1 };

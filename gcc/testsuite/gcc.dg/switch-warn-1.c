@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O0" } */
 
 extern void abort (void);

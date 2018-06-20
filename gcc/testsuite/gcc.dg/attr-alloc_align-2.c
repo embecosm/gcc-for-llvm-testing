@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i;
 void *f1 (int) __attribute__((alloc_align (1)));

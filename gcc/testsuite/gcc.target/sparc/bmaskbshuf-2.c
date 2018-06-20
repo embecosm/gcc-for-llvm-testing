@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target ultrasparc_vis2_hw } */
+/* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-mcpu=ultrasparc3 -O" } */
 
 typedef unsigned int Vect __attribute__((vector_size(8)));

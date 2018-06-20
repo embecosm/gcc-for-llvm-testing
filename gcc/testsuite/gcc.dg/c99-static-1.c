@@ -4,6 +4,7 @@
    being unevaluated is not enough.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -std=iso9899:1999 -pedantic-errors" } */
 
 /* Constraint violation (trivial case, where function is used).  */

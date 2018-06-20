@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-weak "" } */
 /* { dg-options "-Waddress" } */
 /* Warning when addr convert to bool always gives known result.

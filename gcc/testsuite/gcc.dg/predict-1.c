@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-profile_estimate --disable-tree-evrp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int global;
 

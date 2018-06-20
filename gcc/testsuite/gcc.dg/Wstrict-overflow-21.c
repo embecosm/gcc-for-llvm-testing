@@ -1,5 +1,6 @@
 /* PR 32102: -Wall stomps on -Wstrict-overflow */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fstrict-overflow -O2 -Wstrict-overflow=2 -Wall" } */
 int
 foo ()

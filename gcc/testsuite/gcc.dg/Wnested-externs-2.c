@@ -1,5 +1,6 @@
 /* PR c/70791 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wnested-externs" } */
 
 void

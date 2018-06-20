@@ -1,6 +1,7 @@
 /* PR tree-optimization/66299 */
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void __attribute__ ((noinline, noclone))
 test1 (int x)

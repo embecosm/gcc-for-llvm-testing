@@ -1,6 +1,7 @@
 /* This test needs runtime that provides stpcpy function.  */
 /* { dg-do run { target *-*-linux* *-*-gnu* *-*-uclinux* } } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define USE_GNU
 #include "strlenopt-4.c"

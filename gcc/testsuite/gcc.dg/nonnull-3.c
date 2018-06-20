@@ -2,6 +2,7 @@
    "__builtin_" style below so we don't need prototypes.  */
 /* Origin: Kaveh R. Ghazi <ghazi@caip.rutgers.edu> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wnonnull" } */
 /* { dg-require-effective-target builtin_fputc } */
 /* { dg-require-effective-target builtin_fputs } */

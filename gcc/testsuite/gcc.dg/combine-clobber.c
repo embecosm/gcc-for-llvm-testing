@@ -1,5 +1,6 @@
 /* { dg-do compile { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O2 -fdump-rtl-combine-all" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* This testcase checks if combine tries to combine sequences where the last
    insn has a clobber of a reg, and a previous insn sets that reg.

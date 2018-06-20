@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funswitch-loops -fdump-tree-unswitch-all -fno-thread-jumps" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void foo (float **a, float **b, float *c, int n, int m, int l)
 {

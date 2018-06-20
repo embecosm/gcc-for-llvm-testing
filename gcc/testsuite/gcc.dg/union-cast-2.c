@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c89 -pedantic-errors" } */
 /* PR 23155
    We should get two error messages, one about union cast

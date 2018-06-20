@@ -1,6 +1,7 @@
 /* Test -Wunused-value.  Bug 23113.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wunused-value" } */
 
 int f (void);

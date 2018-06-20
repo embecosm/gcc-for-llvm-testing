@@ -1,5 +1,6 @@
 /* PR c/38957 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char *
 foo (void)

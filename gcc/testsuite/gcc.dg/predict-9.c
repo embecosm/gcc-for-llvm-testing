@@ -1,7 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-profile_estimate -fno-finite-loops -fdisable-tree-ethread" } */
-
 /* Note: Threader causes removal of for loop.  */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int global;
 extern int global2;

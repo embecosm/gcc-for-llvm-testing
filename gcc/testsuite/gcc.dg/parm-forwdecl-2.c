@@ -2,6 +2,7 @@
    -pedantic.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 int f1(int a; int a); /* { dg-warning "ISO C forbids forward parameter declarations" } */

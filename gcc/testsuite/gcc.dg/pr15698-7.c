@@ -4,6 +4,7 @@
    arguments, with explicit prototype as well.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99" } */
 
 char *strchr(const char *, int); /* { dg-error "prototype declaration" } */

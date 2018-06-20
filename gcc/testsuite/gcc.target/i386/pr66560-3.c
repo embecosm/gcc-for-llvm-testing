@@ -1,6 +1,7 @@
 /* PR target/66560 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -mavx" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef float v8sf __attribute__((vector_size(32)));
 typedef int v8si __attribute__((vector_size(32)));

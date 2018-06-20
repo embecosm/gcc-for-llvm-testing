@@ -3,6 +3,7 @@
 /* { dg-do compile { target aarch64*-*-* arm*-*-* i?86-*-* microblaze-*-* mips*-*-* powerpc*-*-* sparc*-*-* x86_64-*-* } } */
 /* { dg-require-effective-target ilp32 } */
 /* { dg-options "-O2 -fdump-rtl-combine-all" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef long int32_t;
 

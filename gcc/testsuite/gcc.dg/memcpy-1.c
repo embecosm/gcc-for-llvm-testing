@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* PR36598 AVR fail maybe due to cost metrics */
 /* { dg-final { scan-tree-dump-times "nasty_local\\." 0 "optimized" { xfail { "avr-*-*" } } } } */
 struct a {int a,b,c;} a;

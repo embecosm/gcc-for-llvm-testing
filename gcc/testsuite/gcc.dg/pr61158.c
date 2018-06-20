@@ -1,6 +1,7 @@
 /* PR tree-optimization/61158 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned long long
 foo (unsigned int x)

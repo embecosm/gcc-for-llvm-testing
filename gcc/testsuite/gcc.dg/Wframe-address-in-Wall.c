@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 
 /* Verify that -Wframe-address is included in -Wall.  */

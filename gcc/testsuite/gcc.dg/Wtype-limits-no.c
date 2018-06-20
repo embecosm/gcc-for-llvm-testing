@@ -1,5 +1,6 @@
 /* Test disabling -Wtype-limits */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wextra -Wno-type-limits" } */
 
 

@@ -3,6 +3,7 @@
    to ensure that the limiting factor is actually the count parameter.  */
 
 /* { dg-options "-fdump-rtl-ce1 -O2 --param max-rtl-if-conversion-insns=1 --param max-rtl-if-conversion-unpredictable-cost=200" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int word __attribute__((mode(word)));
 

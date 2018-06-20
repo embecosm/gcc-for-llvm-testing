@@ -1,5 +1,6 @@
 /* Test bad warning for anonymous int in structure.  Bug 17189.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 struct Foo { int; }; /* { dg-bogus "unnamed" } */

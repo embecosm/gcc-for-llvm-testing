@@ -1,4 +1,5 @@
 /* PR middle-end/52750 */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef signed char V __attribute__((vector_size (32)));
 

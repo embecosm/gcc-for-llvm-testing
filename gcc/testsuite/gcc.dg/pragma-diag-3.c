@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wswitch-enum -Wsign-compare -fstrict-overflow -Wstrict-overflow -Werror -Wno-error=switch-enum" } */
 /* PR c/66098 - #pragma diagnostic 'ignored' not fully undone by pop for strict-overflow 
    PR c/66711 - GCC does not correctly restore diagnostic state after pragma GCC diagnostic pop with -Werror 

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fplan9-extensions" } */
 
 /* When using Plan 9 extensions, a typedef can conflict with an

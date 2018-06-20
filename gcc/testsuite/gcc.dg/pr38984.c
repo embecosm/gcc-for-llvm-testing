@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-delete-null-pointer-checks -fdump-tree-optimized -fno-isolate-erroneous-paths-dereference" }
+/* { dg-require-effective-target gcc_internals } */
  * */
 
 int f(int *p)

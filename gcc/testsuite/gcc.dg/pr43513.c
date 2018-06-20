@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ccp2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar (int *);
 void foo (char *, int);

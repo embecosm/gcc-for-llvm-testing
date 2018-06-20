@@ -1,6 +1,7 @@
 /* Test for constant expressions: cases involving VLAs and typeof.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic-errors" } */
 
 /* It appears address constants may contain casts to variably modified

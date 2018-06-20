@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_shuffle } */
+
 template<typename> void foo()
 {
   int i __attribute__((vector_size(2*sizeof(int))));

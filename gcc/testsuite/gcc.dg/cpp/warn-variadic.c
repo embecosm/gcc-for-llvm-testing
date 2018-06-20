@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-ansi -fdiagnostics-show-option -pedantic -Wvariadic-macros" } */
 
 #define F(...) X   /* { dg-warning "anonymous variadic macros were introduced in C99 .-Wvariadic-macros." } */

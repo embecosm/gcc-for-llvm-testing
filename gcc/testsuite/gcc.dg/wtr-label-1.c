@@ -2,6 +2,7 @@
    Note, gcc should omit these warnings in system header files.
    Origin: Kaveh R. Ghazi <ghazi@caip.rutgers.edu> 8/24/2000.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wtraditional" } */
 
 enum foo1 { a };

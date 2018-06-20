@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned long foobar(unsigned long ns)
 {

@@ -3,6 +3,7 @@
 
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2" } */
 
 void f(void) { 1 ? 1 : ({ a : 1; 1; }); goto a; } /* { dg-error "jump into statement expression" } */

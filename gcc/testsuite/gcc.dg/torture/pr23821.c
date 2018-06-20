@@ -4,6 +4,7 @@
    the bogus propagation.  */
 /* { dg-skip-if "" { *-*-* } { "-O1" } { "" } } */
 /* { dg-options "-fdump-tree-ivcanon-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a[199];
 

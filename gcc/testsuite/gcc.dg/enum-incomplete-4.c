@@ -1,5 +1,6 @@
 /* PR c/79662 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 extern enum e ve;

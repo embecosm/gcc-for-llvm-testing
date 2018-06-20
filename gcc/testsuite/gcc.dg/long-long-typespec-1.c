@@ -2,6 +2,7 @@
    with -Wno-long-long.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors -Wno-long-long" } */
 
 typedef char type;

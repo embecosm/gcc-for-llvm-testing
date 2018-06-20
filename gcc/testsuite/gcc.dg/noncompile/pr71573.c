@@ -1,5 +1,6 @@
 /* PR c/71573 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 f1 (void)

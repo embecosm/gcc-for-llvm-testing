@@ -1,6 +1,7 @@
 /* { dg-do compile { target arm*-*-* alpha*-*-* i?86-*-* powerpc*-*-* rs6000-*-* x86_64-*-* s390*-*-* } } */
 /* { dg-require-effective-target stdint_types } */
 /* { dg-options "-O -fdump-rtl-combine" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* The branch cost setting prevents the return value from being
    calculated with arithmetic instead of doing a compare.  */

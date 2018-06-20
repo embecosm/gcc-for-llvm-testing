@@ -1,5 +1,6 @@
 /* PR preprocessor/60570 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if 1
 int i;

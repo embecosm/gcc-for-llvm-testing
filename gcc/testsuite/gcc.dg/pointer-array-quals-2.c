@@ -1,5 +1,6 @@
 /* { dg-do compile } */
-/* { dg-options "-pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
+/* { dg-options "-Wdiscarded-array-qualifiers -pedantic-errors" } */
 /* Origin: Martin Uecker <uecker@eecs.berkeley.edu> */
 void tvoid(void* x);
 void transpose0(double* out, const double* in) { }

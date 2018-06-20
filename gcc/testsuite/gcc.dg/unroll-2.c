@@ -1,5 +1,7 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -fdump-tree-cunrolli-details=stderr -fno-peel-loops -fno-tree-vrp  -fdisable-tree-cunroll -fenable-tree-cunrolli" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Blank lines can occur in the output of
    -fdump-tree-cunrolli-details=stderr.  */

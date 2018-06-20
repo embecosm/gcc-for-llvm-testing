@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -fmath-errno -fdump-tree-cdce-details -fdump-tree-optimized -lm" } */
 /* { dg-final { scan-tree-dump "cdce2.c:16: \[^\n\r]* function call is shrink-wrapped into error conditions\." "cdce" } } */
 /* { dg-final { scan-tree-dump "log \\(\[^\n\r]*\\); \\\[tail call\\\]" "optimized" } } */
+/* { dg-require-effective-target gcc_internals } */
  
 #include <stdlib.h>
 #include <math.h>

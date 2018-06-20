@@ -1,6 +1,7 @@
 /* Test messages for wrong number of arguments to function.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void f0(void); /* { dg-message "note: declared here" } */

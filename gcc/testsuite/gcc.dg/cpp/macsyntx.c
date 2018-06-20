@@ -1,6 +1,7 @@
 /* Copyright (C) 2000-2017 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -std=gnu99" } */
 
 /* Tests macro syntax, for both definition and invocation, including:-

@@ -1,5 +1,6 @@
 /* PR c/47931 - missing -Waddress warning for comparison with NULL
   { dg-do compile }
+  { dg-require-effective-target gcc_frontend }
   { dg-options "-Waddress" } */
 
 #define NULL ((void *) 0)

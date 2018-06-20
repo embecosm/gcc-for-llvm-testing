@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -fwhole-program" } */
 /* { dg-require-effective-target nested_func } */
 

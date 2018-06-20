@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */ 
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors" } */
 
 #if 0xa != 10

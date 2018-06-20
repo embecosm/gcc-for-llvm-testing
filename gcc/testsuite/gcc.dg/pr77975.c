@@ -1,6 +1,7 @@
 /* PR tree-optimization/77975 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ivcanon-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* { dg-final { scan-tree-dump-times "Proved that loop 1 iterates 1 times using brute force" 1 "ivcanon" } } */
 

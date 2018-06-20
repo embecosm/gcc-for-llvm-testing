@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ffinite-math-only -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 float f(float x)
 {

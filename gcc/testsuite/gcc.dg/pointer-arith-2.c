@@ -2,6 +2,7 @@
    Test with -Wpointer-arith.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wpointer-arith" } */
 
 void *p;

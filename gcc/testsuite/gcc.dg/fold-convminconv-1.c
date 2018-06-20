@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int int32_t __attribute__((mode (__SI__)));
 typedef unsigned uint32_t __attribute__((mode (__SI__)));

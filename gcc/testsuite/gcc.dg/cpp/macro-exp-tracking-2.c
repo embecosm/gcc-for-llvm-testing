@@ -1,6 +1,7 @@
 /* 
    { dg-options "-ftrack-macro-expansion=1" }
    { dg-do compile }
+/* { dg-require-effective-target gcc_frontend } */
 */
 
 #define OPERATE(OPRD1, OPRT, OPRD2) \

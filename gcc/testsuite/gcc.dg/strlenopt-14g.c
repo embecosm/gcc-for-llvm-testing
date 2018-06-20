@@ -1,6 +1,7 @@
 /* This test needs runtime that provides stpcpy and mempcpy functions.  */
 /* { dg-do run { target *-*-linux* *-*-gnu* *-*-uclinux* } } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
+/* { dg-require-effective-target gcc_internals } */
 /* Bionic targets don't have mempcpy */
 /* { dg-require-effective-target non_bionic } */
 

@@ -1,6 +1,7 @@
 /* PR 23572 : warnings for out of range floating-point constants 
    Test that they are NOT pedantic warnings.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic-errors -std=c99" } */
 #include <math.h>
 

@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-pre-all" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int bar(int);
 

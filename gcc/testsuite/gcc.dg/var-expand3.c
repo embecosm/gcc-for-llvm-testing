@@ -1,5 +1,6 @@
 /* { dg-do run { target { powerpc*-*-* && vmx_hw } } } */
 /* { dg-options "-O2 -funroll-loops -ffast-math -fvariable-expansion-in-unroller -maltivec -fdump-rtl-loop2_unroll" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include "altivec.h"
 extern void abort (void);

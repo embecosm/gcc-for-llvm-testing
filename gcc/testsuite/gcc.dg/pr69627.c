@@ -1,5 +1,6 @@
 /* PR c/69627 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fdiagnostics-show-caret" } */
 
 void

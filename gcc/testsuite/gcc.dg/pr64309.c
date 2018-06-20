@@ -1,6 +1,7 @@
 /* PR middle-end/64309 */
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int
 fn1 (int n)

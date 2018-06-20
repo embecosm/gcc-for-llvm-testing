@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-expand" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #ifdef __mips
 __attribute__((nomips16))

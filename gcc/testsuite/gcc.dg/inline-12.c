@@ -1,6 +1,7 @@
 /* Test misuses of inline.  -pedantic-errors test.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic-errors" } */
 
 /* These should perhaps be hard errors, but are pedwarns at

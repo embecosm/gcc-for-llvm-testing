@@ -1,5 +1,6 @@
 /* PR c/67088 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wpedantic -std=c90" } */
 
 enum E { A = 2 };

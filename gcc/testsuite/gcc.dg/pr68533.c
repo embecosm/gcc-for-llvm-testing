@@ -1,5 +1,6 @@
 /* PR c/68533 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct T { int t; };

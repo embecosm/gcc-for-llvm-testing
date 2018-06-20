@@ -1,6 +1,7 @@
 /* PR tree-optimization/52445 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-cselim -fdump-tree-cselim" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (char *buf, unsigned long len)

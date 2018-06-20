@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wstack-usage=512" } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-require-effective-target builtin_apply } */

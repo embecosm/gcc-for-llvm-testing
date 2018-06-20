@@ -1,6 +1,7 @@
 /* PR tree-optimization/64715 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern inline __attribute__ ((always_inline, gnu_inline, artificial, nothrow, leaf)) char *
 strcpy (char *__restrict dest, const char *__restrict src)

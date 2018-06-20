@@ -1,5 +1,6 @@
 /* { dg-do compile } */
-/* { dg-options "-O -fdump-tree-dse1" } */
+/* { dg-options "-O -fdump-tree-dse1 -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef int vec __attribute__((vector_size (4 * sizeof (int))));
 void f (vec *x1, vec *x2)

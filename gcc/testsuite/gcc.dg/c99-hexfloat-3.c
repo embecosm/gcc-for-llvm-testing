@@ -1,6 +1,7 @@
 /* Test syntax of hexadecimal floating point constants: at least one
    digit needed before or after point.  PR 41947.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 double d0 = 0x0.0p0;

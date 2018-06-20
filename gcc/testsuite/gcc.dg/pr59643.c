@@ -1,6 +1,7 @@
 /* PR tree-optimization/59643 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-pcom-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (double *a, double *b, double *c, double d, double e, int n)

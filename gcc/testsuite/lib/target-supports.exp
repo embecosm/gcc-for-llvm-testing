@@ -12506,4 +12506,31 @@ proc check_effective_target_builtin_isnan {} {
 proc check_effective_target_builtin_return {} {
     return [check_builtin_support return "__builtin_return (NULL);"]
 }
+proc check_effective_target_builtin_shuffle {} {
+    return [check_builtin_support return "
+	int __attribute__ ((vector_size (16))) a, b;
+	__builtin_shuffle (a, b);
+    "]
+}
+
+# Check whether the compiler has gcc internals. This is basically just a
+# check that the compiler is gcc and should be used for tests in otherwise
+# generic testsuites which are testing gcc internal behavior - Basically
+# anything that dumps internals or is checking an gcc specific optimization.
+
+proc check_effective_target_gcc_internals {} {
+    return [check_no_compiler_messages gcc_internals assembly "
+	int main (void) { return 0 }
+    " "-fdump-tree-all" ]
+}
+
+# Check whether the compiler uses a gcc frontend. This is useful for tests
+# in otherwise generic testsuites which are looking for gcc specific
+# frontend behavior (for example tests for gcc specific warnings/errors)
+
+proc check_effective_target_gcc_frontend {} {
+    return [check_no_compiler_messages gcc_frontend assembly "
+	int main (void) { return 0 }
+    " "-fdump-tree-all" ]
+}
 

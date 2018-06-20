@@ -1,6 +1,7 @@
 /* Test spelling differences in UCNs are properly diagnosed for macro
    redefinitions.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 /* Different spelling of UCN in expansion.  */

@@ -2,6 +2,7 @@
    -pedantic.  Bug 22240.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 
 typedef union { union w *u; int *i; } H __attribute__ ((transparent_union));

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fstrict-overflow -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo (int c)
 {

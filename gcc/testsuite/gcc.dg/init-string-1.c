@@ -2,6 +2,7 @@
    11250 from h.b.furuseth at usit.uio.no.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 #include <stddef.h>

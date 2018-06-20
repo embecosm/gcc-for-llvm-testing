@@ -1,5 +1,6 @@
 /* { dg-require-effective-target global_constructor } */
 /* { dg-options "-O2 -fprofile-generate -fprofile-update=single -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 __attribute__ ((no_profile_instrument_function))
 int foo()

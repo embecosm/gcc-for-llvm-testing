@@ -1,5 +1,6 @@
 /* PR c++/37561 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __extension__ __INTPTR_TYPE__ p;
 char q;

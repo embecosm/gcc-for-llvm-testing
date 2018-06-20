@@ -1,5 +1,6 @@
 /* PR c/36970 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O0" } */
 
 extern void free (void *);

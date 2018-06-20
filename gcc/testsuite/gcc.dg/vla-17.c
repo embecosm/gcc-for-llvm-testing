@@ -1,6 +1,7 @@
 /* Test diagnostics for VLA whose size folds to an integer constant at
    file scope.  PR 39605.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 #define FIRST ((void*)0x80)

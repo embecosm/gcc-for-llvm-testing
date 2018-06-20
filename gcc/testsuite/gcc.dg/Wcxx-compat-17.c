@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wc++-compat" } */
 const int v1;			/* { dg-warning "invalid in C\[+\]\[+\]" } */
 const char * const v2;		/* { dg-warning "invalid in C\[+\]\[+\]" } */

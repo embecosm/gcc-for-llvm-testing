@@ -12,6 +12,7 @@
 
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 void fd0 (int n) { p0A:goto p0A; goto a; a:{ typedef int (*b)[n]; P01A:goto P01A;{ typedef int (*c)[n]; P012A:goto P012A;0;} P01B:goto P01B;{ typedef int (*d)[n]; P013A:goto P013A;0;} P01C:goto P01C;; typedef int (*e)[n]; P014A:goto P014A;0;}; P0B:goto P0B;{ typedef int (*f)[n]; P02A:goto P02A;{ typedef int (*g)[n]; P024A:goto P024A;0;}; P02B:goto P02B;{ typedef int (*h)[n]; P025A:goto P025A;0;}; P02C:goto P02C;; typedef int (*i)[n]; P026A:goto P026A;0;}; P0C:goto P0C;; typedef int (*j)[n]; P03A:goto P03A;0;P03B:goto P03B; }

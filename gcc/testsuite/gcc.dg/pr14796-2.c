@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int f (int a) {
 	return (a << 31) << 6;

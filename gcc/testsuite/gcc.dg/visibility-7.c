@@ -1,5 +1,6 @@
 /* Test warning from conflicting visibility specifications. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-visibility "protected" } */
 /* { dg-final { scan-hidden "xyzzy" } } */
 

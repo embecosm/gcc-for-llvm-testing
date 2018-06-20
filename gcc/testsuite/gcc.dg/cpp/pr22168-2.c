@@ -2,6 +2,7 @@
 /* PR preprocessor/22168 */
 
 /* { dg-do preprocess }
+/* { dg-require-effective-target gcc_frontend } */
    { dg-options -Wdeprecated } */
 #if #foo(bar)    /* { dg-warning "deprecated" } */
 int x;

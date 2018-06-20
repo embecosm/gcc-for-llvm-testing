@@ -1,5 +1,6 @@
 /* PR c/25801 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99" } */
 
 int (*a)[];

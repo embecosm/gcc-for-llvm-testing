@@ -1,5 +1,6 @@
 /* PR tree-optimization/49243 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Winline" } */
 
 extern unsigned long jb[];

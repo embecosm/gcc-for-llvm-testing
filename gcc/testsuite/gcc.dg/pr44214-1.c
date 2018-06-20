@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -freciprocal-math -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef double v2df __attribute__ ((vector_size (2 * sizeof (double))));
 

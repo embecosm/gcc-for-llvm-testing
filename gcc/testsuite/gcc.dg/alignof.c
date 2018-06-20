@@ -1,6 +1,7 @@
 /* PR c/69507 - bogus warning: ISO C does not allow '__alignof__ (expression)'
  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -Wno-error -Wpedantic" } */
 
 extern int e;

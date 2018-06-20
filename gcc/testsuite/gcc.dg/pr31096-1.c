@@ -1,6 +1,7 @@
 /* PR middle-end/31096 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #if __SIZEOF_INT__ < 4
   __extension__ typedef __INT32_TYPE__  int32_t;

@@ -1,5 +1,6 @@
 /* PR c++/34965 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O" } */
 
 int foo (int);

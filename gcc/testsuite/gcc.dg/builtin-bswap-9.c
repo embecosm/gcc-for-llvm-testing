@@ -2,6 +2,7 @@
 /* { dg-require-effective-target stdint_types } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-options "-O2 -fdump-rtl-combine" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdint.h>
 

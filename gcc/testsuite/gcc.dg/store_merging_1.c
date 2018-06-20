@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fno-tree-vectorize -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct bar {
   int a;

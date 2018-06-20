@@ -1,6 +1,7 @@
 /* Test for anonymous structures and unions in C11.  Test for invalid
    cases.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 
 typedef struct s0

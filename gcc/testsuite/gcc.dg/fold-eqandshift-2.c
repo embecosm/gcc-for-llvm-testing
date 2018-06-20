@@ -1,6 +1,7 @@
 /* PR middle-end/14752 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar (void);
 

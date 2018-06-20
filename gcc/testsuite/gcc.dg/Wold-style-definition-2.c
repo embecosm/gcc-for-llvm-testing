@@ -3,6 +3,7 @@
 
 /* Origin: Kelley Cook <kcook@gcc.gnu.org> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wold-style-definition" } */
 
 void bar1 ( ... ) {}

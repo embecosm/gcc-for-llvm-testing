@@ -1,5 +1,6 @@
 /* PR 23722 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fsyntax-only" } */
 int f()
 {

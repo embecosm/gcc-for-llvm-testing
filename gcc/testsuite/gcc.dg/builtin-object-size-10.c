@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-early_objsz-details" } */
+/* { dg-require-effective-target gcc_internals } */
 // { dg-skip-if "packed attribute missing for drone_source_packet" { "epiphany-*-*" } }
 /* { dg-require-effective-target builtin_malloc } */
 

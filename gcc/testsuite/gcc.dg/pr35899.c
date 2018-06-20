@@ -1,5 +1,6 @@
 /* PR tree-optimization/35899 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89 -O2" } */
 
 int

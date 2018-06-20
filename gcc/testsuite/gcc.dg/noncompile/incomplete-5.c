@@ -1,5 +1,6 @@
 /* ICE on unnamed field with incomplete enum type: PR 40032.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 struct A
 {

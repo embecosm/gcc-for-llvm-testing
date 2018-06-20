@@ -2,6 +2,7 @@
 
 /* Origin: Andreas Jaeger <aj@suse.de> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wold-style-definition -std=gnu89" } */
 
 void

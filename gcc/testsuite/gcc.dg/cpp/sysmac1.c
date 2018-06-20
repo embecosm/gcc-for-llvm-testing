@@ -1,6 +1,7 @@
 /* Copyright (C) 2001-2017 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic -Wtraditional -ftrack-macro-expansion=0" } */
 
 /* Tests diagnostics are suppressed for some macros defined in system

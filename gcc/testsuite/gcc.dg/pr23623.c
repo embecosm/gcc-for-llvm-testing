@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target size32plus } */
 /* { dg-options "-fstrict-volatile-bitfields -fdump-rtl-final" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* With -fstrict-volatile-bitfields, the volatile accesses to bf2.b
    and bf3.b must do unsigned int reads/writes.  The non-volatile

@@ -7,6 +7,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-ftrapping-math -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include "../builtins-config.h"
 

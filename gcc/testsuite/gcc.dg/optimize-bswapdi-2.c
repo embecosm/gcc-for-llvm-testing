@@ -1,7 +1,8 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target bswap } */
 /* { dg-require-effective-target stdint_types } */
-/* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-options "-O2 -fdump-tree-bswap -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-additional-options "-mzarch" { target s390*-*-* } } */
 
 #include <stdint.h>

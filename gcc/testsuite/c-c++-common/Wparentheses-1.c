@@ -1,5 +1,6 @@
 /* PR c/70436 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wparentheses" } */
 
 int a, b, c[101], d[101], e[101], f[101];

@@ -2,6 +2,7 @@
    -pedantic.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -pedantic" } */
 struct s { int a; };
 struct s s0 = { .a = 1 };

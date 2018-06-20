@@ -1,5 +1,6 @@
 /* PR c/59855 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu11" } */
 
 struct S {

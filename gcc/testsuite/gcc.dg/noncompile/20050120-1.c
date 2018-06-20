@@ -1,5 +1,6 @@
 /* PR c/18946 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wshadow -std=gnu89" } */
 
 void bar (void)

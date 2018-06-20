@@ -2,6 +2,7 @@
    -Wextra.  Bug 24010.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wextra" } */
 
 struct s { int a; int b; int c; };

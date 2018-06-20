@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 test1 (double *out1, double *out2, double *out3, double *in1,

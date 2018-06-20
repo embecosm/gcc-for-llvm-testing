@@ -2,6 +2,7 @@
    Note, gcc should omit these warnings in system header files.
    Origin: Kaveh R. Ghazi <ghazi@caip.rutgers.edu> 6/30/2002.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wtraditional -std=gnu89" } */
 /* { dg-require-effective-target nested_func } */
 

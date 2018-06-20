@@ -1,5 +1,6 @@
 /* PR tree-optimization/45083 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wuninitialized" } */
 
 struct S { char *a; unsigned b; unsigned c; };

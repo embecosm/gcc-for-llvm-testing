@@ -1,6 +1,7 @@
 /* Test for rejection of typeof on bit-fields.  PR c/10333.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fshow-column" } */
 
 struct { int a:1; } x;

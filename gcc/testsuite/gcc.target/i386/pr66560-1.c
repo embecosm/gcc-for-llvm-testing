@@ -1,6 +1,7 @@
 /* PR target/66560 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -msse4" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef float v4sf __attribute__((vector_size(16)));
 typedef int v4si __attribute__((vector_size(16)));

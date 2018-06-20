@@ -1,5 +1,6 @@
 /* PR preprocessor/19475 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 #define a!		/* { dg-error "requires whitespace" } */

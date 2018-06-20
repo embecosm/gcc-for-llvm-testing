@@ -1,6 +1,7 @@
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Source: Neil Booth, Oct 22 2001.  PR 150 - warn about division by
    zero.  */

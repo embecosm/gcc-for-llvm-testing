@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-signed-zeros -ffinite-math-only -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 _Complex double test1 (double x) { return x + 1.i; }
 _Complex double test2 (double x) { return 1 + x * 1.i; }

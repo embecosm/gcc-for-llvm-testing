@@ -1,5 +1,6 @@
 /* PR c/63453 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu11" } */
 
 inline int fn1 (void); /* { dg-warning "declared but never defined" } */

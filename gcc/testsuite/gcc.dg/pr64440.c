@@ -1,5 +1,6 @@
 /* PR c/64440 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall -O2" } */
 
 int

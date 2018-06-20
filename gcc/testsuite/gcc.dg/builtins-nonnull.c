@@ -1,6 +1,7 @@
 /* PR c/17308 - nonnull attribute not as useful as it could be
    PR c/78673 - sprintf missing attribute nonnull on destination argument
    { dg-do "compile" }
+/* { dg-require-effective-target gcc_frontend } */
    { dg-additional-options "-O2 -Wnonnull -ftrack-macro-expansion=0 -std=c99" }
    { dg-require-effective-target builtin_sprintf } */
 

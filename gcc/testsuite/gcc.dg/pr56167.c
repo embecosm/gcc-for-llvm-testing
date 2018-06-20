@@ -1,5 +1,6 @@
 /* PR middle-end/56167 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo (void) __attribute__ ((error (0)));	/* { dg-warning "attribute ignored" } */
 extern void bar (void) __attribute__ ((warning (0)));	/* { dg-warning "attribute ignored" } */

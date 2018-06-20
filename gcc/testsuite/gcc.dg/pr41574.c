@@ -1,6 +1,8 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fno-unsafe-math-optimizations -fdump-rtl-combine" { target { arm*-*-* } } } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -fno-unsafe-math-optimizations -fdump-rtl-combine" { target { ! arm*-*-* } } } */
+/* { dg-require-effective-target gcc_internals } */
 
 
 static const double one=1.0;

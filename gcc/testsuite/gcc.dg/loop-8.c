@@ -5,6 +5,7 @@
    the load out of the loop, so always run this test with -march=zEC12 that
    does not have load immediate on condition.  */
 /* { dg-additional-options "-march=zEC12" { target { s390*-*-* } } } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 f (int *a, int *b)

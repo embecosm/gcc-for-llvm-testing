@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -fgnu89-inline" } */
 #include <stdarg.h>
 inline __attribute__ ((always_inline)) void

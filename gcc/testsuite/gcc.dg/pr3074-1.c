@@ -1,5 +1,6 @@
 /* PR middle-end/3074  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 
 void foo(int a)

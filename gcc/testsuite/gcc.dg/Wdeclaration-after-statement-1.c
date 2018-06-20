@@ -2,6 +2,7 @@
    standard-specifying option is given.  See also c9?-mixdecl-*.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wdeclaration-after-statement" } */
 
 extern void abort (void);

@@ -1,5 +1,6 @@
 /* PR 18050 : bogus warning with -Wsequence-point */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsequence-point" } */
 
 struct x

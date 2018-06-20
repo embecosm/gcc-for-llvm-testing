@@ -1,5 +1,6 @@
 /* PR 21502 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 typedef int IA[];

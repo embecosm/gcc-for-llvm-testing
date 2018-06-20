@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-vrp1 -fno-tree-ccp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo (void)
 {

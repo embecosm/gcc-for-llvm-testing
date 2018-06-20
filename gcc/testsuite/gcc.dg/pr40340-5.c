@@ -1,5 +1,6 @@
 /* PR middle-end/40340 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall -Wsystem-headers -g -fno-tree-dse" } */
 
 #define TEST3

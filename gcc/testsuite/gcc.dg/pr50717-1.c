@@ -3,6 +3,7 @@
    type promotion or users' casts should prevent it.  */
 
 /* { dg-options "-O2 -fdump-tree-widening_mul" } */
+/* { dg-require-effective-target gcc_internals } */
 
 long long
 f (unsigned int a, char b, long long c)

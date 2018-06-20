@@ -1,5 +1,6 @@
 /* PR c/48552 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 struct S;

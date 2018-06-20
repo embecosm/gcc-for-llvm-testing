@@ -1,5 +1,6 @@
 /* Test for invalid uses of flexible array members.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 struct s1 { int x[]; }; /* { dg-error "no named members" "members" } */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wsuggest-attribute=pure -fno-finite-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-add-options bind_pic_locally } */
 
 extern int extern_const(int a) __attribute__ ((pure));

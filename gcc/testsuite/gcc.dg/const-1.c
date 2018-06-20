@@ -1,5 +1,6 @@
 /* { dg-do compile { target { nonpic || pie_enabled } } } */
 /* { dg-options "-O2 -Wsuggest-attribute=const -fno-finite-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int extern_const(int a) __attribute__ ((const));
 

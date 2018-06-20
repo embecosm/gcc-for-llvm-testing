@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-stack-check "generic" } */
 /* { dg-options "-fstack-check=generic" } */
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-phiopt2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int f0(int i)
 {

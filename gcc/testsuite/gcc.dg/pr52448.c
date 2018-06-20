@@ -1,6 +1,7 @@
 /* PR tree-optimization/52448 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-cselim -fdump-tree-cselim-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void perhaps_free_something (void);
 

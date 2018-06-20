@@ -1,5 +1,6 @@
 /* PR tree-optimization/78455 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wuninitialized" } */
 
 int ij;

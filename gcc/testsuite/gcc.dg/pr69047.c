@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop4" } */
+/* { dg-require-effective-target gcc_internals } */
 
 __UINT8_TYPE__
 f(__UINT16_TYPE__ b)

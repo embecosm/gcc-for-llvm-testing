@@ -1,4 +1,5 @@
 /* { dg-do compile { target c++11 } } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef long vec __attribute__((vector_size (2 * sizeof (long))));
 constexpr vec v = { 3, 4 };

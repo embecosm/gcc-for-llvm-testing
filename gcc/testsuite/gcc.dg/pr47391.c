@@ -1,6 +1,7 @@
 /* PR tree-optimization/47391 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 const volatile int v = 1;
 int i = 0;

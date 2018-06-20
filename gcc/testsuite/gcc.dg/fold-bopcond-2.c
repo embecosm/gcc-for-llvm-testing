@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ifcvt" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo1 (unsigned short a[], unsigned int x)
 {

@@ -7,6 +7,7 @@
    independent of target precision.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* Test || operator and its short circuiting.  */

@@ -1,5 +1,6 @@
 /* PR 30260  */
 /* { dg-do link } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu11 -pedantic -O" } */
 #include <limits.h>
 

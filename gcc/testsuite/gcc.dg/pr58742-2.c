@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 __SIZE_TYPE__
 fx (char *a, __SIZE_TYPE__ sz)

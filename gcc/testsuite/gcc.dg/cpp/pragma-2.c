@@ -1,6 +1,7 @@
 /* Verify that preprocessor does not insert redundant newlines
    after #pragma, also check this for #include, #define and #undef */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-dD" } */
 #include <stdio.h>
 

@@ -1,6 +1,7 @@
 /* Test for rejection of taking address of bit-fields.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 #include <stddef.h>

@@ -1,5 +1,6 @@
 /* PR c/64423 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wchar-subscripts" } */
 
 int a[100];

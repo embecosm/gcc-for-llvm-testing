@@ -1,6 +1,7 @@
 /* Test whether graph dumping doesn't crash.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-postreload-graph" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo (void)
 {
