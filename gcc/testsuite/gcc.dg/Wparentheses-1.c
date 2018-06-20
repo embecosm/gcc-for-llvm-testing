@@ -1,6 +1,7 @@
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -Wparentheses } */
 
 /* Source: Neil Booth, 1 Nov 2001.  PR 3170, 3422 - bogus warnings

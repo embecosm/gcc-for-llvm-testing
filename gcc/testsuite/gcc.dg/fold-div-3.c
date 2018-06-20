@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned int
 apply_frontend_param (unsigned int spi_bias)

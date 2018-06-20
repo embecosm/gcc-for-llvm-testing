@@ -1,4 +1,5 @@
 /* { dg-do compile  } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 /* Radar 4336222 */
 

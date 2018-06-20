@@ -3,6 +3,7 @@
    stripped).  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
 
 void *p = (__SIZE_TYPE__)(void *)0; /* { dg-error "without a cast" } */

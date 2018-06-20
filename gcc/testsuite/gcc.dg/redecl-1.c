@@ -5,6 +5,7 @@
    6.2.7p2 - implicit declarations are invalid in C99).  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c89 -pedantic -Wall -Wno-unused" } */
 
 /* Extern at function scope, clashing with extern at file scope */

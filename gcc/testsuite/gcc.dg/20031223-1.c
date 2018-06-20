@@ -3,6 +3,7 @@
    because GCC was trying to expand the trees to rtl.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void f ()

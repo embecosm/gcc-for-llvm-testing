@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-rtl-loop2_invariant" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 f (double *a)

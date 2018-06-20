@@ -3,6 +3,7 @@
    declaration, not just the specifiers.  Test with -pedantic.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic" } */
 /* { dg-require-effective-target nested_func } */
 

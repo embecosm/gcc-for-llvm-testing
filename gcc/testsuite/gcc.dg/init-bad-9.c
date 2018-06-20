@@ -1,5 +1,6 @@
 /* PR c/71552 - Confusing error for incorrect struct initialization */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { void *p; };
 struct B { struct A *p; };

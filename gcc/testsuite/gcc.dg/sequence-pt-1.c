@@ -3,6 +3,7 @@
    <URL:http://gcc.gnu.org/ml/gcc-patches/1998-06/msg00316.html>,
    adapted to a testcase by Joseph Myers <jsm28@cam.ac.uk>.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsequence-point" } */
 
 struct s

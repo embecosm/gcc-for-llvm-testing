@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fsyntax-only" } */
 
 static struct foo x;  /* { dg-error "storage size of 'x' isn't known" } */

@@ -1,5 +1,6 @@
 /* PR 30551 -Wmain is enabled by -pedantic and can be disabled. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-pedantic -Wno-main" } */
 
 void main(char a) {} /* { dg-bogus "first argument of .main. should be .int." "int" } */

@@ -1,6 +1,7 @@
 /* PR middle-end/28473.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern double round(double);
 extern double floor(double);

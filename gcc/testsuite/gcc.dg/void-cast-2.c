@@ -2,6 +2,7 @@
    without casts to void.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 int a, b, c, d;
 int e(void) { return (char)a, b; } /* { dg-warning "left-hand operand of comma expression has no effect" } */

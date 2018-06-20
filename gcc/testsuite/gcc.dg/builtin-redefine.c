@@ -1,6 +1,7 @@
 /* Test -Wno-builtin-macro-redefined warnings.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wno-builtin-macro-redefined -U__DATE__ -D__TIME__=X" } */
 
 /* Check date, time, and datestamp built-ins warnings may be suppressed.  */

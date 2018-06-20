@@ -1,6 +1,7 @@
 /* PR tree-optimization/19105 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc1-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 enum e
 {

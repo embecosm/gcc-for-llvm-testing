@@ -2,6 +2,7 @@
    the subject of a #define or an #undef preprocessing directive.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #undef __DATE__		/* { dg-warning "-:undefining \"__DATE__\"" } */
 #undef __TIME__		/* { dg-warning "-:undefining \"__TIME__\"" } */

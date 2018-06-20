@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-w -O1 -fdump-tree-gimple" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef int SItype __attribute__ ((mode (SI)));
 typedef SItype v4si __attribute__ ((vector_size (16)));

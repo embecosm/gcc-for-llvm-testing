@@ -1,6 +1,7 @@
 /* Test use of sizeof with [*] in type name: should not refer to
    zero-size array.  PR 39582.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 
 void foo11d(int x[sizeof(int *[*])]); /* { dg-warning "not in a declaration" } */

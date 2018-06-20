@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-W -Wall" } */
 
 typedef __SIZE_TYPE__ size_t;

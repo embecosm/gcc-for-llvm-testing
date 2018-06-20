@@ -2,6 +2,7 @@
    a loop in grokdeclarator.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89" } */
 
 typedef int t;

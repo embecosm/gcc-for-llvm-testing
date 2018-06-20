@@ -1,5 +1,6 @@
 /* PR 35635 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wconversion -Wsign-conversion" } */
 
 struct unsigned_bit {

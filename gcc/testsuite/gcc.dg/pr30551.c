@@ -1,5 +1,6 @@
 /* PR 30551 -Wmain is enabled by -Wall.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wall" } */
 /* { dg-skip-if "-Wmain not enabled with -Wall on SPU" { spu-*-* } } */
 void main(char a) {} /* { dg-warning "first argument of .main. should be .int." "int" } */

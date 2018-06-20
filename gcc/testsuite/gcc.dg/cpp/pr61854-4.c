@@ -1,5 +1,6 @@
 /* PR c/61854 */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c89" } */
 
 void

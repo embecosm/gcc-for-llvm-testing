@@ -1,5 +1,6 @@
 /* PR middle-end/45461 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdarg.h>
 

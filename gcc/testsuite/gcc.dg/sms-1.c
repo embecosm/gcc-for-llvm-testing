@@ -2,6 +2,7 @@
    due to not handling of subreg in the lhs that is fixed.  */
 /* { dg-do run } */
 /* { dg-options "-O2 -fmodulo-sched -fmodulo-sched-allow-regmoves -fdump-rtl-sms" } */
+/* { dg-require-effective-target gcc_internals } */
 
 
 #include <limits.h>

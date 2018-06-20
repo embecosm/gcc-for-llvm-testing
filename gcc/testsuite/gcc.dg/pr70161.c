@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-ipa-all-graph" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (void)

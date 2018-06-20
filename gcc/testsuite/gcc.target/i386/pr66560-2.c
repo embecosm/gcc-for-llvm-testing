@@ -1,6 +1,7 @@
 /* PR target/66560 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -msse4" } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef double v2df __attribute__((vector_size(16)));
 typedef long long v2di __attribute__((vector_size(16)));

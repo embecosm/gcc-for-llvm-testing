@@ -1,5 +1,6 @@
 /* PR c/63626 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* Test that we don't output the warning twice.  */

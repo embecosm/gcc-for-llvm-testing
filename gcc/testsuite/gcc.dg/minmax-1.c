@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* Check that MIN-MAX and MAX-MIN combinations are folded.  */
 

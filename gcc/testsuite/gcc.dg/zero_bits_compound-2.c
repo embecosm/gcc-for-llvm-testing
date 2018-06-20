@@ -4,6 +4,7 @@
 /* { dg-do compile { target i?86-*-* x86_64-*-* s390*-*-* aarch64*-*-* } } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-options "-O3 -dP -fdump-rtl-combine" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned long foo (unsigned char c)
 {

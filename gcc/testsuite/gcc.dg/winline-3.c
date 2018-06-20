@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Winline -O2 --param max-inline-insns-single=1 --param inline-min-speedup=100 -fgnu89-inline" } */
 
 void big (void);

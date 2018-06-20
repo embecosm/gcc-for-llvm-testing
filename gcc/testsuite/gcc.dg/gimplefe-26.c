@@ -1,5 +1,6 @@
 /* { dg-do compile { target scalar_all_fma } } */
 /* { dg-options "-O -fgimple -fdump-tree-ssa-gimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define foo(type, num) \
 type __GIMPLE () foo_##num (type a, type b, type c) \

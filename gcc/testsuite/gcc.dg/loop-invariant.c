@@ -1,5 +1,6 @@
 /* { dg-do compile { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O2 -fdump-rtl-loop2_invariant" } */
+/* { dg-require-effective-target gcc_internals } */
 /* NOTE: The target list above could be extended to other targets that have
          conditional moves, but don't have zero registers.  */
 

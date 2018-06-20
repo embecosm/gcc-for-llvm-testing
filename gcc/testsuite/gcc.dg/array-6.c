@@ -1,5 +1,6 @@
 /* PR c/5597 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* Verify that GCC forbids non-static initialization of

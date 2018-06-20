@@ -3,6 +3,7 @@
 /*
   { dg-options "-ftrack-macro-expansion=0" }
   { dg-do preprocess }
+/* { dg-require-effective-target gcc_frontend } */
 */
 
 /* This used to be recognized as a comment when lexing after pasting

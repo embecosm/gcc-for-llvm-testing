@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fdiagnostics-show-caret" } */
 
 struct foo { int x; };

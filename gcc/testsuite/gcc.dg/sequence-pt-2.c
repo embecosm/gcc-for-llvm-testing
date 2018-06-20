@@ -1,5 +1,6 @@
 /* More sequence point warning tests  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsequence-point" } */
 
 struct s { struct s *nxt; int v; } q;

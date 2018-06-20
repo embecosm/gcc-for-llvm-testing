@@ -4,6 +4,7 @@
    to allocate objects in excess of the number of bytes specified by
    -Walloc-larger-than=maximum.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target builtin_aligned_alloc } */
 /* { dg-require-effective-target builtin_calloc } */

@@ -2,6 +2,7 @@
    Test to verify that calls to user-defined functions declared with
    the "nonnull" function attribute are diagnosed.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wnonnull" } */
 
 #define N(...) __attribute__ ((nonnull (__VA_ARGS__)))

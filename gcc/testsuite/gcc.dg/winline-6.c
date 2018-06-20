@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Winline -O2 --param large-function-growth=0 --param large-function-insns=1 -fgnu89-inline" } */
 
 void big (void);

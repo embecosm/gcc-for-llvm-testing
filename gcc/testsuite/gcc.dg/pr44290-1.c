@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target naked_functions } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static void __attribute__((naked))
 foo(void *from, void *to)

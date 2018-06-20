@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-rtl-dse1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct ints { int a, b, c; } foo();
 void bar(int a, int b);

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target alloca } */
 /* { dg-options "-Walloca-larger-than=128 -O2" } */
 

@@ -1,6 +1,7 @@
 /* PR middle-end/30322 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int test1(int a)
 {

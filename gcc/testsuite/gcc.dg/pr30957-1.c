@@ -4,6 +4,7 @@
 /* { dg-require-effective-target hard_float } */
 /* -fassociative-math requires -fno-trapping-math and -fno-signed-zeros. */
 /* { dg-options "-O2 -funroll-loops -fassociative-math -fno-trapping-math -fno-signed-zeros -fvariable-expansion-in-unroller -fdump-rtl-loop2_unroll" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 extern void exit (int);

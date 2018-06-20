@@ -1,5 +1,6 @@
 /* PR inline-asm/67448 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void

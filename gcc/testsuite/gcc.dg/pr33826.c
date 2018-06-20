@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target nonpic } */
 /* { dg-options "-O1 -fdump-tree-local-pure-const1 -fdump-ipa-pure-const" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int recurse1 (int);
 int recurse2b (int);

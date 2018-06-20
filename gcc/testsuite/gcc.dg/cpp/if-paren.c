@@ -1,6 +1,7 @@
 /* Copyright (C) 2000 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* These now use "!=" rather than "<" to increase chance of failure.  */
 #if 16 * (1) + 4 != 20

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wmissing-field-initializers -std=c99" } */
 
 struct s { int a, b, c; };

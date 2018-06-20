@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall -ftrack-macro-expansion=0" } */
 
 extern void abort (void);

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-rtl-expand-details" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "PR64886" { hppa*-*-hpux* } } */
 
 #define N 256

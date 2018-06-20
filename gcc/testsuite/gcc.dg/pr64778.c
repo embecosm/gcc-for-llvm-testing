@@ -1,5 +1,6 @@
 /* PR c/64778 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int p)

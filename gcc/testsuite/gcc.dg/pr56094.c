@@ -1,6 +1,7 @@
 /* PR tree-optimization/56094 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -fdump-tree-optimized-lineno" } */
+/* { dg-require-effective-target gcc_internals } */
 
 _Bool cond;
 

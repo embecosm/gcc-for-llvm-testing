@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-ssa" } */
+/* { dg-require-effective-target gcc_internals } */
 
 volatile int *q;
 void foo(int i)

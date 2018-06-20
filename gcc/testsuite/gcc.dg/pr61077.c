@@ -1,5 +1,6 @@
 /* PR c/61077 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -Wall" } */
 
 _Atomic int

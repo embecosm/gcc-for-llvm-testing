@@ -1,5 +1,6 @@
 /* PR 28152: error messages should mention _Complex */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 int
 main (void)

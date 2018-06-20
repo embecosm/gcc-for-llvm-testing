@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char *foo(char *p, __UINTPTR_TYPE__ i)
 {

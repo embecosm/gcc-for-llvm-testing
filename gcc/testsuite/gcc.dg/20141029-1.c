@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fstrict-volatile-bitfields -fdump-rtl-final" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define PERIPH (*(volatile struct system_periph *)0x81234)
 

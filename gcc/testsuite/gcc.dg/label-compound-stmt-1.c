@@ -1,6 +1,7 @@
 /* Test that labels at ends of compound statements are hard errors.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 void f(void) { g: } /* { dg-bogus "warning" "warning in place of error" } */

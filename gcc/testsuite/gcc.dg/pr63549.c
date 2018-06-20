@@ -1,5 +1,6 @@
 /* PR c/63549 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 enum E e;  /* { dg-error "storage size of 'e' isn't known" } */

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wno-implicit -Wimplicit-int" } */
 
 static l; /* { dg-warning "type defaults to" } */

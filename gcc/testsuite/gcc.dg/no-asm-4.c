@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu99 -fno-asm" } */
 
 /* Verify that the GNU extensions asm and typeof are not recognized as

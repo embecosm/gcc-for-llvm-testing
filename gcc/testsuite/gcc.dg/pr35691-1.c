@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-forwprop1-details" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo(int z0, unsigned z1)
 {

@@ -1,6 +1,7 @@
 /* Copyright (C) 2000 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests that #include does not allow the terminating '>' or '"' to be
    escaped, as per the standard.  */

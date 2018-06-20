@@ -1,6 +1,7 @@
 /* Test that we diagnose the __FUNCTION__ and the __PRETTY_FUNCTION__
    predefined identifiers in pedantic mode.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu11 -pedantic" } */
 
 void

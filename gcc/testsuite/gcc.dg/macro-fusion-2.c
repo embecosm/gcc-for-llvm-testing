@@ -1,5 +1,6 @@
 /* { dg-do compile { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O2 -mtune=corei7-avx -fdump-rtl-sched2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a[100];
 

@@ -1,5 +1,6 @@
 /* PR 7263:  __extension__ keyword doesn't suppress warning on LL or ULL constants.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c89 -pedantic-errors" } */
 #include "pr7263-2.h"
 unsigned long long /* { dg-error "ISO C90 does not support .long long." } */

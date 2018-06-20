@@ -1,5 +1,6 @@
 /* PR c/25559 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define vs(n) __attribute__((vector_size (n)))
 int vs (-1) a;			/* { dg-warning "attribute ignored" } */

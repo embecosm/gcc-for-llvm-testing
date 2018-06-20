@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu89" } */
 
 w *x; /* { dg-error "unknown type name 'w'" } */

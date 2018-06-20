@@ -1,7 +1,9 @@
 /* Test division by const int generates only one shift.  */
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-rtl-combine-all" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -fdump-rtl-combine-all -mtune=cortex-a53" { target aarch64*-*-* } } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target int32plus } */
 
 extern void abort (void);

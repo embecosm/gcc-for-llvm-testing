@@ -1,5 +1,6 @@
 /* PR c/19984 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -std=c99 -Wpedantic" } */
 
 

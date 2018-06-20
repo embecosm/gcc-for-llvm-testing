@@ -1,5 +1,6 @@
 /* PR c/60195 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -Wpedantic -Wall" } */
 
 typedef _Atomic int atomic_int;

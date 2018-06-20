@@ -3,6 +3,7 @@
    These tests come from gcc/testsuite/gcc.dg/overflow-warn-2.c  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c99 -fsigned-char -Wsign-conversion" } */
 #include <limits.h>
 

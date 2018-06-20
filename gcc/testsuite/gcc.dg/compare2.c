@@ -2,6 +2,7 @@
    This was inspired by code in gcc. */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wsign-compare" } */
 
 int tf = 1;

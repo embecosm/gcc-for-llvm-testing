@@ -1,6 +1,7 @@
 /* Test for hex floating point constants: in C99 only.  Compiler test.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
 
 double d = 0x1.2p2; /* { dg-bogus "warning" "warning in place of error" } */

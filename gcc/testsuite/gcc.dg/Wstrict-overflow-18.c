@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-fstrict-overflow -O2 -Wstrict-overflow" } */
 
 /* Warn about an overflow when folding i > 0, p->a - p->b can be larger

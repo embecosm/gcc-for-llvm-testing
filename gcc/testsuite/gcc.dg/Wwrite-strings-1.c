@@ -3,6 +3,7 @@
    const.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wwrite-strings" } */
 typedef char T[1];
 T *p = &""; /* { dg-warning "initialization discards 'const' qualifier from pointer target type" } */

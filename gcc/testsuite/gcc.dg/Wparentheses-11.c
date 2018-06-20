@@ -1,6 +1,7 @@
 /* PR 7543. Test operation of -Wparentheses.  Precedence warnings.  
    !a | b and !a & b. */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wparentheses" } */
 
 int foo (int);

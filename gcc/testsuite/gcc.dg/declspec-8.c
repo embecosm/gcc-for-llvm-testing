@@ -2,6 +2,7 @@
    specifiers and function specifiers in empty declarations.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "" } */
 
 /* The constraints on storage class specifiers and function specifiers
