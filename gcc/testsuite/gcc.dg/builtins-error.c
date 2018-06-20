@@ -1,4 +1,6 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 struct X { int x; };
 

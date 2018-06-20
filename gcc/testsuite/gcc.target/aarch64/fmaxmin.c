@@ -1,5 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-vectorize -fno-inline -fno-vect-cost-model -save-temps" } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #pragma GCC target "+nosve"
 

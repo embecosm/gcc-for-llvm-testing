@@ -1,5 +1,6 @@
 /* { dg-add-options ieee } */
 /* { dg-skip-if "No Inf/NaN support" { spu-*-* } } */
+/* { dg-require-effective-target builtin_isinf } */
 
 extern void abort (void);
 

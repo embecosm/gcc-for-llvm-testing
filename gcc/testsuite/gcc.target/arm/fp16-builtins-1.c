@@ -4,6 +4,8 @@
 
 /* { dg-do run } */
 /* { dg-options "-mfp16-format=ieee -std=gnu99" } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #include <stdlib.h>
 #include <math.h>
