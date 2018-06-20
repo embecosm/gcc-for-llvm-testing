@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wformat -Wformat-overflow=1 -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 extern int sprintf (char*, const char*, ...);
 

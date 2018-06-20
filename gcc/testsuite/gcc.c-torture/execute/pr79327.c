@@ -1,5 +1,6 @@
 /* PR tree-optimization/79327 */
 /* { dg-require-effective-target c99_runtime } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 volatile int a;
 

@@ -4,6 +4,7 @@
    performed for an unknown string.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wall -Werror -fdump-tree-optimized -fprintf-return-value" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 #define INT_MAX   __INT_MAX__
 #define INT_MIN   (-INT_MAX - 1)

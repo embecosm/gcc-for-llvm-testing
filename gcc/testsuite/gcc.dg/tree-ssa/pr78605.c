@@ -1,6 +1,7 @@
 /* PR middle-end/78605 - bogus -Wformat-overflow=1 with %f
    { dg-do compile }
-   { dg-options "-O2 -Wall -Wextra -Wformat-overflow=1" } */
+   { dg-options "-O2 -Wall -Wextra -Wformat-overflow=1" }
+   { dg-require-effective-target builtin_sprintf } */
 
 char d[10];
 

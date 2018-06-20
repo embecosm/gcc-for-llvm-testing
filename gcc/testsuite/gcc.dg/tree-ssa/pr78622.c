@@ -3,7 +3,8 @@
    { dg-do compile }
    { dg-options "-Wformat-overflow=2" }
    The h and hh length modifiers are a C99 feature (see PR 78959).
-   { dg-require-effective-target c99_runtime }  */
+   { dg-require-effective-target c99_runtime }
+   { dg-require-effective-target builtin_sprintf } */
 
 char buf[1];
 

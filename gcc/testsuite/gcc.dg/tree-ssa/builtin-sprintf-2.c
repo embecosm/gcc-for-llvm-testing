@@ -8,6 +8,7 @@
    of optimizations does not depend on the presence of warnings.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fprintf-return-value -fdump-tree-optimized -w" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 #ifndef LINE
 # define LINE 0
