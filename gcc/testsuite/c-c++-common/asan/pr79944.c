@@ -1,5 +1,6 @@
 /* PR sanitizer/79944 */
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_free } */
 
 struct S { int i; char p[1024]; };
 

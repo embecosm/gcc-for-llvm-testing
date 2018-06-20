@@ -1,6 +1,7 @@
 /* PR 64878 */
 /* { dg-options "-O2" } */
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_free } */
 
 struct A { int a1; };
 struct B { char *b1; int b2; int b3; };
