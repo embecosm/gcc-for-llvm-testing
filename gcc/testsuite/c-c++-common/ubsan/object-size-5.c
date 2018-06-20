@@ -2,6 +2,7 @@
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O2" } } */
 /* { dg-options "-fsanitize=object-size" } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_free } */
 
 /* Test structures with -fsanitize=object-size.  */
 

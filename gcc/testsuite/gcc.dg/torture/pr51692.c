@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_free } */
 
 int
 main ()

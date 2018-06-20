@@ -12482,4 +12482,7 @@ proc check_effective_target_builtin_fputc {} {
 proc check_effective_target_builtin_fputs {} {
     return [check_builtin_support fputs "__builtin_fputs (NULL, NULL);"]
 }
+proc check_effective_target_builtin_free {} {
+    return [check_builtin_support free "__builtin_free (NULL);"]
+}
 
