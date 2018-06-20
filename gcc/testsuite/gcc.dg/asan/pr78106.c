@@ -1,6 +1,7 @@
 /* PR sanitizer/78106 */
 /* { dg-do compile } */
 /* { dg-options "-fsanitize=address -fdump-tree-sanopt-details -ffat-lto-objects" } */
+/* { dg-require-effective-target builtin_free } */
 
 int *variable;
 

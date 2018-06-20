@@ -1,6 +1,7 @@
 // { dg-do compile }
 // { dg-additional-options "-ffast-math -fopenmp-simd" }
 // { dg-additional-options "-msse2" { target x86_64-*-* i?86-*-* } }
+// { dg-require-effective-target builtin_free }
 
 inline void* my_alloc (__SIZE_TYPE__ bytes) {void *ptr; __builtin_posix_memalign (&ptr, bytes, 128); return 0; }
 inline void my_free (void* memory) {__builtin_free (memory);}
