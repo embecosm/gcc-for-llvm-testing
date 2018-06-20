@@ -1,7 +1,8 @@
 /* PR middle-end/79376 - wrong lower bound with %s and non-constant
    strings in -Wformat-overflow
    { dg-do compile }
-   { dg-options "-O2 -Wall -Wformat-overflow=1 -ftrack-macro-expansion=0" } */
+   { dg-options "-O2 -Wall -Wformat-overflow=1 -ftrack-macro-expansion=0" }
+   { dg-require-effective-target builtin_sprintf } */
 
 typedef __SIZE_TYPE__  size_t;
 

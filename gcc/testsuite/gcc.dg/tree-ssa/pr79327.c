@@ -1,6 +1,7 @@
 /* PR tree-optimization/79327 - wrong code at -O2 and -fprintf-return-value
    { dg-do run }
-   { dg-options "-O2 -Wall" }  */
+   { dg-options "-O2 -Wall" }
+   { dg-require-effective-target builtin_sprintf } */
 
 volatile int a, b = -1;
 char buf[64];

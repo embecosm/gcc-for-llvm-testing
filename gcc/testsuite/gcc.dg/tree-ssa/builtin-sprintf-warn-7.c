@@ -2,6 +2,7 @@
    precision
    { dg-do compile }
    { dg-require-effective-target int32plus }
+   { dg-require-effective-target builtin_sprintf }
    { dg-options "-Wformat-overflow -ftrack-macro-expansion=0" } */
 
 #define INT_MAX __INT_MAX__
