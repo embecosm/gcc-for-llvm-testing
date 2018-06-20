@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 typedef __SIZE_TYPE__ size_t;
 inline void* operator new(size_t, void* p) throw() { return p; }

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-objsz1-details" } */
 // { dg-skip-if "packed attribute missing for drone_source_packet" { "epiphany-*-*" } { "*" } { "" } }
+/* { dg-require-effective-target builtin_malloc } */
 
 typedef struct {
     char sentinel[4];

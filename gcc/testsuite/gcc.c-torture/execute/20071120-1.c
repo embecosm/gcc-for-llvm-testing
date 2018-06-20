@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_malloc } */
+
 extern void abort (void);
 
 void __attribute__((noinline,noreturn))

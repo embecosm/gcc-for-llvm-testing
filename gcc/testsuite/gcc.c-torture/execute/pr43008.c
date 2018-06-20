@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_malloc } */
+
 int i;
 struct X {
   int *p;

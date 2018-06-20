@@ -1,6 +1,7 @@
 /* PR sanitizer/65280 */
 /* { dg-do run } */
 /* { dg-options "-fsanitize=bounds" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 int
 main (void)

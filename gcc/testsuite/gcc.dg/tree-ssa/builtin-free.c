@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target builtin_free } */
+/* { dg-require-effective-target builtin_malloc } */
 
 void bar (void *);
 void foo(unsigned n)
