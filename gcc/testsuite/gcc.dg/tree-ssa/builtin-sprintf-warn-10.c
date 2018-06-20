@@ -3,6 +3,7 @@
    point directives.
    { dg-do compile }
    { dg-require-effective-target double64plus }
+   { dg-require-effective-target builtin_sprintf }
    { dg-options "-O2 -Wformat -Wformat-overflow -ftrack-macro-expansion=0" } */
 
 typedef __builtin_va_list va_list;

@@ -5,6 +5,7 @@
    aborts at runtime if any of the assertions fails.  */
 /* { dg-do run } */
 /* { dg-additional-options "-O2 -Wall -Wno-pedantic -fprintf-return-value" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 #ifndef LINE
 #  define LINE   0
