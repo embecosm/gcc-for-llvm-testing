@@ -7,6 +7,7 @@
 /* { dg-do link { target { ! c99_runtime } } } */
 /* { dg-skip-if "not IEEE float layout" { "pdp11-*-*" } } */
 /* { dg-additional-options "-O2 -Wall -Wno-pedantic -fprintf-return-value" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 #ifndef LINE
 #  define LINE   0

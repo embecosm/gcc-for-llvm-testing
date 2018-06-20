@@ -1,4 +1,5 @@
 /* PR tree-optimization/78586 */
+/* { dg-require-effective-target builtin_sprintf } */
 
 void
 foo (unsigned long x)

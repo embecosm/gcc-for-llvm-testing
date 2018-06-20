@@ -1,7 +1,8 @@
 /* PR tree-optimization/79327 - wrong code at -O2 and -fprintf-return-value
    { dg-do compile }
    { dg-options "-O2 -Wall -Wformat-overflow=1 -ftrack-macro-expansion=0" }
-   { dg-require-effective-target int32plus } */
+   { dg-require-effective-target int32plus }
+   { dg-require-effective-target builtin_sprintf } */
 
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;

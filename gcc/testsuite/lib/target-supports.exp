@@ -12491,4 +12491,10 @@ proc check_effective_target_builtin_malloc {} {
 proc check_effective_target_builtin_realloc {} {
     return [check_builtin_support realloc "__builtin_realloc (NULL, 1);"]
 }
+proc check_effective_target_builtin_fwrite {} {
+    return [check_builtin_support fwrite "__builtin_fwrite (NULL, 1, 1, NULL);"]
+}
+proc check_effective_target_builtin_sprintf {} {
+    return [check_builtin_support sprintf "__builtin_sprintf (NULL, \"%d\", 1);"]
+}
 

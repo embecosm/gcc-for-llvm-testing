@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 #define __GNU_ALWAYS_INLINE inline __attribute__(( __always_inline__))
 

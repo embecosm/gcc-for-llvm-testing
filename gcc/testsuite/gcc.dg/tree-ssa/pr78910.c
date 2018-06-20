@@ -1,6 +1,7 @@
 /* PR tree-optimization/78910 - Wrong print-return-value for a negative number
    { dg-do compile }
-   { dg-options "-O2 -fdump-tree-optimized" } */
+   { dg-options "-O2 -fdump-tree-optimized" }
+   { dg-require-effective-target builtin_sprintf } */
 
 int main()
 {

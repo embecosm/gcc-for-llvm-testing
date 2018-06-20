@@ -1,4 +1,5 @@
 /* { dg-options "-Wformat -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 /* See PR 52952. */
 

@@ -5,6 +5,7 @@
 /* { dg-options "-Wnonnull" } */
 /* { dg-require-effective-target builtin_fputc } */
 /* { dg-require-effective-target builtin_fputs } */
+/* { dg-require-effective-target builtin_fwrite } */
 
 #include <stddef.h>
 
