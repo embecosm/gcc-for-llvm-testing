@@ -1,6 +1,7 @@
 /* PR69537, spurious warning because of a missed optimization. */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-short-enums -Wuninitialized" } */
+/* { dg-require-effective-target builtin_free } */
 
 enum clnt_stat {
  RPC_SUCCESS=0,
