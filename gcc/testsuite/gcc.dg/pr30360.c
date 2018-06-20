@@ -1,6 +1,8 @@
 /* PR c/30360 */
 /* { dg-do run { target i?86-*-linux* i?86-*-gnu* x86_64-*-linux* ia64-*-linux* s390*-*-linux* } } */
 /* { dg-options "-O2 -std=gnu99" } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #define I	(__extension__ 1.0iF)
 #define H(x)	asm ("" : "=m" (x) : "m" (x))

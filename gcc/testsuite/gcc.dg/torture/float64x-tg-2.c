@@ -4,6 +4,7 @@
 /* { dg-add-options float64x } */
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target float64x_runtime } */
+/* { dg-require-effective-target builtin_isinf } */
 
 #define WIDTH 64
 #define EXT 1

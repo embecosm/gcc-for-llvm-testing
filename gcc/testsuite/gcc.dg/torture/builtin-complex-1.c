@@ -3,6 +3,7 @@
 /* { dg-options "-std=c11 -pedantic-errors" } */
 /* { dg-require-effective-target inf } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target builtin_isnan } */
 
 extern void exit (int);
 extern void abort (void);

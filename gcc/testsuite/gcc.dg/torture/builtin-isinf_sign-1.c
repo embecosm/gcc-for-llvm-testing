@@ -5,6 +5,7 @@
    Origin: Kaveh R. Ghazi,  May 17, 2008.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target builtin_isinf } */
 
 /* All references to link_error should go away at compile-time.  */
 extern void link_error(int);
