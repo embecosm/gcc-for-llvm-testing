@@ -12503,4 +12503,7 @@ proc check_effective_target_builtin_isinf {} {
 proc check_effective_target_builtin_isnan {} {
     return [check_builtin_support isnan "__builtin_isnan (0.0);"]
 }
+proc check_effective_target_builtin_return {} {
+    return [check_builtin_support return "__builtin_return (NULL);"]
+}
 
