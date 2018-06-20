@@ -1,6 +1,7 @@
 /* PR middle-end/40946 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 struct A
 {

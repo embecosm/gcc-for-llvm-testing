@@ -1,6 +1,7 @@
 /* PR rtl-optimization/60700 */
 /* { dg-do run { target ia32 } } */
 /* { dg-options "-O3 -march=i686" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 int
 __attribute__((noinline))

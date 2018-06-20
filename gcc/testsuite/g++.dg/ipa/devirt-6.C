@@ -3,6 +3,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-O3"  } */
+/* { dg-require-effective-target builtin_malloc } */
 
 extern "C" void abort (void);
 extern "C" void *malloc(__SIZE_TYPE__);

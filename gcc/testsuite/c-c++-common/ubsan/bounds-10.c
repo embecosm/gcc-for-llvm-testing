@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fsanitize=bounds-strict" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 struct V { int l; int a[1]; };
 

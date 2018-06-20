@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_malloc } */
+
 int __attribute__((noinline))
 foo(int i)
 {

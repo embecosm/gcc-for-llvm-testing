@@ -1,6 +1,7 @@
 /* PR tree-optimization/61773 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 void
 foo (char **x)

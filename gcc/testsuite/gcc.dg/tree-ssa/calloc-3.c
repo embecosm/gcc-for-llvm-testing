@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 void*f(){
     char*p=__builtin_malloc(42);

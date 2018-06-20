@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_malloc } */
 
 extern int a;
 extern int *b;

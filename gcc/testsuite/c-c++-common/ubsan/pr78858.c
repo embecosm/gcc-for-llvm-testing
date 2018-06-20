@@ -1,6 +1,7 @@
 /* PR middle-end/78858 */
 /* { dg-do compile } */
 /* { dg-options "-fsanitize=undefined -Wnonnull" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 void
 foo (char **x, const char *y)

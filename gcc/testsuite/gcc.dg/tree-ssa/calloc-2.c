@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_malloc } */
 
 int n, nn;
 void* f()

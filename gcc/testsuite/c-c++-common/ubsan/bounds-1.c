@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fsanitize=bounds -fno-sanitize-recover=bounds -Wall" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 /* Don't fail on valid uses.  */
 

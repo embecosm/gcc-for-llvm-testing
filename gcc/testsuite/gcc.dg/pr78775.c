@@ -1,6 +1,7 @@
 /* PR c/78775 - [7 Regression] ICE in maybe_warn_alloc_args_overflow
    { dg-do compile }
-   { dg-options "-O2" } */
+   { dg-options "-O2" }
+   { dg-require-effective-target builtin_malloc } */
 
 int a, b, *c;
 
