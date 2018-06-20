@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-pedantic" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 int *a, b;
 

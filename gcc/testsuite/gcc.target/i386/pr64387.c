@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize -ffloat-store -mavx512er" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 float x[256];
 

@@ -1,6 +1,7 @@
 // { dg-do compile }
 // { dg-options "-O2 -fdump-tree-fre3 -fdump-tree-optimized -fdelete-null-pointer-checks" }
 // { dg-require-effective-target builtin_free }
+// { dg-require-effective-target builtin_malloc }
 
 #define assume(x) if(!(x))__builtin_unreachable()
 

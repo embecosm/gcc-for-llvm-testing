@@ -8,6 +8,7 @@
 /* { dg-do compile } */
 /* { dg-options "-ansi" } */
 /* { dg-require-effective-target builtin_calloc } */
+/* { dg-require-effective-target builtin_malloc } */
 /* { dg-final { scan-assembler-not "__builtin_" } } */
 
 typedef __SIZE_TYPE__ size_t;
