@@ -3,6 +3,7 @@
 /* { dg-require-effective-target fenv_exceptions } */
 /* { dg-require-effective-target __float128 } */
 /* { dg-require-effective-target base_quadfloat_support } */
+/* { dg-require-effective-target builtin_isnan } */
 /* { dg-options "" } */
 /* { dg-add-options __float128 } */
 

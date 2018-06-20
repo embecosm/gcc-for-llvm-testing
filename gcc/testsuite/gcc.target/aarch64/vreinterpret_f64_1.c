@@ -1,6 +1,7 @@
 /* Test vreinterpret_f64_* and vreinterpret_*_f64 intrinsics work correctly.  */
 /* { dg-do run } */
 /* { dg-options "-O3" } */
+/* { dg-require-effective-target builtin_isnan } */
 
 #include <arm_neon.h>
 

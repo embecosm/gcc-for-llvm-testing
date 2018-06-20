@@ -1,3 +1,6 @@
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
+
 extern void abort (void);
 double fmax (double, double);
 float fmaxf (float, float);

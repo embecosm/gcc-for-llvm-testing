@@ -9,6 +9,7 @@
 /* { dg-skip-if "" { tic6x-*-* } "*" "" } */
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target large_double } */
+/* { dg-require-effective-target builtin_isinf } */
 
 extern void link_error(int);
 

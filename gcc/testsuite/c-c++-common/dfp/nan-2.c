@@ -3,6 +3,8 @@
    A few simple checks on arithmetic operations.  Based on nan-1.c with
    the consideration of negative zero.  */
 
+/* { dg-require-effective-target builtin_isnan } */
+
 #include "dfp-dbg.h"
 
 int main()

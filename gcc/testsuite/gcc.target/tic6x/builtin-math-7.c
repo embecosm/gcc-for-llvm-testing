@@ -9,6 +9,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target builtin_isinf } */
 
 extern void link_error(int);
 
