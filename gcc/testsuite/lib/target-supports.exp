@@ -11645,7 +11645,7 @@ proc check_effective_target_vla_in_struct { } {
 	void test (void)
 	{
 	    int x = 5;
-	    struct { char a[x]; }
+	    struct { char a[x]; };
 	}
     } "" ]
 }
@@ -12433,9 +12433,9 @@ proc check_effective_target_const_volatile_readonly_section { } {
 # supported by other compilers
 
 proc check_builtin_support { id call_frag {flags ""} } {
-    return [check_no_compiler_messages builtin_$id assembly {
+    return [check_no_compiler_messages builtin_$id assembly "
 	int main (void) { $call_frag }
-    } "$flags" ]
+    " "$flags" ]
 }
 proc check_effective_target_builtin_add_overflow_p {} {
     return [check_builtin_support add_overflow_p "__builtin_add_overflow_p (1, 2, 3);"]
