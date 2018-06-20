@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-fre1-details" } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target builtin_realloc } */
 
 int j;
 int main ()
