@@ -12452,9 +12452,6 @@ proc check_effective_target_builtin_aligned_alloc {} {
 proc check_effective_target_builtin_apply {} {
     return [check_builtin_support apply "__builtin_apply (NULL);"]
 }
-proc check_effective_target_builtin_calloc {} {
-    return [check_builtin_support calloc "__builtin_calloc (10, 10);"]
-}
 proc check_effective_target_builtin_clrsb {} {
     return [check_builtin_support clrsb "__builtin_clsrb (5);"]
 }
@@ -12482,10 +12479,16 @@ proc check_effective_target_builtin_fputc {} {
 proc check_effective_target_builtin_fputs {} {
     return [check_builtin_support fputs "__builtin_fputs (NULL, NULL);"]
 }
+proc check_effective_target_builtin_calloc {} {
+    return [check_builtin_support calloc "__builtin_calloc (10, 10);"]
+}
 proc check_effective_target_builtin_free {} {
     return [check_builtin_support free "__builtin_free (NULL);"]
 }
 proc check_effective_target_builtin_malloc {} {
     return [check_builtin_support malloc "__builtin_malloc (1);"]
+}
+proc check_effective_target_builtin_realloc {} {
+    return [check_builtin_support realloc "__builtin_realloc (NULL, 1);"]
 }
 
