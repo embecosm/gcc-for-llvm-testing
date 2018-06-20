@@ -2,7 +2,8 @@
    (and only by) -Og
 
    { dg-do compile }
-   { dg-options "-Og -Wall -fdump-tree-optimized" } */
+   { dg-options "-Og -Wall -fdump-tree-optimized" }
+   { dg-require-effective-target builtin_sprintf } */
 
 char d[2];
 

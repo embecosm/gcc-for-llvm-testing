@@ -7,6 +7,7 @@
 
 /* { dg-require-effective-target builtin_fputc } */
 /* { dg-require-effective-target builtin_fputs } */
+/* { dg-require-effective-target builtin_fwrite } */
 
 #include <stdio.h>
 extern void abort(void);

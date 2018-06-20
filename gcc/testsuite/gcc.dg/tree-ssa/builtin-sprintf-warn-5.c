@@ -2,6 +2,7 @@
    Test case from comment 6 on the bug.  */
 /* { dg-do compile } */
 /* { dg-options "-Wall -Werror" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 struct A
 {

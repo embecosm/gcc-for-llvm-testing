@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -march=z10 -fPIC -Wno-implicit-function-declaration" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 extern char temp[];
 short ansi_value[256];
