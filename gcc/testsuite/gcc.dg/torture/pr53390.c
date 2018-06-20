@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_malloc } */
 
 extern unsigned short var1;
 extern int var2;

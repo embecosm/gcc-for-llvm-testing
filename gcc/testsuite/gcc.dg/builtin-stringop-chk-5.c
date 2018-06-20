@@ -1,6 +1,7 @@
 /* Test exercising -Wstringop-overflow warnings.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wstringop-overflow=1 -Wno-array-bounds" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 #define offsetof(type, mem)   __builtin_offsetof (type, mem)
 

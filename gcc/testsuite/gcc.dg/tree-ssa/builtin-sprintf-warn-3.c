@@ -5,6 +5,7 @@
    otherwise -O1 is sufficient.
    { dg-do compile }
    { dg-require-effective-target alloca }
+   { dg-require-effective-target builtin_malloc }
    { dg-options "-O2 -Wformat -Wformat-overflow=1 -ftrack-macro-expansion=0" } */
 
 typedef __SIZE_TYPE__ size_t;

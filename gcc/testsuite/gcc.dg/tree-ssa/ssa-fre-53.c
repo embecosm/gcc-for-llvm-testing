@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-forwprop -fdump-tree-fre1" } */
+/* { dg-require-effective-target builtin_malloc } */
 
 const int a[]={1,2,3};
 int f(){

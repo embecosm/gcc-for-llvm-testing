@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-ipa-icf -fdump-tree-optimized" } */
 /* { dg-require-effective-target builtin_free } */
+/* { dg-require-effective-target builtin_malloc } */
 
 void test2(void)
 {
