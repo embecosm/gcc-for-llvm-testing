@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -mavx -mtune=generic -dp" } */
 /* { dg-require-effective-target builtin_apply } */
+/* { dg-require-effective-target builtin_return } */
 
 typedef struct objc_class *Class;
 typedef struct objc_object

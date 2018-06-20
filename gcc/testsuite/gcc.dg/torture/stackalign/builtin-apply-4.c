@@ -3,6 +3,7 @@
 /* { dg-additional-options "-fgnu89-inline" } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-require-effective-target builtin_apply } */
+/* { dg-require-effective-target builtin_return } */
 
 extern void abort (void);
 

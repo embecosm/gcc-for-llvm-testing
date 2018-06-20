@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target ia32 } */
 /* { dg-require-effective-target builtin_apply } */
+/* { dg-require-effective-target builtin_return } */
 /* { dg-options "-O2 -msse" } */
 /* { dg-final { scan-assembler-not "xmm8" } } */
 

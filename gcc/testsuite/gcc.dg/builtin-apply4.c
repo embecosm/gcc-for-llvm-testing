@@ -4,6 +4,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-require-effective-target builtin_apply } */
+/* { dg-require-effective-target builtin_return } */
 
 extern void abort (void);
 

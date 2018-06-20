@@ -13,6 +13,7 @@
 /* { dg-options "-O2 -mmmx -fgnu89-inline" } */
 /* { dg-require-effective-target ia32 } */
 /* { dg-require-effective-target builtin_apply } */
+/* { dg-require-effective-target builtin_return } */
 
 #include "mmx-check.h"
 
