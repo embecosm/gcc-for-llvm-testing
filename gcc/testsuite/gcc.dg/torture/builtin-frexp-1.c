@@ -10,6 +10,8 @@
 /* In order to fold algebraic exprs below, targets with "composite"
    floating point formats need -funsafe-math-optimizations.  */
 /* { dg-options "-funsafe-math-optimizations" { target powerpc*-*-* } } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isnan } */
 
 extern void link_error(int);
 

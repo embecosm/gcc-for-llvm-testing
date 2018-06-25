@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_shuffle } */
+
 #if __SIZEOF_LONG_LONG__ == 8
 typedef unsigned long long V __attribute__((vector_size(16)));
 typedef V VI;

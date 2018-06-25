@@ -8,6 +8,8 @@
 /* { dg-do link } */
 /* { dg-options "-fno-math-errno" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
+/* { dg-require-effective-target builtin_ceil } */
+/* { dg-require-effective-target builtin_floor } */
 
 /* All references to link_error should go away at compile-time.  */
 extern void link_error(int);

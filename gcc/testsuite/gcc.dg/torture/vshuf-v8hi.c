@@ -3,6 +3,7 @@
 /* { dg-options "-fno-common" { target hppa*-*-hpux* } } */
 /* { dg-skip-if "" { ! run_expensive_tests } { "*" } { "-O2" } } */
 /* { dg-skip-if "" { ! run_expensive_tests } { "-flto" } { "" } } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef unsigned short V __attribute__((vector_size(16)));
 typedef V VI;
