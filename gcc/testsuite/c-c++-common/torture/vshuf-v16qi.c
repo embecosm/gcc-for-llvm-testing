@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_shuffle } */
+
 typedef unsigned char V __attribute__((vector_size(16)));
 typedef V VI;
 

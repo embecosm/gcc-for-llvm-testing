@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target builtin_va_arg_pack } */
 
 typedef __SIZE_TYPE__ size_t;
 extern __inline __attribute__ ((__always_inline__))

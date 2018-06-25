@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_shuffle } */
+
 #if __SIZEOF_INT__ == 4
 typedef unsigned int V __attribute__((vector_size(32)));
 typedef V VI;

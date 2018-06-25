@@ -6,6 +6,8 @@
    Written by Kaveh Ghazi, 2004-04-29.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target builtin_floor } */
+/* { dg-require-effective-target builtin_ceil } */
 
 extern int link_error (int);
 
