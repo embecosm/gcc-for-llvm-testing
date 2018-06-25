@@ -4,6 +4,7 @@
    behavior would get later passes to misoptimize the loop.  */
 
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 #include <stdio.h>
 #include <stdlib.h>

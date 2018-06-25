@@ -3,6 +3,7 @@
 /* { dg-options "-fno-fp-int-builtin-inexact" } */
 /* { dg-add-options c99_runtime } */
 /* { dg-require-effective-target fenv_exceptions } */
+/* { dg-require-effective-target noclone } */
 
 #include <fenv.h>
 

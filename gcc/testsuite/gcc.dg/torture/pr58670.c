@@ -1,5 +1,6 @@
 /* PR middle-end/58670 */
 /* { dg-do run { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target noclone } */
 
 #if defined (__i386__) || defined (__x86_64__)
 #define ASM_STR "btsl $1, %0; jc %l[lab]"

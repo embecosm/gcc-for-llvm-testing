@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fweb" } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned char u8;
 #if __SIZEOF_INT__ < 4

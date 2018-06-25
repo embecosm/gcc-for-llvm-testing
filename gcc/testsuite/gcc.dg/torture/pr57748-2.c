@@ -1,5 +1,6 @@
 /* PR middle-end/57748 */
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 /* wrong code in expand_assignment:
    misalignp == true, !MEM_P (to_rtx),
    offset == 0, bitpos >= GET_MODE_PRECISION,

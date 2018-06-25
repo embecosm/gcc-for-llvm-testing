@@ -1,6 +1,7 @@
 /* PR middle-end/36043 target/58744 target/65408 */
 /* { dg-do run { target mmap } } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target noclone } */
 
 #include <sys/mman.h>
 #ifndef MAP_ANONYMOUS

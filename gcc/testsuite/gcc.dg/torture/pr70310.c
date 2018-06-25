@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned char v32u8 __attribute__ ((vector_size (32)));
 

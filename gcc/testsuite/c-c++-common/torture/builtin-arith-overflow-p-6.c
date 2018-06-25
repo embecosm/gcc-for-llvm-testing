@@ -1,6 +1,7 @@
 /* Test __builtin_{add,sub,mul}_overflow_p.  */
 /* { dg-do run { target int128 } } */
 /* { dg-skip-if "" { ! run_expensive_tests }  { "*" } { "-O0" "-O2" } } */
+/* { dg-require-effective-target noclone } */
 
 #define OVFP
 #include "builtin-arith-overflow-1.h"

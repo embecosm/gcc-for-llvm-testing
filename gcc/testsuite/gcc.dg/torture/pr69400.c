@@ -1,4 +1,5 @@
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned __int128 u128;
 

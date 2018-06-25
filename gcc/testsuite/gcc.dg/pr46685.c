@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target freorder } */
 /* { dg-require-effective-target fpic } */
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-O2 -freorder-blocks-and-partition -fpic" } */
 
 __attribute__((noinline, noclone))

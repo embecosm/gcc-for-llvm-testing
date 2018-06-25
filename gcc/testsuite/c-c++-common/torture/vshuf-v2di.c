@@ -1,4 +1,5 @@
 /* { dg-require-effective-target builtin_shuffle } */
+/* { dg-require-effective-target noclone } */
 
 #if __SIZEOF_LONG_LONG__ == 8
 typedef unsigned long long V __attribute__((vector_size(16)));

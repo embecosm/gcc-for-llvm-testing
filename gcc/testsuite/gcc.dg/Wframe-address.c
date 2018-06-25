@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-Wframe-address" } */
 /* { dg-additional-options "-mbackchain" { target { s390*-*-* } } } */
 

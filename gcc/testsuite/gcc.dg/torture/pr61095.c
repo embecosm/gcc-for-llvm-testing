@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target lp64 } */
+/* { dg-require-effective-target noclone } */
 
 extern void __attribute__ ((noreturn)) abort (void);
 
