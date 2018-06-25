@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 int a, b = 1, c, e, f, g, k, m, n, o;
 char d, h, i, j, l; 

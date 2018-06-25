@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-ftrapv -fno-ipa-vrp" } */
 /* { dg-require-effective-target trapping } */
+/* { dg-require-effective-target noclone } */
 /* { dg-require-fork "" } */
 
 #include <stdlib.h>

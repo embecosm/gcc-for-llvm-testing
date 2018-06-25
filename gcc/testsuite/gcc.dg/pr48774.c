@@ -1,6 +1,7 @@
 /* PR target/48774 */
 /* { dg-do run } */
 /* { dg-options "-O2 -funroll-loops" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 unsigned long int s[24]

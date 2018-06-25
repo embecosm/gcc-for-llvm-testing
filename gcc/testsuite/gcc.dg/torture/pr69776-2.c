@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fstrict-aliasing" } */
+/* { dg-require-effective-target noclone } */
 
 extern void *malloc (__SIZE_TYPE__);
 extern void abort (void);

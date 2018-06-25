@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-Os -fno-omit-frame-pointer -fsched2-use-superblocks -ftree-slp-vectorize" } */
 /* { dg-additional-options "-fstack-protector" { target fstack_protector } } */
+/* { dg-require-effective-target noclone } */
 
 struct A
 {

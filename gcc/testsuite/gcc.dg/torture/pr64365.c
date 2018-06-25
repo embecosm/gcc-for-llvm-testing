@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 extern int memcmp (const void * , const void *, __SIZE_TYPE__);

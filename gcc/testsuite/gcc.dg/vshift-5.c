@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 long long a[16];

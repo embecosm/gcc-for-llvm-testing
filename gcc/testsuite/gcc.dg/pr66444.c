@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fipa-ra" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 

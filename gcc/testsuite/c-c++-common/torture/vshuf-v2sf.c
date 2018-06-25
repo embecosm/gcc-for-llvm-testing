@@ -1,4 +1,5 @@
 /* { dg-require-effective-target builtin_shuffle } */
+/* { dg-require-effective-target noclone } */
 
 #if __SIZEOF_FLOAT__ == 4
 typedef float V __attribute__((vector_size(8)));

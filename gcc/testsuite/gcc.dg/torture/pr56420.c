@@ -1,5 +1,6 @@
 /* PR middle-end/56420 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 
