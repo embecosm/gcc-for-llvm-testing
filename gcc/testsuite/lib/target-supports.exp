@@ -12488,11 +12488,26 @@ proc check_effective_target_builtin_exp10 {} {
 proc check_effective_target_builtin_finite {} {
     return [check_builtin_support finite "__builtin_finite (0);"]
 }
+proc check_effective_target_builtin_ceil {} {
+    return [check_builtin_support ceil "__builtin_ceil (0.0);"]
+}
+proc check_effective_target_builtin_floor {} {
+    return [check_builtin_support floor "__builtin_floor (0.0);"]
+}
+proc check_effective_target_builtin_significand {} {
+    return [check_builtin_support significand "__builtin_significand (0.0);"]
+}
+proc check_effective_target_builtin_sincos {} {
+    return [check_builtin_support sincos "__builtin_sincos (0.0, NULL, NULL);"]
+}
 proc check_effective_target_builtin_fputc {} {
     return [check_builtin_support fputc "__builtin_fputc (0, NULL);"]
 }
 proc check_effective_target_builtin_fputs {} {
     return [check_builtin_support fputs "__builtin_fputs (NULL, NULL);"]
+}
+proc check_effective_target_builtin_puts {} {
+    return [check_builtin_support puts "__builtin_puts ("hello");"]
 }
 proc check_effective_target_builtin_calloc {} {
     return [check_builtin_support calloc "__builtin_calloc (10, 10);"]
@@ -12526,6 +12541,21 @@ proc check_effective_target_builtin_shuffle {} {
 	int __attribute__ ((vector_size (16))) a, b;
 	__builtin_shuffle (a, b);
     "]
+}
+proc check_effective_target_stack_save_restore {} {
+    return [check_builtin_support stack_save_restore "
+	__builtin_stack_save ();
+	__builtin_stack_restore (NULL);
+    "]
+}
+proc check_effective_target_builtin_va_arg_pack {} {
+    return [check_builtin_support va_arg_pack "__builtin_va_arg_pack ();"]
+}
+proc check_effective_target_builtin_next_arg {} {
+    return [check_builtin_support next_arg "__builtin_next_arg (NULL);"]
+}
+proc check_effective_target_builtin_imaxabs {} {
+    return [check_builtin_support imaxabs "__builtin_imaxabs (0);"]
 }
 
 # Check whether the compiler has gcc internals. This is basically just a

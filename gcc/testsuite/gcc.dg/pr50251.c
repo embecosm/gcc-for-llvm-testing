@@ -1,6 +1,7 @@
 /* { dg-do compile { target { ! { x86_64-*-mingw* } } } } */
 /* { dg-options "-O2" } */
 /* { dg-additional-options "-mpreferred-stack-boundary=12" { target { { i?86-*-* x86_64-*-* } && lp64 } } } */
+/* { dg-require-effective-target stack_save_restore } */
 
 extern void bar (int*);
 

@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_shuffle } */
+
 #if __SIZEOF_FLOAT__ == 4
 typedef float V __attribute__((vector_size(16)));
 # if __SIZEOF_INT__ == 4

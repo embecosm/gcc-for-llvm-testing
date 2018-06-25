@@ -1,3 +1,5 @@
+/* { dg-require-effective-target builtin_puts } */
+
 extern int debug_threads;
 extern void sigsuspend (void);
 void my_waitpid (int flags, int wnohang)

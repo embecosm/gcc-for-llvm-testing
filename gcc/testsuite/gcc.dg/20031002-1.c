@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3" } */
+/* { dg-require-effective-target builtin_next_arg } */
 
 void generic_sendmsg (char *fmt, ...)
 {
