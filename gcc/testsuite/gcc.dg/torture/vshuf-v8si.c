@@ -3,6 +3,7 @@
 /* { dg-options "-fno-common" { target hppa*-*-hpux* } } */
 /* { dg-skip-if "" { ! run_expensive_tests } { "*" } { "-O2" } } */
 /* { dg-skip-if "" { ! run_expensive_tests } { "-flto" } { "" } } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 #if __SIZEOF_INT__ == 4
 typedef unsigned int V __attribute__((vector_size(32)));

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fPIC" { target fpic } } */
+/* { dg-require-effective-target builtin_va_arg_pack } */
 __attribute__ ((noinline, noclone)) int
 bar (int flag, const char *__restrict format, ...)
 {

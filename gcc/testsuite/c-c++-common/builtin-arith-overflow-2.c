@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-Wno-long-long" } */
 /* { dg-skip-if "Program too big" { "avr-*-* pdp11*-*-*" } } */
+/* { dg-require-effective-target builtin_add_overflow_p } */
 
 #define SCHAR_MAX    __SCHAR_MAX__
 #define SHRT_MAX     __SHRT_MAX__
