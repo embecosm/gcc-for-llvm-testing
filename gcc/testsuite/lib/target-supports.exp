@@ -12429,6 +12429,21 @@ proc check_effective_target_const_volatile_readonly_section { } {
     }
   return 1
 }
+# Return 1 if the target supports __builtin_setjmp and __builtin_longjmp
+
+proc check_effective_target_builtin_setjmp_longjmp { } {
+    return [check_no_compiler_messages builtin_setjmp_longjmp assembly {
+	#include <setjmp.h>
+	int main (void)
+	{
+	  jmp_buf env;
+	  __builtin_setjmp (env);
+	  __builtin_longjmp (env, 1);
+	  return 0;
+	}
+    } "-w" ]
+}
+
 # Various checks for the presence of GCC builtins which aren't universally
 # supported by other compilers
 
