@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-mtune=z10" { target s390*-*-* } } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target noclone } */
 
 typedef char (*F) (unsigned long, void *);
 typedef union { struct A { char a1, a2, a3, a4; unsigned long a5; F a6; void *a7; } b; char c[1]; } B;

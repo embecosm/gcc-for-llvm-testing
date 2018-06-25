@@ -4,6 +4,7 @@
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target vla_in_struct } */
 /* { dg-require-effective-target nested_func } */
+/* { dg-require-effective-target noclone } */
 
 void __attribute__((noinline, noclone))
 foo (int n)

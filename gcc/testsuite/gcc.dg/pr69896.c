@@ -2,6 +2,7 @@
 /* { dg-do run { target int128 } } */
 /* { dg-options "-w -O -fcaller-saves -fno-dse -frename-registers -fno-tree-ter" } */
 /* { dg-additional-options "-mno-sse" { target x86_64-*-* i?86-*-* } } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned short A;
 typedef unsigned short B __attribute__ ((vector_size (32)));

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 int __attribute__((pure,noinline,noclone)) foo (int *p)
 {

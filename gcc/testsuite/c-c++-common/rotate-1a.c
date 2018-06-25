@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -Wno-overflow" } */
+/* { dg-require-effective-target noclone } */
 
 extern
 #ifdef __cplusplus

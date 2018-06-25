@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 void __attribute__((noinline,noclone))

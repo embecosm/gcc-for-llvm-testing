@@ -3,6 +3,7 @@
 /* { dg-do compile  { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-fdump-rtl-ree -O -free" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 

@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-mtune=pentiumpro" { target ia32 } } */
 /* { dg-additional-options "-minline-all-stringops" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target noclone } */
 
 static void __attribute__((noinline, noclone))
 my_memcpy (char *dest, const char *src, int n)

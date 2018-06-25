@@ -1,6 +1,7 @@
 /* { dg-do link } */
 /* { dg-options "-ffast-math" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
+/* { dg-require-effective-target noclone } */
 
 extern double sqrt (double);
 extern float sqrtf (float);

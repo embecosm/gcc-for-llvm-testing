@@ -1,6 +1,7 @@
 /* PR tree-optimization/55236 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fwrapv" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort ();
 

@@ -1,6 +1,7 @@
 /* Test __builtin_{add,sub,mul,{s,u}addll,{s,u}subll,{s,u}mulll}_overflow.  */
 /* { dg-do run } */
 /* { dg-skip-if "" { ! run_expensive_tests }  { "*" } { "-O0" "-O2" } } */
+/* { dg-require-effective-target noclone } */
 
 #include "builtin-arith-overflow-1.h"
 

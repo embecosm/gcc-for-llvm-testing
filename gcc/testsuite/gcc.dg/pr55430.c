@@ -1,6 +1,7 @@
 /* PR middle-end/55430 */
 /* { dg-do run { target mmap } } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target noclone } */
 
 #include <stddef.h>
 #include <stdio.h>

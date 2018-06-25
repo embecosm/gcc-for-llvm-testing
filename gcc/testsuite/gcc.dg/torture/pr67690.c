@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 const int c1 = 1;
 const int c2 = 2;

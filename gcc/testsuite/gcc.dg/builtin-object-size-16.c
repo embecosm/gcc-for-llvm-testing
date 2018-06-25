@@ -5,6 +5,7 @@
    with optimization the built-in was made to fail instead.  */
 /* { dg-do run } */
 /* { dg-options "-O0" } */
+/* { dg-require-effective-target noclone } */
 
 static int nfails;
 

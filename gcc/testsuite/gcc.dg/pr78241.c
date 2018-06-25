@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-Og -funroll-loops" } */
+/* { dg-require-effective-target noclone } */
 
 static __attribute__((noinline, noclone)) unsigned
 foo (unsigned x)

@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 #include "strlenopt.h"
 

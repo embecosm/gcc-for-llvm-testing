@@ -1,6 +1,7 @@
 /* PR rtl-optimization/48156 */
 /* { dg-do run } */
 /* { dg-options "-O -fcrossjumping --param min-crossjump-insns=1" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 

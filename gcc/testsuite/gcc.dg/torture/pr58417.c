@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 long long arr[6] = {0, 1, 2, 3, 4, 5};
 extern  void abort (void);

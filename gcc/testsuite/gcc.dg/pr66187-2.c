@@ -1,6 +1,7 @@
 /* PR tree-optimization/66187 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fwrapv" } */
+/* { dg-require-effective-target noclone } */
 
 __attribute__((noinline, noclone)) int
 f0 (unsigned char x, unsigned char y)

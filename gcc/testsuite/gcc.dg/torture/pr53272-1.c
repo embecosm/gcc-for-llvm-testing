@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-additional-sources "pr53272-2.c" } */
 /* { dg-require-effective-target builtin_exit } */
+/* { dg-require-effective-target noclone } */
 
 struct rtc_class_ops {
  int (*f)(void *, unsigned int enabled);

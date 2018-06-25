@@ -2,6 +2,7 @@
 /* { dg-do run { target *-*-linux* *-*-gnu* *-*-uclinux* } } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 #define USE_GNU
 #include "strlenopt.h"

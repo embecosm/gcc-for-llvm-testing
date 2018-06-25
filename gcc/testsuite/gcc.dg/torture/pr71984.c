@@ -1,5 +1,6 @@
 /* { dg-do run { target lp64 } } */
 /* { dg-additional-options "-w -Wno-psabi" } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned char v64u8 __attribute__((vector_size(64)));
 typedef unsigned long v64u64 __attribute__((vector_size(64)));

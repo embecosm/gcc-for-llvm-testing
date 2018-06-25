@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O" } */
+/* { dg-require-effective-target noclone } */
 
 #if defined(__x86_64__)
 # define CHAIN	"%r10"

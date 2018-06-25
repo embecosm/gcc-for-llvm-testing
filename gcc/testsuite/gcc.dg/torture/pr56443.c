@@ -1,6 +1,7 @@
 /* PR tree-optimization/56443 */
 /* { dg-do run } */
 /* { dg-options "-ftree-vectorize" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 typedef int myint __attribute__ ((__aligned__ (16)));

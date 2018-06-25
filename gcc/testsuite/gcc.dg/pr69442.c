@@ -1,6 +1,7 @@
 /* PR target/69442 */
 /* { dg-do run } */
 /* { dg-options "-Og" } */
+/* { dg-require-effective-target noclone } */
 
 unsigned long long __attribute__ ((noinline, noclone))
 foo (unsigned int x, unsigned long long y)

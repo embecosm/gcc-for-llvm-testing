@@ -6,6 +6,7 @@
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O0 -fdump-tree-ssa" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 #define concat(a, b)   a ## b
 #define CAT(a, b)      concat (a, b)

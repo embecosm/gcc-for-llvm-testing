@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fsplit-loops -fdump-tree-lsplit-details" } */
 /* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target noclone } */
 
 #ifdef __cplusplus
 extern "C" int printf (const char *, ...);

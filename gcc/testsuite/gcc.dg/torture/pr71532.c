@@ -1,6 +1,7 @@
 /* PR rtl-optimization/71532 */
 /* { dg-do run } */
 /* { dg-additional-options "-mtune=slm" { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target noclone } */
 
 __attribute__((noinline, noclone, pure)) int
 foo (int a, int b, int c, int d, int e, int f, int g, int h, int i, int j, int k, int l)

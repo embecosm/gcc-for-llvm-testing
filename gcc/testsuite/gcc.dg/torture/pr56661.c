@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target noclone } */
 
 __attribute__((noinline, noclone)) void
 bar (int *b)

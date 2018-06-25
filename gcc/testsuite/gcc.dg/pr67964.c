@@ -1,6 +1,7 @@
 /* PR c/67964 */
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target noclone } */
 /* { dg-require-alias "" } */
 
 extern int fn0 (void) __attribute__ ((const const)); /* { dg-error "expected" } */

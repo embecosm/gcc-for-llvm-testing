@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-DSYNC_FALLBACK" { target { ! cas_int } } } */
 /* { dg-require-effective-target builtin_exit } */
+/* { dg-require-effective-target noclone } */
 
 #ifdef SYNC_FALLBACK
 /* The SYNC_FALLBACK code is just so we don't have to restrict this test
