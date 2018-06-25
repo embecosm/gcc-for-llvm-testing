@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-fgimple -O2 -ftree-slp-vectorize" } */
 /* { dg-require-effective-target ptr32plus } */
+/* { dg-require-effective-target noclone } */
 
 struct  A
 {

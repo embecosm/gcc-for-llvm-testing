@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fwrapv" } */
+/* { dg-require-effective-target noclone } */
 
 static void __attribute__((noinline,noclone))
 func(void)

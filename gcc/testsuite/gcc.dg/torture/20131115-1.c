@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-skip-if "RAM usage too large" { "avr-*-*" } } */
+/* { dg-require-effective-target noclone } */
 
 struct S { int i; };
 __attribute__((const, noinline, noclone))

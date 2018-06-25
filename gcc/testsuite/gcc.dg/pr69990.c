@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target section_anchors } */
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-O2 -fsection-anchors -ftree-loop-vectorize" } */
 
 #pragma pack(1)

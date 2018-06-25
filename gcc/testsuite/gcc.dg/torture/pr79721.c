@@ -1,5 +1,6 @@
 /* { dg-do run }  */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target noclone } */
 /* We use -ftrapv so that when SCEV final value replacement introduces
    undefined overflow we trap.  UBSAN inhibits final value replacement.  */
 /* { dg-additional-options "-ftrapv" } */

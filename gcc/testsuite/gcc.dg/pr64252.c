@@ -3,6 +3,7 @@
 /* { dg-options "-O2" } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target builtin_shuffle } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned int V __attribute__((vector_size (32)));
 

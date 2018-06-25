@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -ftree-vectorize" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 /* { dg-skip-if "no alignment > 2" { "pdp11-*-*" } } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 int a[4] __attribute__((aligned (32)));

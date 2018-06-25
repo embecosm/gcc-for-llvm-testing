@@ -1,6 +1,7 @@
 /* PR c/80163 */
 /* { dg-do compile { target int128 } } */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target noclone } */
 
 volatile int v;
 

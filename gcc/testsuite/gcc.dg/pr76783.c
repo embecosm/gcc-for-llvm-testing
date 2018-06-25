@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int128 } */
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-Og -w -Wno-psabi" } */
 
 typedef unsigned __int128 u128;

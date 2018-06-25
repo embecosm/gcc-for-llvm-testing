@@ -2,6 +2,7 @@
 /* { dg-do run { target int128 } } */
 /* { dg-options "-w -Wno-psabi" } */
 /* { dg-additional-options "-mavx" { target avx_runtime } } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned short u16;
 typedef unsigned short v32u16 __attribute__ ((vector_size (32)));

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fipa-pta" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 extern void *malloc (__SIZE_TYPE__);

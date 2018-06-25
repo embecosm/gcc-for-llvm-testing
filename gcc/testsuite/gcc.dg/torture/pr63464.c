@@ -1,5 +1,6 @@
 /* PR tree-optimization/63464 */
 /* { dg-do run { target int32plus } } */
+/* { dg-require-effective-target noclone } */
 
 int cnt;
 

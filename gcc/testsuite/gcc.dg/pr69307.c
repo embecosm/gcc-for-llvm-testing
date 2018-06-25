@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fselective-scheduling2" } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned char uint8_t;
 typedef unsigned short int uint16_t;

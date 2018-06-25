@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target noclone } */
 
 #include <stdint.h>
 

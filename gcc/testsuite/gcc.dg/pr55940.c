@@ -3,6 +3,7 @@
 /* { dg-skip-if "pointer arithmetic can wrap" { msp430-*-* } { "*" } { "-mlarge" } } */
 /* { dg-options "-Os" } */
 /* { dg-additional-options "-mpreferred-stack-boundary=2" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-require-effective-target noclone } */
 
 struct S { int s; unsigned long t; };
 

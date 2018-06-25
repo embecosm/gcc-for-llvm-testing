@@ -1,6 +1,7 @@
 /* PR target/80286 */
 /* { dg-do run } */
 /* { dg-options "-O2 -Wno-psabi" } */
+/* { dg-require-effective-target noclone } */
 
 typedef int V __attribute__((vector_size (4 * sizeof (int))));
 

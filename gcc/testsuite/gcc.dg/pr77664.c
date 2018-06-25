@@ -1,6 +1,7 @@
 /* PR tree-optimization/77664 */
 /* { dg-do run } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target noclone } */
 
 #include "tree-ssa/pr77664.c"
 

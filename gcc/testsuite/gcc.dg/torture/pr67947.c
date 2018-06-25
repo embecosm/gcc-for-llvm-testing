@@ -1,4 +1,5 @@
 /* { dg-additional-options "-O3" } */
+/* { dg-require-effective-target noclone } */
 
 #include <stdlib.h>
 

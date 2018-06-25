@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 typedef long long V
   __attribute__ ((vector_size (2 * sizeof (long long)), may_alias));

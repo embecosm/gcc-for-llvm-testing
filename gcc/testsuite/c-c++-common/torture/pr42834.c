@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 void __attribute__((noinline,noclone))
 foo(int *p, float *q) { __asm__ volatile ("" : : : "memory"); }

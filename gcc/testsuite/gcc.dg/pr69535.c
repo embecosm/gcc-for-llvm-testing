@@ -1,5 +1,6 @@
 /* { dg-do run { target int128 } } */
 /* { dg-options "-O -fno-tree-bit-ccp -fno-tree-reassoc" } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned char u8;
 typedef unsigned short u16;

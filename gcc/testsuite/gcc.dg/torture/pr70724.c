@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-ftracer" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 

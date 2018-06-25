@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fipa-pta" } */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned long ulong;
 
