@@ -1,5 +1,6 @@
 /* PR middle-end/34134 */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target stack_save_restore } */
 
 extern void bar (void *, int);
 

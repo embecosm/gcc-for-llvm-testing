@@ -5,6 +5,9 @@
 /* { dg-skip-if "No Inf/NaN support" { spu-*-* } } */
 /* { dg-options "-DUNSAFE" { target tic6x*-*-* visium-*-* nvptx-*-* } } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target builtin_isnan } */
+/* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_finite } */
 
 #include "../tg-tests.h"
 
