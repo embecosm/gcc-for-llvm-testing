@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-fno-fp-int-builtin-inexact" } */
 /* { dg-require-effective-target fenv_exceptions } */
+/* { dg-require-effective-target noclone } */
 
 #include <fenv.h>
 

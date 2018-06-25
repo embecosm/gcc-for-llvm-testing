@@ -4,6 +4,7 @@
 /* { dg-require-effective-target gcc_internals } */
 /* Bionic targets don't have mempcpy */
 /* { dg-require-effective-target non_bionic } */
+/* { dg-require-effective-target noclone } */
 
 #define USE_GNU
 #include "strlenopt.h"

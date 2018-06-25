@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fschedule-insns" { target scheduling } } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 

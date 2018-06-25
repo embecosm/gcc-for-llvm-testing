@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O" } */
+/* { dg-require-effective-target noclone } */
 
 typedef int vec __attribute__((vector_size(4*sizeof(int))));
 

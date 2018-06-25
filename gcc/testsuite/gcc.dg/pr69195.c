@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fno-dce -fno-forward-propagate" } */
+/* { dg-require-effective-target noclone } */
 
 void __attribute__ ((noinline, noclone))
 foo (int *a, int n)

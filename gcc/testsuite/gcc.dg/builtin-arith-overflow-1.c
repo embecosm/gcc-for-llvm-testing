@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-optimized -g" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 /* SUB_OVERFLOW should be folded into unsigned subtraction,
    because ovf is never used.  */

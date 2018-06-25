@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target split_stack } */
 /* { dg-require-effective-target nested_func } */
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-O2 -fsplit-stack -g" } */
 
 void

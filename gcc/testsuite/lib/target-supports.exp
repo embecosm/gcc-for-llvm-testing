@@ -12444,6 +12444,14 @@ proc check_effective_target_builtin_setjmp_longjmp { } {
     } "-w" ]
 }
 
+# Return 1 if the target supports the 'noclone' attribute
+
+proc check_effective_target_noclone { } {
+    return [check_no_compiler_messages noclone assembly {
+	void __attribute__((noclone)) foo (void) {}
+    }]
+}
+
 # Various checks for the presence of GCC builtins which aren't universally
 # supported by other compilers
 

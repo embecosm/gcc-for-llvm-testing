@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-vectorize -ftree-loop-if-convert -fdump-tree-widening_mul" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 

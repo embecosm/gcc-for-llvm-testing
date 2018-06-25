@@ -1,5 +1,6 @@
 /* PR tree-optimization/69546 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target noclone } */
 
 unsigned __int128 __attribute__ ((noinline, noclone))
 foo (unsigned long long x)

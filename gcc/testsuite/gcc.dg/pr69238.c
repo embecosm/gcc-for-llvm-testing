@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-dce -fno-forward-propagate -fno-rerun-cse-after-loop -funroll-loops" } */
+/* { dg-require-effective-target noclone } */
 
 
 #define N 32

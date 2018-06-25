@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 struct S { int *p; int *q; };
 

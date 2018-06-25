@@ -1,5 +1,7 @@
 /* PR tree-optimization/69760 */
 /* { dg-do run { target { { *-*-linux* *-*-gnu* *-*-uclinux* } && mmap } } } */
+/* { dg-require-effective-target noclone } */
+/* { dg-options "-O2" } */
 
 #include <unistd.h>
 #include <sys/mman.h>

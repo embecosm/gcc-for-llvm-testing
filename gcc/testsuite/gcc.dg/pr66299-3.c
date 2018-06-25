@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-original" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 void __attribute__ ((noinline, noclone))
 test1 (int x)

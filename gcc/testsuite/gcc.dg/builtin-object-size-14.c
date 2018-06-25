@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target noclone } */
 
 extern void abort (void);
 extern char *strncpy(char *, const char *, __SIZE_TYPE__);

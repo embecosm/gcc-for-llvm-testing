@@ -1,6 +1,7 @@
 /* Test __builtin_{add,sub}_overflow on {,un}signed char.  */
 /* { dg-do run } */
 /* { dg-skip-if "" { ! run_expensive_tests }  { "*" } { "-O0" "-O2" } } */
+/* { dg-require-effective-target noclone } */
 
 #define UCHAR_MAX ((unsigned char) ~0)
 #ifndef SHIFT

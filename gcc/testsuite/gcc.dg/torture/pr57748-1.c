@@ -1,5 +1,6 @@
 /* PR middle-end/57748 */
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 /* ICE in expand_assignment:
    misalignp == true, !MEM_P (to_rtx), offset != 0,
    => gcc_assert (TREE_CODE (offset) == INTEGER_CST) */

@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* This test is too big for small targets.  */
 /* { dg-require-effective-target size32plus } */
+/* { dg-require-effective-target noclone } */
 
 #include <stdlib.h>
 

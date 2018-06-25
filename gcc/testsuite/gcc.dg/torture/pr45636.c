@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target mempcpy } */
+/* { dg-require-effective-target noclone } */
 /* PR fortran/45636 */
 
 typedef __SIZE_TYPE__ size_t;

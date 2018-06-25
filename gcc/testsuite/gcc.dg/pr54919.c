@@ -3,6 +3,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-O3 -ffast-math -funroll-loops -fvariable-expansion-in-unroller" } */
+/* { dg-require-effective-target noclone } */
 
 int a[10];
 extern void abort(void) __attribute__((noreturn));

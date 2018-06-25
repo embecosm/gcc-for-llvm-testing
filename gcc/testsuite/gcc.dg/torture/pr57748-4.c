@@ -1,5 +1,6 @@
 /* PR middle-end/57748 */
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 /* wrong code in expand_expr_real_1.  */
 
 #include <stdlib.h>

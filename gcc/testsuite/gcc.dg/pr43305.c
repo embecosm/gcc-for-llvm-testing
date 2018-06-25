@@ -1,5 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -ffast-math" } */
+/* { dg-require-effective-target noclone } */
+
 extern int ilogbl(long double);
 extern int printf(const char *format, ...);
 
