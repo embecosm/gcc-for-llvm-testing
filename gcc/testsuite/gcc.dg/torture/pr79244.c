@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target nonlocal_goto } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 long buf[5];
 int bar (void);
