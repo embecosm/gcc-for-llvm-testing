@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftree-loop-distribute-patterns" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void foo (volatile int *p, int n)
 {

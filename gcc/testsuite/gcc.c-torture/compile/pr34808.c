@@ -1,6 +1,7 @@
 /* PR 34808 */
 /* { dg-do compile }
 /* { dg-options "-fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int flags;
 

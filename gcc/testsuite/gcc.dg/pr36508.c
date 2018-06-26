@@ -1,6 +1,7 @@
 /* PR tree-optimization/36508 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-pre" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (short *sp)

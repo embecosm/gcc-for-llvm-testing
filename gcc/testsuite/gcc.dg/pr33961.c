@@ -1,6 +1,7 @@
 /* PR tree-optimization/33961 */
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-cselim" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void decode(char *d, int len);
 

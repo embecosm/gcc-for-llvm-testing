@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -ftree-vectorize" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 int a[4] __attribute__((aligned (32)));

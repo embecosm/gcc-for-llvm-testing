@@ -1,6 +1,7 @@
 /* PR target/61060 */
 /* { dg-do compile } */
 /* { dg-options "-O0 -ftree-ter" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef __SIZE_TYPE__ size_t;
 

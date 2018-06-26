@@ -1,6 +1,7 @@
 /* PR tree-optimization/23818 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdarg.h>
 

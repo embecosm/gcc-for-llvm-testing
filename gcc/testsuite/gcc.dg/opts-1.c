@@ -1,6 +1,7 @@
 /* Test negative forms of various options are rejected.  */
 /* { dg-do compile } */
 /* { dg-options "-Wno-strict-aliasing=1 -Wno-strict-overflow=1 -fno-abi-version=1 -fno-lto-compression-level=1 -fno-tree-parallelize-loops=1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* { dg-error "-fno-abi-version" "-fno-abi-version" { target *-*-* } 0 } */
 /* { dg-error "-fno-lto-compression-level" "-fno-lto-compression-level" { target *-*-* } 0 } */

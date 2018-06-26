@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vectorize -fno-tree-copy-prop -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int A[], B[];
 

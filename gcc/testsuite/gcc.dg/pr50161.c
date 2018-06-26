@@ -1,6 +1,7 @@
 /* PR middle-end/50161 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-ter -funroll-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

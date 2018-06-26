@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftree-loop-distribution -funswitch-loops -w" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b;
 

@@ -1,6 +1,7 @@
 /* PR tree-optimization/69156 */
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O1 -fno-tree-ccp" } */
 
 _Bool

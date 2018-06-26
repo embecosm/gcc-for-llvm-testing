@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-ftree-slp-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

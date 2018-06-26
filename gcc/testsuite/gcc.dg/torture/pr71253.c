@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int jo, af, yb;
 long int wt;

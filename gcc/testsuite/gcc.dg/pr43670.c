@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vrp -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

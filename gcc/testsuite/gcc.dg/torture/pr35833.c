@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-ftree-vrp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S {struct S *field;};
 struct S True, False, Z;
