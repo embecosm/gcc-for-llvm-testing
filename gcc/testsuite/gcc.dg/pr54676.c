@@ -1,6 +1,7 @@
 /* PR tree-optimization/54676 */
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-ccp -fno-tree-copy-prop -fno-tree-fre -ftree-vrp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S
 {

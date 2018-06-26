@@ -1,6 +1,7 @@
 /* PR debug/43670 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vrp -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

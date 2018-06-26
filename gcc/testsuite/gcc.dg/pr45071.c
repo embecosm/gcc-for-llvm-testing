@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vrp -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct A
 {

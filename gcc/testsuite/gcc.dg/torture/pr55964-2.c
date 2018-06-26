@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftree-loop-distribution -funswitch-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct test_struct {
     int a, b[10], c[10], d[10];

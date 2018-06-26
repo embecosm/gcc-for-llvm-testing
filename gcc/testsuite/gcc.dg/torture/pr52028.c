@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-ftree-loop-distribution" } */
 
 #define CAST_LONG unsigned int

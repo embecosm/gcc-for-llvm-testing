@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-copy-prop -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int A[30], B[30];
 

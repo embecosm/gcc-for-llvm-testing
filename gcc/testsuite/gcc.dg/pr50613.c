@@ -1,6 +1,7 @@
 /* PR tree-optimization/50613 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-ccp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include "strlenopt.h"
 

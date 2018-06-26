@@ -1,6 +1,7 @@
 /* PR middle-end/48335 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-sra" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef long long T __attribute__((may_alias, aligned (1)));
 typedef short U __attribute__((may_alias, aligned (1)));

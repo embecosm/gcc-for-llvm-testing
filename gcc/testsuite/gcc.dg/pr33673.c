@@ -1,6 +1,7 @@
 /* PR rtl-optimization/33673 */
 /* { dg-do compile } */
 /* { dg-options "-Os -fno-forward-propagate -fno-guess-branch-probability -fno-move-loop-invariants -fno-tree-dominator-opts -fno-tree-loop-optimize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int f1 (int);
 extern int f2 (int);

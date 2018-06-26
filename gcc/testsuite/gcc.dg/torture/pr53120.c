@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-sra" } */
+/* { dg-require-effective-target gcc_internals } */
 typedef struct {
   unsigned int en : 1;
   unsigned int bit_order : 1;

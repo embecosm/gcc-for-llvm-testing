@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fno-tree-sra" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 struct Foo {

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-tail-merge" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct node
 {

@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-ftree-vectorize" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 typedef int myint __attribute__ ((__aligned__ (16)));

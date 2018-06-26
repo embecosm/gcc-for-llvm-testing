@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-ftree-vectorize" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 float val[256];
 float x;

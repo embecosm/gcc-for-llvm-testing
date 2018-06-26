@@ -6,6 +6,7 @@
    supported in the compiler beginning with GCC 4.3.  */
 /* m32c has varying sized pointers */
 /* { dg-skip-if "" { "m32c-*-*" } { "*" } { "-mcpu=m32c" "-mcpu=m32cm" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 __extension__ typedef __INTPTR_TYPE__ intptr_t;
 

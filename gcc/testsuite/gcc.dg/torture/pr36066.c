@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftree-vrp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int FLAC__int32;
 typedef int FLAC__bool;

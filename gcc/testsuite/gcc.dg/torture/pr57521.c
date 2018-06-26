@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-ftree-loop-if-convert" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void abort (void);
 

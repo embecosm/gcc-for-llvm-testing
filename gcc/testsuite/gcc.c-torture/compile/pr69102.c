@@ -1,6 +1,7 @@
 /* { dg-options "-Og -fPIC -fschedule-insns2 -fselective-scheduling2 -fno-tree-fre --param=max-sched-extend-regions-iters=10" } */
 /* { dg-require-effective-target scheduling } */
 /* { dg-require-effective-target fpic } */
+/* { dg-require-effective-target gcc_internals } */
 void bar (unsigned int);
 
 void

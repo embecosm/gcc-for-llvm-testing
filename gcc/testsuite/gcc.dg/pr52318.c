@@ -1,6 +1,7 @@
 /* PR tree-optimization/52318 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -ftracer -fno-tree-ccp -fno-tree-copy-prop -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int c;
 char *p;

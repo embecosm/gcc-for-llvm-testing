@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #define N 1024
 unsigned char a[N], b[N], c[N];

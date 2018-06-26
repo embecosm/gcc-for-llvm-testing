@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-sra" } */
+/* { dg-require-effective-target gcc_internals } */
 
 _Complex float foo(void)
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned long long HARD_REG_ELT_TYPE;
 typedef HARD_REG_ELT_TYPE HARD_REG_SET[2];

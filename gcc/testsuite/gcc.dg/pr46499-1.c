@@ -1,6 +1,7 @@
 /* PR middle-end/46499 */
 /* { dg-do run } */
 /* { dg-options "-O -fno-omit-frame-pointer -fno-tree-ccp -fno-tree-dominator-opts -finline-small-functions" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

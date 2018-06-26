@@ -1,6 +1,7 @@
 /* PR tree-optimization/77860 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-vrp -fno-tree-forwprop -Wno-psabi" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned short V __attribute__((vector_size (16)));
 

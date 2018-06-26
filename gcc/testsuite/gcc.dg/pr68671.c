@@ -1,6 +1,7 @@
 /* PR tree-optimization/68671 */
 /* { dg-do run } */
 /* { dg-options " -O2 -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 volatile int a = -1;
 volatile int b;

@@ -1,6 +1,7 @@
 /* PR middle-end/52177 */
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-ccp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int *s;
 

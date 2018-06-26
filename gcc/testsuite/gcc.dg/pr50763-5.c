@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-tail-merge" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct inode
 {

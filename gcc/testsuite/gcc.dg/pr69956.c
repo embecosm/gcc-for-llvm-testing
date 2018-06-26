@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize" } */
 /* { dg-additional-options "-march=skylake-avx512" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 fn1 (char *b, char *d, int *c, int i)

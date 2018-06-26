@@ -2,6 +2,7 @@
 /* Reported by Zdenek Sojka <zsojka@seznam.cz> */
 /* { dg-do compile } */
 /* { dg-options "-fgcse -fno-tree-dominator-opts -fcompare-debug -O" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar (void);
 

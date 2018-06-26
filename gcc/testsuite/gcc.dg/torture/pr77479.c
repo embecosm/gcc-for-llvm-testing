@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fstrict-overflow -ftree-vrp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 vr (int of, unsigned char bw)

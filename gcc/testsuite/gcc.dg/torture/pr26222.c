@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-pre -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void putShort (int, int);
 

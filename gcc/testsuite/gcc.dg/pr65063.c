@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fno-tree-loop-ivcanon -fno-tree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static int in[8][4];
 static int out[4];

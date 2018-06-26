@@ -1,6 +1,7 @@
 /* PR tree-optimization/35468 */
 /* { dg-do compile  }*/
 /* { dg-options "-O2 -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char *const f(void)
 {

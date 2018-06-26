@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-copy-prop -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S
 {

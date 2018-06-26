@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target pthread } */
 /* { dg-options "-O2 -ftree-parallelize-loops=2 -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int *b, *e[8], d;
 

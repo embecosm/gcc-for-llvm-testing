@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-dce -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern short X[];
 

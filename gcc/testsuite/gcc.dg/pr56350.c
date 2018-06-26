@@ -1,6 +1,7 @@
 /* PR tree-optimization/56350 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b, c;
 
