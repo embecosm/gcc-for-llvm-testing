@@ -1,6 +1,7 @@
 /* PR tree-optimization/29637 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct __attribute__ ((aligned (8)))
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-ccp -fno-tree-vrp -O2 -Wuninitialized -Wno-maybe-uninitialized" } */
+/* { dg-require-effective-target gcc_internals } */
 void blah();
 void bar (int);
 int gflag;

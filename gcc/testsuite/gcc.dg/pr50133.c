@@ -1,6 +1,7 @@
 /* PR tree-optimization/50133 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vectorize -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int A[], B[];
 

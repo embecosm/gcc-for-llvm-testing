@@ -1,6 +1,7 @@
 /* PR debug/46771 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vectorize -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned char v[1600];
 

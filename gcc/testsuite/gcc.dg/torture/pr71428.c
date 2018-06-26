@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fno-tree-forwprop -Wno-psabi -w" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned short v64u16 __attribute__ ((vector_size (64)));
 

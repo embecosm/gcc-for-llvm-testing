@@ -1,6 +1,7 @@
 /* PR debug/46252 */
 /* { dg-do compile } */
 /* { dg-options "-O -frerun-cse-after-loop -fno-tree-loop-optimize -funroll-loops -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar (void);
 

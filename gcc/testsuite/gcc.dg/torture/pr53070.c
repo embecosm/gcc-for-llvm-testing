@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ffast-math -ftree-loop-if-convert -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_internals } */
 int
 foo (int c)
 {

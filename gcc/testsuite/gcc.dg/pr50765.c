@@ -1,6 +1,7 @@
 /* PR tree-optimization/50765 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (long *w, long *x, unsigned char *y, int z)

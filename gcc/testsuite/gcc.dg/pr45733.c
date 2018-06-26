@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fstrict-overflow -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef __INTPTR_TYPE__ intptr_t;
 

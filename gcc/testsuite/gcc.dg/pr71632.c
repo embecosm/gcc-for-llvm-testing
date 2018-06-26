@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-if-convert" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (double d, double *p, double *q)

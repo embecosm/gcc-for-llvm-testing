@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-ftree-pre -fcode-hoisting" } */
+/* { dg-require-effective-target gcc_internals } */
 
 __extension__ typedef __UINTPTR_TYPE__ uintptr_t;
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct Pixel {
     unsigned short r;

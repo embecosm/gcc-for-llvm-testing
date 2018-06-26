@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -ftree-vectorize -fdbg-cnt=vect_loop:1" } */
 /* { dg-additional-options "-mavx2" { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-prune-output "\\*\\*\\*dbgcnt:.*limit.*reached" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b, g, h;
 int c[58];

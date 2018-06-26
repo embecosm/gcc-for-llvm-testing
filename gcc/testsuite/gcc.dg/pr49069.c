@@ -1,6 +1,7 @@
 /* PR target/49069 */
 /* { dg-do compile } */
 /* { dg-options "-Os -fno-tree-forwprop -Wno-div-by-zero" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a;
 const unsigned long long b[1] = { 1ULL };

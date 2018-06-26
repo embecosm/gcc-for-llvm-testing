@@ -1,6 +1,7 @@
 /* PR middle-end/70326 */
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-Og -fno-dce -fno-guess-branch-probability -fschedule-insns -fno-tree-coalesce-vars -fno-tree-dce -w -Wno-psabi" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned int A __attribute__ ((vector_size (32)));
 typedef unsigned __int128 B;

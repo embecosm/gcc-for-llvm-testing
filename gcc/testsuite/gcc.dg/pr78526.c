@@ -2,6 +2,7 @@
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-O -fno-tree-ccp -fno-tree-sra -g -w" } */
 /* { dg-additional-options "-mavx512bw" { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned U __attribute__ ((vector_size (64)));
 typedef unsigned __int128 V __attribute__ ((vector_size (64)));

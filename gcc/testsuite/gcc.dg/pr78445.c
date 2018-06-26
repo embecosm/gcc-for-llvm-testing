@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-if-convert -ftree-vectorize" } */
 /* { dg-additional-options "-mavx2" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a;
 

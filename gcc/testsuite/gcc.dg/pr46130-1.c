@@ -1,6 +1,7 @@
 /* PR tree-optimization/46130 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdarg.h>
 

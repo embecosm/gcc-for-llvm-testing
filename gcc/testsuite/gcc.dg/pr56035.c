@@ -1,6 +1,7 @@
 /* PR tree-optimization/56035 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-vectorize -fcse-follow-jumps -fstrict-overflow" } */
+/* { dg-require-effective-target gcc_internals } */
 
 short a, c, *p;
 

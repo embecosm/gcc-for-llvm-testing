@@ -1,4 +1,5 @@
 /* { dg-options "-fno-tree-sra" } */
+/* { dg-require-effective-target gcc_internals } */
 typedef unsigned char byte;
 typedef unsigned int uint;
 typedef int bool;

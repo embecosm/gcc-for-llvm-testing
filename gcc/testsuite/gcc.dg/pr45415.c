@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned long int st;
 typedef unsigned long long dt;

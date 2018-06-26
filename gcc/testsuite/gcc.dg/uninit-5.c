@@ -2,6 +2,7 @@
 /* Disable jump threading, etc to test compiler analysis.  */
 /* { dg-do compile } */
 /* { dg-options "-O -Wuninitialized -fno-tree-dce -fno-tree-vrp -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void use(int);
 extern void foo(void);

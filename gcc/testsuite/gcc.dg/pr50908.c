@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target lp64 } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -ftree-tail-merge" } */
 
 enum Lisp_Type

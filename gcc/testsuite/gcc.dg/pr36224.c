@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target lp64 } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -ftree-vectorize" } */
 
 #ifndef ALIGN16

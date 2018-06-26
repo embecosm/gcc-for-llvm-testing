@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-loop-if-convert" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 
