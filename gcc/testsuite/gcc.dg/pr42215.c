@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int A[];
 extern int B[];

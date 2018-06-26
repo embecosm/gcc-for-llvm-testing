@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-ccp -fno-tree-forwprop -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static const int a[4] = {};
 int foo(void)

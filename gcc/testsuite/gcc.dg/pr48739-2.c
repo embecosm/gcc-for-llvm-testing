@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target pthread } */
 /* { dg-options "-O1 -ftree-parallelize-loops=2 -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int g, v[10];
 extern void bar (void);

@@ -1,5 +1,7 @@
 /* { dg-options "-fno-tree-sra" } */
 /* { dg-options "-fno-tree-sra -march=v32" { target cris-*-* } } */
+/* { dg-require-effective-target gcc_internals } */
+
 typedef unsigned char byte;
 typedef unsigned int uint;
 typedef int bool;

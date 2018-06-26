@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int i;
 void foo ()

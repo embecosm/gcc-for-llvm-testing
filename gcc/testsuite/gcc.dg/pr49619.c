@@ -1,6 +1,7 @@
 /* PR rtl-optimization/49619 */
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-fre" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int a, b;
 

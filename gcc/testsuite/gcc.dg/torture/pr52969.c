@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftree-loop-if-convert-stores" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b;
 float xsum[100];

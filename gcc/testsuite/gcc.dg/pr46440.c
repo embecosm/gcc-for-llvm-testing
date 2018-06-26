@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fstack-protector -fno-tree-dominator-opts -fno-tree-fre" } */
 /* { dg-require-effective-target fstack_protector } */
+/* { dg-require-effective-target gcc_internals } */
 
 int i;
 

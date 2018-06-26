@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fstack-check=specific -fno-tree-dse -fno-tree-fre -fno-tree-loop-optimize -g" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S
 {

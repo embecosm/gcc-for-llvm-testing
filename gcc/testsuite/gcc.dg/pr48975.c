@@ -1,6 +1,7 @@
 /* PR tree-optimization/48975 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -ffast-math -fno-tree-slp-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static int
 foo (int x)

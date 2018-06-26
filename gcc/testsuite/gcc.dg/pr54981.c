@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-loop-distribute-patterns -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void bar(unsigned *, char *);
 

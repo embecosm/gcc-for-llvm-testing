@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-funswitch-loops -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct AVProgram {
     void *priv_data;

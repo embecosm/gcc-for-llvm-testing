@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options " -O2 -fno-tree-dce" } */
 /* { dg-xfail-if "ptxas crashes" { nvptx-*-* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 volatile int a = -1;
 volatile int b;

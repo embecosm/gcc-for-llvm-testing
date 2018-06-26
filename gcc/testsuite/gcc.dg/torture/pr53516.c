@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-ftree-vectorize -ftree-loop-distribute-patterns" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

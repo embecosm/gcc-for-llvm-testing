@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize -fno-vect-cost-model" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct R {
   double d1;
