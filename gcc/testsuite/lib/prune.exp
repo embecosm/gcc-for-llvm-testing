@@ -74,6 +74,10 @@ proc prune_gcc_output { text } {
     # Ignore harmless warnings from Xcode 4.0.
     regsub -all "(^|\n)\[^\n\]*ld: warning: could not create compact unwind for\[^\n\]*" $text "" text
 
+    # clang: ignore harmless complaints about missing options to disable
+    # non-existent warnings.
+    regsub -all "(^|\n)\[^\n\]*unknown warning option\[^\n\]*-Wno-\[^\n\]*" $text "" text
+
     # Call into multiline.exp to handle any multiline output directives.
     set text [handle-multiline-outputs $text]
 
