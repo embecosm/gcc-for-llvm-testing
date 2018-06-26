@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-loop-distribute-patterns -fno-tree-loop-ivcanon -fno-tree-loop-vectorize -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned in[72];
 

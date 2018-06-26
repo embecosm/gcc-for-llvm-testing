@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funswitch-loops -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 short a, b, c, d;
 

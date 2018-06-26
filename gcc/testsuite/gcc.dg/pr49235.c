@@ -1,6 +1,7 @@
 /* PR rtl-optimization/49235 */
 /* { dg-do compile { target { int32plus } } } */
 /* { dg-options "-O -fno-delete-null-pointer-checks -fno-tree-scev-cprop -ftree-vectorize -fno-vect-cost-model -w" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 foo (void)

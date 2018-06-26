@@ -1,6 +1,7 @@
 /* PR rtl-optimization/50290 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-loop-optimize -fno-tree-vrp -funroll-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static int
 bar (int t[], int b)

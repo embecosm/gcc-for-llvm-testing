@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vrp -fwrapv" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void bar(int);
 void checkgroups(int last, int verbose) 

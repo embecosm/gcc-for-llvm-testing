@@ -1,6 +1,7 @@
 /* PR tree-optimization/55831 */
 /* { dg-do compile } */
 /* { dg-options "-O -fstrict-overflow -ftree-vectorize -Wno-unused-label" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int g;
 short p, q;

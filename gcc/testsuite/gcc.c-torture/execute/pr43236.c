@@ -1,4 +1,5 @@
 /* { dg-options "-ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_internals } */
 extern void abort(void);
 extern void *memset(void *s, int c, __SIZE_TYPE__ n);
 extern int memcmp(const void *s1, const void *s2, __SIZE_TYPE__ n);

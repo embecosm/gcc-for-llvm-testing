@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-ccp -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef int v4si __attribute__ ((vector_size (16)));
 

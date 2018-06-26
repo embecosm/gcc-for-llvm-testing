@@ -4,6 +4,7 @@
 /* { dg-do run } */
 /* { dg-options "-O -free -fno-rename-registers -ftree-vectorize -funroll-loops" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef __UINT64_TYPE__ uint64_t;
 

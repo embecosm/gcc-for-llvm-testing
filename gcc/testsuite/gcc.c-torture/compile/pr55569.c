@@ -1,4 +1,5 @@
 /* { dg-options "-Wno-stringop-overflow -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 int *bar (void);
 
 void

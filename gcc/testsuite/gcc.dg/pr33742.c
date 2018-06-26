@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned short ush;
 extern ush prev[];

@@ -2,6 +2,7 @@
    code dealing with complex CONCATs.  */
 /* { dg-do run } */
 /* { dg-options "-O -fno-tree-sra" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 extern void exit (int);

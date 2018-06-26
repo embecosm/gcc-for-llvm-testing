@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static const unsigned char _c30[] =
   "statistic of allocated integer registers:";

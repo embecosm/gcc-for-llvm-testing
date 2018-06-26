@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-vrp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

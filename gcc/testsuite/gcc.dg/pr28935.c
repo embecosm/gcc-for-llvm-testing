@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int col[8];
 int extend_options(int w, int h, int *map, int x, int y, int index)

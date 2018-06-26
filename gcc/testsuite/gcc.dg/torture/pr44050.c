@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fno-tree-pta" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static void __attribute__((noinline))
 foo (int *i, int n)

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int in[8][4];
 int out[4];

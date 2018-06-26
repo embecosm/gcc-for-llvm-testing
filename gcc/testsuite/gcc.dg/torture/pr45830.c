@@ -1,6 +1,7 @@
 /* PR tree-optimization/45830 */
 /* { dg-do run } */
 /* { dg-additional-options "-fno-tree-switch-conversion" { target avr-*-* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

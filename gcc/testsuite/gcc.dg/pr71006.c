@@ -1,6 +1,7 @@
 /* PR target/71006 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned char uu, gu, e2;
 

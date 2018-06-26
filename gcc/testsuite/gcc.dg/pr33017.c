@@ -1,6 +1,7 @@
 /* PR tree-optimization/33017 */
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern __SIZE_TYPE__ strlen (const char *);
 extern void abort (void);

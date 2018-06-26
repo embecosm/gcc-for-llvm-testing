@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wuninitialized -O2 -fno-tree-tail-merge" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int g;
 void bar (void);

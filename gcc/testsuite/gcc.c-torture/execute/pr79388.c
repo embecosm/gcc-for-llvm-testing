@@ -1,5 +1,6 @@
 /* PR rtl-optimization/79388 */
 /* { dg-additional-options "-fno-tree-coalesce-vars" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned int a, c;
 

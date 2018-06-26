@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O -fno-tree-ccp -fno-tree-fre -fno-tree-copy-prop -fwrapv" } */
 
 static inline int

@@ -1,6 +1,7 @@
 /* PR rtl-optimization/46777 */
 /* { dg-do compile } */
 /* { dg-options "-fgcse -O -fno-tree-dominator-opts -funroll-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S { char s[256]; };
 
