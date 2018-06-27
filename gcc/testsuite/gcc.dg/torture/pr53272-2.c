@@ -1,4 +1,5 @@
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target builtin_exit } */
 
 __attribute__ ((__noinline__, __noclone__))
 int foo(void *x)
