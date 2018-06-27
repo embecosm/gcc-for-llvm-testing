@@ -1,6 +1,7 @@
 /* PR preprocessor/69543 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wuninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 # define YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN \
     _Pragma ("GCC diagnostic push") \

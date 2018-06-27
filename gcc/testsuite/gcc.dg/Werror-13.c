@@ -4,5 +4,6 @@
 /* { dg-error "-Wl, is not an option that controls warnings" "" { target *-*-* } 0 } */
 /* { dg-error "-Werror is not an option that controls warnings" "" { target *-*-* } 0 } */
 /* { dg-error "-Wfatal-errors is not an option that controls warnings" "" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i;
