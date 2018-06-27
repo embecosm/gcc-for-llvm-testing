@@ -1,5 +1,6 @@
 /* { dg-options "-O -fexpensive-optimizations -fno-tree-bit-ccp" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target noclone } */
 
 __attribute__ ((noinline, noclone))
 int

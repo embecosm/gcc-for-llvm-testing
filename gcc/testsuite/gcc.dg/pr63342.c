@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-g -O2" } */
 /* { dg-additional-options "-fpic" { target fpic } } */
+/* { dg-require-effective-target tls } */
 
 static __thread double u[9], v[9];
 
