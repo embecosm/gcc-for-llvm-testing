@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-reorder-blocks" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target freorder } */
 
 void abort ();
 

@@ -1,6 +1,7 @@
 /* PR middle-end/41837 */
 /* { dg-do compile } */
 /* { dg-options "-fipa-struct-reorg -O -fwhole-program -fprofile-generate" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct { int a, b; } T1;
 typedef struct S1 *T2;

@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fipa-struct-reorg -fwhole-program -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S
 {

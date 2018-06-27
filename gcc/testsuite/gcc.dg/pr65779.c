@@ -2,6 +2,7 @@
 /* { dg-do assemble } */
 /* { dg-options "-O2 -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned long
 foo (unsigned long x, unsigned char *y, unsigned int z)

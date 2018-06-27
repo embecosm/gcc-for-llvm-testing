@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fmodulo-sched" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int foo(short* vec1, short* vec2, short* vec3,int len )
 {

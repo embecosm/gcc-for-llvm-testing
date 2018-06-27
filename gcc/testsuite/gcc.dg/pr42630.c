@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fvariable-expansion-in-unroller -funroll-loops -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 int sum(int *buf, int len)
 {

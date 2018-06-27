@@ -1,6 +1,7 @@
 /* PR debug/49522 */
 /* { dg-do compile } */
 /* { dg-options "-fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int val1 = 0L;
 volatile int val2 = 7L;

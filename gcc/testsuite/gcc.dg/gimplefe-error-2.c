@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-fgimple" } */
 
 int __GIMPLE ()

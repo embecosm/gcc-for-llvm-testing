@@ -1,6 +1,7 @@
 /* PR rtl-optimization/80112 */
 /* { dg-do compile } */
 /* { dg-options "-Os -fmodulo-sched" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void **a;
 

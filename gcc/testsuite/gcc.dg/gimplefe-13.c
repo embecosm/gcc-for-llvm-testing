@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void __GIMPLE (startwith ("dse2")) foo ()
 {

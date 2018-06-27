@@ -2,6 +2,8 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-reorder-blocks -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target freorder } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct fdt_header { unsigned magic; } *a;
 

@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fcompare-debug" } */
 /* { dg-options "-O3 -fsched-pressure -fschedule-insns -fcompare-debug" { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S { int val[16]; };
 

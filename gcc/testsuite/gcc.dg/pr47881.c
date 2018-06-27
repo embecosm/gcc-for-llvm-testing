@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fcompare-debug -fno-dce -funroll-loops -fno-web" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int data[];
 

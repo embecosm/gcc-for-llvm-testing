@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgcse -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int A[], B[];
 

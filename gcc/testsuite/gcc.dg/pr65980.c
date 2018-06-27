@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } { "*" } { "" } } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct { int b; } A;
 void (*a) (int);

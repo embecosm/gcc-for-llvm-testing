@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug -w" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef union tree_node *tree;
 typedef unsigned int source_location;
