@@ -2,6 +2,7 @@
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O -fwhole-program" } */
 /* { dg-require-effective-target nested_func } */
+/* { dg-require-effective-target externally_visible } */
 
 static void foo1 (void) { }					/* { dg-warning "have effect only on public" } */
 extern void foo1 (void) __attribute__((externally_visible));
