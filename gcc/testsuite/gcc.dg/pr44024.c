@@ -1,6 +1,7 @@
 /* { dg-do link } */
 /* { dg-options "-O1 -fdelete-null-pointer-checks -fdump-tree-ccp1" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target delete_null_pointer_checks } */
 /* { dg-skip-if "" keeps_null_pointer_checks } */
 
 void foo();
