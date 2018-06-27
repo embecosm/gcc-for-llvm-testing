@@ -3,6 +3,7 @@
 /* { dg-options "-O3 -g -fcompare-debug" } */
 /* { dg-options "-O3 -g -fcompare-debug -march=i686" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
 /* { dg-skip-if "no long pointers" {  { ! ilp32 } && { ! lp64 } } } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct { int t; } *T;
 struct S1 { unsigned s1; };

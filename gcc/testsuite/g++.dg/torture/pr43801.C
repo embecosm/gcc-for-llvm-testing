@@ -1,6 +1,7 @@
 // PR tree-optimization/43801
 // { dg-do compile }
 // { dg-options "-fipa-cp -fipa-cp-clone" }
+// { dg-require-effective-target gcc_internals }
 
 struct A
 {

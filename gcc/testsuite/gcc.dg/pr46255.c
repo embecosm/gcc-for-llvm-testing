@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-profiling "-fprofile-generate" } */
 /* { dg-options "-fcompare-debug -fprofile-generate -O" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int bar (void);
 

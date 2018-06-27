@@ -1,6 +1,7 @@
 /* PR debug/42444 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -fmodulo-sched -ffloat-store" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int a, b;
 

@@ -1,6 +1,7 @@
 /* PR debug/48768 */
 /* { dg-do compile } */
 /* { dg-options "-O -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b;
 

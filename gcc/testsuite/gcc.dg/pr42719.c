@@ -1,6 +1,7 @@
 /* PR tree-optimization/42719 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftracer -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int *v;
 

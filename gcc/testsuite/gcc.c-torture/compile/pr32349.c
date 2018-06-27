@@ -1,4 +1,5 @@
 /* { dg-options "-fmodulo-sched" } */
+/* { dg-require-effective-target gcc_internals } */
 
 
 extern long *x1, *x2, *x3;

@@ -1,6 +1,7 @@
 /* PR ipa/59722 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abrt (const char *, int) __attribute__((noreturn));
 void baz (int *, int *);

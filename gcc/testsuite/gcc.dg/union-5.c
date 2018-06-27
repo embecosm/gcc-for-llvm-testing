@@ -1,5 +1,6 @@
 /* { dg-do run { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O -fgcse -fno-split-wide-types" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort(void);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options "-Os -fselective-scheduling2 -fsel-sched-pipelining -fprofile-generate -fno-early-inlining" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static void bmp_iter_next (int *bi)
 {

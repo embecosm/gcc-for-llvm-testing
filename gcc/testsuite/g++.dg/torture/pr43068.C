@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-freorder-blocks -ftracer} */
+/* { dg-require-effective-target freorder } */
 
 struct A {
     virtual A *f();

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fipa-ra" } */
+/* { dg-require-effective-target gcc_internals } */
 /* Testing -fipa-ra optimization option.  */
 
 static int __attribute__((noinline))

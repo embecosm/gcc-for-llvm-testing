@@ -1,6 +1,7 @@
 /* PR rtl-optimization/45865 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef union tree_node *tree;
 enum ix86_builtin_type {

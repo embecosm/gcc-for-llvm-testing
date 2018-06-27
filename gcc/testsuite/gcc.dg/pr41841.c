@@ -1,6 +1,7 @@
 /* PR tree-optimization/41841 */
 /* { dg-do compile } */
 /* { dg-options "-O -fwhole-program -fipa-cp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct S *T;
 typedef struct { } *U;

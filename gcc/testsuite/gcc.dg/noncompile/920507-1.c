@@ -1,4 +1,5 @@
 /* { dg-options "-ffat-lto-objects" } */
+/* { dg-require-effective-target gcc_internals } */
 int *
 x(void)
 {

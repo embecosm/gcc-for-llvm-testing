@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-fipa-pta" } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned long ulong;
 

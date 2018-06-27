@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void
 f1 (int n, int b)

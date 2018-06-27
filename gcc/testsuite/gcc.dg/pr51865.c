@@ -1,6 +1,7 @@
 /* PR tree-optimization/51865 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fipa-pta" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void fn (const char *, const char *) __attribute__ ((__noreturn__));
 int var;

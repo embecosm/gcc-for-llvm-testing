@@ -1,6 +1,7 @@
 /* PR debug/49496 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned short u[8], s1[8], s2[8];
 

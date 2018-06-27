@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-c -O -fgcse-after-reload -fnon-call-exceptions" } */
+/* { dg-require-effective-target gcc_internals } */
 template < typename _Tp > class new_allocator
 {
 public:

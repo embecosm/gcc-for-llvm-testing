@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct Y { int b[2]; };
 struct X { int a; struct Y y; };

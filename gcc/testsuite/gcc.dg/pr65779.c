@@ -1,6 +1,7 @@
 /* PR debug/65779 */
 /* { dg-do assemble } */
 /* { dg-options "-O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned long
 foo (unsigned long x, unsigned char *y, unsigned int z)
