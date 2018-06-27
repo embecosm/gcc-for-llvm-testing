@@ -1,5 +1,5 @@
 /* { dg-options "-fgnu89-inline" } */
-/* { dg-requre-effective-target externally_visible } */
+/* { dg-require-effective-target externally_visible } */
 
 extern void abort (void);
 extern void exit (int);
