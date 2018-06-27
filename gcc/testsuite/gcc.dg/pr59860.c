@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O" } */
+/* { dg-require-effective-target leaf } */
 
 extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) __attribute__ ((__artificial__)) char * __attribute__ ((__nothrow__ , __leaf__))
 strcat (char *__restrict __dest, const char *__restrict __src)
