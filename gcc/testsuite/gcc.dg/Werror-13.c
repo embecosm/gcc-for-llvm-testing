@@ -6,5 +6,6 @@
 /* { dg-error "'-Wfatal-errors' is not an option that controls warnings" "" { target *-*-* } 0 } */
 /* { dg-error "'-Werror=vla2': no option '-Wvla2'; did you mean '-Wvla." "" { target *-*-* } 0 } */
 /* { dg-error "'-Wno-error=misleading-indentation2': no option '-Wmisleading-indentation2'; did you mean '-Wmisleading-indentation'" "" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i;

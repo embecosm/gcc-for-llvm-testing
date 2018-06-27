@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Walloca -O2" } */
 
 // Make sure we don't warn on VLA with -Walloca.

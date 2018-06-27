@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Walloca-larger-than=2000 -O2" } */
 
 void *p;

@@ -1,4 +1,5 @@
 /* { dg-options "-Wuninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify disabling a warning, where the _Pragma is in regular code,
    but the affected code is within a macro.  */

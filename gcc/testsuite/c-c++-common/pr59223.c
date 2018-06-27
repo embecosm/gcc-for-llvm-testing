@@ -1,6 +1,7 @@
 /* PR c/59223 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wmaybe-uninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int x)
 {

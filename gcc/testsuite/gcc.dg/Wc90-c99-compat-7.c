@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu90 -Wpedantic -Wc90-c99-compat -Wno-long-long -Wno-declaration-after-statement -Wno-vla" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long long l;
 
