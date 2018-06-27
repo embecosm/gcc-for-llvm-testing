@@ -1,7 +1,7 @@
 /* { dg-do compile } */
-/* { dg-options "-O2 -fno-delete-null-pointer-checks -fdump-tree-optimized -fno-isolate-erroneous-paths-dereference" }
+/* { dg-options "-O2 -fno-delete-null-pointer-checks -fdump-tree-optimized -fno-isolate-erroneous-paths-dereference" } */
 /* { dg-require-effective-target gcc_internals } */
- * */
+/* { dg-require-effective-target delete_null_pointer_checks } */
 
 int f(int *p)
 {

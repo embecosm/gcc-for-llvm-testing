@@ -1,5 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdelete-null-pointer-checks -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target delete_null_pointer_checks } */
 
 struct B { int x; };
 extern void g3(struct B *that)  __attribute__((nonnull));

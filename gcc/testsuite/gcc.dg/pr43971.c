@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fno-delete-null-pointer-checks" } */
+/* { dg-require-effective-target delete_null_pointer_checks } */
 
 union ktime {
     long tv64;
