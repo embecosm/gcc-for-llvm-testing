@@ -1,7 +1,7 @@
 /* PR c/78768 - -Walloca-larger-than and -Wformat-overflow warnings disabled
    by -flto
   { dg-do link }
-/* { dg-require-effective-target gcc_frontend } */
+  { dg-require-effective-target gcc_frontend }
   { dg-require-effective-target lto }
   { dg-require-linker-plugin "" }
   { dg-require-effective-target builtin_sprintf }
