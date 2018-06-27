@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdelete-null-pointer-checks -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { keeps_null_pointer_checks } } */
 
 struct B { int x; };

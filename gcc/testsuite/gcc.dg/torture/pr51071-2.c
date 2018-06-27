@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-delete-null-pointer-checks" } */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target delete_null_pointer_checks } */
 
 __extension__ typedef __UINTPTR_TYPE__ uintptr_t;
 

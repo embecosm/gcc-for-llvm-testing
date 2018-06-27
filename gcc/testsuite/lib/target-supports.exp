@@ -12468,6 +12468,15 @@ proc check_effective_target_externally_visible {} {
     }]
 }
 
+# Return 1 if the target supports the -fdelete-null-pointer-checks
+# flag
+
+proc check_effective_target_delete_null_pointer_checks {} {
+    return [check_no_compiler_messages externally_visible assembly {
+	void foo () {}
+    } "-fdelete-null-pointer-checks" ]
+}
+
 # Various checks for the presence of GCC builtins which aren't universally
 # supported by other compilers
 
