@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target leaf } */
 
 extern void g (void);
 int _setjmp();

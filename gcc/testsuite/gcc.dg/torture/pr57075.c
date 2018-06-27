@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target leaf } */
 
 extern int baz (void) __attribute__ ((returns_twice));
 int __attribute__ ((__leaf__))

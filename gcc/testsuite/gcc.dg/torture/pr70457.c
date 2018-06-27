@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target leaf } */
 
 /* This formerly ICEd when trying to expand pow as a built-in with
    the wrong number of arguments.  */
