@@ -1,4 +1,5 @@
 /* { dg-additional-options "-fno-early-inlining -fno-ipa-cp" }  */
+/* { dg-require-effective-target gcc_internals } */
 struct a {
   float *b;
 } *a;

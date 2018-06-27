@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ffat-lto-objects" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct barstruct { char const* some_string; };
 

@@ -1,6 +1,7 @@
 /* PR rtl-optimization/45107 */
 /* { dg-do compile } */
 /* { dg-options "-Os -fgcse-las" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void bar(int *);
 

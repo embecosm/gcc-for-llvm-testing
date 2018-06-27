@@ -1,6 +1,7 @@
 /* PR sanitizer/78832 */
 /* { dg-do compile } */
 /* { dg-additional-options "-fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar (int *);
 

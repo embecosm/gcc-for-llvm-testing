@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-early-inlining"  } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void do_something (const char *, int);
 

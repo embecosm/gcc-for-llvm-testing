@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern double log10 (double __x);
 extern double ceil (double __x);

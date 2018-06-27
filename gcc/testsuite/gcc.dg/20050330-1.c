@@ -4,6 +4,7 @@
  
 /* { dg-do compile } */
 /* { dg-options "-O2 -fmodulo-sched" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void  
 foo ( const char *bytes, int len , char *buf)

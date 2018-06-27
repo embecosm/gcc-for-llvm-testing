@@ -1,6 +1,7 @@
 /* PR target/78148 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct A { int a, b; };
 struct B { char c, d; };

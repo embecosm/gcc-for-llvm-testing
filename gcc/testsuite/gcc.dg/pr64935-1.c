@@ -1,6 +1,7 @@
 /* PR rtl-optimization/64935 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu89 -Wno-shift-count-overflow -O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a[] = {}, b[] = {}, c[] = {}, d[] = {}, e[] = {}, f[] = {}, h[] = {};
 int g[] = { 0 };

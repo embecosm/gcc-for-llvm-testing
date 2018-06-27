@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fgimple" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int __GIMPLE (ssa)
 main (int argc, char * * argv)

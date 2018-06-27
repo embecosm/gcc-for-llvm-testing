@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgcse" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void fe ();
 

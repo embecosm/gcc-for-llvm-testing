@@ -1,6 +1,7 @@
 /* PR middle-end/69542 */
 /* { dg-do compile } */
 /* { dg-additional-options "-fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct A *B;
 extern int *a[];
