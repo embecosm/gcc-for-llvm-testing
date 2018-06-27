@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fcompare-debug -Os" } */
 /* { dg-additional-options "-fomit-frame-pointer -fno-asynchronous-unwind-tables -mpreferred-stack-boundary=2" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int fn (long);
 int v;

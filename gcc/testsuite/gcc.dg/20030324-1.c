@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fstrict-aliasing -fgcse" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* PR optimization/10087 */
 /* Contributed by Peter van Hoof <p.van-hoof@qub.ac.uk> */

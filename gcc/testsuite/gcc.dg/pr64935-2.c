@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fschedule-insns --param=max-sched-ready-insns=1 -fcompare-debug" } */
 /* { dg-require-effective-target scheduling } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } } */
 
 void

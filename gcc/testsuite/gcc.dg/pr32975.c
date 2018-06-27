@@ -1,6 +1,7 @@
 /* PR tree-optimization/32975 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -finline-functions -fipa-cp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static int
 f0 (char *s0, char *s1)

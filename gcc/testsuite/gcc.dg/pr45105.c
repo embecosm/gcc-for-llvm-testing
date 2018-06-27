@@ -1,6 +1,7 @@
 /* PR debug/45105 */
 /* { dg-do compile } */
 /* { dg-options "-Os -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int *baz (int *, int *);
 

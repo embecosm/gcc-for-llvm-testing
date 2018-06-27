@@ -3,7 +3,6 @@
 /* { dg-options "-O2 -fmodulo-sched -fmodulo-sched-allow-regmoves -fdump-rtl-sms" } */
 /* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -fmodulo-sched -fmodulo-sched-allow-regmoves -fdump-rtl-sms --param sms-min-sc=1" { target powerpc*-*-* } } */
-/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

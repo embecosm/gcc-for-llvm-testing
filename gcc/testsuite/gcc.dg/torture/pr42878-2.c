@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void error(void) __attribute__((noreturn));
 

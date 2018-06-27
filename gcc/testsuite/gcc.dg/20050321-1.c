@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fmodulo-sched" } */
+/* { dg-require-effective-target gcc_internals } */
 extern void * malloc (__SIZE_TYPE__);
 
 struct s {

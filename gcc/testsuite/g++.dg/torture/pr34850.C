@@ -2,6 +2,7 @@
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 /* { dg-options "-ffat-lto-objects" } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned char uint8_t;
 typedef unsigned int uint32_t;

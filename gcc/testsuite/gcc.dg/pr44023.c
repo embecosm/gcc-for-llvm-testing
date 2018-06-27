@@ -3,6 +3,7 @@
 /* { dg-options "-fcompare-debug -O2" } */
 /* { dg-options "-fcompare-debug -O2 -mcpu=ev67" { target alpha*-*-* } } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } } */
 
 void

@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b;
 
