@@ -12455,9 +12455,17 @@ proc check_effective_target_noclone { } {
 # Return 1 if the target supports the 'externally_visible' attribute
 
 proc check_effective_target_externally_visible {} {
-    return [check_no_compiler_messages externally_visible assembly "
-	int __attribute__((externally_visible)) foo (void) { return 0 }
-    "]
+    return [check_no_compiler_messages externally_visible assembly {
+	void __attribute__((externally_visible)) foo (void) {}
+    }]
+}
+
+# Return 1 if the target supports the 'leaf' attribute
+
+proc check_effective_target_externally_visible {} {
+    return [check_no_compiler_messages externally_visible assembly {
+	void __attribute__((externally_visible)) foo (void) {}
+    }]
 }
 
 # Various checks for the presence of GCC builtins which aren't universally
