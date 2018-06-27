@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftracer -fsched-pressure -funroll-loops -fschedule-insns -fcompare-debug" } */
 /* { dg-require-effective-target scheduling } */
+/* { dg-require-effective-target gcc_internals } */
 
 int colormap[10];
 

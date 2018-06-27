@@ -1,6 +1,7 @@
 /* PR debug/63284 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a[10], *b, *d, c, f;
 int fn2 (void);

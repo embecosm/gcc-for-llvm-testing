@@ -5,6 +5,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-expensive-optimizations" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int outbuf[100];
 int outcnt;

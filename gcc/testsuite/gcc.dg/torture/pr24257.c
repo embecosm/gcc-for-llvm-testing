@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgcse -fgcse-sm" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef struct A {
     int buf, left;

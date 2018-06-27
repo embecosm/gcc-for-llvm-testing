@@ -1,6 +1,7 @@
 /* PR debug/50017 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S { int r, i; };
 

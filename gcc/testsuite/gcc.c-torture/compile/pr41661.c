@@ -1,6 +1,7 @@
 /* PR tree-optimization/41661 */
 /* { dg-do compile } */
 /* { dg-options "-fno-early-inlining" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int g;
 

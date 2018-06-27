@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -funroll-loops -fcompare-debug" } */
+/* { dg-require-effective-target gcc_internals } */
 
 struct S {
  int i;

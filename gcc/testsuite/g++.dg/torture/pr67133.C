@@ -1,5 +1,6 @@
 // { dg-do compile }
 // { dg-additional-options "-fisolate-erroneous-paths-attribute" }
+// { dg-require-effective-target gcc_internals }
 
 class A;
 struct B {

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fmodulo-sched -fmodulo-sched-allow-regmoves" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <stdlib.h>
 #include <stdarg.h>

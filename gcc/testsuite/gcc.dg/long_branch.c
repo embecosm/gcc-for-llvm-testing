@@ -3,6 +3,7 @@
 /* { dg-skip-if "limited code space" { pdp11-*-* } } */
 /* { dg-timeout-factor 2.0 { target hppa*-*-* } } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target freorder } */
 
 void abort ();
 

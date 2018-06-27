@@ -1,5 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-freorder-blocks -ftracer" } */
+/* { dg-require-effective-target freorder } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern int data[];
 extern int i;

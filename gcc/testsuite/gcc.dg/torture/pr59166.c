@@ -1,6 +1,7 @@
 /* PR rtl-optimization/59166 */
 /* { dg-additional-options "-fcompare-debug" } */
 /* { dg-xfail-if "AIX compare debug" { powerpc-ibm-aix* } } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b, c, f, g;
 

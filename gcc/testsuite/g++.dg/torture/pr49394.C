@@ -1,5 +1,6 @@
 // { dg-do run }
 // { dg-options "-fipa-pta -fnon-call-exceptions" }
+// { dg-require-effective-target gcc_internals }
 
 struct Mutex
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-Og -fipa-cp -w -Wno-psabi" } */
+/* { dg-require-effective-target gcc_internals } */
 
 typedef unsigned __int128 u128;
 typedef unsigned __int128 V __attribute__ ((vector_size (64)));

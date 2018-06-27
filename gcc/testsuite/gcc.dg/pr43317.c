@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fwhole-program -g" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void *malloc(__SIZE_TYPE__);
 

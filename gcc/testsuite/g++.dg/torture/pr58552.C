@@ -1,5 +1,6 @@
 // { dg-do compile }
 // { dg-additional-options "-fcompare-debug" }
+// { dg-require-effective-target gcc_internals }
 
 extern void fancy_abort () __attribute__ ((__noreturn__));
 extern "C" {

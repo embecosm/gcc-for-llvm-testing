@@ -1,5 +1,6 @@
 /* { dg-do compile }  */
 /* { dg-options "-O2 -fno-early-inlining -fno-ipa-cp" } */
+/* { dg-require-effective-target gcc_internals } */
 
 float baz (void)
 {

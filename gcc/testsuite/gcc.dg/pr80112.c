@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fmodulo-sched" } */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target gcc_internals } */
 
 void **a;
 

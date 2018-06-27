@@ -2,6 +2,7 @@
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-Os -g -freorder-blocks-algorithm=simple -Wno-psabi" } */
 /* { dg-additional-options "-mstringop-strategy=libcall" { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target freorder } */
 
 typedef unsigned __int128 u128;
 typedef unsigned __int128 V __attribute__ ((vector_size (64)));

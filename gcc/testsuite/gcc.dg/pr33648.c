@@ -1,6 +1,7 @@
 /* PR rtl-optimization/33648 */
 /* { dg-do compile } */
 /* { dg-require-effective-target freorder } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-options "-O2 -fmodulo-sched -freorder-blocks-and-partition" } */
 
 unsigned res;

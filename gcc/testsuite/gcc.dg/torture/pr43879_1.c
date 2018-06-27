@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-fipa-pta -fno-inline" } */
 /* { dg-additional-sources "pr43879_2.c" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar(int c)
 {
