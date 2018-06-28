@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdiagnostics-show-caret -Wrestrict" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(int *__restrict x, int *y, int *__restrict z, int *w);
 
