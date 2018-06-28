@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wreturn-local-addr" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *address_of_local (void)
 {

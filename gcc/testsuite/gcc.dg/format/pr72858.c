@@ -1,4 +1,5 @@
 /* { dg-options "-Wformat -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "format.h"
 
