@@ -12462,9 +12462,9 @@ proc check_effective_target_externally_visible {} {
 
 # Return 1 if the target supports the 'leaf' attribute
 
-proc check_effective_target_externally_visible {} {
-    return [check_no_compiler_messages externally_visible assembly {
-	void __attribute__((externally_visible)) foo (void) {}
+proc check_effective_target_leaf {} {
+    return [check_no_compiler_messages leaf assembly {
+	void __attribute__((leaf)) foo (void) {}
     }]
 }
 
