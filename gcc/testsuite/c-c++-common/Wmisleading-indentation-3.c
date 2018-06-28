@@ -3,6 +3,7 @@
 
 /* { dg-options "-Wmisleading-indentation -fdiagnostics-show-caret" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int foo (int);
 extern int bar (int, int);

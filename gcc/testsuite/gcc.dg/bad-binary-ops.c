@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Adapted from https://gcc.gnu.org/wiki/ClangDiagnosticsComparison */
 

@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #endfi /* { dg-error "invalid preprocessing directive #endfi; did you mean #endif?" } */
 

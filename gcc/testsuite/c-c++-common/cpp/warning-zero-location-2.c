@@ -1,6 +1,7 @@
 /*
    { dg-options "-D _GNU_SOURCE -fdiagnostics-show-caret" }
    { dg-do compile }
+   { dg-require-effective-target gcc_frontend }
  */
 
 #line 4636 "configure"
