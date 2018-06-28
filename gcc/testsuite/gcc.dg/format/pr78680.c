@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wall -Wextra -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void fn1() {
   __builtin_printf("\

@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Various versions of the same C error, with a variety of line spacing,
    and of columns, to exercise the line-span handling in

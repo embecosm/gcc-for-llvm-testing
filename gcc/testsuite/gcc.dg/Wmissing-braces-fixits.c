@@ -1,4 +1,5 @@
 /* { dg-options "-Wmissing-braces -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct sf2 { int i; int j; };
 struct sf3 { int i; int j; int k; };

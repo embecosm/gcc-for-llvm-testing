@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wlogical-not-parentheses -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
  /* Test fixit hints.  */
 

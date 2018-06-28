@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wc++-compat -std=c11 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify that various diagnostics show source code ranges.  */
 
