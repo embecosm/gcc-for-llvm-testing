@@ -8271,12 +8271,9 @@ proc check_effective_target_inttypes_types { } {
 # set of options, and get different warnings / errors.
 
 proc check_effective_target_llvm { } {
-
-    if [board_info target exists llvm] {
-        return [board_info target llvm]
-    }
-
-    return 0
+    return [check_no_compiler_messages target_is_llvm executable "
+	int main (void) { return 0; }
+    " "-emit-llvm" ]
 }
 
 proc check_effective_target_not_llvm { } {
