@@ -9288,12 +9288,9 @@ proc check_effective_target_inttypes_types { } {
 # set of options, and get different warnings / errors.
 
 proc check_effective_target_llvm { } {
-
-    if [board_info target exists llvm] {
-        return [board_info target llvm]
-    }
-
-    return 0
+    return [check_no_compiler_messages target_is_llvm assembly "
+	int main (void) { return 0; }
+    " "-emit-llvm" ]
 }
 
 proc check_effective_target_not_llvm { } {
@@ -12598,7 +12595,7 @@ proc check_effective_target_builtin_imaxabs {} {
 
 proc check_effective_target_gcc_internals {} {
     return [check_no_compiler_messages gcc_internals assembly "
-	int main (void) { return 0 }
+	int main (void) { return 0; }
     " "-fdump-tree-all" ]
 }
 
@@ -12608,7 +12605,7 @@ proc check_effective_target_gcc_internals {} {
 
 proc check_effective_target_gcc_frontend {} {
     return [check_no_compiler_messages gcc_frontend assembly "
-	int main (void) { return 0 }
+	int main (void) { return 0; }
     " "-fdump-tree-all" ]
 }
 
