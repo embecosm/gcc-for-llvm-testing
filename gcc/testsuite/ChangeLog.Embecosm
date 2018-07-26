@@ -1,5 +1,10 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/20010122-1.c: Annotate test
+	requiring support for noclone attribute.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/920501-3.c (execute): Give a void
 	return type to avoid emitting an error when compiled with clang.
 	* gcc.c-torture/execute/920302-1.c (execute): Likewise.
