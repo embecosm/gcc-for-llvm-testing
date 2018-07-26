@@ -275,6 +275,7 @@ proc lto-obj { source dest optall optfile optstr xfaildata } {
     # Set up the options for compiling this file.
     set options ""
     lappend options "additional_flags=$optall $optfile"
+    lappend options "additional_flags=-fdiagnostics-plain-output"
 
     set compiler_conditional_xfail_data $xfaildata
 
@@ -320,6 +321,7 @@ proc lto-link-and-maybe-run { testname objlist dest optall optfile optstr } {
     # Set up the options for linking this test.
     set options ""
     lappend options "additional_flags=$optall $optfile"
+    lappend options "additional_flags=-fdiagnostics-plain-output"
 
     set target_board [target_info name]
     set relocatable 0
