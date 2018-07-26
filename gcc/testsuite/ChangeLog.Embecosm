@@ -1,5 +1,12 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/builtin-constant.c: Mark
+	as requiring gcc internals. This test depends on
+	__builtin_constant_p working across function
+	boundaries, which isn't the case for clang.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/alias-1.c: Mark as requiring
 	gcc internals.
 

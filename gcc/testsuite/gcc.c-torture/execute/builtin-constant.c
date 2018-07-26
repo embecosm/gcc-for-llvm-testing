@@ -1,4 +1,5 @@
 /* PR optimization/8423.  */
+/* { dg-require-effective-target gcc_internals } */
 
 #define btest(x) __builtin_constant_p(x) ? "1" : "0"
 
