@@ -1,3 +1,5 @@
+/* { dg-require-effective-target gcc_frontend } */
+
 /* PR c/44517: Improve diagnostic for misspelled typename in function declaration. */
 int f1(int x, pid_t y, long z, in t) {
 /* { dg-error "unknown type name 'pid_t'" "pid_t" { target *-*-* } .-1 } */
