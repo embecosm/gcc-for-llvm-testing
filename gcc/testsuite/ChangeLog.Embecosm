@@ -1,5 +1,11 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/medce-1.c: Mark as requiring
+	gcc internals, as this depends on optimization occuring
+	at -O0 which doesn't happen on all compilers.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/builtin-constant.c: Mark
 	as requiring gcc internals. This test depends on
 	__builtin_constant_p working across function
