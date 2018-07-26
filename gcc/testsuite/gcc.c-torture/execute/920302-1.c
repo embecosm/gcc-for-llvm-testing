@@ -1,6 +1,6 @@
 short optab[5];
 char buf[10];
-execute (ip)
+void execute (ip)
      register short *ip;
 {
 #ifndef NO_LABEL_VALUES

@@ -1,5 +1,5 @@
 int tab[9];
-execute(oip, ip)
+void execute(oip, ip)
      unsigned short *oip, *ip;
 {
 #ifndef NO_LABEL_VALUES
