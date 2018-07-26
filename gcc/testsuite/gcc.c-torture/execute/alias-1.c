@@ -1,3 +1,5 @@
+/* { dg-require-effective-target gcc_internals } */
+
 int val;
 
 int *ptr = &val;
