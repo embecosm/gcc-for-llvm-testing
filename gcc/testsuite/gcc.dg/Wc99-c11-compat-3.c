@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=gnu11 -pedantic-errors -Wc99-c11-compat" } */
+/* { dg-require-effective-target tls } */
 
 struct S { int i; struct { int a; }; }; /* { dg-warning "ISO C99 doesn.t support unnamed structs/unions" } */
 _Noreturn void foo (void); /* { dg-warning "ISO C99 does not support ._Noreturn." } */
