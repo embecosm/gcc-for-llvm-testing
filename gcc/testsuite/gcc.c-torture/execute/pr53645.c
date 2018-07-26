@@ -1,8 +1,8 @@
 /* PR tree-optimization/53645 */
 /* { dg-options "-std=gnu89" } */
 
-typedef unsigned int UV __attribute__((vector_size (16)));
-typedef int SV __attribute__((vector_size (16)));
+typedef unsigned int UV __attribute__((vector_size (sizeof (unsigned int) * 4)));
+typedef int SV __attribute__((vector_size (sizeof (int) * 4)));
 extern void abort (void);
 
 #define TEST(a, b, c, d) \
