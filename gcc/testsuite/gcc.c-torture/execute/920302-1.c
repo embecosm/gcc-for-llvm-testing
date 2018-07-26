@@ -2,7 +2,7 @@
 
 short optab[5];
 char buf[10];
-execute (ip)
+void execute (ip)
      register short *ip;
 {
   register void *base = &&x;
