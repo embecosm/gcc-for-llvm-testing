@@ -117,6 +117,12 @@ proc prune_gcc_output { text } {
     # non-existent warnings.
     regsub -all "(^|\n)\[^\n\]*unknown warning option\[^\n\]*-Wno-\[^\n\]*" $text "" text
 
+    # clang: ignore any output from -Wtautological-constant-out-of-range-compare
+    # TODO: It may be better to just pass
+    # -Wno-tautological-constant-out-of-range-compare to every compile when
+    # using clang.
+    regsub -all "(^|\n)\[^\n\]*warning: comparison of constant\[^\n\]*with boolean expression is always true\[^\n\]*-Wtautological-constant-out-of-range-compare\[^\n\]*" $text "" text
+
     # Call into multiline.exp to handle any multiline output directives.
     set text [handle-multiline-outputs $text]
 
