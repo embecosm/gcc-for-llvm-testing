@@ -1,3 +1,5 @@
+/* { dg-require-effective-target flexible_array_member_static_init } */
+
 struct var_len
 {
   int field1;

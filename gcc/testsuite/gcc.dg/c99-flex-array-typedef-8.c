@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target flexible_array_member_static_init } */
 
 typedef char T[];
 struct foo { int x; T y; };
