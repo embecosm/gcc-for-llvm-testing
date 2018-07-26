@@ -1,5 +1,10 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/noncompile/pr44517.c: Mark as requiring a gcc
+	frontend as this tests for gcc diagnostic behavior.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.dg/cpp/Wmissingdirs.c: Annotate as requiring a
 	gcc frontend, as the -Wmissing-include-dirs warning doesn't
 	emit anything with clang.
