@@ -1,5 +1,10 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/alias-1.c: Mark as requiring
+	gcc internals.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/920728-1.c: Mark as requiring a
 	gcc frontend.
 
