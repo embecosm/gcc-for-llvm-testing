@@ -1,4 +1,5 @@
 /* PR tree-optimization/60960 */
+/* { dg-require-effective-target noclone } */
 
 typedef unsigned char v4qi __attribute__ ((vector_size (4)));
 
