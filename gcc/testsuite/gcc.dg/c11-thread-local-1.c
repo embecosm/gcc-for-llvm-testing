@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target tls } */
 
 _Thread_local int a;
 static _Thread_local long b;

@@ -1,5 +1,20 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/Wc99-c11-compat-1.c: Annotate test as requiring tls
+	support for the target.
+	* gcc.dg/Wc99-c11-compat-2.c: Likewise.
+	* gcc.dg/Wc99-c11-compat-3.c: Likewise.
+	* gcc.dg/Wc99-c11-compat-4.c: Likewise.
+	* gcc.dg/Wc99-c11-compat-5.c: Likewise.
+	* gcc.dg/Wc99-c11-compat-6.c: Likewise.
+	* gcc.dg/Wc99-c11-compat-7.c: Likewise.
+	* gcc.dg/c11-thread-local-1.c: Likewise.
+	* gcc.dg/c11-thread-local-2.c: Likewise.
+	* gcc.dg/c90-thread-local-1.c: Likewise.
+	* gcc.dg/c99-thread-local-1.c: Likewise.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/pr79043.c: Annotate as
 	requiring gcc internals.
 

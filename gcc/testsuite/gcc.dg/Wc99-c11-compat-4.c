@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99 -pedantic-errors -Wno-c99-c11-compat" } */
+/* { dg-require-effective-target tls } */
 
 struct S { int i; struct { int a; }; };
 _Noreturn void foo (void);
