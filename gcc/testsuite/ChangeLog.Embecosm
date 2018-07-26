@@ -1,5 +1,11 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/920501-3.c (execute): Give a void
+	return type to avoid emitting an error when compiled with clang.
+	* gcc.c-torture/execute/920302-1.c (execute): Likewise.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/compile/20030305-1.c: Mark test as requiring
 	support for static initialization of flexible array members.
 	* gcc/testsuite/gcc.c-torture/compile/pr28865.c: Likewise.

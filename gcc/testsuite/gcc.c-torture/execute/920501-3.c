@@ -1,7 +1,7 @@
 /* { dg-require-effective-target label_values } */
 
 int tab[9];
-execute(oip, ip)
+void execute(oip, ip)
      unsigned short *oip, *ip;
 {
   int x = 0;
