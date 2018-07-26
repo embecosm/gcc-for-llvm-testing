@@ -1,4 +1,5 @@
 /* PR ipa/78791 */
+/* { dg-require-effective-target gcc_internals } */
 
 int val;
 

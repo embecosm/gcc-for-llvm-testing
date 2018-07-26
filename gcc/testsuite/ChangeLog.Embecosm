@@ -1,5 +1,15 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/pr79043.c: Annotate as
+	requiring gcc internals.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
+	* gcc.c-torture/execute/pr60960.c: Annotate as
+	requiring support for the noclone attribute.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/pr53645.c (UV SV): Ensure
 	that typdef'd vector types are only 4 elements wide, to
 	match the size of the statically initialized vectors
