@@ -11647,6 +11647,14 @@ proc check_effective_target_vla_in_struct { } {
     } "" ]
 }
 
+# Return 1 if the compiler supports gcc extensions to statically initialized
+# flexible array members
+proc check_effective_target_flexible_array_member_static_init { } {
+    return [check_no_compiler_messages flexibe_array_member_static_init assembly {
+	struct foo_t { int n; int x[]; } foo[] = { { 1, { 2, 3 } } };
+    } "" ]
+}
+
 # Return 1 if the target supports the nested functions GNU C extension
 # This is not the case for Clang based compilers.
 proc check_effective_target_nested_func { } {
