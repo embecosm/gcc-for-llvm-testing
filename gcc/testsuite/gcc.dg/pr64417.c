@@ -1,6 +1,7 @@
 /* PR c/64417 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target flexible_array_member_static_init } */
 
 struct foo { int x; char y[]; };
 struct bar { struct foo f; };
