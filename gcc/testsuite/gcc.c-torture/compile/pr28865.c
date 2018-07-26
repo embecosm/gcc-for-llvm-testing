@@ -1,3 +1,5 @@
+/* { dg-require-effective-target gcc_frontend } */
+
 struct var_len
 {
   int field1;

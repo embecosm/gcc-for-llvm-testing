@@ -1,3 +1,6 @@
+/* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_frontend } */
+
 struct A { int a; char b[]; };
 union B { struct A a; char b[sizeof (struct A) + 31]; };
 union B b = { { 1, "123456789012345678901234567890" } };

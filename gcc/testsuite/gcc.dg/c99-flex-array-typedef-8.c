@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef char T[];
 struct foo { int x; T y; };

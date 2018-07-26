@@ -1,6 +1,7 @@
 /* PR c/9799 */
 /* Verify that GCC doesn't crash on excess elements
    in initializer for a flexible array member.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct {
     int aaa;
