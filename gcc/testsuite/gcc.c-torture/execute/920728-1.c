@@ -1,3 +1,5 @@
+/* { dg-require-effective-target gcc_frontend } */
+
 typedef struct {int dims[0]; } *A;
 
 f(unsigned long obj)
