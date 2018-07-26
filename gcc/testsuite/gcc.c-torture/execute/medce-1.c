@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 extern void link_error (void);
