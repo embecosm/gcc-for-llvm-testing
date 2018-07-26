@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target tls } */
 
 _Thread_local void f (void); /* { dg-error "storage class" } */
 _Thread_local void g (void) {} /* { dg-error "_Thread_local" } */
