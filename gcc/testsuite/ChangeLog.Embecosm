@@ -1,5 +1,12 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/pr53645.c (UV SV): Ensure
+	that typdef'd vector types are only 4 elements wide, to
+	match the size of the statically initialized vectors
+	in the test.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/medce-1.c: Mark as requiring
 	gcc internals, as this depends on optimization occuring
 	at -O0 which doesn't happen on all compilers.
