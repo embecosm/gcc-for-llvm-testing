@@ -1,5 +1,10 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/20071211-1.c: Fix test to ensure
+	that a shift doesn't overflow when sizeof(int) < 4
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/20010122-1.c: Annotate test
 	requiring support for noclone attribute.
 
