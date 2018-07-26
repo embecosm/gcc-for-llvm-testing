@@ -1,5 +1,11 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/cpp/Wmissingdirs.c: Annotate as requiring a
+	gcc frontend, as the -Wmissing-include-dirs warning doesn't
+	emit anything with clang.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.dg/Wc99-c11-compat-1.c: Annotate test as requiring tls
 	support for the target.
 	* gcc.dg/Wc99-c11-compat-2.c: Likewise.
