@@ -1,5 +1,10 @@
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/noncompile/pr44517.c: Mark as requiring a gcc
+	frontend as this tests for gcc diagnostic behavior.
+
+2018-07-26  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.dg/Wc99-c11-compat-1.c: Annotate test as requiring tls
 	support for the target.
 	* gcc.dg/Wc99-c11-compat-2.c: Likewise.
