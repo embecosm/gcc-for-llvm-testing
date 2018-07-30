@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 #define PTR1 * * * * * * * * * *
 #define PTR2 PTR1 PTR1 PTR1 PTR1 PTR1 PTR1 PTR1 PTR1 PTR1 PTR1
 #define PTR3 PTR2 PTR2 PTR2 PTR2 PTR2 PTR2 PTR2 PTR2 PTR2 PTR2

@@ -1,5 +1,15 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/compile/limits-declparen.c: Mark as requiring
+	a gcc frontend, as this can exceed the available stack in
+	clang.
+	* gcc.c-torture/compile/limits-exprparen.c: Likewise.
+	* gcc.c-torture/compile/limits-fndefn.c: Likewise.
+	* gcc.c-torture/compile/limits-pointer.c: Likewise.
+	* gcc.c-torture/compile/limits-structnest.c: Likewise.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.dg/torture/pr46068.c: Mark test as requiring inline
 	asm gotos.
 	* gcc.dg/torture/pr53589.c: Likewise.
