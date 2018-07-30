@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 #define LBR1 ( ( ( ( ( ( ( ( ( (
 #define LBR2 LBR1 LBR1 LBR1 LBR1 LBR1 LBR1 LBR1 LBR1 LBR1 LBR1
 #define LBR3 LBR2 LBR2 LBR2 LBR2 LBR2 LBR2 LBR2 LBR2 LBR2 LBR2
