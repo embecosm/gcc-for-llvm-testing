@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-skip-if "too complex for avr" { avr-*-* } } */
 /* { dg-skip-if "ptxas times out" { nvptx-*-* } } */
 /* { dg-timeout-factor 4.0 } */
