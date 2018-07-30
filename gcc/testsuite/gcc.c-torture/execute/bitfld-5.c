@@ -1,5 +1,11 @@
 /* See http://gcc.gnu.org/ml/gcc/2009-06/msg00072.html.  */
 
+/* It is implementation defined whether an operation on a bitfield of
+   an implementation defined type has the declared type, or a type
+   with the specified number of bits in the bitfield. GCC implements
+   different behavior to other compilers.  */
+/* { dg-require-effective-target gcc_frontend } */
+
 extern void abort (void);
 
 struct s
