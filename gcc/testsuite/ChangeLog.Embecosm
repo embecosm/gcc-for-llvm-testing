@@ -1,5 +1,13 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/bitfld-3.c: Annotate as only being
+	supported with a gcc frontend.
+	* gcc.c-torture/execute/bitfld-5.c: Likewise.
+	* gcc.c-torture/execute/pr32244-1.c: Likewise.
+	* gcc.c-torture/execute/pr34971.c: Likewise.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/compile/limits-declparen.c: Mark as requiring
 	a gcc frontend, as this can exceed the available stack in
 	clang.
