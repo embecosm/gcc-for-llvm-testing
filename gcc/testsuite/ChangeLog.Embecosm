@@ -1,5 +1,10 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/torture/pr59058.c: Mark as requiring gcc
+	internals.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.c-torture/execute/pr40386.c: Mark test which uses
 	-fno-ira-share-spill-splots as requiring gcc internals.
 	* gcc.dg/pr41619.c: Likewise.
