@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-fstrict-overflow" } */
+/* { dg-require-effective-target gcc_internals } */
 
 #include <limits.h>
 

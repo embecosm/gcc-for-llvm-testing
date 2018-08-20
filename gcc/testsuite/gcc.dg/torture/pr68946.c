@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fno-vect-cost-model" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int printf (const char *, ...);
 

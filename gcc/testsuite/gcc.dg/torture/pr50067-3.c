@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fpredictive-commoning" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 int a[6] = { 0, 0, 0, 0, 7, 0 };

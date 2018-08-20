@@ -6,6 +6,7 @@
    Written by Roger Sayle, 16th August 2002.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 
 extern double atan (double);

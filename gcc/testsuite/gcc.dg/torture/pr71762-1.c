@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fdisable-rtl-init-regs" } */
+/* { dg-require-effective-target gcc_internals } */
 
 static _Bool
 foo (_Bool a, _Bool b)

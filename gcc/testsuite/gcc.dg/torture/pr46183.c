@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-dse" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void bar(void);
 

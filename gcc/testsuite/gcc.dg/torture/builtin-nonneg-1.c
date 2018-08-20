@@ -10,6 +10,7 @@
    adding proper range information for reals, so that no recursion
    would be necessary.  */
 /* { dg-options "-ffast-math --param max-ssa-name-query-depth=3" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 
 #define PROTOTYPE_RTYPE(FN,RTYPE) extern RTYPE FN(double); \
