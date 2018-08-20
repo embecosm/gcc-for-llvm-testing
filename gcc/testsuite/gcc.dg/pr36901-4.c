@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-pedantic-errors -Wsystem-headers" } */
+/* { dg-require-effective-target gcc_frontend } */
 #include "pr36901-system.h"
 void foo(void)
 {

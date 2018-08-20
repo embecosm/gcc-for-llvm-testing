@@ -6,6 +6,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-ansi -Wno-deprecated" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Check for #system assertions.  */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma redefine_extname		/* { dg-warning "malformed" } */
 #pragma redefine_extname foo		/* { dg-warning "malformed" } */

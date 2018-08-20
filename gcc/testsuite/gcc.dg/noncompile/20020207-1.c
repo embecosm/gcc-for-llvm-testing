@@ -1,5 +1,6 @@
 /* This testcase ICEd because statement expression type was set, but was not
    as used.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A {
   unsigned int a, b, c;

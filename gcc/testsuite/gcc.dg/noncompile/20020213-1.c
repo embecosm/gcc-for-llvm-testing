@@ -1,5 +1,6 @@
 /* PR c/5503
    Test whether argument checking is done for fputs, bzero and bcmp.  */
+/* { dg-require-effective-target gcc_frontend } */
 typedef struct { int i; } FILE;
 typedef __SIZE_TYPE__ size_t;
 

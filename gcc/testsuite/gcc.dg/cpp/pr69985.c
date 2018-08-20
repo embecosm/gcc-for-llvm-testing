@@ -1,4 +1,5 @@
 /* { dg-options "-Wformat" } */
+/* { dg-require-effective-target gcc_frontend } */
 extern int printf (const char *__restrict __format, ...);
 void test (void)
 {

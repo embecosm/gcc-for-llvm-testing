@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-fsanitize-recover=threed" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* Ensure we don't offer non-recoverable "-fsanitize-recover=thread"
    as a suggestion.  */
 /* { dg-bogus "did you mean" "" { target *-*-* } 0 } */

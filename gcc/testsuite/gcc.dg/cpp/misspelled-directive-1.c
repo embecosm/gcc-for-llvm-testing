@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 #ifndef SOME_GUARD /* { dg-error "-:unterminated" } */
 
 #if 1

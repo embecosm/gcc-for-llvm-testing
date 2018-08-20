@@ -3,5 +3,6 @@
 
 /* { dg-do compile } */
 /* { dg-options "-fsanitize=al" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-bogus "did you mean" "" { target *-*-* } 0 } */
 /* { dg-error "unrecognized argument to '-fsanitize=' option: 'al'" "" { target *-*-* } 0 } */

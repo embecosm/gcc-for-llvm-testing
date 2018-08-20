@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=c89 -pedantic -Wno-long-long" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-message "warnings being treated as errors" "" { target *-*-* } 0 } */
 
 int i = 0LL;

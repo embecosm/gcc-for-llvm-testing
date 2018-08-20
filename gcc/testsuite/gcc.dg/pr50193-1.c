@@ -2,6 +2,7 @@
 /* Ensure that the compiler doesn't ICE.  */
 
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo(int a, int b)

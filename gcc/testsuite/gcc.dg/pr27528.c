@@ -1,7 +1,7 @@
 /* Check the warnings and errors generated for asm operands that aren't
    obviously constant but that are constrained to be constants.  */
 /* { dg-options "" } */
-
+/* { dg-require-effective-target gcc_frontend } */
 int bar (int);
 void
 foo (int *x, int y)

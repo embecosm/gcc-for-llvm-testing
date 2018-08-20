@@ -1,4 +1,5 @@
 /* PR c/35744 */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef char a[N] __attribute__((aligned(4))); /* { dg-error "undeclared" } */
 
