@@ -1,5 +1,11 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* lib/target-supports.exp (check_effective_target_asm_goto):
+	Add a check to determine whether a target supports assembly
+	gotos.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.dg/torture/pr24626-1.c: Add brackets to suppress warning
 	from clang.
 	* gcc.dg/torture/pr24626-3.c: Likewise.

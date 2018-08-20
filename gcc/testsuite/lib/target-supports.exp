@@ -12482,6 +12482,17 @@ proc check_effective_target_delete_null_pointer_checks {} {
     } "-fdelete-null-pointer-checks" ]
 }
 
+# Return 1 if the target supports "asm goto"
+
+proc check_effective_target_asm_goto {} {
+    return [check_no_compiler_messages asm_goto assembly {
+	void foo () {
+	    asm goto (""::::l1);
+	l1: ;
+	}
+    }]
+}
+
 # Various checks for the presence of GCC builtins which aren't universally
 # supported by other compilers
 
