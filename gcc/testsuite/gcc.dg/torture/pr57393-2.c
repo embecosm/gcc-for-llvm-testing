@@ -1,5 +1,6 @@
 /* PR middle-end/57393 */
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 char a;
 

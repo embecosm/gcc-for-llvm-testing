@@ -11,7 +11,7 @@ static long F2(void *tree, long blk, bla after_node_func)
  int *node;
 
 
- if (call_result = after_node_func(node))
+ if ((call_result = after_node_func(node)))
   goto error_free_node;
 
  T(node);

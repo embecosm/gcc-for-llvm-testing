@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 /*
  * ====================================================
  * Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 static int a[10][2];
 int b;

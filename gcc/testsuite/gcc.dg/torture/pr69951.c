@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-alias "" } */
+/* { dg-options "-w" } */
 
 extern void abort (void);
 

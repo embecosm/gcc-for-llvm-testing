@@ -11,7 +11,7 @@ void f(void)
       if(*p1)
 	return;
 
-      if(b && (*p1 = b) || c && ++*p1)
+      if((b && (*p1 = b)) || (c && ++*p1))
 	{
 	  unsigned *p2 = &b;
 

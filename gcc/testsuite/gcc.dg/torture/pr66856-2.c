@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 typedef int uint32_t;
 int c, e, f, g, h;

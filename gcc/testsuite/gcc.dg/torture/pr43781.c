@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 typedef int int32_t;
 typedef unsigned char uint8_t;

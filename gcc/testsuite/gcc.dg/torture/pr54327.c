@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 #include <string.h>
 #include <stdlib.h>

@@ -30,6 +30,6 @@ lbl_221:
 unsigned char
 fn2 () {
     o = d ? 0 : c;
-    h = m | a % o != n;
+    h = m | (a % o != n);
     return i;
 }

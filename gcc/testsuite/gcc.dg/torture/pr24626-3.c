@@ -7,7 +7,7 @@ long F2(int *node)
 {
  long call_result = 0;
 
- if (call_result = fff(node))
+ if ((call_result = fff(node)))
   goto error_free_node;
 
  T(node);

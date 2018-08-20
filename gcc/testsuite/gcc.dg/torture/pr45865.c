@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 typedef struct rtx_def *rtx;
 enum machine_mode {
