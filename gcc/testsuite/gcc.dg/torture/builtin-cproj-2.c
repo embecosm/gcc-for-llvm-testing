@@ -9,6 +9,7 @@
 
 /* { dg-do link } */
 /* { dg-options "-ffinite-math-only" } */
+/* { dg-require-effective-target gcc_internals } */
 
 /* All references to link_error should go away at compile-time.  The
    argument is the __LINE__ number.  It appears in the tree dump file

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "--param max-rtl-if-conversion-insns=2" } */
+/* { dg-require-effective-target gcc_internals } */
 
 unsigned short a;
 int b, c;

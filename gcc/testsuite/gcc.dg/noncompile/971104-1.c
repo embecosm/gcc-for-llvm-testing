@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 extern int printf(const char *, ...);
 typedef unsigned short          ushort;
 struct sembuf {
