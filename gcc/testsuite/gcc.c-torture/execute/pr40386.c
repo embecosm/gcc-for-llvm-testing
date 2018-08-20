@@ -1,4 +1,5 @@
 /* { dg-options "-fno-ira-share-spill-slots -Wno-shift-overflow" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 extern void exit (int);

@@ -1,5 +1,11 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.c-torture/execute/pr40386.c: Mark test which uses
+	-fno-ira-share-spill-splots as requiring gcc internals.
+	* gcc.dg/pr41619.c: Likewise.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* gcc.dg/20030612-1.c: Mark a test for warnings/errors as
 	requiring a gcc frontend.
 	* gcc.dg/20040910-1.c: Likewise.
