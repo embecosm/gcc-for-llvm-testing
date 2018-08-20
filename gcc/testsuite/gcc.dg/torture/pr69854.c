@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-frounding-math -ffast-math" } */
+/* { dg-require-effective-target gcc_internals } */
 
 double fn1()
 {

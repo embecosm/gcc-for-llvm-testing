@@ -1,3 +1,46 @@
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
+	* c-c++-common/torture/vector-shift2.c: Mark test as requiring
+	gcc internals or a gcc compatiable frontend.
+	* gcc.dg/noncompile/920721-2.c: Likewise.
+	* gcc.dg/noncompile/971104-1.c: Likewise.
+	* gcc.dg/noncompile/incomplete-2.c: Likewise.
+	* gcc.dg/noncompile/pr71853.c: Likewise.
+	* gcc.dg/torture/builtin-cproj-1.c: Likewise.
+	* gcc.dg/torture/builtin-cproj-2.c: Likewise.
+	* gcc.dg/torture/builtin-ctype-1.c: Likewise.
+	* gcc.dg/torture/builtin-ctype-2.c: Likewise.
+	* gcc.dg/torture/builtin-explog-1.c: Likewise.
+	* gcc.dg/torture/builtin-math-1.c: Likewise.
+	* gcc.dg/torture/builtin-math-8.c: Likewise.
+	* gcc.dg/torture/builtin-nonneg-1.c: Likewise.
+	* gcc.dg/torture/builtin-power-1.c: Likewise.
+	* gcc.dg/torture/builtin-sin-mpfr-1.c: Likewise.
+	* gcc.dg/torture/builtin-symmetric-1.c: Likewise.
+	* gcc.dg/torture/builtin-wctype-1.c: Likewise.
+	* gcc.dg/torture/inline-1.c: Likewise.
+	* gcc.dg/torture/pr25183.c: Likewise.
+	* gcc.dg/torture/pr26898-1.c: Likewise.
+	* gcc.dg/torture/pr27302-2.c: Likewise.
+	* gcc.dg/torture/pr27302.c: Likewise.
+	* gcc.dg/torture/pr36978.c: Likewise.
+	* gcc.dg/torture/pr37969.c: Likewise.
+	* gcc.dg/torture/pr46183.c: Likewise.
+	* gcc.dg/torture/pr50067-3.c: Likewise.
+	* gcc.dg/torture/pr50768.c: Likewise.
+	* gcc.dg/torture/pr52996.c: Likewise.
+	* gcc.dg/torture/pr55890-2.c: Likewise.
+	* gcc.dg/torture/pr55890-3.c: Likewise.
+	* gcc.dg/torture/pr56181.c: Likewise.
+	* gcc.dg/torture/pr56264.c: Likewise.
+	* gcc.dg/torture/pr57251.c: Likewise.
+	* gcc.dg/torture/pr57676.c: Likewise.
+	* gcc.dg/torture/pr64199.c: Likewise.
+	* gcc.dg/torture/pr68946.c: Likewise.
+	* gcc.dg/torture/pr69854.c: Likewise.
+	* gcc.dg/torture/pr71594.c: Likewise.
+	* gcc.dg/torture/pr71762-1.c: Likewise.
+
 2018-07-26  Edward Jones  <ed.jones@embecosm.com>
 
 	* lib/prune.exp: Prune any warnings from clang's

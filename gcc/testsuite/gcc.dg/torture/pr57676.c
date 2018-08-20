@@ -2,6 +2,7 @@
    compiler.  */
 /* { dg-do compile } */
 /* { dg-options "-fno-checking -w -funroll-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 
 int a, b, c;
 

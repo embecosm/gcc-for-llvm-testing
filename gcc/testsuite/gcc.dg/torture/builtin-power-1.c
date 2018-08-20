@@ -7,6 +7,7 @@
 
 /* { dg-do link } */
 /* { dg-options "-ffast-math" } */
+/* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "PR44214" { *-*-* } { "-O0" } { "" } } */
 
 #include "../builtins-config.h"
