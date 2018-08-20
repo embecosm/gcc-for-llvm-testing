@@ -1,5 +1,6 @@
 /* PR rtl-optimization/54127 */
 /* { dg-do compile } */
+/* { dg-require-effective-target asm_goto } */
 
 extern void foo (void) __attribute__ ((__noreturn__));
 

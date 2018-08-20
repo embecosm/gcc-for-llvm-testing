@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target asm_goto } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-final { scan-assembler-times "XXX" 2 } } */
 
