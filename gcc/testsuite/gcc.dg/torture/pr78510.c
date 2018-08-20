@@ -1,5 +1,6 @@
 /* PR middle-end/78510 */
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 int a, b, c, e, f;
 char d;
 short g, h;

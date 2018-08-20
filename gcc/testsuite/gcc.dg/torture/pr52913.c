@@ -9,10 +9,11 @@ lbl_101:
 lbl_274:
   for (c = 0; c < 1; c = a)
     if (d)
-      if (b)
+      if (b) {
 	goto lbl_101;
-      else
+      } else {
 	break;
+      }
   d = 1;
   goto lbl_274;
 }

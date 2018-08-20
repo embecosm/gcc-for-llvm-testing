@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 typedef unsigned _GCC_ATTR_ALIGN_u32t;
 typedef _GCC_ATTR_ALIGN_u32t _Uint32t __attribute__ ((__aligned__ (4)));
