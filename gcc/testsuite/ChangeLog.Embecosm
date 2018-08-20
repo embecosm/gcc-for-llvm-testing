@@ -1,5 +1,13 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/torture/pr46068.c: Mark test as requiring inline
+	asm gotos.
+	* gcc.dg/torture/pr53589.c: Likewise.
+	* gcc.dg/torture/pr54127.c: Likewise.
+	* gcc.dg/torture/pr61772.c: Likewise.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* lib/target-supports.exp (check_effective_target_asm_goto):
 	Add a check to determine whether a target supports assembly
 	gotos.
