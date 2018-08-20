@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target asm_goto } */
 
 void
 foo ()
