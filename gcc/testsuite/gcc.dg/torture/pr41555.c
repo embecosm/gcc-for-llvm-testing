@@ -1,5 +1,5 @@
 /* { dg-do run } */
-/* { dg-options "-std=c99" } */
+/* { dg-options "-w -std=c99" } */
 
 #include <stdint.h>
 #include <limits.h>

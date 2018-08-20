@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fno-split-loops -w" } */
+/* { dg-options "-w" } */
 
 typedef unsigned short uint16_t;
 

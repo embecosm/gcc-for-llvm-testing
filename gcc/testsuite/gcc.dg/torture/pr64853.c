@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-options "-w" } */
 
 struct S
 {

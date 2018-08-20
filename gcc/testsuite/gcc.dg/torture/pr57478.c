@@ -17,5 +17,5 @@ foo (Node *N)
       N->SubBestPred = N->Pred;
       N->SubBestSuc = N->Suc;
     }
-  while (N = N->Suc);
+  while ((N = N->Suc));
 }

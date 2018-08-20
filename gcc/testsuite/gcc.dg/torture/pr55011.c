@@ -11,7 +11,7 @@ void f(void)
       unsigned short s = 1, *p = &s, *i;
 
       for(*i = 0; *i < 4; ++*i)
-	if(a | (*p /= (b += !!a)) <= 63739)
+	if(a | ((*p /= (b += !!a)) <= 63739))
 	  return;
 
       if(!s)

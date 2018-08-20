@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 static inline void
 unext(unsigned int *_ui, unsigned _len, unsigned int _ui0)

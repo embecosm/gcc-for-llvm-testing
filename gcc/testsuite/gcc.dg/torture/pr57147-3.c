@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 typedef char * ptr_t;
 struct __jmp_buf_tag { int mask; };
