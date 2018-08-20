@@ -6,6 +6,7 @@
    Written by Kaveh Ghazi, 2004-04-05.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void link_failure_var(void);
 

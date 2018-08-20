@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-funswitch-loops" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void foo(double);
 void CreateDefaultTexture(double mnMinimum, double mnMaximum,

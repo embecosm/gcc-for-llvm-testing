@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void link_error (void);
 

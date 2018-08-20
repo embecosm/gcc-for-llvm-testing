@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-ffast-math -frounding-math" } */
+/* { dg-require-effective-target gcc_internals } */
 
 float
 foo (void)

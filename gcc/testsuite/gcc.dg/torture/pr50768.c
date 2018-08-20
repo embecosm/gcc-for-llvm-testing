@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ftracer" } */
+/* { dg-require-effective-target gcc_internals } */
 
 char data[8];
 int l1;

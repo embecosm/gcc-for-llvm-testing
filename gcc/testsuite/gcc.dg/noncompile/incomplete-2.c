@@ -2,6 +2,7 @@
    Make sure we do not ICE when the type in the function
    argument list is incomplete (Bug 10602).  */
 /* { dg-options "-w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int g95_type_for_mode (enum machine_mode);
 
