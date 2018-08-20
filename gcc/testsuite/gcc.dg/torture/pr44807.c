@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 int sigemptyset (int *);
 int sigaddset(int, int);

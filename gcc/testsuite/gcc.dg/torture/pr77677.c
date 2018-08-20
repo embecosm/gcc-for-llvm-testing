@@ -1,5 +1,6 @@
 /* PR ipa/77677 */
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 int a, b;
 

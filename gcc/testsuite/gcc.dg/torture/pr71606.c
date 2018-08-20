@@ -1,3 +1,4 @@
+/* { dg-options "-w" } */
 _Complex a;
 void fn1 ();
 

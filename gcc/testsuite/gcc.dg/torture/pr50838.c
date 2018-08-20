@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-options "-w" } */
 
 typedef void * gcv_object_t;
 typedef gcv_object_t object;

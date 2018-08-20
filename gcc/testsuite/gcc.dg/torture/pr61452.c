@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-options "-w" } */
 
 int a, b;
 short c, d;

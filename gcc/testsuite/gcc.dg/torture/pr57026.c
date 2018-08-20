@@ -17,6 +17,6 @@ foo (struct C *x, const int *y, unsigned int *z, unsigned int e, unsigned int g)
     d = 16;
   else
     d = 8;
-  if ((!x->c3 && !x->c4 || *y == 0) && !e && bar (z))
+  if (((!x->c3 && !x->c4) || *y == 0) && !e && bar (z))
     *z = f;
 }

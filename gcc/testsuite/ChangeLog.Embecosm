@@ -1,5 +1,68 @@
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
+	* gcc.dg/torture/pr24626-1.c: Add brackets to suppress warning
+	from clang.
+	* gcc.dg/torture/pr24626-3.c: Likewise.
+	* gcc.dg/torture/pr52881.c: Likewise.
+	* gcc.dg/torture/pr52913.c: Likewise.
+	* gcc.dg/torture/pr53408.c: Likewise.
+	* gcc.dg/torture/pr55011.c: Likewise.
+	* gcc.dg/torture/pr55270.c: Likewise.
+	* gcc.dg/torture/pr57026.c: Likewise.
+	* gcc.dg/torture/pr57478.c: Likewise.
+	* gcc.dg/torture/pr77937-1.c: Likewise.
+	* gcc.dg/torture/pr77937-2.c: Likewise.
+	* gcc.dg/torture/pr30313.c: Pass -w as an option to suppress
+	extraneous warnings emitted by clang.
+	* gcc.dg/torture/pr41555.c: Likewise.
+	* gcc.dg/torture/pr43781.c: Likewise.
+	* gcc.dg/torture/pr44807.c: Likewise.
+	* gcc.dg/torture/pr45865.c: Likewise.
+	* gcc.dg/torture/pr48822.c: Likewise.
+	* gcc.dg/torture/pr49603.c: Likewise.
+	* gcc.dg/torture/pr50333.c: Likewise.
+	* gcc.dg/torture/pr50838.c: Likewise.
+	* gcc.dg/torture/pr52720.c: Likewise.
+	* gcc.dg/torture/pr53168.c: Likewise.
+	* gcc.dg/torture/pr54327.c: Likewise.
+	* gcc.dg/torture/pr54409.c: Likewise.
+	* gcc.dg/torture/pr55107.c: Likewise.
+	* gcc.dg/torture/pr55111.c: Likewise.
+	* gcc.dg/torture/pr55124.c: Likewise.
+	* gcc.dg/torture/pr55238.c: Likewise.
+	* gcc.dg/torture/pr55888.c: Likewise.
+	* gcc.dg/torture/pr56384.c: Likewise.
+	* gcc.dg/torture/pr57147-3.c: Likewise.
+	* gcc.dg/torture/pr57393-2.c: Likewise.
+	* gcc.dg/torture/pr60115.c: Likewise.
+	* gcc.dg/torture/pr61452.c: Likewise.
+	* gcc.dg/torture/pr63800.c: Likewise.
+	* gcc.dg/torture/pr64853.c: Likewise.
+	* gcc.dg/torture/pr66733-2.c: Likewise.
+	* gcc.dg/torture/pr66856-1.c: Likewise.
+	* gcc.dg/torture/pr66856-2.c: Likewise.
+	* gcc.dg/torture/pr67191.c: Likewise.
+	* gcc.dg/torture/pr67221.c: Likewise.
+	* gcc.dg/torture/pr67859.c: Likewise.
+	* gcc.dg/torture/pr69168.c: Likewise.
+	* gcc.dg/torture/pr69186.c: Likewise.
+	* gcc.dg/torture/pr69936.c: Likewise.
+	* gcc.dg/torture/pr69951.c: Likewise.
+	* gcc.dg/torture/pr70278.c: Likewise.
+	* gcc.dg/torture/pr70307.c: Likewise.
+	* gcc.dg/torture/pr70396.c: Likewise.
+	* gcc.dg/torture/pr71366-2.c: Likewise.
+	* gcc.dg/torture/pr71462.c: Likewise.
+	* gcc.dg/torture/pr71606.c: Likewise.
+	* gcc.dg/torture/pr71802.c: Likewise.
+	* gcc.dg/torture/pr77514.c: Likewise.
+	* gcc.dg/torture/pr77677.c: Likewise.
+	* gcc.dg/torture/pr78510.c: Likewise.
+	* gcc.dg/torture/pr80181.c: Likewise.
+	* gcc.dg/torture/pr80359.c: Likewise.
+
+2018-09-11  Edward Jones  <ed.jones@embecosm.com>
+
 	* c-c++-common/torture/vector-shift2.c: Mark test as requiring
 	gcc internals or a gcc compatiable frontend.
 	* gcc.dg/noncompile/920721-2.c: Likewise.
