@@ -1,5 +1,6 @@
 /* PR c++/12795 */
 /* { dg-require-alias "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo()
 {

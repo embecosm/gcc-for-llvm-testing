@@ -4,6 +4,7 @@
 /* { dg-do preprocess } */
 /* { dg-options "-fdirectives-only -H" } */
 /* { dg-message "dir-only-3a\.h\n\[^\n\]*dir-only-3b\.h\n\[^\n\]*dir-only-3a\.h\n" "include guard check" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests include guards. */
 

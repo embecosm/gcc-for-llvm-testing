@@ -1,5 +1,6 @@
 /* PR/11658  The error message was quite mysterious for gcc up to 3.4.x */
 /* { dg-options "-std=gnu89" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { char c[1]; };
 struct s f(void);

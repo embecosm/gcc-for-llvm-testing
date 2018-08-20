@@ -1,6 +1,7 @@
 /* PR c/77521 - %qc format directive should quote non-printable characters.
    Verify that non-printable characters in assembly constraints are quoted
    and not allowed to be printed raw.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f (int a, int b)
 {

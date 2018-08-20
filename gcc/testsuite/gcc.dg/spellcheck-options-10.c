@@ -3,4 +3,5 @@
 
 /* { dg-do compile } */
 /* { dg-options "-fno-if-convert" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-error "unrecognized command-line option .-fno-if-convert.; did you mean .-fno-if-conversion.?"  "" { target *-*-* } 0 } */

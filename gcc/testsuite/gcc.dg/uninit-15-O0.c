@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wuninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* XFAIL for now, the uninitialized pass runs before inlining only at -O0.  */
 

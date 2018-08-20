@@ -1,4 +1,5 @@
 /* Both occurrences of "c" should get diagnostics.  PR 12391.  */
+/* { dg-require-effective-target gcc_frontend } */
 typedef struct { int a; } b_t;
 
 int foo (void)
