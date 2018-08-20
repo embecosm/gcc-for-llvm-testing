@@ -1,4 +1,5 @@
 /* { dg-options "-std=iso9899:1990 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* In strict ISO C mode, we don't recognize the anonymous struct/union
    extension or any Microsoft extensions.  */
 

@@ -1,4 +1,5 @@
 /* PR c/29736 */
+/* { dg-require-effective-target gcc_frontend } */
 
 int __attribute__ ((vector_size (8), vector_size (8))) v; /* { dg-error "invalid vector type" } */
 

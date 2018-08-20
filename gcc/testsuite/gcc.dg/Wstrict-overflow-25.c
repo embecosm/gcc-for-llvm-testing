@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fstrict-overflow -O2 -Wstrict-overflow=3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We can only simplify the conditional when using strict overflow
    semantics.  */

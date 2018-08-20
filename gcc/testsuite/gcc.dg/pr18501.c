@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O -Wuninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned bmp_iter_set ();
 int something (void);

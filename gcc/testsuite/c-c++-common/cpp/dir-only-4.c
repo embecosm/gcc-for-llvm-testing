@@ -4,3 +4,4 @@
 /* { dg-do preprocess } */
 /* { dg-options "-fdirectives-only -Wunused-macros" } */
 /* { dg-error "'-fdirectives-only' is incompatible with '-Wunused-macros'\n" "'-Wunused-macros' check" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */

@@ -1,6 +1,7 @@
 /* PR28322: ignore unknown -Wno-* if no warning is emitted.  */
 /* { dg-do compile } */
 /* { dg-options " -fno-foobar -mno-foobar" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(void)
 {

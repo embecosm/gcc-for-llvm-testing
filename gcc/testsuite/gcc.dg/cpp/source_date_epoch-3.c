@@ -1,6 +1,7 @@
 /* PR preprocessor/71183 */
 /* { dg-do preprocess } */
 /* { dg-set-compiler-env-var SOURCE_DATE_EPOCH "630333296" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const char *date = __DATE__;
 const char *time = __TIME__;

@@ -4,3 +4,4 @@
 /* { dg-do compile } */
 /* { dg-options "-fwarn-no-abi-tag" } */
 /* { dg-error "unrecognized command-line option '-fwarn-no-abi-tag'; did you mean '--warn-no-abi-tag'?"  "" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */

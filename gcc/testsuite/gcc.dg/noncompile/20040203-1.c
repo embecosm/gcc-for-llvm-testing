@@ -1,4 +1,5 @@
 /* PR/11658  The error message was quite mysterious for gcc up to 3.4.x */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct a {
   int x;

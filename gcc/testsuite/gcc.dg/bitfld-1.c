@@ -6,6 +6,7 @@
 */
 
 /* { dg-options "-pedantic -std=gnu89" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum foo {e1 = 0, e2, e3, e4, e5};
 

@@ -1,4 +1,5 @@
 /* Test that #pragma message "..." writes compiler messages. */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma message                  /* { dg-warning "expected a string" } */
 #pragma message 0                /* { dg-warning "expected a string" } */

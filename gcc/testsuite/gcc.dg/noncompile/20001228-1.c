@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 void rof(void)
 {
   union { int a; } u;

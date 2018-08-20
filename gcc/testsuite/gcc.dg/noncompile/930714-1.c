@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 typedef union _yystype
 {
   int i;

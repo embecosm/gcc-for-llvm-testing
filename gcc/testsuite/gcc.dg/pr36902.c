@@ -1,6 +1,7 @@
 /* PR middle-end/36902 Array bound warning with dead code after optimization */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Warray-bounds -Wall -Wextra" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef unsigned char __u8;
 typedef unsigned short __u16;
 

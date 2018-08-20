@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -Wstrict-aliasing -fstrict-aliasing" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int flag;
 

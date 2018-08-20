@@ -1,4 +1,5 @@
 /* { dg-options "-Wc++-compat" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool foo;			/* This is okay.  */
 int bool;			/* { dg-warning "5:keyword" } */

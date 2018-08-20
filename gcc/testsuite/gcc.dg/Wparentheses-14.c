@@ -1,5 +1,6 @@
 /* PR c/71926 */
 /* { dg-options "-Wparentheses" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 f (void)

@@ -1,5 +1,6 @@
 /* This used to ICE because there was no null check in
    check_bitfield_type_and_width. */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct tree_common
 {

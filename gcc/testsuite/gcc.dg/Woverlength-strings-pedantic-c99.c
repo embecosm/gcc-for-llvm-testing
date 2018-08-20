@@ -3,6 +3,7 @@
    but implied by -pedantic.  */
 
 /* { dg-options "-std=c99 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define TEN "xxxxxxxxxx"
 #define HUN TEN TEN TEN TEN TEN  TEN TEN TEN TEN TEN
