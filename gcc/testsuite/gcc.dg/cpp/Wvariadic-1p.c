@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1990 " } */
+/* { dg-require-effective-target gcc_frontend } */
 #pragma GCC diagnostic error "-Wpedantic"
 
 #define f(x,...)	/* { dg-error "variadic" } */

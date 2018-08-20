@@ -3,4 +3,5 @@
 
 /* { dg-do compile } */
 /* { dg-options "-sanitize=address" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-error "unrecognized command line option '-sanitize=address'; did you mean '-fsanitize=address'?"  "" { target *-*-* } 0 } */

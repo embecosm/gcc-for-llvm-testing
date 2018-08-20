@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 #include <limits.h>
 
 void foo (int j)

@@ -1,5 +1,6 @@
 /* PR c++/5713
    Test that there are no ICEs after redeclaration error.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (const char*, const char*);
 

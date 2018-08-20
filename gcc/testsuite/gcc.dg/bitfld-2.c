@@ -4,6 +4,7 @@
 
    Source: Neil Booth, 28 Jan 2002.
 */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct bf
 {

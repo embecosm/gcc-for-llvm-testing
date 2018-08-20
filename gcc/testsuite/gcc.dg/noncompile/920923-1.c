@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-message "undeclared identifier is reported only once" "reminder for mmu_base" { target *-*-* } 0 } */
 typedef BYTE unsigned char;	/* { dg-error "expected" } */
 /* { dg-warning "useless type name in empty declaration" ""  { target *-*-* } .-1 } */

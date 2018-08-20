@@ -3,4 +3,5 @@
 
 /* { dg-do compile } */
 /* { dg-options "-no-sanitize=all" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-error "unrecognized command line option '-no-sanitize=all'; did you mean '-fno-sanitize=all'?"  "" { target *-*-* } 0 } */

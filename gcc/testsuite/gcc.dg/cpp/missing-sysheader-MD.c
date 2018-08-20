@@ -1,6 +1,7 @@
 /* Test that missing system headers are fatal errors with -MD.  PR 28435.  */
 /* { dg-do compile } */
 /* { dg-options "-MD" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <nonexistent.h>
 /* { dg-message "nonexistent.h" "nonexistent.h" { target *-*-* } 0 } */

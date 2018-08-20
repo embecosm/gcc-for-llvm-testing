@@ -1,4 +1,5 @@
 /* PR 16216 */
+/* { dg-require-effective-target gcc_frontend } */
 
 void func()
 {

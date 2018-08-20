@@ -1,4 +1,5 @@
 /* { dg-options "-fshow-column -Wall -Wfloat-equal -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i, j;
 float a, b;

@@ -1,6 +1,7 @@
 /* PR28322: ignore unknown -Wno-* if no warning is emitted.  */
 /* { dg-do compile } */
 /* { dg-options "-Wall -Wextra -Wno-foobar" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (void) 
 {

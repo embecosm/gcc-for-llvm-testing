@@ -3,4 +3,5 @@
 
 /* { dg-do compile } */
 /* { dg-options "--Wno-narrowing" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-error "unrecognized command line option '--Wno-narrowing'; did you mean '-Wno-narrowing'?"  "" { target *-*-* } 0 } */

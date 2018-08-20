@@ -3,4 +3,5 @@
 
 /* { dg-do compile } */
 /* { dg-options "-tls-model=global-dynamic" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-error "unrecognized command line option '-tls-model=global-dynamic'; did you mean '-ftls-model=global-dynamic'?"  "" { target *-*-* } 0 } */

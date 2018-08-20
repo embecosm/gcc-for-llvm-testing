@@ -1,5 +1,6 @@
 /* PR c/65345 */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Atomic float i = 3.0f;
 

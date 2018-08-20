@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Werror=implicit" } */
+/* { dg-require-effective-target gcc_frontend } */
 int main() {
   return pippo(); /* { dg-error "" } */
 }

@@ -1,5 +1,6 @@
 /* PR c/21759  */
 /* { dg-options "-Wc++-compat" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 main(void)

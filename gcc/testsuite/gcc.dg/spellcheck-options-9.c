@@ -3,4 +3,5 @@
 
 /* { dg-do compile } */
 /* { dg-options "-fmo-unroll-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-error "unrecognized command line option '-fmo-unroll-loops'; did you mean '-fno-unroll-loops'?"  "" { target *-*-* } 0 } */

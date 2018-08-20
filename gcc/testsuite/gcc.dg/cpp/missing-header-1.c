@@ -1,6 +1,7 @@
 /* Test that missing headers are fatal errors.  PR 15638.  */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "nonexistent.h"
 /* { dg-message "nonexistent.h" "nonexistent.h" { target *-*-* } 0 } */

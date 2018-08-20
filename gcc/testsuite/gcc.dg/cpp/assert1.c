@@ -1,6 +1,7 @@
 /* Basic tests of the #assert preprocessor extension. */
 /* { dg-do compile } */
 /* { dg-options "-Wno-deprecated" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define def unused expansion
 #define fail  int fail

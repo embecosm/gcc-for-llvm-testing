@@ -6,6 +6,7 @@
 /* Origin: Carlos O'Donell <carlos@codesourcery.com> */
 
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target gcc_frontend } */
 struct s { int a; int b; struct t c; }; /* { dg-error "field 'c' has incomplete type" } */
 struct s d = { .b = 0 };
 

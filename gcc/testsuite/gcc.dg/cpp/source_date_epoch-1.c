@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-set-compiler-env-var SOURCE_DATE_EPOCH "630333296" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 main ()

@@ -1,4 +1,5 @@
 /* PR c/59891 */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int a;
 

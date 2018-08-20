@@ -1,5 +1,6 @@
 /* PR c/70436  */
 /* { dg-options "-Wparentheses" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b, c;
 void bar (int);

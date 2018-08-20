@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 typedef struct
 {
   int x, y;
