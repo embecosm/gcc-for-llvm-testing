@@ -1,3 +1,10 @@
+2018-09-12  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/pr37669.c: Annotate test which requires
+	the use of __builtin_va_arg_pack.
+	* gcc.dg/torture/pr80122.c: Likewise.
+	* gcc.dg/torture/pr86505.c: Likewise.
+
 2018-09-13  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* lib/gcc-dg.exp: Add -Wno-builtin-requires-header to

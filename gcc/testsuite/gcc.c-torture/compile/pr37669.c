@@ -1,6 +1,7 @@
 /* This testcase used to fail because a miscompiled execute_fold_all_builtins. */
 /* { dg-options "-fgnu89-inline" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target builtin_va_arg_pack } */
 
 typedef __SIZE_TYPE__ size_t;
 extern __inline __attribute__ ((__always_inline__)) int __attribute__
