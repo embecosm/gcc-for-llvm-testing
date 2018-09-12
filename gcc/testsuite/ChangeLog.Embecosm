@@ -1,5 +1,11 @@
 2018-09-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* lib/gcc-dg.exp: Add -Wno-unused-value to clang compile
+	arguments.
+	* lib/c-torture.exp: Likewise.
+
+2018-09-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* lib/gcc-dg.exp: Don't pass -fpeel-loops and -ftracer when
 	using clang.
 	* lib/c-torture.exp: Likewise.
