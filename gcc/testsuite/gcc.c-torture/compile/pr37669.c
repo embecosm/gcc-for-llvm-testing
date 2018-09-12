@@ -2,6 +2,7 @@
 /* { dg-options "-fgnu89-inline" } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-skip-if "too many arguments in function call" { bpf-*-* } } */
+/* { dg-require-effective-target builtin_va_arg_pack } */
 
 typedef __SIZE_TYPE__ size_t;
 extern __inline __attribute__ ((__always_inline__)) int __attribute__
