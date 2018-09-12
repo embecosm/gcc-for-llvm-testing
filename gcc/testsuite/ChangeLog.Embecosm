@@ -1,3 +1,9 @@
+2018-09-12  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* lib/gcc-dg.exp: Don't pass -fpeel-loops and -ftracer when
+	using clang.
+	* lib/c-torture.exp: Likewise.
+
 2018-09-11  Edward Jones  <ed.jones@embecosm.com>
 
 	* gcc.dg/torture/pr59058.c: Mark as requiring gcc
