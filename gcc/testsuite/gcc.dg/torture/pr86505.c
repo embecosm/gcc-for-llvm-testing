@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_va_arg_pack } */
 
 static inline __attribute__(( __always_inline__)) int 
 funA(unsigned int param, ...) 
