@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fpeel-loops" } */
+/* { dg-require-effective-target fpeel_loops } */
 
 extern char outbuffer[];
 extern char buffer[];

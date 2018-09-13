@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-mtune=amdfam10 -O3 -fpeel-loops -fselective-scheduling2 -fsel-sched-pipelining -fPIC" } */
+/* { dg-require-effective-target fpeel_loops } */
 
 static int FIR_Tab_16[16][16];
 

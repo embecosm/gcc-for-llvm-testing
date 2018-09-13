@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fpeel-loops" } */
+/* { dg-require-effective-target fpeel_loops } */
 
 int
 nj (int le)

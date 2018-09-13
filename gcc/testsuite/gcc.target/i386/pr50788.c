@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -mavx -fpeel-loops -fstack-protector-all" } */
+/* { dg-require-effective-target fpeel_loops } */
 
 typedef long long __m256i __attribute__ ((__vector_size__ (32)));
 typedef double __m256d __attribute__ ((__vector_size__ (32)));
