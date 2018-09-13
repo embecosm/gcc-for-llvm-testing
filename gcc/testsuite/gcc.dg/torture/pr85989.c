@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noipa } */
 
 #define N 9
 
