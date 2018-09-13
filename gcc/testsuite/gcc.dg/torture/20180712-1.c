@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-additional-options "-fstack-protector" { target fstack_protector } } */
 /* { dg-additional-options "-fPIC" { target fpic } } */
+/* { dg-require-effective-target noipa } */
 
 struct S { int *l, *u; };
 int a[3];

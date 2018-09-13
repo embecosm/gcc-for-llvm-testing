@@ -9500,6 +9500,14 @@ proc check_effective_target_noclone { } {
     }]
 }
 
+# Return 1 if the target supports the 'noipa' attribute
+
+proc check_effective_target_noipa { } {
+    return [check_no_compiler_messages noipa assembly {
+	void __attribute__((noipa)) foo (void) {}
+    }]
+}
+
 # Return 1 if the target supports the 'externally_visible' attribute
 
 proc check_effective_target_externally_visible {} {

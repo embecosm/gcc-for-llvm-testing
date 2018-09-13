@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target noipa } */
 
 void __attribute__((noinline,noipa))
 foo(int id)

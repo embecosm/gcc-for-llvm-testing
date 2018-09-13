@@ -1,6 +1,7 @@
 /* PR tree-optimization/82004 */
 /* { dg-do run } */
 /* { dg-options "-Ofast" } */
+/* { dg-require-effective-target noipa } */
 
 extern double log10 (double);
 extern double pow (double, double);
