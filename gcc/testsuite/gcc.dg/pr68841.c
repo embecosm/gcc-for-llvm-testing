@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-Og -fif-conversion -flive-range-shrinkage -fpeel-loops -frerun-cse-after-loop" } */
+/* { dg-require-effective-target fpeel_loops } */
 
 static inline int
 foo (int *x, int y)

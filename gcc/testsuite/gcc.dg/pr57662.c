@@ -1,6 +1,7 @@
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options " -O -fno-guess-branch-probability -fpeel-loops -freorder-blocks-and-partition -fschedule-insns2 -fsel-sched-pipelining -fselective-scheduling2 -ftree-pre" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target fpeel_loops } */
 
 struct intC
 {

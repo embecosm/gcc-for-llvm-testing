@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fdump-tree-cunroll-details -fno-unroll-loops -fpeel-loops" } */
+/* { dg-require-effective-target fpeel_loops } */
 void abort();
 
 int a[1000];
