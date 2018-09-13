@@ -1,6 +1,7 @@
 /* PR tree-optimization/86835 */
 /* { dg-do run } */
 /* { dg-options "-O2 -ffast-math -Wuninitialized" } */
+/* { dg-require-effective-target noipa } */
 
 __attribute__((noipa)) void
 foo (int n, double *x, double *y)
