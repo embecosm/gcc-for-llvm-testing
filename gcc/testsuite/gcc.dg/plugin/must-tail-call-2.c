@@ -1,4 +1,5 @@
 /* { dg-do compile { target tail_call } } */
+/* { dg-require-effective-target noclone } */
 /* Allow nested functions.  */
 /* { dg-options "-Wno-pedantic" } */
 

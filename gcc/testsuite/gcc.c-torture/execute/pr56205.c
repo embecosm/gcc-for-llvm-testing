@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/56205 */
 
 #include <stdarg.h>

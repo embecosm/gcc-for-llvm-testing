@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 
 __attribute__((noinline,noclone))

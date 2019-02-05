@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* The goal here is to ensure that dynamic allocations via vlas or
    alloca calls receive probing.
 

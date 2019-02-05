@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/82703 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-sra -ftree-vectorize" } */

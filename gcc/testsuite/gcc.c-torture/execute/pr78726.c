@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/78726 */
 
 unsigned char b = 36, c = 173;

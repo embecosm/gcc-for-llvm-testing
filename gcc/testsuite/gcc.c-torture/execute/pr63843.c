@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/63843 */
 
 static inline __attribute__ ((always_inline))

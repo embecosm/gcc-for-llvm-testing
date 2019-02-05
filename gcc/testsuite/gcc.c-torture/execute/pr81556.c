@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/81556 */
 
 unsigned long long int b = 0xb82ff73c5c020599ULL;

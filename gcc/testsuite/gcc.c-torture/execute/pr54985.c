@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 
 typedef struct st {
     int a;

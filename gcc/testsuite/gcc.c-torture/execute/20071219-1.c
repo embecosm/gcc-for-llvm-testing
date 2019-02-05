@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR c++/34459 */
 
 extern void abort (void);

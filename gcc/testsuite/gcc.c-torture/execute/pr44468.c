@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #include <stddef.h>
 
 struct S {

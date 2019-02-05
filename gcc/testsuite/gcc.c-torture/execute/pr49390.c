@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/49390 */
 
 struct S { unsigned int s1; unsigned int s2; };

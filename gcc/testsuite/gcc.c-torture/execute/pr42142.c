@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 int __attribute__((noinline,noclone))
 sort(int L)
 {

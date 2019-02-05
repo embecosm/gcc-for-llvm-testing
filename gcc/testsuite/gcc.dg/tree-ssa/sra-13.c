@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Test that SRA replacement can deal with assignments that have
    sub-replacements on one side and a single scalar replacement on another.  */
 /* { dg-do run } */

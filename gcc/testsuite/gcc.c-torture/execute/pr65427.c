@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/65427 */
 
 typedef int V __attribute__ ((vector_size (8 * sizeof (int))));

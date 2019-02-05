@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR 64878 */
 /* { dg-options "-O2" } */
 /* { dg-do run } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-O2" } */
 /* { dg-require-effective-target builtin_exit } */
 

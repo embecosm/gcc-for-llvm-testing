@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-ipa-cp-details -fdump-tree-vrp1" } */
 

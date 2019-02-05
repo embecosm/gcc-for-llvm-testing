@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 static int __attribute__ ((noinline, noclone))
 swap (int x)
 {

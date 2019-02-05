@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Verify that indirect inlining machinery can remove references to functions
    passed as parameters that are never used.  */
 /* { dg-do compile } */

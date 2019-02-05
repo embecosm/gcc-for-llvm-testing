@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-O -floop-strip-mine" } */
 
 int a[128][40];

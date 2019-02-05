@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target builtin_malloc } */
 
 extern void abort(void);

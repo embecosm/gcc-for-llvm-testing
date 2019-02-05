@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/63189 */
 /* { dg-additional-options "-fwrapv" } */
 

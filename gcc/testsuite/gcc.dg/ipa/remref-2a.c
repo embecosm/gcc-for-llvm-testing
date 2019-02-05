@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Verify that indirect inlining can also remove references of the functions it
    discovers calls for.  */
 /* { dg-do compile } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/83424 */
 /* { dg-do run { target int128 } } */
 /* { dg-options "-O -fno-tree-ccp -fno-tree-coalesce-vars" } */

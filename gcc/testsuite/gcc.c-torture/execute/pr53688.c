@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 char headline[256];
 struct hdr {
   char part1[9];

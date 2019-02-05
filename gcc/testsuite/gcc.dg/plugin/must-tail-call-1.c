@@ -1,4 +1,5 @@
 /* { dg-do compile { target tail_call } } */
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-fdelayed-branch" { target sparc*-*-* } } */
 
 extern void abort (void);

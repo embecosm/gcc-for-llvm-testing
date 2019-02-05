@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/61673 */
 
 char e;

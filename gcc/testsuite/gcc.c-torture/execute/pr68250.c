@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/68250 */
 
 signed char a, b, h, k, l, m, o;

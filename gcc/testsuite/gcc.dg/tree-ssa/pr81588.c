@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/81588 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc1-details" } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 struct S { char c1, c2, c3, c4; } __attribute__((aligned(4)));
 
 static char bar (char **p) __attribute__((noclone, noinline));

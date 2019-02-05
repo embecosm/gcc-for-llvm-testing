@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target vect_double } */
 /* { dg-require-effective-target vect_hw_misalign } */
 

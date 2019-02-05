@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/78378 */
 
 unsigned long long __attribute__ ((noinline, noclone))

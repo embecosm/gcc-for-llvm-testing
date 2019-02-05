@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Verify that indirect inlining can also remove references of the functions it
    discovers calls for, even when nodes being inlined are virtual IPA-CP
    clones.  */
