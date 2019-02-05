@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #define N 200
 #define DIST 32
 

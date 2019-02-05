@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/51667 */
 /* Testcase by Uros Bizjak <ubizjak@gmail.com> */
 

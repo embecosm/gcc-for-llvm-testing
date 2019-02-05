@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/83364 */
 /* { dg-do run } */
 /* { dg-options "-O -fno-forward-propagate -fno-tree-coalesce-vars -fno-tree-ter" } */

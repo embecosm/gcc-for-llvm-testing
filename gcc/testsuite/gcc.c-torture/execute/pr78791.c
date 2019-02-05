@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/78791 */
 
 __attribute__((used, noinline, noclone)) unsigned long long

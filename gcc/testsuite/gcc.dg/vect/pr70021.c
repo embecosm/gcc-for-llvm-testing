@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/70021 */
 
 #include "tree-vect.h"

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 int g_21;
 int g_211;
 int g_261;

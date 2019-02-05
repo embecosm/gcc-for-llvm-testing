@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Test to verify that the return value of calls to __builtin_sprintf
    is not folded if the call isn't fully specified, even if it would
    otherwise produce a known number of bytes on output, and that if

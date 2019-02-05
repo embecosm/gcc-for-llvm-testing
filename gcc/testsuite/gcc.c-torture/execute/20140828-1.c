@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 short *f(short *a, int b, int *d) __attribute__((noinline,noclone));
 
 short *f(short *a, int b, int *d)

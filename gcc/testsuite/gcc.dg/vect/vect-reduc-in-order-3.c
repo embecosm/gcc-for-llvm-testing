@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-xfail-run-if "" { { i?86-*-* x86_64-*-* } && ia32 } } */
 /* { dg-require-effective-target vect_double } */
 /* { dg-add-options ieee } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
 /* { dg-add-options bind_pic_locally } */

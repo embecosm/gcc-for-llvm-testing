@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 static double identity[4][4] = {{1, 0, 0, 0},
                                 {0, 1, 0, 0},
                                 {0, 0, 1, 0},

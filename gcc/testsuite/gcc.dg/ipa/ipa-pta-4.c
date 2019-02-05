@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O2 -fipa-pta -fdump-ipa-pta2-details -fdump-tree-fre3-details" } */
 

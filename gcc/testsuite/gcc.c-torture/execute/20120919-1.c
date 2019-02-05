@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/54290 */
 /* Testcase by Eric Volk <eriksnga@gmail.com> */
 /* { dg-require-effective-target int32plus } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 struct X {
     struct Y {
 	struct YY {

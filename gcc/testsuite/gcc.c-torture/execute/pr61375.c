@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #ifdef __UINT64_TYPE__
 typedef __UINT64_TYPE__ uint64_t;
 #else

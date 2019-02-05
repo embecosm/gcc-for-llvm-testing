@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/79032 */
 /* Reported by Daniel Cederman <cederman@gaisler.com> */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/49039 */
 extern void abort (void);
 int cnt;

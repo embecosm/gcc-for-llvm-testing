@@ -1,5 +1,12 @@
 2019-02-05  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/execute/20071018-1.c: Mark test as requiring
+	noclone attribute.
+	* gcc.c-torture/execute/{various}: Likewise.
+	* gcc.dg/{various}: Likewise.
+
+2019-02-05  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr78694.c: Mark test which requires tls.
 	* gcc.dg/dfp/convert-dfp-round-thread.c: Likewise.
 	* gcc.dg/lto/20090206-2_0.c: Likewise.

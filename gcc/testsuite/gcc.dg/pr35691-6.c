@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR middle-end/35691 */
 /* { dg-do run } */
 /* { dg-options "-O2" } */

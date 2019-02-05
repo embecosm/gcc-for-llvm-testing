@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/70127 */
 
 struct S { int f; signed int g : 2; } a[1], c = {5, 1}, d;

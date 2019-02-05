@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 
 #include "tree-vect.h"
 

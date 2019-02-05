@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/56899 */
 
 #if __SIZEOF_INT__ == 4 && __CHAR_BIT__ == 8

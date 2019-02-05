@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/63641 */
 
 __attribute__ ((noinline, noclone)) int

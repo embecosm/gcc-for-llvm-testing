@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O3" } */
 /* { dg-add-options bind_pic_locally } */

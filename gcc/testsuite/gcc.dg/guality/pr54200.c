@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/54200 */
 /* { dg-do run } */
 /* { dg-options "-g -fno-var-tracking-assignments -fno-tree-coalesce-vars" } */

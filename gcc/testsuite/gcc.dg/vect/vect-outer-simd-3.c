@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target vect_simd_clones } */
 /* { dg-additional-options "-O3 -fopenmp-simd -ffast-math" } */
 #include <stdlib.h>

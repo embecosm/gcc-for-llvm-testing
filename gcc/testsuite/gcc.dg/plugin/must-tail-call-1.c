@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-fdelayed-branch" { target sparc*-*-* } } */
 
 extern void abort (void);

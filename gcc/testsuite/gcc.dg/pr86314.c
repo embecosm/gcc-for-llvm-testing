@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 // PR target/86314
 // { dg-do run { target sync_int_long_stack } }
 // { dg-options "-O2" }

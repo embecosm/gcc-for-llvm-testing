@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-O2 -fdump-tree-fre1" } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #ifdef __INT32_TYPE__
 typedef __INT32_TYPE__ int32_t;
 #else

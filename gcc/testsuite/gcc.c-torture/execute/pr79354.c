@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/79354 */
 
 int b, f, g;

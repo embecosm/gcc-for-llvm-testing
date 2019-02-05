@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 void abort (void);
 extern int *a[5];
 extern int b,c,d,e,f;

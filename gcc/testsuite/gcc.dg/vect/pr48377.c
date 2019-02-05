@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/48377 */
 /* { dg-require-effective-target non_strict_align } */
 

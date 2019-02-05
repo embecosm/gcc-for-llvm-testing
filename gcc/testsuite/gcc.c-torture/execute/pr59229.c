@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 int i;
 
 __attribute__((noinline, noclone)) void

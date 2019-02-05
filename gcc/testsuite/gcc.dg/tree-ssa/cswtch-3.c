@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/79472 */
 /* { dg-options "-O2 -fdump-tree-switchconv" } */
 /* { dg-do run } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #ifdef __INT16_TYPE__
 typedef __INT16_TYPE__ int16_t;
 #else

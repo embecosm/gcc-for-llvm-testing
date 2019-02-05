@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Test to verify that the return value of calls to __builtin_sprintf
    that produce a known number of bytes on output is available for
    constant folding.  With optimization enabled the test will fail to
