@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 struct assembly_operand
 {
   int type, value, symtype, symflags, marker;

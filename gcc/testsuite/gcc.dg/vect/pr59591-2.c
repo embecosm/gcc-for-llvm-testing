@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/59591 */
 /* { dg-additional-options "-fopenmp-simd" } */
 

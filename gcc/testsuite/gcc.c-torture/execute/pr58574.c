@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/58574 */
 
 __attribute__((noinline, noclone)) double

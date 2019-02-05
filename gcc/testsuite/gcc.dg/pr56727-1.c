@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O2 -fPIC" } */
 

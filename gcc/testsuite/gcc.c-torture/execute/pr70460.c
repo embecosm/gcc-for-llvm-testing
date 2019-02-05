@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-require-effective-target label_values } */
 /* { dg-skip-if "label differences not supported" { avr-*-* } } */

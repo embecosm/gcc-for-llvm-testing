@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run { target int32plus } } */
 /* { dg-options "-O2" } */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/52129 */
 
 extern void abort (void);

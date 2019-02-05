@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR 81908 - FAIL: gfortran.dg/alloc_comp_auto_array_2.f90 -O3 -g -m32
    Test to verify that calls to memcpy et al. where the size is in a range
    with just one valid value -- zero -- are eliminated.

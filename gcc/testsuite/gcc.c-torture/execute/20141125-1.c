@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 int f(long long a) __attribute__((noinline,noclone));
 int f(long long a)
 {

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target mmap } */
 
 #include <sys/mman.h>

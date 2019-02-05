@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target return_vector } */
 /* PR middle-end/71626 */
 

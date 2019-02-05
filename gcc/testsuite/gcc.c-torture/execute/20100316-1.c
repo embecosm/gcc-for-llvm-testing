@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 struct Foo {
   int i;
   unsigned precision : 10;

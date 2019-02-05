@@ -1,4 +1,5 @@
 // { dg-require-effective-target alloca }
+/* { dg-require-effective-target noclone } */
 /* PR middle-end/86528 */
 
 void __attribute__((noinline, noclone))

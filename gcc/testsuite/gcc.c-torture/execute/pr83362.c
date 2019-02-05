@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 typedef __UINT8_TYPE__ u8;
 typedef __UINT32_TYPE__ u32;
 

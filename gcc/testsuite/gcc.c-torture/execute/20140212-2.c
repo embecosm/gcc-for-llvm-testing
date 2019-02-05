@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* This used to fail as we would convert f into just return (unsigned int)usVlanID
    which is wrong. */
 

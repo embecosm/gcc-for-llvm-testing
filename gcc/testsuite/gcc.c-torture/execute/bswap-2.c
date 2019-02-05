@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target int32plus } */
 
 #ifdef __UINT32_TYPE__

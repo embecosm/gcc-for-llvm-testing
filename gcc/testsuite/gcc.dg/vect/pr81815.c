@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 int __attribute__ ((noinline, noclone))
 f (int *x, int n)
 {

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* debuginfo tests for combinations of const and volatile type qualifiers. */
 /* { dg-do run } */
 /* { dg-options "-g" } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-additional-options "-fdump-tree-cunroll-details" } */
 
 #include "tree-vect.h"

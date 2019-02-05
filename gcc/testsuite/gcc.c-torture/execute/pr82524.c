@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/82524 */
 
 struct S { unsigned char b, g, r, a; };

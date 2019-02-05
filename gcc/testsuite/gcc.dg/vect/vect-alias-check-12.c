@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #define N 87
 #define M 7
 

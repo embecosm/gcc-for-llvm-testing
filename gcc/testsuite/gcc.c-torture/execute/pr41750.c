@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR 41750 - IPA-SRA used to pass hash->sgot by value rather than by
    reference.  */
 

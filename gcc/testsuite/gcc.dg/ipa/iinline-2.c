@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Verify that simple indirect calls are inlined even without early
    inlining..  */
 /* { dg-do compile } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/78438 */
 
 char a = 0;

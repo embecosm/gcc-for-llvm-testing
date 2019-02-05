@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Make sure that by reference and by value aggregate jump functions do not get
    mixed up.
    ??? This testcase is invalid C and can only pass on specific platforms.  */

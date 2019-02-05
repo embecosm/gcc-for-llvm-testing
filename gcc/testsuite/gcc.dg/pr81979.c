@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/81979 */
 /* { dg-do link } */
 /* { dg-options "-O2 -w" } */

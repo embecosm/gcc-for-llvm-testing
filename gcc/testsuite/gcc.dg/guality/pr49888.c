@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR debug/49888 */
 /* { dg-do run } */
 /* { dg-options "-g" } */

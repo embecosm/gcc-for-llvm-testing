@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Allow nested functions.  */
 /* { dg-options "-Wno-pedantic" } */
 

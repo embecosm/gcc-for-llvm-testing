@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/83393 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-forward-propagate -fno-tree-bit-ccp" } */

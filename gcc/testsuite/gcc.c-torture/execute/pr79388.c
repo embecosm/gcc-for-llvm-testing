@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/79388 */
 /* { dg-additional-options "-fno-tree-coalesce-vars" } */
 /* { dg-require-effective-target gcc_internals } */

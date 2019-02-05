@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/65215 */
 
 struct S { unsigned long long l1 : 48; };

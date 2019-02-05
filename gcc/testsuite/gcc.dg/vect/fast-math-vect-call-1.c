@@ -1,5 +1,6 @@
 /* Disabling epilogues until we find a better way to deal with scans.  */
 /* { dg-additional-options "--param vect-epilogues-nomask=0" } */
+/* { dg-require-effective-target noclone } */
 #include "tree-vect.h"
 
 extern float copysignf (float, float);

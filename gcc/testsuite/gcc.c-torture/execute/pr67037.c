@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 long (*extfunc)();
 
 static inline void lstrcpynW( short *d, const short *s, int n )

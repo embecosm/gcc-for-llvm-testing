@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-g -mforce-drap" } */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-fopenmp-simd -fdump-tree-original" } */
 

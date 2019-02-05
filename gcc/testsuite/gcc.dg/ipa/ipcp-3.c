@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Verify that IPA-CP can clone mark_cell without miscompiling it despite its
    type_attributes.  */
 /* { dg-do run } */

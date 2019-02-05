@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-options "-fno-lto" } */
 
 double __attribute__((noinline,noclone))
