@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/17377
    Bug in code emitted by "return" pattern on CRIS: missing pop of
    forced return address on stack.  */

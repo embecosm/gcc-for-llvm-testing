@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 long long __attribute__ ((noinline, noclone))
 foo (long long ival)
 {

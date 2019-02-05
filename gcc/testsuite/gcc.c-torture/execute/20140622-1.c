@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 unsigned p;
 
 long __attribute__((noinline, noclone))

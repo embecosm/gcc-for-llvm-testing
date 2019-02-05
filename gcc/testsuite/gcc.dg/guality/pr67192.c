@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR debug/67192 */
 /* { dg-do run } */
 /* { dg-options "-g -Wmisleading-indentation" } */

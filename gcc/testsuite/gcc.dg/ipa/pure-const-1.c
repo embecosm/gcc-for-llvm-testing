@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do compile { target nonpic } } */
 /* { dg-options "-O3 -fdump-tree-local-pure-const1 -fdump-ipa-pure-const -fdump-tree-optimized -fno-early-inlining -fgnu89-inline" } */
 void abort (void);

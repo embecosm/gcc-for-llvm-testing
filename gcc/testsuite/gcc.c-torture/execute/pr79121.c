@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #if __SIZEOF_INT__ < 4
   __extension__ typedef __UINT32_TYPE__ uint32_t;
   __extension__ typedef __INT32_TYPE__ int32_t;

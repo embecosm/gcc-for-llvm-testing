@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O3 -floop-unroll-and-jam --param unroll-jam-min-percent=0 -fdump-tree-unrolljam-details" } */
 /* { dg-require-effective-target int32plus } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 int a[128][40];
 
 void __attribute__ ((noinline, noclone))

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR middle-end/57344 */
 
 struct __attribute__((packed)) S

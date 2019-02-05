@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target return_vector } */
 typedef unsigned char V8 __attribute__ ((vector_size (32)));
 typedef unsigned int V32 __attribute__ ((vector_size (32)));

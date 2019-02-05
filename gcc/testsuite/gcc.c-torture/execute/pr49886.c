@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 struct PMC {
     unsigned flags;
 };

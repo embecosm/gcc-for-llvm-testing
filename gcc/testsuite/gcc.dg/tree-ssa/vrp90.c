@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do link } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
 /* { dg-final { scan-tree-dump-not "link_error" "vrp1"} } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/60003 */
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-require-effective-target builtin_setjmp_longjmp } */

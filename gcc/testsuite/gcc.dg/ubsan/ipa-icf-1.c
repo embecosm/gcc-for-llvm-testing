@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O2" } } */
 /* { dg-options "-fsanitize=undefined -fipa-icf" } */

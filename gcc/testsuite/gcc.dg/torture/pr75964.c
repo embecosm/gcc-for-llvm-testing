@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 
 typedef __UINT8_TYPE__ uint8_t;

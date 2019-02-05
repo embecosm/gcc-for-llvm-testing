@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/52760 */
 
 struct T { unsigned short a, b, c, d; };

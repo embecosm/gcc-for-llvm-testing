@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/64979 */
 
 #include <stdarg.h>

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/81346 */
 /* { dg-do compile { target int32 } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */

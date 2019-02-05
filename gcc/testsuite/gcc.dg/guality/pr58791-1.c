@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/58791 */
 /* { dg-do run } */
 /* { dg-options "-g" } */

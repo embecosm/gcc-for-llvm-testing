@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR target/65956 */
 
 struct A { char *a; int b; long long c; };

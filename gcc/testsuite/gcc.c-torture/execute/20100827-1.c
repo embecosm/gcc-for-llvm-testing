@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 extern void abort (void);
 int __attribute__((noinline,noclone))
 foo (char *p)

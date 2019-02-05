@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-g -fno-var-tracking-assignments" } */
 /* { dg-skip-if "" { *-*-* }  { "*" } { "-O0" "-O1" } } */

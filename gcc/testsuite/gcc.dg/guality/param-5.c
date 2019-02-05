@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-g" } */
 /* { dg-skip-if "" { *-*-* }  { "*" } { "-O0" } } */

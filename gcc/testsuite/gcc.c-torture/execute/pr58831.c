@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 #include <assert.h>
 
 int a, *b, c, d, f, **i, p, q, *r;

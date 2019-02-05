@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target vect_int } */
 /* { dg-additional-options "-O3" } */
 

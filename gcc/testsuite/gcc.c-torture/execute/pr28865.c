@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target flexible_array_member_static_init } */
 
 struct A { int a; char b[]; };

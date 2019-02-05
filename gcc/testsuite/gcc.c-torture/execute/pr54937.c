@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 
 void exit (int);
 void abort (void);

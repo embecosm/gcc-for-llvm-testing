@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target vsx_hw { target powerpc*-*-* } } */
 /* { dg-additional-options "-mcpu=power7" { target powerpc*-*-* } } */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 extern void abort (void);
 _Complex int a[1024];
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Checks for a bug where a function with a section attribute would prevent
    all later functions from being partitioned into hot and cold blocks.  */
 /* { dg-require-effective-target freorder } */

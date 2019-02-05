@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/57741 */
 /* { dg-require-effective-target vect_float } */
 /* { dg-require-effective-target vect_int } */

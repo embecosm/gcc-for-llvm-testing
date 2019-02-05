@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/65170 */
 
 #ifdef __SIZEOF_INT128__

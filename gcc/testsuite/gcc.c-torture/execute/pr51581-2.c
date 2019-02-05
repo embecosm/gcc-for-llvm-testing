@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR tree-optimization/51581 */
 /* { dg-require-effective-target int32plus } */
 

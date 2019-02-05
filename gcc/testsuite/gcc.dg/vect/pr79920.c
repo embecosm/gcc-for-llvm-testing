@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-additional-options "-O3 -fno-fast-math" } */
 
 #include "tree-vect.h"

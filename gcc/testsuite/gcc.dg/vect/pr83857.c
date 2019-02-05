@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-additional-options "-ffast-math" } */
 
 #define N 100

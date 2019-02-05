@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 struct __attribute__((packed)) S
 {
   int a, b, c;

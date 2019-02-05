@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR rtl-optimization/83496 */
 /* Reported by Hauke Mehrtens <gcc@hauke-m.de> */
 

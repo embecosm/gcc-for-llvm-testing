@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* debuginfo tests for combinations of const, volatile, restrict pointers. */
 /* { dg-do run } */
 /* { dg-options "-std=c99 -gdwarf-3" } */

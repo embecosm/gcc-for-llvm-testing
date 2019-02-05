@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target int32plus } */
 struct X {
     char fill0[800000];

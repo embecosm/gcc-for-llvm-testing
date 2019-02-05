@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-ch -fdump-tree-optimized" } */
 

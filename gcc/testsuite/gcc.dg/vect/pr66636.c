@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-additional-options "-mavx2" { target avx_runtime } } */
 
 #include "tree-vect.h"

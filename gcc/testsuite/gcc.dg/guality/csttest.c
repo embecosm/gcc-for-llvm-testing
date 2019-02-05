@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR debug/49676 */
 /* { dg-do run { target lp64 } } */
 /* { dg-options "-g -fno-ipa-icf" } */

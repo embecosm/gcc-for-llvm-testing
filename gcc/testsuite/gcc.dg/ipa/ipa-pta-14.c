@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O2 -fipa-pta -fno-tree-fre -fno-tree-sra -fdump-ipa-pta2-details -fdelete-null-pointer-checks" } */
 

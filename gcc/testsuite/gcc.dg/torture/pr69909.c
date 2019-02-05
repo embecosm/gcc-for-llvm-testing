@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* PR middle-end/69909 */
 /* { dg-do run { target int128 } } */
 /* { dg-additional-options "-w" } */

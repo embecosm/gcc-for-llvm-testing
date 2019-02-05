@@ -1,3 +1,4 @@
+/* { dg-require-effective-target noclone } */
 /* Checks for a bug where static data with a section attribute within a
    function would stop the function being partitioned into hot and cold
    blocks.  */
