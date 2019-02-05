@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-O -fdump-tree-ccp1 -Wno-psabi -w" } */
 /* { dg-additional-options "-msse2" { target i?86-*-* x86_64-*-* } } */
 /* { dg-additional-options "-maltivec" { target powerpc_altivec_ok } } */

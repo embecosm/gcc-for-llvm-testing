@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-O2 -w" } */
 
 extern void abort (void);

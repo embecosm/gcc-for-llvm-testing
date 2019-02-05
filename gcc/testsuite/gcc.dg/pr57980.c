@@ -1,6 +1,7 @@
 /* PR tree-optimization/57980 */
 /* { dg-do compile } */
 /* { dg-options "-O -foptimize-sibling-calls -w" } */
+/* { dg-require-effective-target return_vector } */
 
 typedef int V __attribute__ ((vector_size (2 * sizeof (int))));
 extern V f (void);

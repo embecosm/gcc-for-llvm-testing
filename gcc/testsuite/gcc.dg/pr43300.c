@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-Os -w" } */
 /* { dg-options "-Os -w -Wno-psabi" { target { i?86-*-* x86_64-*-* } } } */
 

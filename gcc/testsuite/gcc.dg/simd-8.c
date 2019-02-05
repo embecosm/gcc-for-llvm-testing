@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-w -Wno-psabi" } */
 
 #if __SIZEOF_LONG_DOUBLE__ == 16 || __SIZEOF_LONG_DOUBLE__ == 8

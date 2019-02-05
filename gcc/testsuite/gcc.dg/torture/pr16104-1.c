@@ -1,5 +1,6 @@
 /* PR rtl-optimization/16104 */
 /* { dg-do run { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-msse2" } */
 /* { dg-require-effective-target sse2_runtime } */
 

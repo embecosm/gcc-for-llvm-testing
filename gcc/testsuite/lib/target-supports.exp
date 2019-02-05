@@ -9551,6 +9551,17 @@ proc check_effective_target_asm_goto {} {
     }]
 }
 
+# Return 1 if the target supports returning vectors.
+
+proc check_effective_target_return_vector {} {
+    return [check_no_compiler_messages return_vector assembly {
+	typedef int v16i32 __attribute__ ((__vector_size__ (64)));
+	v8i foo(v16i32 vec) {
+	    return vec;
+	}
+    }]
+}
+
 # Various checks for the presence of GCC builtins which aren't universally
 # supported by other compilers
 
