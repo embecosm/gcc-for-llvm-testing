@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-additional-options "-w -Wno-psabi" } */
 
 typedef unsigned V __attribute__ ((vector_size (16)));

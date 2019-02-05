@@ -1,3 +1,4 @@
+/* { dg-require-effective-target return_vector } */
 #define vector __attribute__((vector_size(16) ))
 vector float g(void)
 {

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-additional-options "-Wno-psabi" } */
 /* { dg-additional-options "-mavx512bw" { target x86_64-*-* i?86-*-* } } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */

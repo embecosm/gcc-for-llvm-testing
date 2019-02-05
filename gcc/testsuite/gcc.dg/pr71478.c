@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -Wno-psabi -w" } */
 /* { dg-require-effective-target builtin_shuffle } */
+/* { dg-require-effective-target return_vector } */
 
 typedef unsigned int __attribute__ ((vector_size (8))) uv2si;
 typedef int __attribute__ ((vector_size (8))) v2si;

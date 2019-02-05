@@ -1,5 +1,6 @@
 /* PR c/70307 */
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-w" } */
 
 typedef int v4si __attribute__ ((vector_size (16)));

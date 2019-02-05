@@ -1,3 +1,4 @@
+/* { dg-require-effective-target return_vector } */
 typedef float V2SF __attribute__ ((vector_size (8)));
 
 V2SF

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 
 typedef unsigned char __attribute__((vector_size(4))) uvec;
 
