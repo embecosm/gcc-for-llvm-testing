@@ -1,6 +1,7 @@
 /* { dg-options "-std=gnu99 -D_GNU_SOURCE -pthread" } */
 /* { dg-do run { target i?86-*-linux* i?86-*-gnu* x86_64-*-linux* } } */
 /* { dg-require-effective-target error_h } */
+/* { dg-require-effective-target tls } */
 
 
 /* N1150 5.2: Conversions among decimal floating types and between
