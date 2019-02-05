@@ -1,5 +1,14 @@
 2019-02-05  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr78694.c: Mark test which requires tls.
+	* gcc.dg/dfp/convert-dfp-round-thread.c: Likewise.
+	* gcc.dg/lto/20090206-2_0.c: Likewise.
+	* gcc.dg/lto/20090210_1.c: Likewise.
+	* gcc.dg/pr56847.c: Likewise.
+	* gcc.dg/tls/pr83945.c: Likewise.
+
+2019-02-05  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr33614.c: Mark test which returns
 	vectors.
 	* gcc.c-torture/compile/pr39928-1.c: Likewise.

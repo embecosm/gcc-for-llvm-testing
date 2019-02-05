@@ -1,4 +1,5 @@
 /* PR target/78694.  */
+/* { dg-require-effective-target tls } */
 
 enum
 {

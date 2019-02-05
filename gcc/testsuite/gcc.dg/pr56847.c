@@ -1,5 +1,6 @@
 /* PR rtl-optimization/56847 */
 /* { dg-do compile { target pie } } */
+/* { dg-require-effective-target tls } */
 /* { dg-options "-O2 -fpie" } */
 
 struct S { long int a, b; } e;

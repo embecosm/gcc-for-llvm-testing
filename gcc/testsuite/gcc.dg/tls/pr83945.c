@@ -1,5 +1,6 @@
 /* PR middle-end/83945 */
 /* { dg-do compile { target tls } } */
+/* { dg-require-effective-target tls } */
 /* { dg-options "-O2" } */
 
 struct S { int a[1]; };
