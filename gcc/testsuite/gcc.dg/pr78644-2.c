@@ -1,4 +1,5 @@
 /* { dg-do compile { target int128 } } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-Og -finline-functions-called-once -w -Wno-psabi" } */
 
 typedef unsigned V __attribute__ ((vector_size (64)));

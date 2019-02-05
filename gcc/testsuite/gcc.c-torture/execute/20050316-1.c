@@ -1,5 +1,6 @@
 /* PR rtl-optimization/16104 */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-Wno-psabi" } */
 
 extern void abort (void);

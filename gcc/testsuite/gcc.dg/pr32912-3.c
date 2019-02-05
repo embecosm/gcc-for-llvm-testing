@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-w -O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target return_vector } */
 
 typedef int __m128i __attribute__ ((__vector_size__ (16)));
 

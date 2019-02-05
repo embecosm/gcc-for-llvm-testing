@@ -1,3 +1,4 @@
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-Wno-psabi" } */
 extern void abort (void);
 
