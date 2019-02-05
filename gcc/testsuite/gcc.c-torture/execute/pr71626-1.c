@@ -1,3 +1,4 @@
+/* { dg-require-effective-target return_vector } */
 /* PR middle-end/71626 */
 
 typedef __INTPTR_TYPE__ V __attribute__((__vector_size__(sizeof (__INTPTR_TYPE__))));

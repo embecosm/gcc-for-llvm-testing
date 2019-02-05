@@ -1,5 +1,6 @@
 /* { dg-options "-msse" { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-skip-if "too many arguments in function call" { bpf-*-* } } */
+/* { dg-require-effective-target return_vector } */
 
 typedef float __m128 __attribute__ ((__vector_size__ (16), __may_alias__));
 extern __m128 _mm_sub_ps (__m128 __A, __m128 __B);

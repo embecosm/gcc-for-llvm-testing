@@ -1,6 +1,7 @@
 /* Check that vector insertion works correctly. */
 
 /* { dg-do run } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-msse" { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-require-effective-target sse_runtime { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-mabi=altivec" { target { powerpc-*-* powerpc64-*-* } } } */

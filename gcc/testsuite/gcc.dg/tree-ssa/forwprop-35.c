@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-O -fdump-tree-cddce1 -Wno-psabi" } */
 /* { dg-additional-options "-msse2" { target { i?86-*-* x86_64-*-* } } } */
 

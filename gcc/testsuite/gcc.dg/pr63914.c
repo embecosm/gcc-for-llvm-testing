@@ -4,6 +4,7 @@
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 /* { dg-additional-options "-msse" { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target return_vector } */
 
 typedef float __m128 __attribute__ ((__vector_size__ (16)));
 __m128 a, d, e;

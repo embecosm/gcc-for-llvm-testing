@@ -1,4 +1,5 @@
 /* { dg-do compile { target x86_64-*-* i?86-*-* } } */
+/* { dg-require-effective-target return_vector } */
 /* { dg-options "-std=c99 -msse2" } */
 
 typedef int __m64 __attribute__ ((__vector_size__ (8), __may_alias__));

@@ -2,6 +2,7 @@
 /* { dg-options "-w -Wno-psabi" } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target return_vector } */
 
 typedef int v4si __attribute__((vector_size(16)));
 struct T { v4si i[2]; int j; } __attribute__((packed));
