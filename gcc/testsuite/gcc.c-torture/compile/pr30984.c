@@ -1,4 +1,5 @@
 /* { dg-require-effective-target indirect_jumps } */
+/* { dg-require-effective-target nonlabel_goto } */
 
 int fs_exec(int ino)
 {

@@ -1,3 +1,16 @@
+2019-02-06  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/920502-1.c: Mark test which uses an
+	indirect goto to a non-label variable.
+	* gcc.c-torture/compile/920826-1.c: Likewise.
+	* gcc.c-torture/compile/920831-1.c: Likewise.
+	* gcc.c-torture/compile/991213-3.c: Likewise.
+	* gcc.c-torture/compile/pr30984.c: Likewise.
+	* gcc.c-torture/compile/pr58164.c: Likewise.
+	* lib/target-supports.exp
+	(check_effective_target_nonlabel_goto): Add procedure to check
+	if target supports indirect goto to a non-label variable.
+
 2019-02-05  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/execute/20071018-1.c: Mark test as requiring

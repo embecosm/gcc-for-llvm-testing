@@ -773,6 +773,17 @@ proc check_effective_target_indirect_jumps {} {
     return 1
 }
 
+# Return 1 if goto to a non-label is supported, 0 otherwise.
+
+proc check_effective_target_nonlabel_goto {} {
+    return [check_no_compiler_messages nonlabel_goto assembly {
+	void foo() {
+	    void *p = 0;
+	    goto *p;
+	}
+    }]
+}
+
 # Return 1 if nonlocal goto is supported, 0 otherwise.
 
 proc check_effective_target_nonlocal_goto {} {
