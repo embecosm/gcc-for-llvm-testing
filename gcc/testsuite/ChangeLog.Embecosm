@@ -1,3 +1,10 @@
+2019-02-08  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/pr51767.c: Mark test as requiring asm
+	goto statement.
+	* gcc.c-torture/compile/pr63282.c: Likewise.
+	* gcc.c-torture/compile/pr81262.c: Likewise.
+
 2019-02-06  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/compile/920502-1.c: Mark test which uses an
