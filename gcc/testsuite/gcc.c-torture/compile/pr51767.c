@@ -1,4 +1,5 @@
 /* PR rtl-optimization/51767 */
+/* { dg-require-effective-target asm_goto } */
 
 extern void fn1 (void), fn2 (void);
 

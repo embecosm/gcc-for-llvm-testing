@@ -1,4 +1,5 @@
 /* PR inline-asm/63282 */
+/* { dg-require-effective-target asm_goto } */
 
 void bar (void);
 
