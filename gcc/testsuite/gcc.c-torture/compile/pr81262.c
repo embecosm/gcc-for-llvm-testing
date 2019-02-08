@@ -1,4 +1,5 @@
 /* PR sanitizer/81262 */
+/* { dg-require-effective-target asm_goto } */
 
 void bar (void) __attribute__((cold, noreturn));
 
