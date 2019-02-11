@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O0 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int george;
 int ringo;

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized -w" } */
 /* { dg-options "-O1 -fdump-tree-optimized -w -msse" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define vector __attribute__((vector_size(16) ))
 struct VecClass

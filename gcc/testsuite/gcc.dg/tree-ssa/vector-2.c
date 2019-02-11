@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-w -O1 -fdump-tree-optimized" } */
 /* { dg-options "-w -O1 -fdump-tree-optimized -msse" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define vector __attribute__(( vector_size(16) ))
 

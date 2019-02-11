@@ -2,6 +2,7 @@
    on sprintf overflow with "%s"
    { dg-compile }
    { dg-options "-O2 -Wformat -Wno-format-zero-length -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void sink (char*);
 

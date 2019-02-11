@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-forwprop -fdump-tree-evrp-details -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 struct rtx_def;

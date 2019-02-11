@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "" { ! { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct thread_info { int preempt_count; };
 static inline struct thread_info *current_thread_info(void)

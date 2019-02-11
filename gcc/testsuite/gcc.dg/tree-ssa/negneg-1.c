@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -frounding-math -fdump-tree-optimized-raw -Wno-psabi" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define DEF(num, T1, T2) T2 f##num(T1 x) { \
     T1 y = -x; \

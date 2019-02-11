@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-w -O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define vector __attribute((vector_size(16) ))
 vector float a;

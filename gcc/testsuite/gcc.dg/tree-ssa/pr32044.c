@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* For powerpc, disable doloop IV cand generation in IVOPTs to avoid unexpected
    division operation for its base setup.  */

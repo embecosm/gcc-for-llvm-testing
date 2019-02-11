@@ -3,6 +3,7 @@
    addressing modes, the results may be quite different.
  
    The testcase comes from PR 29256 (and originally, the stream benchmark).  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile { target { i?86-*-* || { x86_64-*-* || { powerpc_hard_double && { ! powerpc_fprs } } } } } } */
 /* { dg-require-effective-target nonpic } */

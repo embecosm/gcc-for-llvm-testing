@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized -fno-inline --param ipa-cp-eval-threshold=100" } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 very_long_function(int a)

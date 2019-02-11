@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (void)
 {

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error (void);
 extern void abort (void);

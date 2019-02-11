@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define DECLS(n,VOL)			\
 __attribute__((noinline,noclone))	\

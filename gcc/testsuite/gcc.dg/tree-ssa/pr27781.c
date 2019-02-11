@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-weak-override "" } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void __attribute__((weak)) func(void)
 {

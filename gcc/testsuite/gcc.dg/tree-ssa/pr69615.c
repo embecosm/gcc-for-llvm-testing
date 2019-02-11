@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not " >= 0" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " < 0" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo (void);
 

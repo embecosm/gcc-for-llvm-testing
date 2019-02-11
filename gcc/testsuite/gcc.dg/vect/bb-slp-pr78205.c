@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target vect_double } */
 /* { dg-additional-options "-fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double x[2], a[4], b[4], c[5];
 

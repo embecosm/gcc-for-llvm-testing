@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fsanitize-coverage=trace-cmp -fdump-tree-optimized" } */
 /* { dg-skip-if "different type layout" { avr-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __SIZEOF_INT__ < 4
 typedef __INT32_TYPE__ int32;

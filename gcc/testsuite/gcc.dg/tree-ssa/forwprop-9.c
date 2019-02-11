@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized -fdump-tree-fre1 -W -Wall -fno-early-inlining" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int b;
 unsigned a;

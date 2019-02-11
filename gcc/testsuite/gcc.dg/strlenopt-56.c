@@ -4,6 +4,7 @@
    { dg-do compile }
    { dg-require-iconv "IBM1047" }
    { dg-options "-O -Wall -fexec-charset=IBM1047 -fdump-tree-gimple -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

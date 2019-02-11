@@ -2,6 +2,7 @@
 /* { dg-do compile { target int32 } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-times "return 1;" 32 "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f00 (int x) { return x / 49152 > -49152; }
 int f01 (int x) { int a = 49152, b = -49152; return x / a > b; }

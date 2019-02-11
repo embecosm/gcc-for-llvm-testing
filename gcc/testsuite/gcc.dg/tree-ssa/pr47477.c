@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -w" } */
 /* { dg-require-effective-target ilp32 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int int64_t __attribute__ ((__mode__ (__DI__)));
 typedef int * intptr_t;

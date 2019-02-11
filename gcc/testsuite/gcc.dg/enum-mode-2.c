@@ -1,4 +1,5 @@
 /* PR c/51147 - attribute((mode(byte))) on an enum generates wrong code */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-additional-options "-O2 -fdump-tree-optimized" } */

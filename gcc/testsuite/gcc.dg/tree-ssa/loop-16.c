@@ -1,6 +1,7 @@
 /* A test for # of iterations estimation.  We know that the loop is executed
    at most 100 times, thus the (32-bit) induction variables do not overflow,
    and we may use 64-bit variable to represent them.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-do compile { target i?86-*-* x86_64-*-* } } */

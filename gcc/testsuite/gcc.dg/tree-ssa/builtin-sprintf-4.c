@@ -4,6 +4,7 @@
    not be exercised when the -Wformat-overflow option is in effect.  */
 /* { dg-do compile }
    { dg-options "-O2 -fdump-tree-optimized -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 #define CAT(s, n)   s ## n

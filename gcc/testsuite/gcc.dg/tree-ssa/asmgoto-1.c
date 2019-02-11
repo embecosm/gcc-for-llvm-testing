@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -w -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void XYZZY (void);
 typedef unsigned long __kernel_size_t;

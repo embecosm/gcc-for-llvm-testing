@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-ipa-icf -fwrapv-pointer -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool
 f1 (char *a, char *b)

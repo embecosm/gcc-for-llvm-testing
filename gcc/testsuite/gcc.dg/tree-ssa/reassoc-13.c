@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffast-math -fdump-tree-reassoc1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double foo(double a)
 {

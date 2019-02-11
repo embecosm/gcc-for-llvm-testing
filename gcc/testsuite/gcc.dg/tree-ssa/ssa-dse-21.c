@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fno-tree-dce -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 _Complex int t = 0;
 int f(void)
 {

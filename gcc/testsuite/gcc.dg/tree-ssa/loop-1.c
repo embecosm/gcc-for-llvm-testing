@@ -3,6 +3,7 @@
 /* { dg-skip-if "" { powerpc*-*-* } { "-mlongcall" } { "" } } */
 /* { dg-options "-O1 -ftree-loop-ivcanon -funroll-loops -fdump-tree-ivcanon-details -fdump-tree-cunroll-details -fdump-tree-optimized" } */
 /* { dg-options "-O1 -ftree-loop-ivcanon -funroll-loops -fdump-tree-ivcanon-details -fdump-tree-cunroll-details -fdump-tree-optimized -mshort-calls" {target epiphany-*-*} } */
+/* { dg-require-effective-target gcc_frontend } */
   
 
 /* On 31-bit S/390 the function address will be stored (once) in the literal pool,

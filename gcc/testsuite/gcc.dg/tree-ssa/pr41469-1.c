@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fexceptions -fdump-tree-optimized" } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void af (void *a);
 

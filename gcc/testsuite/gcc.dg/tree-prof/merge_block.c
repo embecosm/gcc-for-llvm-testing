@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fno-ipa-pure-const -fdump-tree-optimized-blocks-details -fno-early-inlining" } */
 int a[8];

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-parallelize-loops=4 -fdump-tree-parloops2-details -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdlib.h>
 #include <stdio.h>

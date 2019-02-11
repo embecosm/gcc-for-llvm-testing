@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2  -fdump-tree-optimized -ffast-math -ffp-contract=off" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int foo (unsigned int x, unsigned int y, unsigned int z)
 {

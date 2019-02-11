@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fno-tree-sra" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Even without SRA being enabled, we should be able to eliminate every structure store and load here. */
 extern void foo (const int);

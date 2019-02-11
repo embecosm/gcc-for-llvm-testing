@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-optimized-raw -fno-tree-slp-vectorize" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 cse_recip (float x, float y, float *a)

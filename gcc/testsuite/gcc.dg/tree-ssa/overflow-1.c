@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __SIZEOF_INT__ < 4
   __extension__ typedef __UINT32_TYPE__ uint32_t;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fstrict-aliasing -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { float f; int i; };
 struct R { int x; int i; };

@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target popcountl } */
 /* { dg-options "-O2 -fno-tree-ch -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 __attribute__ ((noinline, noclone))

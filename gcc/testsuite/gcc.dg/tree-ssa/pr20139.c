@@ -1,6 +1,7 @@
 /* PR tree-optimization/20139
    This testcase is derived from gcc.dg/20020720-1.c.  Here we check
    that the optimization happens at tree level.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */

@@ -1,6 +1,7 @@
 /* PR tree-optimization/79327 - wrong code at -O2 and -fprintf-return-value
    { dg-do compile }
    { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define CAT(s, n)   s ## n
 #define FAIL(line)  CAT (failure_on_line_, line)

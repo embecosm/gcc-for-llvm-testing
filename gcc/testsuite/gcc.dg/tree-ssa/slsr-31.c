@@ -1,6 +1,7 @@
 /* Verify straight-line strength reduction for add candidates in
    which the stride is unknown and increments appear that differ
    only in sign.  Verify the increments are shared.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

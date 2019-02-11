@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O1 -foptimize-sibling-calls -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 extern void exit (int);

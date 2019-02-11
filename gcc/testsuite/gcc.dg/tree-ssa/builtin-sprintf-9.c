@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-skip-if "not IEEE float layout" { "pdp11-*-*" } }
    { dg-options "-O2 -Wall -fdump-tree-optimized" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 extern int sprintf (char*, const char*, ...);

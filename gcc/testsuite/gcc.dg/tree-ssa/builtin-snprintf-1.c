@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fprintf-return-value -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not "__builtin_snprintf" "optimized"} } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (void)

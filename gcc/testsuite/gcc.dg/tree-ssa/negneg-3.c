@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -frounding-math -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 // This assumes that long long is strictly larger than int
 

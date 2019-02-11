@@ -5,6 +5,7 @@
  * Copyright: (c) 2007 by Till Harbaum <till@harbaum.org>
  * Copyright: (c) 2008 Wolfgang Moser, http://d81.de
  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* #include <avr/wdt.h> */
 /* some declarations from the include above for ATMega8 */

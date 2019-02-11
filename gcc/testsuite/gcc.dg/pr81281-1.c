@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not "p_\[0-9]*\\(D\\)" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long long
 f1 (int p, int a, int b)

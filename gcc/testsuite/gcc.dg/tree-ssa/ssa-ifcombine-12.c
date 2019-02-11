@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-vrp -fdump-tree-optimized-details-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Testcase for PR31657.  */
 

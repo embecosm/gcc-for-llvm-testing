@@ -6,6 +6,7 @@
 /* Use generic tuning on x86 for the same reasons as why alpha, powerpc etc. are
    xfailed below.
    { dg-additional-options "-mtune=generic" { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo ()

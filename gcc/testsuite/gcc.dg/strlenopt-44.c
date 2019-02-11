@@ -1,6 +1,7 @@
 /* PR tree-optimization/86083 - handle non-constant assignments in strlen
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "range.h"
 #include "strlenopt.h"

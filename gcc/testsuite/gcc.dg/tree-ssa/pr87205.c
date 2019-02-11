@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f( int x );
 

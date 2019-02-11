@@ -1,6 +1,7 @@
 /* Verify that we don't libcall for complex / real.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c99 -O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef _Complex float C;
 

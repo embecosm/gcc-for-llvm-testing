@@ -1,6 +1,7 @@
 /* PR 21171.  Ivopts should not rewrite references to volatile memory.  */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef	unsigned int u_int32_t;
 typedef	unsigned char u_int8_t;

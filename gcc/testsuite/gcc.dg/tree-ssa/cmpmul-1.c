@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a, int b, int c){
   if (c == 0) __builtin_unreachable();

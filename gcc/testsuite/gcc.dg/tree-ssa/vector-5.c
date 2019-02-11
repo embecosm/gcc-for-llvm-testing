@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int v4si __attribute__((vector_size(4*sizeof (int))));
 

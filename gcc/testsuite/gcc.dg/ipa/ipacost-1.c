@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fipa-cp -fdump-ipa-cp -fno-early-inlining -fdump-tree-optimized -fno-ipa-icf"  } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int array[100];
 

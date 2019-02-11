@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-optimized -fgnu89-inline" } */
+/* { dg-require-effective-target gcc_frontend } */
 int a;
 int b[100];
 void abort (void);
