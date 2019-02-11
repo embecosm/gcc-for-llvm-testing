@@ -1,6 +1,7 @@
 /* PR tree-optimization/54471 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifdef __SIZEOF_INT128__
 #define T __int128

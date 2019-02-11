@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool f3(_Bool *p) { *p ^= 1; }
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-sccp-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (unsigned int n)

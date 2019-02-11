@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 --param max-fields-for-field-sensitive=2 -fdump-tree-alias" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct Foo {
   int *p, *q;

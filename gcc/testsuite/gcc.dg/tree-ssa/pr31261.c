@@ -1,6 +1,7 @@
 /* PR tree-optimization/31261 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int
 f1 (unsigned int a)

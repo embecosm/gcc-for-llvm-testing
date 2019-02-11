@@ -2,6 +2,7 @@
    pointer arithmetics.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-alias-vops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char buf[4], *q;
 int foo (int i)

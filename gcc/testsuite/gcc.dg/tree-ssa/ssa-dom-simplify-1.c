@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -w -fdump-tree-dom2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void frob (void);
 extern void frob (void);

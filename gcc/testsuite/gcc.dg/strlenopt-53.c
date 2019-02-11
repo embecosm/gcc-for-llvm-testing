@@ -2,6 +2,7 @@
    within constant arrays
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-gimple -fdump-tree-ccp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

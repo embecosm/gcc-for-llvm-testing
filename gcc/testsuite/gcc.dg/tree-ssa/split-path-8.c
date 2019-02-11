@@ -1,6 +1,7 @@
 /* PR77283 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-split-paths-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (double *x, double *a, double *b, long n, double limit)

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-vectorize -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f (void*);
 

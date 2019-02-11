@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float * __restrict__ x;
 float * __restrict__ y;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-loop-vectorize -fno-tree-slp-vectorize -fno-inline -fdump-tree-pcom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct {
   int a, b;

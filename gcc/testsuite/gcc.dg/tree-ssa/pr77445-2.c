@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-thread-details-blocks-stats -fdump-tree-threadfull1-blocks-stats -fdump-tree-threadfull2-blocks-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef enum STATES {
 	START=0,
 	INVALID,

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int test1 (unsigned int x, unsigned int y, unsigned int z,
 		    unsigned int weight)

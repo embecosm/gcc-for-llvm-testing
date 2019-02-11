@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-S -O2 -fdump-tree-vrp2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned short data;
 void foo ()

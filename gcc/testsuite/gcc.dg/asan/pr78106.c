@@ -3,6 +3,7 @@
 /* { dg-options "-fsanitize=address -fdump-tree-sanopt-details -ffat-lto-objects" } */
 /* { dg-require-effective-target builtin_free } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *variable;
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dce2 -fdump-tree-forwprop1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
   
 int abarney[2];
 int afred[1];

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
-/* { dg-options "-O2 -fdump-tree-dom2-stats -fdump-tree-thread2-stats -fdump-tree-dom3-stats -fno-guess-branch-probability" } */
+/* { dg-options "-O2 -fdump-tree-thread1-stats -fdump-tree-thread2-stats -fdump-tree-dom2-stats -fdump-tree-thread3-stats -fdump-tree-dom3-stats -fdump-tree-vrp2-stats -fno-guess-branch-probability" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-final { scan-tree-dump-not "Jumps threaded"  "dom2" } } */
 

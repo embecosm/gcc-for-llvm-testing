@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution -ftree-loop-distribute-patterns -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar(char *s);
 int foo(unsigned short l)

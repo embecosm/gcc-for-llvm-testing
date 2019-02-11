@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-phiopt1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
  
 
 void abort(void);

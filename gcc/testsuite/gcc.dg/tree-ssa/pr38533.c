@@ -1,6 +1,7 @@
 /* PR middle-end/38533 */
 /* { dg-do compile } */
 /* { dg-options "-O2 --param tree-reassoc-width=1 -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A asm volatile ("" : "=r" (f) : "0" (0)); e |= f;
 #define B A A A A A A A A A A A

@@ -1,6 +1,7 @@
 /* PR/71352 */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned a, b, c, d, e;
 

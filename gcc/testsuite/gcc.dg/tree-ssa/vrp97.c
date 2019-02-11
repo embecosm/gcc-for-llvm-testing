@@ -1,5 +1,6 @@
 /* PR tree-optimization/64454 */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a, int b)
 {

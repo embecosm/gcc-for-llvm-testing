@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmmark" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int test(void) __attribute__((transaction_safe));
 extern int something (void);

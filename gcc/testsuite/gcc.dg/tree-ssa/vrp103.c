@@ -1,6 +1,7 @@
 /* PR tree-optimization/18046  */
 /* { dg-options "-O2 -fdump-tree-vrp" }  */
 /* { dg-final { scan-tree-dump-times "baz \\(0\\);" 4 "vrp1" } }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (void);
 void bar (void);

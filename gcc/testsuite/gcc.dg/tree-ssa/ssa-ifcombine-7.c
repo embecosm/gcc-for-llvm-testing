@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-ifcombine-details-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int test1 (int i, int j)
 {

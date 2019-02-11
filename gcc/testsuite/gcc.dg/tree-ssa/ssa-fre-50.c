@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffinite-math-only -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern double cos (double);
 extern double tan (double);

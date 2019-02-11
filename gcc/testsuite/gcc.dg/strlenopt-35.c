@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

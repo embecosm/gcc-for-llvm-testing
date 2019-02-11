@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-lim2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is a variant that does cause fold to place a cast to
    int before testing bit 1.  */

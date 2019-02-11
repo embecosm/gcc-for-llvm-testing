@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define vector __attribute__((vector_size(16) ))
 

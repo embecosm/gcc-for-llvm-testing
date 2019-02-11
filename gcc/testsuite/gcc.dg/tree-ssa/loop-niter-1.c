@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-sccp-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned char u8;
 typedef __UINT32_TYPE__ u32;

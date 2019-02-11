@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-uncprop-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We're looking for a constant argument a PHI node.  There
    should only be one if we unpropagate correctly.  */

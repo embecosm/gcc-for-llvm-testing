@@ -1,6 +1,7 @@
 /* PR middle-end/87052 - STRING_CST printing incomplete in Gimple dumps
    { dg-do compile }
    { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void sink (const void*, ...);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dce3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We should notice constantness of this function. */
 static int __attribute__((noinline)) t(int a) 

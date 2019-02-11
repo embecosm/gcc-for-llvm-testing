@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef char __attribute__ ((vector_size (4))) v4qi;
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -Warray-bounds -fno-tree-vectorize -fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int a[3];
 int b[4];
 int

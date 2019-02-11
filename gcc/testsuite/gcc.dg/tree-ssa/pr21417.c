@@ -1,5 +1,6 @@
 /* { dg-do compile } */
-/* { dg-options "-O2 -fdump-tree-thread2-details" } */
+/* { dg-options "-O2 -fdump-tree-thread2-details -fdump-tree-thread4-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct tree_common 
 { 

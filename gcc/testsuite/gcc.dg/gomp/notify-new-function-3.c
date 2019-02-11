@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-parallelize-loops=2 -fdump-tree-ompexpssa" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (int *__restrict a, int *__restrict b, int *__restrict c)

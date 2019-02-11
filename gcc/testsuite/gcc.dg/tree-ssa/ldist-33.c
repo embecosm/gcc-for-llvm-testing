@@ -3,6 +3,7 @@
    store.  Both store motion and PRE expose a DSE opportunity for this
    zeroing - while desirable this defeats the purpose of this testcase.  */
 /* { dg-options "-O2 -fno-tree-loop-im -fno-tree-pre -ftree-loop-distribution -ftree-loop-distribute-patterns -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N (1024)
 double a[N][N], b[N][N], c[N][N];

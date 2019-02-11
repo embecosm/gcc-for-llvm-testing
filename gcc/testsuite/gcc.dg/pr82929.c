@@ -1,6 +1,7 @@
 /* PR tree-optimization/82929 */
 /* { dg-do compile { target store_merge } } */
 /* { dg-options "-O2 -fno-tree-vectorize -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (short *p, short *q, short *r)

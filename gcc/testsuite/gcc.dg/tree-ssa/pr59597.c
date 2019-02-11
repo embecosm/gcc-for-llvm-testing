@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdisable-tree-cunrolli -fdump-tree-threadfull1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned short u16;
 typedef unsigned char u8;

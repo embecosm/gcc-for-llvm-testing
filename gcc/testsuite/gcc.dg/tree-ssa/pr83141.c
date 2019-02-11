@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-esra-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 volatile short vs;
 volatile long vl;

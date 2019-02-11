@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-tailc-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { int x; };
 void f_direct (struct s);

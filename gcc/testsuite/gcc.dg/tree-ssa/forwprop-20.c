@@ -2,6 +2,7 @@
 /* { dg-require-effective-target double64 } */
 /* { dg-require-effective-target builtin_shuffle } */
 /* { dg-options "-O -fdump-tree-forwprop1" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdint.h>
 

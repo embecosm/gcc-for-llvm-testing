@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int t(int a) __attribute__ ((const));
 void q (void);
 void

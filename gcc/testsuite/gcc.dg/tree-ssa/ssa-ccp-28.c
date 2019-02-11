@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

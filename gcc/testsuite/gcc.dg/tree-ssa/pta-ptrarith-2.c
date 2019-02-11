@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-forwprop -fno-tree-ccp -fdump-tree-ealias" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 struct X {

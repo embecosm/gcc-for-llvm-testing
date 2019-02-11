@@ -1,5 +1,6 @@
 /* { dg-do compile } */
-/* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-options "-O2 -fdump-tree-optimized -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 f (int m1, int m2, int c)

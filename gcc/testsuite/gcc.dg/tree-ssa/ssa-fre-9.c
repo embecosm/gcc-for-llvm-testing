@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-sra -fdump-tree-fre1-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 union loc {
     unsigned reg;

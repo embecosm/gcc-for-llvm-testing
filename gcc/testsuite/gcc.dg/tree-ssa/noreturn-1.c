@@ -1,6 +1,7 @@
 /* { dg-do compile } *
 /* { dg-options "-O2 -fdump-tree-ssa -std=gnu11" } */
 /* { dg-final { scan-tree-dump-times "__builtin_unreachable" 4 "ssa" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar1 (void);
 void bar2 (void);

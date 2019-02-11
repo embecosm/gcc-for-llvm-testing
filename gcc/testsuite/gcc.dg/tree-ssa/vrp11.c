@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fno-early-inlining" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 inline int
 bounce (int arg)

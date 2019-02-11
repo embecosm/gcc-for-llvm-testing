@@ -1,6 +1,7 @@
 /* PR libgomp/32468 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fopenmp -fdump-tree-ompexp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int printf (const char *, ...);
 extern int omp_get_thread_num (void), omp_get_num_threads (void);

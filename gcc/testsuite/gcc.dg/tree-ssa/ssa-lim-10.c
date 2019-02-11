@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *l, *r;
 int test_func(void)

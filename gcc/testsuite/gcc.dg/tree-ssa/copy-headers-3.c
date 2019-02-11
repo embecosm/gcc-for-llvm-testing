@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgimple -fdump-tree-ch2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int __GIMPLE (startwith("ch"))
 test2 (int n)

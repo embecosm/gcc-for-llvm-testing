@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-alias-vops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct {
 	int i;

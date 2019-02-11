@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 int f1(int a,int b)
 {
   return (a|b) ^ b;

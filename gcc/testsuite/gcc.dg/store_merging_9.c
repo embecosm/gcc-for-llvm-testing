@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum E { E0, E1, E2 = __INT_MAX__, E3 = -__INT_MAX__ - 1 };
 

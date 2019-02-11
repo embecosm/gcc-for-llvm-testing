@@ -2,6 +2,7 @@
 /* { dg-options "-O -fdump-tree-fre1-details" } */
 /* { dg-require-effective-target builtin_malloc } */
 /* { dg-require-effective-target builtin_realloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int j;
 int main ()

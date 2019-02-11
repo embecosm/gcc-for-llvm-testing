@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dse-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct z {
   int a;

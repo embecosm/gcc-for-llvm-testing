@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef char char16[16] __attribute__ ((aligned (16)));
 char16 c16[4] __attribute__ ((aligned (4)));

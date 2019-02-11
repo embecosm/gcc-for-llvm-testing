@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-ifcvt-stats-blocks-details" } */
 /* { dg-require-visibility "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[1024] = {0.0};
 int b[1024] = {0.0};

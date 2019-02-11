@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-forwprop -fno-tree-ccp -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Complex float m;
 

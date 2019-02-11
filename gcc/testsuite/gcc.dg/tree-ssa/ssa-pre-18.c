@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-pre-details -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct Bar { int a; int b; };
 struct Foo { int x; struct Bar y; };

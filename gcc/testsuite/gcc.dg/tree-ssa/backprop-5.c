@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -g -fdump-tree-backprop-details" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test a loop that does both a multiplication and addition.  The addition
    should prevent any sign ops from being removed.  */

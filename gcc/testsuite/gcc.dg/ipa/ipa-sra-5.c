@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fipa-sra -fdump-ipa-sra" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int *
 __attribute__((noinline,used))

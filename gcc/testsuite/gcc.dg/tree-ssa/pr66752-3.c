@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-threadfull1-details -fdump-tree-thread2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int status, pt;
 extern int count;

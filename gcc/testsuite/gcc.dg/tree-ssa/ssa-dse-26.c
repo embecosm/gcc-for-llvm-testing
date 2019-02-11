@@ -2,6 +2,8 @@
 /* { dg-options "-O2 -fdump-tree-dse1-details -fno-short-enums -fno-tree-fre" } */
 /* { dg-skip-if "we want a BIT_FIELD_REF from fold_truth_andor" { ! lp64 } } */
 /* { dg-skip-if "temporary variable names are not x and y" { mmix-knuth-mmixware } } */
+/* { dg-skip-if "temporary variable for constraint_expr is never used" { msp430-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum constraint_expr_type
 {

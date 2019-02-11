@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O2 -floop-interchange -fdump-tree-linterchange-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Copied from graphite/interchange-4.c */
 

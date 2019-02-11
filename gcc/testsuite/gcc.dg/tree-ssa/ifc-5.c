@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-c -O2 -ftree-vectorize -fdump-tree-ifcvt-stats-blocks-details" { target *-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 dct_unquantize_h263_inter_c (short *block, int n, int qscale, int nCoeffs)

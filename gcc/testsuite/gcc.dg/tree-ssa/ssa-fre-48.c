@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details -fdisable-tree-ethread" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int i)
 {

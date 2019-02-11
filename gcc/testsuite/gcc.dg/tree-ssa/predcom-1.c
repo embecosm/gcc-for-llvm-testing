@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-do run } */
-/* { dg-options "-O2 -fno-tree-vectorize -funroll-loops --param max-unroll-times=8 -fpredictive-commoning -fdump-tree-pcom-details" } */
+/* { dg-options "-O2 -fno-tree-vectorize -funroll-loops --param max-unroll-times=8 -fpredictive-commoning -fdump-tree-pcom-details -fno-tree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 

@@ -1,6 +1,7 @@
 /* Verify that SRA total scalarization will not be confused by padding.  */
 /* { dg-do compile } */
 /* { dg-options "-O1 --param sra-max-scalarization-size-Ospeed=16 -fdump-tree-release_ssa" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S
 {

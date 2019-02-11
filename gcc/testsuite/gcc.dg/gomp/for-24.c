@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fopenmp -fdump-tree-ssa" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar(int);
 

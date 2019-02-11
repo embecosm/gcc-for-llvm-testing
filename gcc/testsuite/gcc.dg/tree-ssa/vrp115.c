@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-evrp" } */
 /* { dg-final { scan-tree-dump-not "link_error" "evrp" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void link_error (void);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { _Complex float i; };
 void g(struct s *);

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* PR tree-optimization/20470:
     Missing fold to abs(x) when x == MINUS_EXPR.  */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-switchconv" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef enum { a = 5, b = 6, c = 7, d = 8, e = 9 } X;
 

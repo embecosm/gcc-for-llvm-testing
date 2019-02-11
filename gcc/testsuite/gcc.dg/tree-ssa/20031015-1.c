@@ -2,6 +2,7 @@
    a VOP of x in the asm statement.  */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-alias-vops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { int a; };
 

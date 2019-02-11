@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dom3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct x
 {

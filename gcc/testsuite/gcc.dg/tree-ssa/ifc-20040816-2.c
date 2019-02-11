@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-c -O2 -ftree-vectorize -fdump-tree-ifcvt-stats-blocks-details" { target *-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(const int * __restrict__ zr_in,
 		const int * __restrict__ zi_in,

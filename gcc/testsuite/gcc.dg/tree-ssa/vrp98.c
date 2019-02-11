@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int128 } */
 /* { dg-options "-Os -fdisable-tree-evrp -fdump-tree-vrp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdint.h>
 #include <limits.h>

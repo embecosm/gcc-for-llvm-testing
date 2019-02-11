@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ivcanon-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int a[1];
 void test2 (void);
 void

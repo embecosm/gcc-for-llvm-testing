@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -fdump-tree-original" } */
 /* { dg-final { scan-tree-dump-times "x r<< y" 4 "original" { target int32 } } } */
 /* { dg-final { scan-tree-dump-times "x r>> y" 4 "original" { target int32 } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned
 f1 (unsigned x, int y)

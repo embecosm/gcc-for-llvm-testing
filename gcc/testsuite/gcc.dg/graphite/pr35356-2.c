@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fgraphite-identity -fdump-tree-graphite-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[100];
 

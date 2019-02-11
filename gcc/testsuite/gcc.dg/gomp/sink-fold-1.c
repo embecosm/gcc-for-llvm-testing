@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -fdump-tree-omplower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test depend(sink) clause folding.  */
 

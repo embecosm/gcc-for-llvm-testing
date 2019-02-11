@@ -1,6 +1,7 @@
 /* PR tree-optimization/36881 */
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O2 -fpic -fdump-tree-switchconv-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const char *foo (int i)
 {

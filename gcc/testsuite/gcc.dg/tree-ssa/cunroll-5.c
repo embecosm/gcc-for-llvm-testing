@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-cunroll-details -fno-tree-vectorize" } */
+/* { dg-require-effective-target gcc_frontend } */
 int *a;
 void
 test(int c)

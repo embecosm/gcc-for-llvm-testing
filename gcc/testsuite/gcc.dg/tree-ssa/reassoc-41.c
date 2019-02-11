@@ -1,6 +1,7 @@
 /* PR tree-optimization/67815 */
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fno-rounding-math -fdump-tree-reassoc1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that the copysign reassoc optimization does fire for
    -fno-rounding-math (i.e. HONOR_SIGN_DEPENDENT_ROUNDING) if the multiplication

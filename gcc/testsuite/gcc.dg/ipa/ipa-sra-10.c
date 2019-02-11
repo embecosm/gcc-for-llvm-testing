@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-ipa-cp -fipa-sra -fdump-ipa-sra"  } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void consume (int);
 extern int glob, glob1, glob2;

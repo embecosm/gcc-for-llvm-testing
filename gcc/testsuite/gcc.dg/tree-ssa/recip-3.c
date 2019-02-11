@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fno-trapping-math -funsafe-math-optimizations -fdump-tree-recip" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* The recip pass has a threshold of 3 reciprocal operations before it attempts
    to optimize a sequence.  With a FP enabled ranger, we eliminate one of them

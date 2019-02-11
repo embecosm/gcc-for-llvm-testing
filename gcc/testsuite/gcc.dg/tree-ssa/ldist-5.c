@@ -1,5 +1,6 @@
 /* { dg-do compile { target int32plus } } */ 
 /* { dg-options "-O2 -ftree-loop-distribution -fdump-tree-ldist-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int loop1 (int k)
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -floop-nest-optimize -fdump-tree-graphite-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[9];
 int b, c, d, e;

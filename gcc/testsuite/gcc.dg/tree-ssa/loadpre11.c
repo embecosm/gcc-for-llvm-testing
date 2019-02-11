@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-pre-stats -fno-tree-cselim" } */
+/* { dg-require-effective-target gcc_frontend } */
 int *t;
 int g(int);
 int f(int tt)

@@ -3,6 +3,7 @@
 /* We want to verify no outgoing edge from a conditional
    has a probability of 100%.  */
 /* { dg-final { scan-tree-dump-not "succ:\[ \]+. .100.0%.  .\(TRUE|FALSE\)_VALUE" "dom2"} } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 void (*zend_block_interruptions) (void);

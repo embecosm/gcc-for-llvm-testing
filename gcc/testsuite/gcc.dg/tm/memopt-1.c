@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmmemopt" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long g, xxx, yyy;
 extern void george() __attribute__((transaction_safe));

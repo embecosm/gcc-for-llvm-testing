@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int
 foo (unsigned int eax)

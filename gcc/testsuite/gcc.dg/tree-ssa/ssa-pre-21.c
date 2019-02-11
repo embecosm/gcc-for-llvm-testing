@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long
 NumSift (long *array, unsigned long k)

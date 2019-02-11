@@ -1,5 +1,6 @@
 /* PR tree-optimization/68431 */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-vrp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int x = 1;
 int

@@ -1,6 +1,8 @@
 /* { dg-do compile } */
-/* { dg-additional-options "-O2 --param logical-op-non-short-circuit=1 -fdump-tree-threadfull1-details" }  */
+/* { dg-additional-options "-O2 --param logical-op-non-short-circuit=1 -fdump-tree-threadfull1-details -fdump-tree-vrp-details" }  */
 /* { dg-final { scan-tree-dump-times "Registering jump thread" 8 "threadfull1" } }  */
+/* { dg-final { scan-tree-dump-times "Threaded jump" 8 "vrp1" } }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (void);
 void bar (void);

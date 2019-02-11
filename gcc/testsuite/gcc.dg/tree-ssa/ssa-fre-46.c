@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int x[1024];
 int foo (int a, int s, unsigned int k)

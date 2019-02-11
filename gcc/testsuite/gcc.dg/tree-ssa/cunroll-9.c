@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cunrolli-details -fdisable-tree-evrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 void abort (void);
 int q (void);
 int a[10];

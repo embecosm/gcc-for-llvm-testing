@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-tmmark" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* If we're sure to go irrevocable, as in the case below, do not pass
    PR_INSTRUMENTEDCODE to the run-time if there is nothing

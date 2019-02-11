@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-parallelize-loops=2 -fdump-tree-parloops2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Variable bound, reduction.  */
 

@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -floop-interchange -fassociative-math -fno-signed-zeros -fno-trapping-math -fdump-tree-linterchange-details" } */
 /* { dg-require-effective-target size32plus } */
 /* { dg-skip-if "too big data segment" { visium-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Copied from graphite/interchange-4.c */
 

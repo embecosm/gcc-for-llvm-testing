@@ -1,5 +1,6 @@
 /* { dg-do compile { target size32plus } } */ 
 /* { dg-options "-O2 -fdump-tree-dom2-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 union tree_node;
 typedef union tree_node *tree;

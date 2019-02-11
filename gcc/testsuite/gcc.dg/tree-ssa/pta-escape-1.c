@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fdump-tree-alias-details -fdelete-null-pointer-checks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *i;
 void __attribute__((noinline))

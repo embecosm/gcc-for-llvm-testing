@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -funsafe-math-optimizations -ftrapping-math -fdump-tree-recip -fdump-tree-lim2 --param=ranger-recompute-depth=1" } */
 /* { dg-warning "'-fassociative-math' disabled" "" { target *-*-* } 0 } */
 /* ranger-recompute-depth prevents the optimizers from being too smart.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 double F[2] = { 0., 0. }, e = 0.;
 
