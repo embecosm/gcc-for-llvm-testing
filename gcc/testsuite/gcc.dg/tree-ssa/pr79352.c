@@ -2,6 +2,7 @@
    flexible-like array members properly
    { dg-do compile }
    { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { int i; char a1[1]; };
 struct B { int i; char a3[3]; };

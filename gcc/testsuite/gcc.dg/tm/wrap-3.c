@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void free (void *);
 void wrapper (void *) __attribute__((transaction_wrap (free)));

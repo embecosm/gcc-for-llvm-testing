@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Slightly changed testcase from PR middle-end/40815.  */
 void bar(char*, char*, int);

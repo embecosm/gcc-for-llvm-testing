@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-optimized -fdump-ipa-profile" } */
+/* { dg-require-effective-target gcc_frontend } */
 unsigned int a[1000];
 unsigned int b = 257;
 unsigned int c = 1023;

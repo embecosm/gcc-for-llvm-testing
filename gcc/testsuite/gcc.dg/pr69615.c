@@ -5,6 +5,7 @@
 /* { dg-final { scan-tree-dump-not " < 0" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " <= 23" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " > 23" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo (void);
 

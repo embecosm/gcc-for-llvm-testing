@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int a)
 {

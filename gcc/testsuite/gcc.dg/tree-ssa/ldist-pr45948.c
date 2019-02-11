@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution -ftree-loop-distribute-patterns -fdump-tree-ldist-details -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar(int);
 

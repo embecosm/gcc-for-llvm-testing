@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized -fdump-tree-phiopt1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int g(int,int);
 int f(int t, int c)

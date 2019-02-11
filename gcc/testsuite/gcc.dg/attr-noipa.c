@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static inline int __attribute__((noipa))
 fn1 (void) /* { dg-warning "inline function \[^\n\]* given attribute noinline" "" } */

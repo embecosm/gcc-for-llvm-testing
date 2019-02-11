@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fgimple -fdump-tree-optimized -ffast-math" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double __GIMPLE (startwith("loop"))
 neg_xi (double *x)

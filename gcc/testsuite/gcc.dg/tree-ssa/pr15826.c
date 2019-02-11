@@ -2,6 +2,7 @@
    bit-field */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s {
   unsigned int bit : 1;

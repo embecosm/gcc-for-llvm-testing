@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 char a[1000];
 char b[1000];
 int size=1000;

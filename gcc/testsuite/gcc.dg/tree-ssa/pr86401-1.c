@@ -7,6 +7,7 @@
 /* { dg-final { scan-tree-dump-not " & 319" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " \\| 4294967168" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " \\^ 4294966912" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned f1 (unsigned x) { unsigned m = 64; return (m + x) & (m - 1); }
 unsigned f2 (unsigned x) { return (64 + x) & 63; }

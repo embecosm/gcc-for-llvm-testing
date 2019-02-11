@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fopenmp -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[10];
 int foo (void)

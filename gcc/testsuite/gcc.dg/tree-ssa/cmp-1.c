@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-gimple -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a){
   int b = -__INT_MAX__-1;

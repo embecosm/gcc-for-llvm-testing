@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct { char f[4]; } __attribute__((aligned (4))) s;
 

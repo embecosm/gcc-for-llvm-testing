@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fopenmp -std=c99 -fipa-pta -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 2
 

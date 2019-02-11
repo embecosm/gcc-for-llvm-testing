@@ -2,6 +2,7 @@
    gcc.c-torture/execute/20040313-1.c, but with a compile time test to
    make sure the second if() is removed.  */
 /* Update: We now remove both ifs.  Whee. */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */

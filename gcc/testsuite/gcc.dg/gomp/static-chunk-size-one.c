@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -O2 -fdump-tree-optimized -fno-tree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 bar ()

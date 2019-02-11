@@ -4,6 +4,7 @@
 /* { dg-add-options ieee } */
 /* { dg-final { scan-tree-dump-not "nextafter" "optimized" } } */
 /* { dg-final { scan-tree-dump-not "nexttoward" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float nextafterf (float, float);
 double nextafter (double, double);

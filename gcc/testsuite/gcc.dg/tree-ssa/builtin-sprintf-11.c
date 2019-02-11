@@ -4,6 +4,7 @@
    { dg-do compile }
    { dg-require-iconv "IBM1047" }
    { dg-options "-O2 -Wall -Wno-format -Wformat-overflow -fexec-charset=IBM1047 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __WCHAR_TYPE__ wchar_t;
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-optimized -ffast-math" } */
+/* { dg-require-effective-target gcc_frontend } */
 float a, b, c, d;
 extern int printf (const char *, ...);
 int main(void)

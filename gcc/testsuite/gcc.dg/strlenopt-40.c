@@ -2,6 +2,7 @@
    -Wstringop-overflow does not work with inlining
    { dg-do compile }
    { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

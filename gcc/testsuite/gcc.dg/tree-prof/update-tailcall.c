@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-tailc -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 __attribute__ ((noinline))
 int factorial(int x)
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int integral, int decimal, int power_ten)

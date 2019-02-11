@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double
 foo (double a)

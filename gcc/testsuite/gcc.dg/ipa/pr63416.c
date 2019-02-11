@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized"  } */
+/* { dg-require-effective-target gcc_frontend } */
 #define _UNUSED_ __attribute__((__unused__))
 
 typedef int TEST_F30 (int *v);

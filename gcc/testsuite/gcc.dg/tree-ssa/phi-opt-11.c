@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
 /* { dg-additional-options "-mbranch-cost=2" { target branch_cost } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a, int b, int c)
 {

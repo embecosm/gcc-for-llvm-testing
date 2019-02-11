@@ -2,6 +2,7 @@
 /* { dg-require-effective-target fpic } */
 /* { dg-skip-if "" { *-*-darwin* *-*-mingw* } } */
 /* { dg-options "-O2 -fno-common -fpic -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const int conststaticvariable;
 

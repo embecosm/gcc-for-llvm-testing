@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-times "MIN_EXPR" 1 "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern unsigned short mode_size[];
 

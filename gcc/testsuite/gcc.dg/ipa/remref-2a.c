@@ -3,6 +3,7 @@
    discovers calls for.  */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-early-inlining -fno-ipa-cp -fdump-ipa-inline -fdump-tree-optimized -fno-ipa-icf"  } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int global;
 

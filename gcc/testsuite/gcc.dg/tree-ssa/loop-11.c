@@ -1,5 +1,6 @@
 /* A test for final value replacement and higher-order ivs,
    see PR 22442.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */

@@ -1,4 +1,5 @@
 /* { dg-options "-O0 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 main (int argc, char **argv)

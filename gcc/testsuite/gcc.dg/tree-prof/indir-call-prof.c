@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-optimized -fdump-ipa-profile -fdump-ipa-afdo" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int a1 (void)
 {

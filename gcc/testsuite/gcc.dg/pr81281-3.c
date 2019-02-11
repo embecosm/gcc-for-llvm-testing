@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not "\[+=-] \?123\[ ;]" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifdef __SIZEOF_INT128__
 __int128

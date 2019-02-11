@@ -1,4 +1,5 @@
 /* A test for final value replacement.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 

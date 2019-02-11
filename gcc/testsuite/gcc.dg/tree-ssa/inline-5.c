@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 struct a {int a,b,c,d,e,f;};
 
 void do_something (struct a *);

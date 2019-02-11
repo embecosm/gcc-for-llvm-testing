@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fdump-ipa-icf -flto -fdump-tree-optimized" } */
 /* { dg-require-effective-target lto } */
 /* { dg-additional-sources "ipa-icf-38a.c" }*/
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Based on ipa-icf-3.c.  */
 

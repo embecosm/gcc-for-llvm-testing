@@ -3,6 +3,7 @@
    defined for executables as well as shared libraries.  */
 /* { dg-skip-if "" { *-*-darwin* hppa*64*-*-* mips*-*-linux* *-*-mingw* } } */
 /* { dg-options "-O2 -fno-common -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const int conststaticvariable;
 

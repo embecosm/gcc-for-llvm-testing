@@ -3,6 +3,7 @@
 /* { dg-do compile { target int32 } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not " / " "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((noinline, noclone)) int f00 (int x) { return x / 46340 > -46341; }
 __attribute__((noinline, noclone)) int f01 (int x) { int a = 46340, b = -46341; return x / a > b; }

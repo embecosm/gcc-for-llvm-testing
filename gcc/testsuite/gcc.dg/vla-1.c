@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-g -O3 -fdump-tree-optimized -fvar-tracking-assignments -fno-selective-scheduling -fno-selective-scheduling2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int __attribute__((noinline))
 f1 (int i)

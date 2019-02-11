@@ -10,6 +10,7 @@
    function, even if the caller has a frame.  That breaks the assumption
    that calls probe *sp when saving the return address that some targets
    depend on to elide stack probes.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fstack-clash-protection -fdump-tree-tailc -fdump-tree-optimized" } */

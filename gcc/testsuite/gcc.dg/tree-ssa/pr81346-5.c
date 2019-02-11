@@ -5,6 +5,7 @@
 /* { dg-final { scan-tree-dump-times "\\(signed short\\) x" 10 "optimized" { target int16 } } } */
 /* { dg-final { scan-tree-dump-times " <= 0;" 5 "optimized" } } */
 /* { dg-final { scan-tree-dump-times " > 0;" 5 "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f1 (unsigned x) { return x - 1 <= __INT_MAX__ - 1; }
 int f2 (unsigned x) { unsigned a = 1, b = __INT_MAX__ - 1; return x - a <= b; }

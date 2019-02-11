@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(unsigned x){
   x += 123;

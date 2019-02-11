@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-phiopt3 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int PopCount (long b) {
     int c = 0;

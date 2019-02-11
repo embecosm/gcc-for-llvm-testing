@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fpredictive-commoning" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double in;
 extern void Write (double);

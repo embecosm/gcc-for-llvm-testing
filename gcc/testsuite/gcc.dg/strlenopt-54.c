@@ -1,6 +1,7 @@
 /* PR tree-optimization/86042 - missing strlen optimization after second strcpy
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fno-tree-fre -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test for SRA. */
 

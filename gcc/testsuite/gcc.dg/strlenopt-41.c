@@ -6,6 +6,7 @@
    a variable offset.
    { dg-do compile }
    { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

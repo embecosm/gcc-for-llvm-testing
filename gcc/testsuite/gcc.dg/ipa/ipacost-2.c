@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fipa-cp -fipa-cp-clone -fdump-ipa-cp -fno-early-inlining -fdump-tree-optimized -fno-ipa-icf"  } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int array[100];
 

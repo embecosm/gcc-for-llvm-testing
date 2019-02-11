@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef _Complex float COMPLEX_FLOAT;
 float real_part(COMPLEX_FLOAT a)

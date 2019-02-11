@@ -1,6 +1,7 @@
 /* A test for # of iterations estimation.  We know that I does not overflow,
    thus we can perform strength reduction (even though the 32-bit variable
    i is first extended to 64-bit type).  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-do compile { target i?86-*-* x86_64-*-* } } */

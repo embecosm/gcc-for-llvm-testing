@@ -2,6 +2,7 @@
    precision whose range crosses zero.
   { do-do compile }
   { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static const double x = 1.23456789;
 

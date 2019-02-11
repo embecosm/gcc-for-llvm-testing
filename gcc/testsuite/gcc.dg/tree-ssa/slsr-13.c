@@ -2,6 +2,7 @@
    but with different variables as the stride.  Note that they will
    be strength-reduced by introducing an initializer 4*s which is
    cheaper than 5*s; similar for 4*c and 5*c.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
 /* { dg-additional-options "-mbranch-cost=1" { target branch_cost } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool f1(_Bool a, _Bool b)
 {

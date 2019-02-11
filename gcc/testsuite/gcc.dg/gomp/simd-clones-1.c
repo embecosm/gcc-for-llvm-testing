@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -fdump-tree-optimized -O3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that functions that have SIMD clone counterparts are not
    cloned by IPA-cp.  For example, special_add() below has SIMD clones

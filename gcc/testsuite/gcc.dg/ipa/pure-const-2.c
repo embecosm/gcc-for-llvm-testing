@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-local-pure-const1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 static __attribute__ ((noinline, noclone))
 int i_am_pure(char *c, int n)
 {

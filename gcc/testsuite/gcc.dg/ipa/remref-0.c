@@ -3,6 +3,7 @@
    passed as parameters that are never used.  */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-early-inlining -fno-ipa-sra -fno-ipa-cp -fdump-ipa-inline -fdump-tree-optimized"  } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int __attribute__ ((noinline, noclone, used))
 stuff (int i)

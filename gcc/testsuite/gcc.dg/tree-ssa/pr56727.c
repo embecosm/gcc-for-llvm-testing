@@ -1,6 +1,7 @@
 /* { dg-do compile { target fpic } } *
 /* { dg-require-alias "" } */
 /* { dg-options "-O2 -fPIC -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 void do_not_optimize(int b)
 {
     do_not_optimize(0);

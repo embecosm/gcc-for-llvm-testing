@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fsanitize-coverage=trace-cmp -fdump-tree-optimized" } */
 /* { dg-skip-if "different type layout" { avr-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (char *a, short *b, int *c, long long *d, float *e, double *f)

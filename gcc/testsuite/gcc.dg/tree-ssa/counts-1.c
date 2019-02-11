@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 void unlikely () __attribute__ ((cold));
 void unlikely2 () __attribute__ ((cold));
 

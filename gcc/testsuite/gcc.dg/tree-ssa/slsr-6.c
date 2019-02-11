@@ -1,5 +1,6 @@
 /* Verify straight-line strength reduction for simple add candidates,
    pointer version.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

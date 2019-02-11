@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized -fdump-tree-alias-vops" } */
 /* Test to make sure that inline-asm causes a VDEF and that we call test_function twice. */
+/* { dg-require-effective-target gcc_frontend } */
 
 char test_function(void ) __attribute__((__pure__));
 char f(char *a)

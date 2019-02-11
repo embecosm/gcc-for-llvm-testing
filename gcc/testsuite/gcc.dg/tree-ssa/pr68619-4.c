@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-code-hoisting -fdump-tree-optimized -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct rtx_def *rtx;
 enum rtx_code

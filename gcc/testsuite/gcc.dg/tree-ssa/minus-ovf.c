@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(unsigned a, unsigned b) {
   unsigned remove = a - b;
