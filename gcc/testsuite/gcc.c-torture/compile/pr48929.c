@@ -1,4 +1,5 @@
 /*{ dg-options "-findirect-inlining" }*/
+/* { dg-require-effective-target gcc_frontend } */
 void bar ();
 
 static void

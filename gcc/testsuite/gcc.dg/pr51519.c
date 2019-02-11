@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-guess-branch-probability -findirect-inlining" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void fe (void);
 int i;
