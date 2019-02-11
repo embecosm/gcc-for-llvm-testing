@@ -1,5 +1,11 @@
 2019-02-11  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr48929.c: Mark test which uses
+	-findirect-inlining as requiring gcc frontend.
+	* gcc.dg/pr51519.c: Likewise.
+
+2019-02-11  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/asan/sancov-1.c: Mark test which uses
 	-fdump-tree-optimized as requiring gcc frontend.
 	* gcc.dg/{various}: Likewise.
