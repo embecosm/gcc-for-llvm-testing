@@ -1,6 +1,7 @@
 /* PR middle-end/35691 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-final { scan-tree-dump-times "Optimizing range tests \[xyz]1_\[0-9]*\\(D\\) \\+\\\[0, 0\\\] and \[xyz]1_\[0-9]*\\(D\\) \\+\\\[0, 0\\\] and \[xyz]1_\[0-9]*\\(D\\) \\+\\\[0, 0\\\]\[\n\r]" 1 "reassoc1" } } */
 /* { dg-final { scan-tree-dump-times "Optimizing range tests \[ghi]1_\[0-9]*\\(D\\) \\+\\\[0, 0\\\] and \[ghi]1_\[0-9]*\\(D\\) \\+\\\[0, 0\\\] and \[ghi]1_\[0-9]*\\(D\\) \\+\\\[0, 0\\\]\[\n\r]" 1 "reassoc1" } } */

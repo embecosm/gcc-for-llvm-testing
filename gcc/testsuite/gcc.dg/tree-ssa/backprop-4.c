@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -g -fdump-tree-backprop-details" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test a simple reduction loop in which all inputs are sign ops and
    the consumer doesn't care about the sign.  */

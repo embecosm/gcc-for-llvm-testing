@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1-details -fdump-tree-ccp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f1(int a, int b){
   int c = a & b;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-tmedge -fdump-tree-tmmark" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b;
 

@@ -1,6 +1,7 @@
 /* PR tree-optimization/21658
    CCP did not propagate an ADDR_EXPR far enough, preventing the "if"
    statement below from being folded.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dominator-opts -fdump-tree-ccp1-details" } */

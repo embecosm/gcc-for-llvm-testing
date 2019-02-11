@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ch2" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef union tree_node *tree;
 enum tree_code
 {

@@ -1,6 +1,7 @@
 /* PR tree-optimization/65170 */
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned __int128 T;
 extern void link_error (void);

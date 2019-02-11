@@ -23,6 +23,9 @@ load_lib gcc-dg.exp
 if { ![istarget i?86*-*-*] && ![istarget x86_64-*-*] } then {
   return
 }
+if ![check_effective_target_gcc_frontend] {
+  return
+}
 
 # Set up flags used for tests that don't specify options.
 set DEFAULT_VECTCFLAGS ""

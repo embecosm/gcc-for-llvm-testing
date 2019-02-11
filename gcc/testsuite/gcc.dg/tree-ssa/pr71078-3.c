@@ -2,6 +2,7 @@
 /* { dg-require-effective-target large_double } */
 /* { dg-require-effective-target c99_runtime } */
 /* { dg-options "-O2 -ffast-math -fdump-tree-forwprop1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern double fabs (double);
 

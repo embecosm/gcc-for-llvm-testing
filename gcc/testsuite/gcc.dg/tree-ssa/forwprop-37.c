@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int
 f1 (unsigned int a, unsigned int b)

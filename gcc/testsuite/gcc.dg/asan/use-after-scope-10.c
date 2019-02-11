@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-do run }
 // { dg-shouldfail "asan" }
 // { dg-skip-if "" { *-*-* }  { "*" } { "-O2" } }

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fno-tree-loop-vectorize -fdump-tree-pcom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b, c, d[6], e = 3, f;
 

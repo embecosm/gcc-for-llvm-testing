@@ -43,6 +43,9 @@ set save-dg-do-what-default ${dg-do-what-default}
 if ![check_vect_support_and_set_flags] {
     return
 }
+if ![check_effective_target_gcc_frontend] {
+  return
+}
 
 # These flags are used for all targets.
 lappend DEFAULT_VECTCFLAGS "-ftree-vectorize" "-fno-tree-loop-distribute-patterns" "-fno-vect-cost-model" "-fno-common"

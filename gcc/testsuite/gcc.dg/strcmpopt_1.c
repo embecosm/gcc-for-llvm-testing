@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-lower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <string.h>
 #include <stdlib.h>

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-phiprop-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct f
 {

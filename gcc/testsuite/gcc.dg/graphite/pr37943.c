@@ -1,4 +1,5 @@
 /* { dg-options "-O3 -fgraphite-identity -fdump-tree-graphite-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct
 {

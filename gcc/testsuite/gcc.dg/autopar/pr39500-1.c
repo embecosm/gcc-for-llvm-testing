@@ -2,6 +2,7 @@
 /* origin: nemokingdom@gmail.com(LiFeng) */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-loop-distribute-patterns -ftree-parallelize-loops=4 -fdump-tree-parloops2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 

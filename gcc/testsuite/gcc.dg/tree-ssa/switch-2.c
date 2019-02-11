@@ -1,5 +1,6 @@
 /* { dg-do compile { target { { x86_64-*-* aarch64-*-* ia64-*-* powerpc64-*-* } && lp64 } } } */
 /* { dg-options "-O2 -fdump-tree-switchlower1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int global;
 

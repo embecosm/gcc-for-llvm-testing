@@ -5,6 +5,7 @@
    awkward epilogue code generation in some cases.  This line needs to
    be removed after finding an alternate way to fix this.  */
 /* { dg-additional-options "--param min-vect-loop-bound=0" { target { s390*-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdlib.h>
 

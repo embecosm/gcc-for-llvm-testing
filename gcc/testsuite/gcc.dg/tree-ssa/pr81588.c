@@ -2,6 +2,7 @@
 /* PR tree-optimization/81588 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
  	
 extern long long int a, c;
 extern unsigned short b;

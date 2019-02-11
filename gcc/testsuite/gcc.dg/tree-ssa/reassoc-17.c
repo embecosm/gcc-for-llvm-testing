@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ffast-math -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double test2 (double x, double y, double ddj, int b)
 {

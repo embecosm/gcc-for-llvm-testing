@@ -1,6 +1,7 @@
 /* PR 15349.  Merge two PHI nodes.  */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-mergephi2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int a, int b)

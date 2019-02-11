@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-alias-vops" } */
 /* Test to make sure that inline-asm causes a VDEF. */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 void link_error();

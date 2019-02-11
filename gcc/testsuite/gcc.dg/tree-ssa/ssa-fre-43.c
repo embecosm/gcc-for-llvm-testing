@@ -1,6 +1,7 @@
 /* PR tree-optimization/64193 */
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double T,T2,E1[5];
 int J;

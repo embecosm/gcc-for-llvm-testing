@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
 /* { dg-final { scan-tree-dump-not "link_error" "vrp1" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int bar (int);
 void link_error (void);

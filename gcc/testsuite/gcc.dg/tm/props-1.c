@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-tmedge -fdump-tree-tmlower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int global;
 

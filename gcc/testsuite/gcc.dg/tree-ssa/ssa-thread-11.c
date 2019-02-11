@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp2-details --param logical-op-non-short-circuit=1" } */
 /* { dg-final { scan-tree-dump-not "IRREDUCIBLE_LOOP" "vrp2" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 typedef struct bitmap_head_def *bitmap;

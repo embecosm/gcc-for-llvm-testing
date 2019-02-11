@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __INTPTR_TYPE__ ssize_t;
 ssize_t foo (ssize_t x)

@@ -1,4 +1,5 @@
 /* PR tree-optimization/29516 */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O -ftree-vrp -fPIC -fdump-tree-ivopts" } */

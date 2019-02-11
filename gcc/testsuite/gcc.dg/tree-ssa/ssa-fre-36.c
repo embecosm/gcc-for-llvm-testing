@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int opening;
 extern int middle_game;

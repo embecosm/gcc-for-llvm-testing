@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int r[6];
 

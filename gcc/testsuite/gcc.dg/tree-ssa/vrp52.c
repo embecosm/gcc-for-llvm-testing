@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fno-tree-ccp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (unsigned int i, unsigned int j)

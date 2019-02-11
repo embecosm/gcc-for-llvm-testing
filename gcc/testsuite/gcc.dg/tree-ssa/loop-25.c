@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-profile_estimate" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo(void);
 void bla(void);

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fsplit-paths -fdump-tree-split-paths-details --param max-jump-thread-duplication-stmts=20" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdio.h>
 #include <stdlib.h>

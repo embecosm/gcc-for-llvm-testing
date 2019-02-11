@@ -2,6 +2,7 @@
    The PHI merge pass used to try to merge PHI nodes that cannot
    actually merged, causing a segfault later.  Make sure that does not
    happen any more.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O1 -fdump-tree-mergephi1" } */
 

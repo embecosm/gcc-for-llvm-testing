@@ -2,6 +2,7 @@
    VRP did not notice that an address of the form &p->i is nonnull
    when p is known to be nonnull.  In this testcase, noticing that
    allows us to eliminate the second "if" statement.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dominator-opts -fdisable-tree-evrp -fdump-tree-vrp1-details" } */

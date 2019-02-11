@@ -2,6 +2,7 @@
    VRP did not insert ASSERT_EXPRs into dominator dominator children
    of a basic block ending with COND_EXPR unless the children are also
    immediate successors of the basic block.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dominator-opts -fdisable-tree-evrp -fdump-tree-vrp1-details -fdelete-null-pointer-checks" } */

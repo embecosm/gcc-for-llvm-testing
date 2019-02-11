@@ -22,6 +22,9 @@ load_lib gcc-dg.exp
 if ![check_effective_target_fgraphite] {
   return
 }
+if ![check_effective_target_gcc_frontend] {
+  return
+}
 
 # Remove VALUE from LIST_VARIABLE.
 proc lremove {list_variable value} {

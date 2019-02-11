@@ -1,5 +1,6 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-additional-options "-fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "tree-vect.h"
 

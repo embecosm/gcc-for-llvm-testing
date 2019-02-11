@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int a, *b;
 unsigned short c;

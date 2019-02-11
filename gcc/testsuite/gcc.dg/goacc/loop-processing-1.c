@@ -1,5 +1,6 @@
 /* Make sure that OpenACC loop processing happens.  */
 /* { dg-additional-options "-O2 -fdump-tree-oaccdevlow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int place ();
 

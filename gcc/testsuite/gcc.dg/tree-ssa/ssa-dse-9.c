@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dse1-vops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct { int a, b; } soup1, soup2;
 void

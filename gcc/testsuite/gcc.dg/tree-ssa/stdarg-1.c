@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-stdarg" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdarg.h>
 

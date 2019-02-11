@@ -1,5 +1,6 @@
 /* Verify straight-line strength reduction fails for simple integer addition
    with casts thrown in when -fwrapv is used.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile { target { long_neq_int } } } */
 /* { dg-options "-O3 -fdump-tree-dom2 -fwrapv" } */

@@ -1,4 +1,5 @@
 /* { dg-options "-fno-tree-scev-cprop -floop-nest-optimize -fgraphite-identity -O -fdump-tree-graphite-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (void);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-alias-vops" } */
+/* { dg-require-effective-target gcc_frontend } */
 extern void abort (void);
 int a; 
  

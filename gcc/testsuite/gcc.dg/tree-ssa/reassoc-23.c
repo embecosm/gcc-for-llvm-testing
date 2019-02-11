@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int
 foo(unsigned int a, unsigned int b, unsigned int c, unsigned int d,

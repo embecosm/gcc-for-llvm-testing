@@ -1,6 +1,7 @@
 /* Verify straight-line strength reduction in using
    alternative base expr to record and look for the
    potential candidate.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-slsr-details" } */

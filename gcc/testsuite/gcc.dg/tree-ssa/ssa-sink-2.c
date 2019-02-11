@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-sink-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 int
 bar (int a, int b, int c)
 {

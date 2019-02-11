@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned char v4qi __attribute__ ((vector_size (4)));
 

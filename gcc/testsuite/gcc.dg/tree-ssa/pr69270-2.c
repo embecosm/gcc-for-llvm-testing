@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dce2 -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* The arithmetic using usecount should be gone.  */
 /* { dg-final { scan-tree-dump-times "usecount_\[0-9\]+ = usecount_\[0-9\]+ . 1;" 0 "dce2"} } */

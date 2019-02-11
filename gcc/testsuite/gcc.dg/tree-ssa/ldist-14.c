@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-strict-aliasing -ftree-loop-distribution -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct desc {
   int i;

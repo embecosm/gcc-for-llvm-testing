@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { float f; };
 int __attribute__((noinline))

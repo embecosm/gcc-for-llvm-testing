@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef union tree_node *tree;
 enum cpp_ttype { CPP_COLON, CPP_SEMICOLON, CPP_CLOSE_BRACE, CPP_COMMA };

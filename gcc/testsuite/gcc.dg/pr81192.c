@@ -15,6 +15,7 @@ EVRP now recognizes a constant can be propagated into the 3->5 edge and
 produces
   # iftmp.2_12 = PHI <2147483647(3), iftmp.2_11(4)> 
 which causes the situation being tested to dissapear before we get to PRE.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __SIZEOF_INT__ == 2
 #define unsigned __UINT32_TYPE__

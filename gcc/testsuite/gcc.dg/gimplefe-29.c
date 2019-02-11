@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgimple -fdump-tree-ssa-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int __GIMPLE() f(int a)
 {

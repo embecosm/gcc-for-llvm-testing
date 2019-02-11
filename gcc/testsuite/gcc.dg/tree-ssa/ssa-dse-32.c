@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(int n)
 {

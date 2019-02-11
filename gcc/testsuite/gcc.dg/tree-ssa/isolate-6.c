@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-isolate-paths" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int x, y;
 

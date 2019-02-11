@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-O -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int *p, int n)
 {

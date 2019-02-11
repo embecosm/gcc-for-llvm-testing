@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-vrp1-details" } */
 

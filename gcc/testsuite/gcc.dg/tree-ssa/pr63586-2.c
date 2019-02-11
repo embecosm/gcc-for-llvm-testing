@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ffast-math -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float f1_float (float x, float z)
 {

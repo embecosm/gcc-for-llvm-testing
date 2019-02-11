@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-fopenmp-simd -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort ();
 int a[1024] __attribute__((aligned (32))) = { 1 };

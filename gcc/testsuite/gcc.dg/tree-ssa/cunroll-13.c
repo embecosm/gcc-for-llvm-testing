@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fgimple -fdump-tree-cunroll-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __SIZEOF_INT__ < 4
 __extension__ typedef __INT32_TYPE__ i32;

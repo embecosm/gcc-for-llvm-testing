@@ -3,6 +3,7 @@
 /* { dg-final { scan-tree-dump "FSM" "thread2" } } */
 /* { dg-final { scan-tree-dump "FSM" "thread3" } } */
 /* { dg-final { scan-tree-dump "FSM" "thread4" { xfail *-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct bitmap_head_def *bitmap;
 typedef const struct bitmap_head_def *const_bitmap;

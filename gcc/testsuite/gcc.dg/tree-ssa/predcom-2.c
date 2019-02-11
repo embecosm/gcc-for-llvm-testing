@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -funroll-loops --param max-unroll-times=8 -fpredictive-commoning -fdump-tree-pcom-details -fno-tree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 

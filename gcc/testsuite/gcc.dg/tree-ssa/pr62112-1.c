@@ -2,6 +2,7 @@
 /* { dg-options "-O1 -fdump-tree-dse1-details" } */
 /* { dg-require-effective-target builtin_free } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(){
   char*p=__builtin_malloc(42);

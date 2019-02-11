@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-tailc-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((noinline))
 static float f(float x)

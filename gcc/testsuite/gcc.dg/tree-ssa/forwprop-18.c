@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 signed char f1(signed char n)
 {

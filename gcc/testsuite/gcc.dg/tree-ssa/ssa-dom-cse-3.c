@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fno-tree-fre -fdump-tree-dom2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

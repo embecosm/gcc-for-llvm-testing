@@ -1,6 +1,7 @@
 /* PR37997 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-pre-details -fno-code-hoisting" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int i, int b, int result)
 {

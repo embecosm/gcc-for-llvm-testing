@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-ffast-math -O3 -fdump-tree-vrp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int I = 50, J = 50;
 int S, L;

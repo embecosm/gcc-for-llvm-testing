@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-pre-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 double cos (double) __attribute__ ((const));
 double sin (double) __attribute__ ((const));
 double f(double a)

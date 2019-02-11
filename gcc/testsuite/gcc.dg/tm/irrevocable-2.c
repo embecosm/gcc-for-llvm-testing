@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-tmedge" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that a direct call to __builtin__ITM_changeTransactionMode()
    sets the irrevocable bit.  */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmmark" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that the call to george() doesn't end up inside the transaction.  */
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple -fwrapv" } */
+/* { dg-require-effective-target gcc_frontend } */
 int g(int x)
 {
    return (x + 10) < 0;

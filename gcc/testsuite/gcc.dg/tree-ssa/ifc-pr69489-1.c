@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vectorize -fdump-tree-ifcvt-stats-blocks-details" { target *-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (int a[], int b[])
 {

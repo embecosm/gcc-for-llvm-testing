@@ -1,6 +1,7 @@
 /* PR tree-optimization/79389  */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-split-paths-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct
 {

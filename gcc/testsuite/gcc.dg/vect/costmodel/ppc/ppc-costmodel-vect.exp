@@ -28,6 +28,9 @@ if { ![istarget powerpc*-*-*] } then {
 if ![is-effective-target powerpc_altivec_ok] {
   return
 }
+if ![check_effective_target_gcc_frontend] {
+  return
+}
 
 # Set up flags used for tests that don't specify options.
 set DEFAULT_VECTCFLAGS ""

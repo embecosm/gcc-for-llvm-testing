@@ -1,5 +1,6 @@
 /* { dg-do compile { target trampolines } } */
 /* { dg-options "-O2 -fdump-tree-tailc-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { int x; };
 struct s f (int);

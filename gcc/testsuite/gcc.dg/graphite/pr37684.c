@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-graphite-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct _IO_FILE FILE;
 struct _IO_marker {

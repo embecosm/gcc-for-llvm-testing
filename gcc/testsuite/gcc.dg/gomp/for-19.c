@@ -3,6 +3,7 @@
    copied to the omp_fn function.  */
 /* { dg-do compile } */
 /* { dg-options "-O -fopenmp -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (int *a, int i, int j, int k, int l, int m)
 {

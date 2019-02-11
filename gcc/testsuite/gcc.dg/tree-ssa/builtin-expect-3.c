@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void a (void);
 void b (void);

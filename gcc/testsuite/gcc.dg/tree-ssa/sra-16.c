@@ -1,6 +1,7 @@
 /* Verify that SRA total scalarization works on records containing arrays.  */
 /* { dg-do run } */
 /* { dg-options "-O1 -fdump-tree-release_ssa --param sra-max-scalarization-size-Ospeed=16" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

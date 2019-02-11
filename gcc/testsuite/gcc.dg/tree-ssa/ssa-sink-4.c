@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-sink-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 extern int foo (int *, int *);
 extern int foo2 (int);
 int

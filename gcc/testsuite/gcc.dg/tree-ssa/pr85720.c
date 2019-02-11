@@ -1,5 +1,6 @@
 /* { dg-do compile { target size32plus } } */
 /* { dg-options "-O2 -ftree-loop-distribution -ftree-loop-distribute-patterns -fdump-tree-ldist" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void fill(char* A, char* B, unsigned n)
 {

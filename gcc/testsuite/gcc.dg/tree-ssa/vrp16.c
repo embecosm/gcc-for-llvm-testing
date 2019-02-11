@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-fre -fdump-tree-evrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 extern void abort (void) __attribute__ ((__noreturn__));

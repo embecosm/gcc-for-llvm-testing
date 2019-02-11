@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-fre1-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void vnum_test8(int *data) 
 { 

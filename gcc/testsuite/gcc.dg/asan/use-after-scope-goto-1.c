@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-do run }
 // { dg-additional-options "-fdump-tree-asan0" }
 /* { dg-skip-if "" { *-*-* } { "*" } { "-O0" } } */

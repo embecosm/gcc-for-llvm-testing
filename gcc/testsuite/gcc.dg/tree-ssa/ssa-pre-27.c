@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-pre -fno-code-hoisting" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int i, int j, int b)
 {

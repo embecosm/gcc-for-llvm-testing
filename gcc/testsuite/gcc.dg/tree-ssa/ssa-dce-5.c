@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-sra -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct X { int i; };
 struct X foo(int b)

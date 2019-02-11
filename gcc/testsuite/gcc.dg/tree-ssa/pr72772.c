@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int flag, char *a)
 {

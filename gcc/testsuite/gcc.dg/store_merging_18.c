@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
 /* { dg-final { scan-tree-dump-times "Merging successful" 3 "store-merging" { target { store_merge && { ! arm*-*-* } } } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((noipa)) void
 foo (unsigned char *buf, unsigned char *tab)

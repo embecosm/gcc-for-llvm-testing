@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -funroll-loops -fno-tree-vectorize -fdump-tree-cunroll-details -fno-peel-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 8
 #define M 14

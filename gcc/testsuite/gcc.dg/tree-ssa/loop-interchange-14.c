@@ -2,6 +2,7 @@
 /* { dg-do run { target int32plus } } */
 /* { dg-options "-O2 -floop-interchange -fdump-tree-linterchange-details" } */
 /* { dg-skip-if "too big data segment" { visium-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Copied from graphite/interchange-5.c */
 

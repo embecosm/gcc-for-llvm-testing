@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-delete-null-pointer-checks -fdump-tree-local-pure-const-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void *g(unsigned n)
 {

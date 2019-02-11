@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned char v16qi __attribute__((vector_size(16)));
 typedef unsigned short v8hi __attribute__((vector_size(16)));

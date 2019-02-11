@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-thread1-details -fdisable-tree-ethread" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

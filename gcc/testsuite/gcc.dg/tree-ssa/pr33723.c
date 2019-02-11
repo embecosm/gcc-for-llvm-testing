@@ -1,6 +1,7 @@
 /* PR tree-optimization/33723 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef union
 {

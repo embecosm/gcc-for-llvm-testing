@@ -2,6 +2,7 @@
 /* { dg-options "-fgnu-tm -O3 -fdump-tree-tmmark" } */
 /* Like memopt-12.c but the phi is inside a look which causes
    it to be converted into a COND_EXPR.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int test(void) __attribute__((transaction_safe));
 extern int something(void);

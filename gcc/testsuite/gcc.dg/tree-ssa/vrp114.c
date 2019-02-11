@@ -1,5 +1,6 @@
 /* { dg-do link { target int32plus } } */
 /* { dg-options "-O2 -fdump-tree-fre1 -fdump-tree-evrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error ();
 void foo (int a)

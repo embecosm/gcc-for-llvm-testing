@@ -1,5 +1,6 @@
 /* { dg-do compile { target {{ i?86-*-* x86_64-*-* } && lp64 } } } */
 /* { dg-options "-O2 -m64 -fdump-tree-ivopts" } */
+/* { dg-require-effective-target gcc_frontend } */
 #define TYPE char*
 
 /* Testing that only one induction variable is selected after IVOPT on

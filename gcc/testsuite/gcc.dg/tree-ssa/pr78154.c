@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-evrp-slim -fdelete-null-pointer-checks" } */
 /* { dg-skip-if "" { keeps_null_pointer_checks } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(void *d, const void *s, __SIZE_TYPE__ n)
 {

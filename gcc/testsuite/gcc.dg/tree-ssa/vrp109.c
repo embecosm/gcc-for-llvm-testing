@@ -2,6 +2,7 @@
 /* { dg-final { scan-tree-dump "case 9 ... 10:" "vrp1" } }  */
 /* { dg-final { scan-tree-dump "case 17 ... 18:" "vrp1" } }  */
 /* { dg-final { scan-tree-dump "case 27 ... 30:" "vrp1" } }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo (void);
 extern void bar (void);

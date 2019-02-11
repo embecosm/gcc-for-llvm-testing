@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cunrolli-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 int __attribute__((noinline,noclone))

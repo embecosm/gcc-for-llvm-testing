@@ -1,6 +1,7 @@
 /* { dg-do run { target vect_cmdline_needed } } */
 /* { dg-options "-O2 -fno-tree-loop-distribute-patterns -ftree-vectorize -fdump-tree-vect-details -fvect-cost-model=dynamic" } */
 /* { dg-additional-options "-mno-sse" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdlib.h>
 

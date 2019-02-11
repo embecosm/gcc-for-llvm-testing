@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O1 -fdump-tree-lim2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that thread visible loads do not get hoisted out of loops if
    the load would not have occurred on each path out of the loop.  */

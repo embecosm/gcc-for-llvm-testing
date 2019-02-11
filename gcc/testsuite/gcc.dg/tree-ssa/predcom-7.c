@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fdump-tree-pcom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int b, f, d[5][2];
 unsigned int c;

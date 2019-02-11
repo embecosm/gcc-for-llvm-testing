@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int x; int y;
 struct { int x; int y; } global;
 int foo() {

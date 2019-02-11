@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-ethread-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef struct basic_block_def *basic_block;
 struct basic_block_def;
 struct edge_def;

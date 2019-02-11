@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O3 -ftree-loop-distribution -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

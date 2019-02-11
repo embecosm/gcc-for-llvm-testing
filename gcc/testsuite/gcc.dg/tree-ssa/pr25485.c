@@ -1,5 +1,6 @@
 /* PR tree-optimization/25485
    VRP did not fold TRUTH_AND_EXPR.  Make sure it does now.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
 

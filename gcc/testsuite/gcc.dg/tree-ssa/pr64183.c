@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-vectorize -fdisable-tree-sccp -fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int bits;
 unsigned int size;

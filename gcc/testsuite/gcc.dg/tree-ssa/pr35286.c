@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fno-code-hoisting -fno-tree-cselim -fdump-tree-pre-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 int g2;
 struct A {
     int a; int b;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fnsplit-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 void q (void);
 int b;
 void test (void);

@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -ftracer -fdump-tree-tracer" } */
+/* { dg-require-effective-target gcc_frontend } */
 volatile int a, b, c;
 int main ()
 {

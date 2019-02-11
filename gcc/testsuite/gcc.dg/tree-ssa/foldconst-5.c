@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 static const char a[5]="t";

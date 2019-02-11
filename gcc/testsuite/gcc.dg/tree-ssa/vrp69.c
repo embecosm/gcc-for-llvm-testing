@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "vrp.h"
 

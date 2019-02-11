@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-parallelize-loops=2 -fno-tree-loop-im -fdump-tree-parloops2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 1000
 
