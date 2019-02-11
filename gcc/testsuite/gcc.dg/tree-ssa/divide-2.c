@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fstrict-overflow -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a)
 {

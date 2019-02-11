@@ -1,4 +1,5 @@
 /* { dg-options "-fopenmp -fdump-tree-optimized -O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that if there is no *inbranch clauses, that both the masked and
    the unmasked version are created.  */

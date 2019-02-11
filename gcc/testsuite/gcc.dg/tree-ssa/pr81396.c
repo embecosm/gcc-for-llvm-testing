@@ -1,6 +1,7 @@
 /* PR tree-optimization/81396 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned long long uint64_t;
 

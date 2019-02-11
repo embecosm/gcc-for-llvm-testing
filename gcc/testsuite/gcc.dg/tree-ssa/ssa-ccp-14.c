@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fre1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i;
 

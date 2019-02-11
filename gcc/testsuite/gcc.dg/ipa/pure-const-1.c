@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do compile { target { nonpic || pie_enabled } } } */
 /* { dg-options "-O3 -fdump-tree-local-pure-const1 -fdump-ipa-pure-const -fdump-tree-optimized -fno-early-inlining -fgnu89-inline" } */
+/* { dg-require-effective-target gcc_frontend } */
 void abort (void);
 int error_code;
 static int val;

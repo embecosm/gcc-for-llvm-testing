@@ -4,6 +4,7 @@
    with just one valid value -- zero -- are eliminated.
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define INT_MAX    __INT_MAX__
 #define SHRT_MAX   __SHRT_MAX__

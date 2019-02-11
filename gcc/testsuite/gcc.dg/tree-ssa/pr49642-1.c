@@ -1,4 +1,5 @@
 /* Verify that ipa-split is disabled following __builtin_constant_p.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */

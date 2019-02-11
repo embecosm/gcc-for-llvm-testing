@@ -1,5 +1,6 @@
 /* Verify straight-line strength reduction for multiply candidates
    with variable stride and control flow, increment = -1.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

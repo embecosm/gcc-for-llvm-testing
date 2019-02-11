@@ -1,6 +1,7 @@
 /* Verify straight-line strength reduction for a candidate with a basis
    hidden by a phi dependences, having an unknown stride, and where the 
    phi has an argument which is a parameter.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

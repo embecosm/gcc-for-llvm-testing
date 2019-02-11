@@ -1,5 +1,6 @@
 /* Verify that no straight-line strength reduction occurs across sibling
    blocks.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -fdump-tree-optimized --param logical-op-non-short-circuit=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int t (int a, int b)
 {

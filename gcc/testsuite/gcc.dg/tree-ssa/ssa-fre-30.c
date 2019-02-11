@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffinite-math-only -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float foo(float x, float y, float z)
 {

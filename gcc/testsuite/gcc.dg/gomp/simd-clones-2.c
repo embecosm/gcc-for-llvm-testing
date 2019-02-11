@@ -1,4 +1,5 @@
 /* { dg-options "-fopenmp -fdump-tree-optimized -O" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma omp declare simd inbranch uniform(c) linear(b:66)
 #pragma omp declare simd notinbranch aligned(c:32)

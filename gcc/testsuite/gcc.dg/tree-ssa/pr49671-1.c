@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" }  */
+/* { dg-require-effective-target gcc_frontend } */
 volatile int t;
 static inline int cvmx_atomic_get32(volatile int *ptr)
 {

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized-raw -fno-tree-reassoc" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f0(int a,int b,int c){
   int d = a + b;

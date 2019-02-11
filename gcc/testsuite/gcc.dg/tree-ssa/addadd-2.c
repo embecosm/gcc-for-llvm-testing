@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int S __attribute__((vector_size(64)));
 typedef unsigned U __attribute__((vector_size(64)));

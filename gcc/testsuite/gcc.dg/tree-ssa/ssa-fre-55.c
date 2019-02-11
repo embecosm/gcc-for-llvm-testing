@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized -Wno-psabi" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int v4si __attribute__((vector_size(16)));
 

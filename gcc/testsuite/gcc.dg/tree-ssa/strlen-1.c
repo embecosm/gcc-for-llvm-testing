@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 extern const unsigned long base;
 static inline void wreg(unsigned char val, unsigned long addr) __attribute__((always_inline));
 static inline void wreg(unsigned char val, unsigned long addr)

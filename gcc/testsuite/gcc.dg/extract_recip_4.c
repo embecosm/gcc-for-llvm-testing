@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Don't expect any of these divisions to be extracted.  */
 double f (double x, int p)

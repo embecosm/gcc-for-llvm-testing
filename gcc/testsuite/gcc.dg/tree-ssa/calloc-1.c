@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target builtin_calloc } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int a;
 extern int *b;

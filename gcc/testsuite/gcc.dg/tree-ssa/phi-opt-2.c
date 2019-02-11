@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized --param logical-op-non-short-circuit=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool f1(_Bool a, _Bool b)
 {

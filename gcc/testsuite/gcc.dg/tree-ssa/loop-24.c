@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fstrict-overflow -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(int a, int b)
 { for(;a!=b;a+=4); }

@@ -1,5 +1,6 @@
 /* A test for # of iterations analysis (signed counter cannot wrap) and final
    value replacement.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 

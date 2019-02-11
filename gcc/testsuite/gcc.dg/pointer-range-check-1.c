@@ -1,5 +1,6 @@
 /* { dg-do compile { target { ilp32 || lp64 } } } */
 /* { dg-options "-O2 -fno-ipa-icf -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* All four functions should be folded to:
 

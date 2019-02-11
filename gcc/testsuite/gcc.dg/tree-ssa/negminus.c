@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-rounding-math -fno-signed-zeros -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double f(double a, double b){
     double c = a - b;

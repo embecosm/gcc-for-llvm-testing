@@ -1,5 +1,6 @@
 /* { dg-do compile { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-O2 -fprefetch-loop-arrays -march=amdfam10 -fdump-tree-optimized -fdump-tree-aprefetch --param max-unrolled-insns=1000" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char x[100000];
 

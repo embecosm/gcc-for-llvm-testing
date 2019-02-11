@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* Note PRE and DOM jump threading rotate the loop and blocks the sinking opportunity.  */
 /* { dg-options "-O2 -fno-tree-pre -fno-tree-dominator-opts -fdump-tree-sink -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int n)
 {

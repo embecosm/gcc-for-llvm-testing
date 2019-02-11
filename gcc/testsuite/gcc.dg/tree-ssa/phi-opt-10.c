@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int nem1_phi (unsigned long a) { return a ? -1 : 0; }
 int eqm1_phi (unsigned long a) { return a ? 0 : -1; }

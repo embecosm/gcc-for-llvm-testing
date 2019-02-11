@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 int g1(int);
 int h(int *a, int *b)__attribute__((pure));
 void link_error();

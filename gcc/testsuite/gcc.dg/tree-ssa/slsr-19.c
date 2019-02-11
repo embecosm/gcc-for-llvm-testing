@@ -1,5 +1,6 @@
 /* Verify straight-line strength reduction for multiply candidates
    with stride in RHS1 position.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

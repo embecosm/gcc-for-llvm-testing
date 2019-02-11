@@ -1,5 +1,6 @@
 /* { dg-options "-O2 -ffast-math -fdump-tree-optimized" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 float f(float x)
 {
   float t = __builtin_copysignf (1.0f, x);

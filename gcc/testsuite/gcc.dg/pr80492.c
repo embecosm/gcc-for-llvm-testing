@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-w -O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static __inline__ __attribute__((__always_inline__))
 void syscall_7 (int val)

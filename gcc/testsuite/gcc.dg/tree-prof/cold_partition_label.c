@@ -2,6 +2,7 @@
    gets a label.  */
 /* { dg-require-effective-target freorder } */
 /* { dg-options "-O2 -freorder-blocks-and-partition -save-temps -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifdef FOR_AUTOFDO_TESTING
 #define MAXITER 1000000

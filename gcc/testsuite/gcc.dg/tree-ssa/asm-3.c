@@ -1,6 +1,7 @@
 /* PR 17739 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifdef __hppa__
 #define REGISTER "1"

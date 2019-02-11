@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-options "-fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void Perl_croak() __attribute__((noreturn));
 char *Perl_sv_gets();

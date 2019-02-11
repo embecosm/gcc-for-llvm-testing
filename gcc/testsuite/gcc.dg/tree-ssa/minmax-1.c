@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int min(int a,int b){return (a<b)?a:b;}
 static int max(int a,int b){return (a<b)?b:a;}

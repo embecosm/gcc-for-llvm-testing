@@ -3,6 +3,7 @@
    -Wformat-lenght check to prevent warnings.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wformat -Wformat-overflow -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 int snprintf (char*, __SIZE_TYPE__, const char*, ...);

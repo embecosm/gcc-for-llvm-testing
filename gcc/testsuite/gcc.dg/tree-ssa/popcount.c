@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target popcountl } */
 /* { dg-options "-O3 -fdump-tree-optimized -fno-tree-ch" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int foo (int);
 

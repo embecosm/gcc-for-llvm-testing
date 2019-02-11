@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 static struct a {int magic1,b;} a;
 volatile int magic2;
 static struct b {int a,b,c,d,e,f;} magic3;

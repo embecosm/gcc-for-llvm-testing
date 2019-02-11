@@ -1,6 +1,7 @@
 /* Verify that ipa-split is disabled following __builtin_constant_p.
    Same as pr49642-1.c, but we turn off FRE which currently masks
    the problem.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fno-tree-fre" } */

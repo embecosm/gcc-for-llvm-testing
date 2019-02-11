@@ -2,6 +2,7 @@
 /* { dg-do compile { target __float128 } } */
 /* { dg-options "-O2 -fprintf-return-value -Wno-format -fdump-tree-optimized" } */
 /* { dg-add-options __float128 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (void);
 void link_error (void);

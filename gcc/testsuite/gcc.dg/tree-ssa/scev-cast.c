@@ -1,4 +1,5 @@
 /* A test for various conversions of chrecs.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile { target i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */

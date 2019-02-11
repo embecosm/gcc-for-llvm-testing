@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_frontend } */
 
 union X {
     int i;

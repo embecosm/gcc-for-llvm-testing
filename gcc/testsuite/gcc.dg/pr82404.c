@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 // PR middle-end/82404
 
 // { dg-do compile }

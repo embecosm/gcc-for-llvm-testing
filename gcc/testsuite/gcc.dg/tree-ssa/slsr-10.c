@@ -1,5 +1,6 @@
 /* Verify straight-line strength reduction for simple integer addition
    with stride reversed on 1st and 3rd instances.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

@@ -1,6 +1,7 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdelete-null-pointer-checks -fdump-tree-isolate-paths -fdump-tree-optimized -Wnull-dereference" } */
 /* { dg-skip-if "" keeps_null_pointer_checks } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct demangle_component
 {

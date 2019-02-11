@@ -2,6 +2,7 @@
 
    This was a miscompilation of a switch expressions because
    the "Case Ranges" extension wasn't handled in tree-cfg.c.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */

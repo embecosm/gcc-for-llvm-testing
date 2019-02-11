@@ -1,5 +1,6 @@
 /* PR 30730, PR 26900, number of iterations analysis should be able to
    determine number of iterations of the following loops unconditionally.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fstrict-overflow -fdump-tree-optimized-blocks" } */

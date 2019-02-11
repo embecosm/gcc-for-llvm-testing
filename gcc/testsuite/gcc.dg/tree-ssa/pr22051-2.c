@@ -1,5 +1,6 @@
 /* { dg-do compile }  */
 /* { dg-options "-O2 -fdump-tree-optimized -w" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void *arf ();
 int

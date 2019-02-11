@@ -4,6 +4,7 @@
 /* { dg-add-options ieee } */
 /* { dg-final { scan-tree-dump-not "nextafter" "optimized" } } */
 /* { dg-final { scan-tree-dump-not "nexttoward" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define NEED_ERRNO 1
 #define NEED_EXC 1

@@ -1,6 +1,7 @@
 /* Test normalization of MEM_REF expressions in dom.  */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-fre -fno-tree-pre -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct {
   int a[8];

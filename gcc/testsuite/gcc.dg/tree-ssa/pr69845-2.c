@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32 } */
 /* { dg-options "-O -fdump-tree-gimple -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 main ()

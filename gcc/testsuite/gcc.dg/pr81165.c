@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not " \[/%\] " "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Testcase submitted for PR81165, with its main function removed as
    it's turned into a compile test.  We want to make sure that all of

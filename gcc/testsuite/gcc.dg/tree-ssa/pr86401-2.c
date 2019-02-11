@@ -7,6 +7,7 @@
 /* { dg-final { scan-tree-dump-not " & 319" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " \\| -128" "optimized" } } */
 /* { dg-final { scan-tree-dump-not " \\^ -384" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f1 (int x) { int m = 64; return (m + x) & (m - 1); }
 int f2 (int x) { return (64 + x) & 63; }

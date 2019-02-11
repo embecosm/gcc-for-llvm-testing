@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fcommon" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const int conststaticvariable;
 
