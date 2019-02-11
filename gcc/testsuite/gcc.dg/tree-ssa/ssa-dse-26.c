@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dse1-details -fno-short-enums" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum constraint_expr_type
 {

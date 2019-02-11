@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fwrapv -O1 -fno-tree-fre -fdisable-tree-evrp -ftree-vrp -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort ();
 extern void exit (int);

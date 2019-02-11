@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-O -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void link_error (void);
 

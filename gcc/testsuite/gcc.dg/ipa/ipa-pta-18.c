@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fipa-pta -fdump-ipa-pta2-details -fdump-tree-fre3-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int __attribute__((noipa))
 foo (int *p, int *q)

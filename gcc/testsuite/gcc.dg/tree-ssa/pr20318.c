@@ -1,5 +1,6 @@
 /* { dg-do compile { target { ! keeps_null_pointer_checks } } } */
 /* { dg-options "-O2 -fdump-tree-original -fdump-tree-vrp1 -fdelete-null-pointer-checks -fdisable-tree-evrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int* f(int) __attribute__((returns_nonnull));
 extern void eliminate ();

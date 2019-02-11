@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-gimple-details-lineno" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (int, int);
 

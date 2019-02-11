@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-trapping-math -fdump-tree-ifcombine-details-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double test1 (double i, double j)
 {

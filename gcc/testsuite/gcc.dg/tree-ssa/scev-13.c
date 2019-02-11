@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ldist" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (char *p, unsigned n)

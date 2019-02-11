@@ -1,5 +1,6 @@
 /* { dg-do compile { target nonpic } } */
 /* { dg-options "-O2 -fdump-tree-pre-stats -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <stddef.h>
 
 union tree_node;

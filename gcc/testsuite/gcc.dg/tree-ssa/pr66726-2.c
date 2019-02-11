@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-phiopt1-details" } */

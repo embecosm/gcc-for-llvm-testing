@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-forwprop1 -fno-short-enums" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 union tree_node;
 typedef union tree_node *tree;

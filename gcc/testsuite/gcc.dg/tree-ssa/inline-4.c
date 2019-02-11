@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-einline" } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int rand(void);
 

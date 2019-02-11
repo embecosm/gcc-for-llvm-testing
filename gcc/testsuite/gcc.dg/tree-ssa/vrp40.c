@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fno-tree-switch-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a) {
     switch (a & 1) {

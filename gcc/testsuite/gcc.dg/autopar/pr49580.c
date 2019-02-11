@@ -1,6 +1,7 @@
 /* PR debug/49580 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-parallelize-loops=4 -fdump-tree-parloops2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdarg.h>
 #include <stdlib.h>

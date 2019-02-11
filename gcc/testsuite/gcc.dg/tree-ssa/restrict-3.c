@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-strict-aliasing -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(int * __restrict__ r,
        int a[__restrict__ 16][16],

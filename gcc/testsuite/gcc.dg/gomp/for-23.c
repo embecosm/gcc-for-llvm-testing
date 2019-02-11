@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -fdump-tree-ompexp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar(unsigned long long);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-phiopt1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int a, int b, int c) {
   if (c > 5) return c;

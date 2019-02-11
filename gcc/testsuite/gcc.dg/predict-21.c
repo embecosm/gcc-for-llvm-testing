@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-profile_estimate -frounding-math" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int global;
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fopenmp -fdump-tree-omplower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void __attribute__((noinline))
 baz (int *p)

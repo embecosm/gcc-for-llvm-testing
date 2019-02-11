@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-sra -fdump-tree-forwprop2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct YY {
   double e[3];  };

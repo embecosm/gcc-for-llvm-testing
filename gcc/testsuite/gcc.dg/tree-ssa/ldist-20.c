@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribute-patterns -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(char *);
 void my_memcpy (void *q, unsigned int n)

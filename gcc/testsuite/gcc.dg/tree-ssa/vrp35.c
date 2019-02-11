@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-vrp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int test1(int i, int k)
 {

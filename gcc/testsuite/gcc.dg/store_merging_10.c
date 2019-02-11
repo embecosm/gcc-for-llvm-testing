@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S {
   unsigned int b1:1;

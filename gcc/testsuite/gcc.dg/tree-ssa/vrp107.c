@@ -1,6 +1,7 @@
 /* { dg-options "-O2 -fdump-tree-vrp1" }  */
 /* { dg-final { scan-tree-dump "case 2:" "vrp1" } }  */
 /* { dg-final { scan-tree-dump "case 7 ... 8:" "vrp1" } }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo (void);
 extern void bar (void);

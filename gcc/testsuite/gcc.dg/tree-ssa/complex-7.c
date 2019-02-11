@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float f(_Complex float x, _Complex float y){
   x += y;

@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ssa" } */
 /* { dg-final { scan-tree-dump "D.\[0-9]*\\\[0\\\] ={v} 77;" "ssa" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (void)

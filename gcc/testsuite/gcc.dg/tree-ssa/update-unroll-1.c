@@ -1,5 +1,6 @@
 /* { dg-do compile { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-O1 -fprefetch-loop-arrays -march=amdfam10 -fdump-tree-aprefetch-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[10000];
 

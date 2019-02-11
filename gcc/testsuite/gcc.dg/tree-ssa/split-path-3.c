@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fsplit-paths -fdump-tree-split-paths-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct bitmap_head_def *bitmap;
 extern void vec_assert_fail (const char *, const char *, const char *file_,

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fopenmp -fdump-tree-ompexp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (int *a, int i)

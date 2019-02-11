@@ -3,6 +3,7 @@
    simply. */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-esra-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct X { int i; int j; };
 

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32 } */
 /* { dg-options "-O2 -fdump-tree-pre-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f;
 int g;

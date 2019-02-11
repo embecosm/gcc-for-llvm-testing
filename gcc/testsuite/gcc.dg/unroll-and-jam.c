@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -floop-unroll-and-jam --param unroll-jam-min-percent=0 -fdump-tree-unrolljam-details" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdio.h>
 extern unsigned int a[];

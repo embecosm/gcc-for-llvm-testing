@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-alias" } */
+/* { dg-require-effective-target gcc_frontend } */
 extern double cos (double);
 extern double sin (double);
 double f(double a)

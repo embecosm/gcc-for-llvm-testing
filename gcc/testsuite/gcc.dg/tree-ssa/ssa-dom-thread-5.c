@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fno-tree-fre -fdump-tree-dom2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(int *);
 void f2(int dst[3], int R)

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dom2 -fdelete-null-pointer-checks" } */
+/* { dg-require-effective-target gcc_frontend } */
      
 extern void exit (int);
 extern void *ggc_alloc (__SIZE_TYPE__);

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fsplit-paths -fdump-tree-split-paths-details " } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo(signed char *p, int n)

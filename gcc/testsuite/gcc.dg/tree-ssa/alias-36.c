@@ -2,6 +2,7 @@
    pointer argument
    { dg-do compile }
    { dg-options "-O2 -fdump-tree-alias" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foobar (void);
 

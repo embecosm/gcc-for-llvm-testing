@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -g -fdump-tree-backprop-details" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test a simple case of non-looping code in which both uses ignore
    the sign but only one definition is a sign op.  */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O2 -fdump-tree-lim2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that `count' is not written to unless p->data>0.  */
 

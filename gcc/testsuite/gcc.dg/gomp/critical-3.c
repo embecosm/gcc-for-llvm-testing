@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 // { dg-do compile }
 // { dg-options "-fopenmp -fdump-tree-ompexp" }
 

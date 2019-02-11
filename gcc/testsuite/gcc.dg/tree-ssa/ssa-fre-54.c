@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-O -fdump-tree-fre1 -fdump-tree-dse1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

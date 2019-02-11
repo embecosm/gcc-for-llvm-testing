@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 // At one point in development, a typo disabled the remapping of the
 // for iteration variable as private.
 

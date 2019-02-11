@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 int main(int a, int b, int c, int d)
 {
   /* All the xor's cancel each other out, leaving 0  */

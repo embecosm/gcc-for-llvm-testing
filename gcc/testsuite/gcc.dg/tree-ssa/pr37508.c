@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-fre -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct foo1 {
   int i:1;

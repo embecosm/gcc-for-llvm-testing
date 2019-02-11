@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-pre-stats -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 struct tree_common 
 { 
   int code; 

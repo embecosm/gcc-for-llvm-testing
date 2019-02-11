@@ -1,6 +1,7 @@
 /* Testcase derived from gcc.c-torture/execute 20050826-2.c
    which showed jump threading profile insanities.  */
 /* { dg-options "-Ofast -fdump-tree-dom2-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct rtattr
 {

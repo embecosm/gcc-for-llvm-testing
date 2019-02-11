@@ -1,6 +1,7 @@
 /* Testcase derived from gcc.c-torture/execute cmpsf-1.c
    which showed jump threading profile insanities.  */
 /* { dg-options "-Ofast -fdump-tree-dom2-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <limits.h>
 

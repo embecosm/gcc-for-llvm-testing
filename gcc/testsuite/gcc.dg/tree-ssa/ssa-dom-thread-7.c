@@ -5,6 +5,7 @@
 /* { dg-final { scan-tree-dump "Jumps threaded: 1"  "dom2" } } */
 /* { dg-final { scan-tree-dump-not "Jumps threaded"  "dom3" } } */
 /* { dg-final { scan-tree-dump-not "Jumps threaded"  "vrp2" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Most architectures get 3 threadable paths here, whereas aarch64 and
    possibly others get 5.  We really should rewrite threading tests to

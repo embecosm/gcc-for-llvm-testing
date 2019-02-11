@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-require-alias "" }  */
 /* { dg-options "-O2 -fdump-tree-local-pure-const1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__ ((weak))
 __attribute__ ((noinline))

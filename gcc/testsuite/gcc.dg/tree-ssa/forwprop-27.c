@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int V __attribute__((vector_size(2*sizeof(int))));
 typedef __complex__ int C;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fno-tree-fre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is from PR14052.  */
 

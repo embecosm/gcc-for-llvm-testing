@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-weak "" } */
 /* { dg-options "-O2 -fdump-tree-einline" } */
+/* { dg-require-effective-target gcc_frontend } */
 int w;
 int bar (void) __attribute__ ((weak));
 int bar (){

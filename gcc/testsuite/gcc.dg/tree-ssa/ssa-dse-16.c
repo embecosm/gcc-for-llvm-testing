@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct X { struct A { int a[2]; } b[10]; };
 void foo (struct X *x, int i)

@@ -1,6 +1,7 @@
 /* PR tree-optimization/46194 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-parallelize-loops=2 -fdump-tree-parloops2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 1000
 int a[N];

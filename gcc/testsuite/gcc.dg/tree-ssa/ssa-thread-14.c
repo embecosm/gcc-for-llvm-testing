@@ -2,6 +2,7 @@
 /* { dg-additional-options "-O2 -fdump-tree-vrp-details" }  */
 /* { dg-additional-options "-mbranch-cost=2" { target i?86-*-* x86_64-*-* } }  */
 /* { dg-final { scan-tree-dump-times "Threaded jump" 8 "vrp1" } }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (void);
 void bar (void);

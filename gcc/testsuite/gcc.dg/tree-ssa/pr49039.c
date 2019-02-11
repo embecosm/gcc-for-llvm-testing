@@ -1,6 +1,7 @@
 /* PR tree-optimization/49039 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar (void);
 

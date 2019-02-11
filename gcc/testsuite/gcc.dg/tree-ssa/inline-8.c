@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -finline-small-functions --param early-inlining-insns=0 -fdump-tree-einline" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo0();
 void bar0() { foo0(); }

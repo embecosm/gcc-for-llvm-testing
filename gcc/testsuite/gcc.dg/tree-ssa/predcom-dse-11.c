@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-inline -fpredictive-commoning -fdump-tree-pcom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int arr[105] = {2, 3, 5, 7, 11};
 int x[105] = {2, 3, 5, 7, 11};

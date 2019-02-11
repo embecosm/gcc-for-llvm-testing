@@ -1,6 +1,7 @@
 /* PR target/81228.  */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ssa" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void *a;
 

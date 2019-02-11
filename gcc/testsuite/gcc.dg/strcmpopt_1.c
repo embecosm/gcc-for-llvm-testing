@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <string.h>
 #include <stdlib.h>

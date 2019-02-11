@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-lim2-details --param allow-store-data-races=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float a[100];
 

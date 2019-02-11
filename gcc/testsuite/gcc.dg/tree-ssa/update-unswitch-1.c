@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -funswitch-loops -fdump-tree-unswitch-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int bla(int p)
 {

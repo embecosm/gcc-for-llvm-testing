@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-strict-aliasing -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static inline __attribute__((always_inline))
 void f(int * __restrict__ r,

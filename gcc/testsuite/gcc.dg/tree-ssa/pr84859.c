@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Warray-bounds -fdump-tree-phiopt1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 h (const void *p, unsigned n)

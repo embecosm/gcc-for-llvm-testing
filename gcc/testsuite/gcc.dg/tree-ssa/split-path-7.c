@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fsplit-paths -fno-tree-cselim -fdump-tree-split-paths-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 struct _reent

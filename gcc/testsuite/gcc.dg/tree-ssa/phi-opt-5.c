@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -ffinite-math-only -fno-signed-zeros -fdump-tree-phiopt1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float repl1 (float varx)
 {

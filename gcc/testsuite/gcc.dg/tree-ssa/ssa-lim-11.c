@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fprofile-arcs -fprofile-update=single -fdump-tree-lim2-details" } */
 /* { dg-require-profiling "-fprofile-generate" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct thread_param
 {

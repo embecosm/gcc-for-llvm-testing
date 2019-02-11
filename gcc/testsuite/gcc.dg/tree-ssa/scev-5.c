@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgimple -fdump-tree-ivopts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *a_p;
 int a[1000];

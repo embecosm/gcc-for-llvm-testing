@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-strlen" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct { char s[8]; int x; } S;
 extern int max_i;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-loop-im -fdump-tree-pre-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct { int x; int y; } global;
 void foo(int n)

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fipa-sra -fdump-tree-eipa_sra-slim"  } */
 /* { dg-require-effective-target non_strict_align } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct bovid
 {

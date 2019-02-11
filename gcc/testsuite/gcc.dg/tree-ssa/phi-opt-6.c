@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-phiopt1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct C { int i; };
 int *g(struct C *p)

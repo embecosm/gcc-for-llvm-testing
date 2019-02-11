@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern unsigned short mode_size[];
 

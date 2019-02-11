@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-phicprop1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 extern void blah (void);

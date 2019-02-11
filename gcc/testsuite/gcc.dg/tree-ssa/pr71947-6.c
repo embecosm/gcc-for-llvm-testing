@@ -1,6 +1,7 @@
 /* This is highly dependent on branch costing, so make it opt-in.  */
 /* { dg-do compile { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-O2 -fno-tree-vrp -fdump-tree-dom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 int f(int x, int y, int a, int b)

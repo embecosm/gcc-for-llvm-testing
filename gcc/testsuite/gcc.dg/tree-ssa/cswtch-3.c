@@ -2,6 +2,7 @@
 /* PR tree-optimization/79472 */
 /* { dg-options "-O2 -fdump-tree-switchconv" } */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *expected;
 

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1-details -fdelete-null-pointer-checks" } */
 /* { dg-skip-if "" keeps_null_pointer_checks } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void oof (void);
 struct basic_block_def;

@@ -7,6 +7,7 @@
    "(int) a + (int) b", otherwise we keep the original.  */
 /* { dg-do compile { target { { ! mips64 } && { ! spu-*-* } } } } */
 /* { dg-options "-O -fno-tree-forwprop -fno-tree-ccp -fwrapv -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* From PR14844.  */
 

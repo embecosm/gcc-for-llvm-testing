@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-pcom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int is_sorted(int *a, int n)
 {

@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { unsigned char b[2]; unsigned short c; unsigned char d[4]; unsigned long e; };
 

@@ -1,6 +1,7 @@
 /* PR tree-optimization/25382
    VRP used to ignore BIT_AND_EXPRs for the purpose of distilling ranges.
    Check that VRP now gets ranges from BIT_AND_EXPRs.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-ccp -fdisable-tree-evrp -fdump-tree-vrp1" } */

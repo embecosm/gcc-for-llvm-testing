@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fwrapv -O1 -ftree-vrp -fdisable-tree-evrp -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <limits.h>
 extern void abort ();

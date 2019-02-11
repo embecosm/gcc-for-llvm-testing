@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-w -O1 -fdump-tree-gimple" } */
 /* { dg-options "-w -O1 -fdump-tree-gimple -msse" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 /* We should be able to produce a BIT_FIELD_REF for each of these vector access. */

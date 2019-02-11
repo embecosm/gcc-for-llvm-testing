@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-thread3-details-blocks -fno-early-inlining -fno-tree-vrp -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int a;
 static int b;

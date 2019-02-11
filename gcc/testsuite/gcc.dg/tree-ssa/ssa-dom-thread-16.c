@@ -1,5 +1,6 @@
 /* { dg-do compile { target { ! logical_op_short_circuit  } } } */
 /* { dg-options "-O2 -fdump-tree-dom2-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 unsigned char
 validate_subreg (unsigned int offset, unsigned int isize, unsigned int osize, int zz, int qq)
 {

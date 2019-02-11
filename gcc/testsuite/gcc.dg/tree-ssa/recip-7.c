@@ -1,5 +1,6 @@
 /* { dg-options "-O1 -funsafe-math-optimizations -fno-trapping-math -fdump-tree-recip" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test inserting in a block that does not contain a division.  */
 

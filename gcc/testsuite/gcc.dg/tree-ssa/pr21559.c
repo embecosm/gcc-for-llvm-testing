@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-evrp-details -fdump-tree-vrp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int blocksize = 4096;
 

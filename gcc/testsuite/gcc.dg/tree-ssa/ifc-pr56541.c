@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ifcvt-stats-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float a,b,c,d;
 

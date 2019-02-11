@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-lim2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[1024];
 

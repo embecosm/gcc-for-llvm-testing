@@ -3,6 +3,7 @@
 /* { dg-options "-O -fdump-tree-ccp1 -Wno-psabi -w" } */
 /* { dg-additional-options "-msse2" { target i?86-*-* x86_64-*-* } } */
 /* { dg-additional-options "-maltivec" { target powerpc_altivec_ok } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int v4si __attribute__((vector_size (4 * sizeof (int))));
 

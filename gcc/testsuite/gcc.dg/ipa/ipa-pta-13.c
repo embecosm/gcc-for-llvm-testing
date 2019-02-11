@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do link } */
 /* { dg-options "-O2 -fipa-pta -fdump-ipa-pta2-details -fdump-tree-fre3 -fno-ipa-icf" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int x, y;
 

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-einline --param max-early-inliner-iterations=2" } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void inlined ();
 void inline_me_too (void);

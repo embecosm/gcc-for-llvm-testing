@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O1 -fdump-tree-original" } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char *buffer1;
 char *buffer2;

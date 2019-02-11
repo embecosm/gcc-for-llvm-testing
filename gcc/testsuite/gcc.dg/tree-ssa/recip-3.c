@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fno-trapping-math -funsafe-math-optimizations -fdump-tree-recip" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double F[2] = { 0.0, 0.0 }, e;
 

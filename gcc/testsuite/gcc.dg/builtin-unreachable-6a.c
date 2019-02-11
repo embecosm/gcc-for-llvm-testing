@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fab1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "builtin-unreachable-6.c"
 

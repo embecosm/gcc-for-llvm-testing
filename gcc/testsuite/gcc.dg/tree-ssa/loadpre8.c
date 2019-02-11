@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-pre-stats -std=gnu89 -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef union tree_node *tree;
 struct tree_common
 {

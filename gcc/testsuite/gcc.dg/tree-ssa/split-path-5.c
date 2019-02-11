@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fsplit-paths -fdump-tree-split-paths-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const extern char *__ctype_ptr__;
 typedef unsigned char uchar;

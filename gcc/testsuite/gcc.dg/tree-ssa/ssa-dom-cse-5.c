@@ -1,6 +1,7 @@
 /* Test normalization of ARRAY_REF expressions to MEM_REFs in dom.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-fre -fdump-tree-dom2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 8
 

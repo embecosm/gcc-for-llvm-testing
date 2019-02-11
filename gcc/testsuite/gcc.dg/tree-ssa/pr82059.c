@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-isolate-paths" } */
 /* { dg-skip-if "accessing data memory with program memory address" { avr-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct a
 {

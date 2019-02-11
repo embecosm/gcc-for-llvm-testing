@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-march=core-avx2 -fdump-tree-slp-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define abs(x) (x) < 0 ? -(x) : (x)
 int

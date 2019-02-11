@@ -1,6 +1,7 @@
 /* PR77366 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-split-paths-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo(unsigned int size, unsigned int *state)

@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-ivopts -fkeep-gc-roots-live" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Only integer ivopts here when using -fkeep-gc-roots-live.   */
 

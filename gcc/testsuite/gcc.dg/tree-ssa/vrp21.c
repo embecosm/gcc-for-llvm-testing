@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-vrp -fdump-tree-vrp1" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error ();
 

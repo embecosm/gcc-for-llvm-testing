@@ -4,6 +4,7 @@
     *PBASE:    T1
     *POFFSET:  MULT_EXPR (T2, C3)
     *PINDEX:   C1 + (C2 * C3) + C4  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-slsr-details" } */

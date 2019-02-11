@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -floop-nest-optimize -fdump-tree-graphite-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int rx, in;
 

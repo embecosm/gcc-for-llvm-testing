@@ -1,4 +1,5 @@
 /* { dg-options "-Os -fdump-tree-pre-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __SIZEOF_INT__ == 2
 #define unsigned __UINT32_TYPE__

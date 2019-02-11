@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-recip" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double res, res2, tmp;
 void

@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-vrp1-details -fdump-tree-dom2-details -std=gnu89" } */
+/* { dg-require-effective-target gcc_frontend } */
 struct bitmap_head_def;
 typedef struct bitmap_head_def *bitmap;
 typedef const struct bitmap_head_def *const_bitmap;

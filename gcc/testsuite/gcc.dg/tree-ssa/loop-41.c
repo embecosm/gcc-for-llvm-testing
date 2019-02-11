@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-vrp -fdump-tree-vrp-alias" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 signed char arr[240];
 void foo (void)

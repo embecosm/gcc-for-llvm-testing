@@ -1,6 +1,7 @@
 /* Check that early inliner works out that a is empty of parameter 0.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-einline -fno-partial-inlining"  } */
+/* { dg-require-effective-target gcc_frontend } */
 void t(void);
 int a (int b)
 {

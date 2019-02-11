@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-original" } */
 /* { dg-final { scan-tree-dump-times "return s \\^ x;" 4 "original" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f1 (int x, int s)
 {

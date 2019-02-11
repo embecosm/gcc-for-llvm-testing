@@ -1,6 +1,7 @@
 /* { dg-options "-O2 -fdump-tree-fre1 -w" } */
 /* { dg-options "-O2 -fdump-tree-fre1 -w -msse" { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 #define vector __attribute__((vector_size(sizeof(int)*4) ))
 struct s { vector int i; };
 vector float f(struct s *sv)

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int test1(int a, int b)
 {

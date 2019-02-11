@@ -6,6 +6,7 @@
 /* { dg-do compile { target { ! { logical_op_short_circuit || { s390*-*-* mn10300-*-* hppa*-*-* m68k*-*-* } } } } } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fdump-tree-dom2 -fdump-tree-vrp2" } */
 /* { dg-additional-options "-march=i586" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int h(int x, int y)
 {

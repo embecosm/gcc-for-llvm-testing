@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ivopts-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int a[100];
 void t(unsigned int n)
 {

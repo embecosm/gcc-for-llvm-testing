@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cddce2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct rtx_def;
 typedef struct rtx_def *rtx;

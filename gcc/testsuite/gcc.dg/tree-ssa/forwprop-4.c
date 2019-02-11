@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We should be able to fold the comparison at least with the
    first forwprop pass, if not a ccp pass before.  */

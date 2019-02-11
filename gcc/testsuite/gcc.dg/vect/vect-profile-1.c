@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target vect_int } */
 /* { dg-additional-options "-fdump-tree-vect-details-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* At least one of these should correspond to a full vector.  */
 

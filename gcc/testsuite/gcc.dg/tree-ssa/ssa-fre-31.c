@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef double d128 __attribute__((vector_size(16)));
 typedef float f128 __attribute__((vector_size(16)));

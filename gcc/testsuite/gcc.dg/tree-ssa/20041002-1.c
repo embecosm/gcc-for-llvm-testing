@@ -1,5 +1,6 @@
 /* PR tree-optimization/16632
    fold() failed to see the following "if" statements never trigger.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ssa" } */

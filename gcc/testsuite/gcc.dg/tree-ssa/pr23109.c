@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funsafe-math-optimizations -ftrapping-math -fdump-tree-recip -fdump-tree-lim2" } */
 /* { dg-warning "-fassociative-math disabled" "" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double F[2] = { 0., 0. }, e = 0.;
 

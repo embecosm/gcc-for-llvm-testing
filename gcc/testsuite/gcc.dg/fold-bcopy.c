@@ -1,6 +1,7 @@
 /* PR tree-optimization/80933 - redundant bzero/bcopy calls not eliminated
    { dg-do compile }
    { dg-options "-O0 -Wall -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f0 (void *dst, const void *src, unsigned n)
 {

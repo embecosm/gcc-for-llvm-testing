@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -w -fdump-tree-vrp1-details -fdump-tree-vrp2-details -fdump-tree-dom2-details -fdump-tree-dom3-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* All the threads found by the FSM threader should have too
    many statements to be profitable.  */

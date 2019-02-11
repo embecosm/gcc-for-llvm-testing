@@ -1,6 +1,7 @@
 /* PR middle-end/27388 */
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -fdump-tree-omplower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int n, o;
 

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Checks the simplification of:
    1 << (C - x) to (1 << C) >> x, where C = precision (type) - 1

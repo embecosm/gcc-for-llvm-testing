@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-reassoc1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int f(int a, int b)
 {
   /* MAX_EXPR <a, a> should cause it to be equivalent to a.  */

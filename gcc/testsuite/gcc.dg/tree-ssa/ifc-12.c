@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-ifcvt-stats-blocks-details" } */
 /* { dg-require-visibility "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct st
 {

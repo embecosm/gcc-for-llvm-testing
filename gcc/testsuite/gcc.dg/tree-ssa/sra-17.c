@@ -1,6 +1,7 @@
 /* { dg-do run { target { aarch64*-*-* alpha*-*-* arm*-*-* hppa*-*-* powerpc*-*-* s390*-*-* } } } */
 /* { dg-options "-O2 -fdump-tree-esra --param sra-max-scalarization-size-Ospeed=32" } */
 /* { dg-additional-options "-mcpu=ev4" { target alpha*-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

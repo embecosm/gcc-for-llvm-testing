@@ -1,6 +1,7 @@
 /* { dg-do compile { target { ! { logical_op_short_circuit || { m68k*-*-* bfin*-*-* v850*-*-* moxie*-*-* m32c*-*-* fr30*-*-* mcore*-*-* frv-*-* h8300-*-* m32r-*-* mn10300-*-* msp430-*-* pdp11-*-* rl78-*-* rx-*-* vax-*-*} } } } } */
 /* { dg-options "-O2 -fdump-tree-vrp2-details" } */
 /* { dg-final { scan-tree-dump-not "IRREDUCIBLE_LOOP" "vrp2" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 typedef struct bitmap_head_def *bitmap;

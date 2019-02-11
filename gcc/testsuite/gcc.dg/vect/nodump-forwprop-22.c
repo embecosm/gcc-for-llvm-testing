@@ -2,6 +2,7 @@
 /* { dg-require-effective-target vect_double } */
 /* { dg-require-effective-target vect_perm } */
 /* { dg-additional-options "-fdump-tree-cddce1 -fno-tree-fre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef double vec __attribute__((vector_size (2 * sizeof (double))));
 void f (vec *px, vec *y, vec *z)

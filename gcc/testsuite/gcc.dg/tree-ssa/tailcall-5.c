@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-tailc" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 set_integer (void *dest, int value, int length)

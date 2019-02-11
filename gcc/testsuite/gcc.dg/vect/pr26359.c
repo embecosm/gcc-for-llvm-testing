@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target vect_int } */
 /* { dg-additional-options "-fdump-tree-dce6-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[256], b[256], c[256];
 

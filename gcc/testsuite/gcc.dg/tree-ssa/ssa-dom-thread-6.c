@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fdump-tree-thread1-details -fdump-tree-thread2-details" } */
 /* { dg-final { scan-tree-dump-times "FSM" 3 "thread1" } } */
 /* { dg-final { scan-tree-dump-times "FSM" 5 "thread2" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int sum0, sum1, sum2, sum3;
 int foo (char *s, char **ret)

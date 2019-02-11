@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-dom2-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef long unsigned int size_t;
 union tree_node;
 typedef union tree_node *tree;

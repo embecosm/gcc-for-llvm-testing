@@ -1,5 +1,6 @@
 /* { dg-do compile { target { ! logical_op_short_circuit  } } } */
 /* { dg-options "-O2 -fdump-tree-dom2-details -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum optab_methods
 {

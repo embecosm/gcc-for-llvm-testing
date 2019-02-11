@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-vectorize -fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 struct foo {int b; int a[3];} foo;
 void add(struct foo *a,int l)
 {

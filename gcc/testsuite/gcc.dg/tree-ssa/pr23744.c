@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-ccp -fdisable-tree-evrp -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void h (void);
 

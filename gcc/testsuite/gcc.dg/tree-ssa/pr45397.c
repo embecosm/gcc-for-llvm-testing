@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-phiopt1 -fdump-tree-evrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo_add (const unsigned char *tmp, int i, int val)
 {
