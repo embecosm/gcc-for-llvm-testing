@@ -1,5 +1,6 @@
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-O -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned __int128 u128;
 

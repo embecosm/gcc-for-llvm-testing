@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-ealias -O" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __UINTPTR_TYPE__ ptrcast;
 

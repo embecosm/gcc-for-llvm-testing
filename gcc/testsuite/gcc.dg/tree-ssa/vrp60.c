@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-ccp -fno-tree-dominator-opts -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int x, int b)
 {

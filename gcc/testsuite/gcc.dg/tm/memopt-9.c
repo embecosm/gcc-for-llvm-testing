@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmmark" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int something(void) __attribute__((transaction_safe));
 extern void *malloc (__SIZE_TYPE__) __attribute__((malloc,transaction_safe));

@@ -3,6 +3,7 @@
 /* We scan for 2 switches as the dump file reports a transformation,
    IL really contains just a single.  */
 /* { dg-final { scan-tree-dump-times "switch \\(" 2 "switchlower1" } }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (void);
 void bar (void);

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ethread-details" } */
 /* { dg-final { scan-tree-dump "FSM" "ethread" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct rtx_def *rtx;
 typedef const struct rtx_def *const_rtx;

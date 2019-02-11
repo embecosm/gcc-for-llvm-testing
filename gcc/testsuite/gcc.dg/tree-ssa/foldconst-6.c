@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef long vec __attribute__ ((vector_size (2 * sizeof(long))));
 

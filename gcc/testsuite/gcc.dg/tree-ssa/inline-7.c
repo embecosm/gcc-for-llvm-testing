@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-einline -std=gnu89" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo0();
 inline void bar0() { foo0(); }

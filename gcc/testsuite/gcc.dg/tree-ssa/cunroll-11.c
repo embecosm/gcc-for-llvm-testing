@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -Warray-bounds -fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct { unsigned data; } s1;
 s1 g_x[4];

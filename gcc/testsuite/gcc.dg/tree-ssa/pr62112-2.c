@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-dse1-details" } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char*g;
 char* f(){

@@ -1,6 +1,7 @@
 /* PR tree-optimization/22117
    VRP used think that &p[q] is nonzero even though p and q are both
    known to be zero after entering the first two "if" statements.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */

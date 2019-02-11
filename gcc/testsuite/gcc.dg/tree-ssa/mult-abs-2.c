@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target c99_runtime } */
 /* { dg-options "-O2 -ffast-math -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float f(float x)
 {

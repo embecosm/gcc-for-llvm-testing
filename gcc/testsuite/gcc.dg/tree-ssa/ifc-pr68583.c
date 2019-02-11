@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ifcvt-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (long *a)
 {

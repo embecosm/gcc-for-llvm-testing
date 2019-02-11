@@ -1,6 +1,7 @@
 /* PR tree-optimization/21031
 
    Make sure that a != 0 is propagated into the "if" statement.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-forwprop1" } */

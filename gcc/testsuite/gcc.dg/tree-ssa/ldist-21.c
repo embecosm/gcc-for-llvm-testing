@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar(char *p, int n)
 {

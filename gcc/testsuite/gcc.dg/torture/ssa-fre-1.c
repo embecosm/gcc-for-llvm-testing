@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 /* { dg-additional-options "-fstrict-aliasing -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float f;
 int foo(int *p, int *q)

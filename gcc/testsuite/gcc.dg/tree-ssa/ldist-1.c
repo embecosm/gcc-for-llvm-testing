@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -ftree-loop-distribution -fdump-tree-ldist-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (int * __restrict__ ia,
 	  int * __restrict__ ib,

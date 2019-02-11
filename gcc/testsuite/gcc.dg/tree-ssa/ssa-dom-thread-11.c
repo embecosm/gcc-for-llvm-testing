@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dom2-details --param logical-op-non-short-circuit=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int *bb_ticks;
 extern void frob (void);

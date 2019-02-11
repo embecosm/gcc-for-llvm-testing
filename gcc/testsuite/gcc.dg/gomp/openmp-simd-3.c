@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fopenmp-simd -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* PR c/65586 */
 

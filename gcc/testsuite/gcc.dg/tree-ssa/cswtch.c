@@ -1,5 +1,6 @@
 /* { dg-options "-O2 -fdump-tree-switchconv" } */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

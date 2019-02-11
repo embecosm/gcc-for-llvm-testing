@@ -1,4 +1,5 @@
 /* PR tree-optimization/86925 */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-profile_estimate" } */

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-tailc-details" } */
 /* PR tree-opt/37024 */
+/* { dg-require-effective-target gcc_frontend } */
 
 double doubleValue();
 

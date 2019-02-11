@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-esra-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct blah
 {

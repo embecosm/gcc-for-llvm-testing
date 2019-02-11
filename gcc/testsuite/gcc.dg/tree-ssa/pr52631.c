@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-forwprop -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned f(unsigned a)
 {

@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-widening_mul" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float
 f1 (float a, float b, float c)

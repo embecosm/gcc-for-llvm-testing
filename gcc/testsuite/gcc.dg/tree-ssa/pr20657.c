@@ -1,6 +1,7 @@
 /* PR tree-optimization/20657
    VRP did not pick up a conditional equivalence from the first "if"
    statement, which was needed to eliminate the second "if" statement.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dominator-opts -fno-tree-fre -fdump-tree-evrp" } */

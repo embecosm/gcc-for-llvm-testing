@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funroll-loops -fdump-tree-cunroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__ ((pure))
 int bla(int);

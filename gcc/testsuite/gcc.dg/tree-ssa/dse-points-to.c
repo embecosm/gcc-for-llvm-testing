@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-ccp -fno-tree-forwprop -fno-tree-fre -fno-tree-vrp -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 f ()

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <stddef.h>
 
 char *a;

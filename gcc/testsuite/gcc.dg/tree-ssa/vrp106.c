@@ -3,6 +3,7 @@
 /* { dg-final { scan-tree-dump-times "Threaded jump" 1 "vrp1" } }  */
 /* During VRP we expect to thread the true arm of the conditional through the switch
    and to the BB that corresponds to the 7 ... 9 case label.  */
+/* { dg-require-effective-target gcc_frontend } */
 extern void foo (void);
 extern void bar (void);
 extern void baz (void);

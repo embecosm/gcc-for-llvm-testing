@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fsplit-paths -fdump-tree-dom3-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* There should be two references to bufferstep that turn into
    constants.  */

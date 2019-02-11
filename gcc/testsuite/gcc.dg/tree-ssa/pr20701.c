@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fno-early-inlining -fdelete-null-pointer-checks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct {
   int code;

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-cddce1 -fno-tree-fre" } */
 /* { dg-require-effective-target builtin_shuffle } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef int v4si __attribute__ ((vector_size (4 * sizeof(int))));
 
 int

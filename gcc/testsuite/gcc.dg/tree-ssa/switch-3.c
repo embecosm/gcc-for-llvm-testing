@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-tree-switchlower1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int cipher_to_alg(int cipher)        
 {                                    

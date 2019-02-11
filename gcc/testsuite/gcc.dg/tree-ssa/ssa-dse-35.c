@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[256];
 void foo (void)

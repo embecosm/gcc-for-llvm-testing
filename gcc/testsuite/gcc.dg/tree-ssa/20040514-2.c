@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-phiopt1" } */
+/* { dg-require-effective-target gcc_frontend } */
 int
 foo2 (distance, i, j)
      int distance;

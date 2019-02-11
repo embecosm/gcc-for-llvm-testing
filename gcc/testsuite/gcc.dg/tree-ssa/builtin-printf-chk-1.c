@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fab1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int __printf_chk (int, const char *, ...);
 volatile int vi0, vi1, vi2, vi3, vi4, vi5, vi6, vi7, vi8, vi9, via;

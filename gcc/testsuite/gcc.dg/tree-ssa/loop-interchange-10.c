@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -floop-interchange -fdump-tree-linterchange-details" } */
 /* { dg-require-effective-target size20plus } */
 /* { dg-skip-if "too big data segment" { visium-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int int32_t __attribute__((mode (__SI__)));
 

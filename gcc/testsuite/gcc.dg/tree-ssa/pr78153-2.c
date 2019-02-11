@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-evrp-slim" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(const char *s)
 {

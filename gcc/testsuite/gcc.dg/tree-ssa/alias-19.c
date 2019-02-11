@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-alias" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const static int a;
 

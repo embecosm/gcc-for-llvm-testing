@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-backprop-details" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void start (void *);
 void end (void *);

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-ccp2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct a {int a,b;};
 const static struct a a;

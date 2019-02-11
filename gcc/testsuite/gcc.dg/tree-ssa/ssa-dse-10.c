@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -w -fdump-tree-dse1-vops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __extension__ typedef __SIZE_TYPE__ size_t;
 typedef struct _IO_FILE FILE;

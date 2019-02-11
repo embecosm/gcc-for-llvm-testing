@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmedge --param tm-max-aggregate-size=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct large { int x[100]; };
 struct large bark();

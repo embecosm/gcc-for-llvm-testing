@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -floop-nest-optimize -fdump-tree-graphite" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int qc;
 

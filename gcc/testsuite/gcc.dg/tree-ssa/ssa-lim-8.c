@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (int);
 void foo (int n, int m)

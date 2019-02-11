@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-tmmark-asmname" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(void);
 

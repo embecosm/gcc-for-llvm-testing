@@ -1,6 +1,7 @@
 /* { dg-do run { target size32plus } } */
 /* { dg-options "-O3 -ftree-loop-distribute-patterns -fdump-tree-ldist-details" } */
 /* { dg-skip-if "too big data segment" { visium-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define M (300)
 #define N (200)

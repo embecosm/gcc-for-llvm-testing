@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -fno-tree-vectorize -fdump-tree-vect-details" } */
 /* { dg-additional-options "-mavx -mno-avx2" { target i?86-*-* x86_64-*-* } } */
 /* { dg-additional-options "-mvsx" { target powerpc_vsx_ok } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SIZE (1024 * 1024)
 

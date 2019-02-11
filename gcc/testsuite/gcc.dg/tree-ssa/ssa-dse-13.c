@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { char c[4]; } a, b;
 

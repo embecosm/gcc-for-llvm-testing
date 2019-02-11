@@ -2,6 +2,7 @@
    when evaluating an && condition.  VRP is not able to optimize this.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-forwprop1-details --param logical-op-non-short-circuit=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern char *frob (void);
 extern _Bool testit (void);

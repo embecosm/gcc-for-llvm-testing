@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdump-tree-vrp1 -fdump-tree-dce2 -fdelete-null-pointer-checks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int *p)

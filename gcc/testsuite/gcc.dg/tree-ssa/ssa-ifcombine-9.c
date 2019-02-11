@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-trapping-math -fdump-tree-ifcombine-details-blocks" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f ();
 enum Sign { NEG=-1, ZERO, POS };

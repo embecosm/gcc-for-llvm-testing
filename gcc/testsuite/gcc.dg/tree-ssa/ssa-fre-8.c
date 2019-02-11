@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-sra -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 #if (__SIZEOF_INT__ == __SIZEOF_FLOAT__)
 typedef int intflt;
 #elif (__SIZEOF_LONG__ == __SIZEOF_FLOAT__)

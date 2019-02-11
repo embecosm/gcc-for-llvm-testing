@@ -1,6 +1,7 @@
 /* PR tree-optimization/68128 */
 /* { dg-do compile } */
 /* { dg-additional-options "-O2 -fdump-tree-omplower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int omp_get_thread_num (void);
 extern int omp_get_ancestor_thread_num (int);

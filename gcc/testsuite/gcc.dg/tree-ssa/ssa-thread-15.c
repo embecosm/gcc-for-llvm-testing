@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We should thread the if (!in_loop) completely leaving
    just two conditionals.  */

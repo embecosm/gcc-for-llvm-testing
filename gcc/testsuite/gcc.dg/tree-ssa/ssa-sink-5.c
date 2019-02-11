@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fdump-tree-sink-stats" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef short int16_t;
 typedef unsigned char uint8_t;

@@ -1,6 +1,7 @@
 /* PR preprocessor/27746 */
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -fdump-tree-omplower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define omp		FOO
 #define p		parallel

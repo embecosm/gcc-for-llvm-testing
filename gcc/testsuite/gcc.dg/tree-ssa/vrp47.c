@@ -3,6 +3,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1 -fdump-tree-dom2 -fdump-tree-vrp2 --param logical-op-non-short-circuit=1" } */
 /* { dg-additional-options "-march=i586" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int h(int x, int y)
 {

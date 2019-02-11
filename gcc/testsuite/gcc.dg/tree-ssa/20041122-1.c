@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fstrict-aliasing -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __extension__ typedef __SIZE_TYPE__ size_t;
 extern void *xmalloc (size_t) __attribute__ ((__malloc__));

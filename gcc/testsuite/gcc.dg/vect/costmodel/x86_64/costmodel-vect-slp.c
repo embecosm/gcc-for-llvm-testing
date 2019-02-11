@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fdump-tree-slp-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 4
 

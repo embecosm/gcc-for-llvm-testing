@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-pre-stats -std=c99 -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 int foo(int k, int *x)
 {
   int j=0;

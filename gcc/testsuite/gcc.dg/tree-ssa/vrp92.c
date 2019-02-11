@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fno-tree-fre -fdump-tree-vrp1-details -fdisable-tree-ethread" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (void);
 int foo (int i, int j)

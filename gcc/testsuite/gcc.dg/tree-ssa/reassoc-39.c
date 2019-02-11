@@ -1,6 +1,7 @@
 /* PR tree-optimization/67815 */
 /* { dg-do compile } */
 /* { dg-options "-Ofast -g -fdump-tree-reassoc1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern float barf (float, float);
 extern double bar (double, double);

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 struct S { int i; };

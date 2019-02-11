@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-ch2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int foo (int);
 

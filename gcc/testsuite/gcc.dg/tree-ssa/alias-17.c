@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-early-inlining -fdump-tree-ccp2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *p;
 int inline bar(void) { return 0; }

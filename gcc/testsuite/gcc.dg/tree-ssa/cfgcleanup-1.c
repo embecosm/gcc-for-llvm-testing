@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-dce2" } */
+/* { dg-require-effective-target gcc_frontend } */
 void
 cleanup (int a, int b)
 {

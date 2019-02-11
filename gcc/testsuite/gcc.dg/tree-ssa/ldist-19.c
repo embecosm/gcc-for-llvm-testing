@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-ipa-icf -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct Foo
 {

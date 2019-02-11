@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-thread1-stats -fdump-tree-dom2-stats -fdisable-tree-ethread" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo();
 void bla();

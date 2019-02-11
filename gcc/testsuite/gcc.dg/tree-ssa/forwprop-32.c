@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-forwprop1 -fdump-tree-ccp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int x)
 {

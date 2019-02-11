@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmedge --param tm-max-aggregate-size=999" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test save/restore pairs for aggregates.  */
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(int *p, double *x, int n)
 {

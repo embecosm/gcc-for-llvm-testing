@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-ipa-icf -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void arf (unsigned x, unsigned y);
 extern void baz (unsigned x, unsigned y);

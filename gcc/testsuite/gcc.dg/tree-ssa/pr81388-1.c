@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-strict-overflow -fdump-tree-ivcanon-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar();
 void foo(char *dst)

@@ -1,6 +1,7 @@
 /* PR tree-optimization/19828 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int cst_fun1 (int) __attribute__((__const__));
 int cst_fun2 (int) __attribute__((__const__));

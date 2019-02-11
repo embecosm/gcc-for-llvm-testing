@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-ifcvt-details-blocks" } */

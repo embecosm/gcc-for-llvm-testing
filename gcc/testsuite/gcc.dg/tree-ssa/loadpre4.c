@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-pre-stats -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 int main(int *a, int argc)
 {
   int i;

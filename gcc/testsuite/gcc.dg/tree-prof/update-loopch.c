@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fdump-ipa-profile-blocks-details -fdump-tree-switchlower1-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int max = 33333;
 int a[8];
 int

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target vect_int } */
 /* { dg-additional-options "-fdump-tree-vect-all" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 short *a;
 int c;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-vrp1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned short u16;
 typedef unsigned char u8;

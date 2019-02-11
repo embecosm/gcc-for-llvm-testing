@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-reassoc1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned f1 (unsigned x, unsigned z)
 {

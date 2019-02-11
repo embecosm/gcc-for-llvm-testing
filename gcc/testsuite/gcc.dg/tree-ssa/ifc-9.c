@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fno-split-loops -fdump-tree-ifcvt-stats-blocks-details" } */
 /* { dg-require-visibility "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int b[256], y;
 void bar (int *, int);

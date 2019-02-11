@@ -1,5 +1,6 @@
 /* PR tree-optimization/21563
    Make sure VRP folds the second "if" statement.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dominator-opts -fdisable-tree-evrp -fdump-tree-vrp1-details" } */

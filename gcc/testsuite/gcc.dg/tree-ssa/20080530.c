@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-einline" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (char *);
 int i;

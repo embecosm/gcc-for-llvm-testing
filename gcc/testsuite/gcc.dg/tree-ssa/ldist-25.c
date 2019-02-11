@@ -1,5 +1,6 @@
 /* { dg-do compile { target size32plus } } */
 /* { dg-options "-O3 -ftree-loop-distribute-patterns -fdump-tree-ldist-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define k 1335
 double a[k][k];

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f1(void)
 {

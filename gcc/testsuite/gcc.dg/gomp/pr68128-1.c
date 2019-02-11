@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fopenmp -fdump-tree-vect-details" } */
 /* { dg-additional-options "-mavx" { target i?86-*-* x86_64-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Make sure the following loop is vectorized even when not using
    firstprivate variables for scalar vars that are not modified

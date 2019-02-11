@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fno-tree-sra -fdump-tree-fre1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Should be optimized, propagating &a into (*p)[i].  */
 

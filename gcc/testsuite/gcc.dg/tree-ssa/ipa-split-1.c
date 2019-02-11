@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-fnsplit" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void do_something_big (void);
 

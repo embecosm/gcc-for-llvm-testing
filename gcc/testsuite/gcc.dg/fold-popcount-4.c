@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cddce1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int test_shiftmax(unsigned int a)
 {

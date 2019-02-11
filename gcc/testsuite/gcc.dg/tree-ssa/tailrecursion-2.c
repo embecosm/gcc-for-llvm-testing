@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -foptimize-sibling-calls -fdump-tree-tailr1-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int
 t(char *a)
 {

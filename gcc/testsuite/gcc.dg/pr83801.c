@@ -1,6 +1,7 @@
 /* PR c/83801 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static const char a[] = "01234567890123456789012345678901234567890123456789012345678901234567890123456789";
 static const char b = a[27];

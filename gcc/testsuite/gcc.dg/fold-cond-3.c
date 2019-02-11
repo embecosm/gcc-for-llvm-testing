@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fdump-tree-original" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned long f1 (int x)
 {

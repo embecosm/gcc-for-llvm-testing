@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-fre1-details -fno-tree-sra" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct Bar {
   int dom;

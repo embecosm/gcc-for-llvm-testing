@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-sink" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo(int *a, int r, short *b)
 {

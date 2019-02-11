@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-fab1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Check that we fold strlen of equally long strings, and that we do not
    fail to terminate when there is a nontrivial cycle in the corresponding

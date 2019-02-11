@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -floop-interchange -fdump-tree-linterchange-details" } */
 /* { dg-require-effective-target size20plus } */
 /* { dg-skip-if "too big stack" { visium-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Copied from graphite/interchange-6.c */
 

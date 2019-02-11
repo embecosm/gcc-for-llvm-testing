@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O -fdump-tree-tmedge" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test thread-local memory optimizations: save/restore pairs.  */
 

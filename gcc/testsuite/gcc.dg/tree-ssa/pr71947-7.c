@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-vrp -fdump-tree-dom-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 int f(int x, int y)

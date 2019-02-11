@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funroll-loops --param max-unroll-times=8 -fpredictive-commoning -fdump-tree-pcom-details -fno-tree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[1000], b[1000];
 

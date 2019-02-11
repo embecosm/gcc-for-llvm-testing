@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-O2 -fdump-tree-fre1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long long int a = -465274079317386463LL;
 int b = 856872806;

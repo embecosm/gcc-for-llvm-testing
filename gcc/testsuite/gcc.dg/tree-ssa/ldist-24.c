@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-ldist-details --param max-completely-peel-times=8" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct S {
     double z[8][25];

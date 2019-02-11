@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target store_merge } */
 /* { dg-options "-O2 -fdump-tree-store-merging" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { unsigned int i : 8, a : 7, b : 7, j : 10, c : 15, d : 7, e : 10, f : 7, g : 9, k : 16; unsigned long long h; };
 

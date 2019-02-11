@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -ftree-vectorize -fdump-tree-vect-details" } */
 /* { dg-options "-O2 -ftree-vectorize -fdump-tree-vect-details -mno-vx" { target { s390*-*-* } } } */
 /* { dg-options "-O2 -ftree-vectorize -fdump-tree-vect-details -mno-sse" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdlib.h>
 

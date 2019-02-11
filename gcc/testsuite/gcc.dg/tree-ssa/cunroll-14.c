@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-cunroll-blocks-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 struct a {int a[100];};
 void
 t(struct a *a)

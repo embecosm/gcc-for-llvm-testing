@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -funsafe-math-optimizations -fdump-tree-recip" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float u, v, w, x, y, z;
 

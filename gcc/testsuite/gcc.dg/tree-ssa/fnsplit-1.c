@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-fnsplit" } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <stdio.h>
 int a[1000];
 

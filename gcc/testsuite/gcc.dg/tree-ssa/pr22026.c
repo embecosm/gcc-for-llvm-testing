@@ -1,6 +1,7 @@
 /* PR tree-optimization/22026
    VRP used think that ~[0,0] + ~[0,0] = ~[0,0], which is wrong.  The
    same applies to subtraction and unsigned multiplication.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */

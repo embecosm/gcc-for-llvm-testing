@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -O0 -fdump-tree-tmmark-lineno" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that instrumented statements have correct location info.  */
 

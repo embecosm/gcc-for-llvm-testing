@@ -1,6 +1,7 @@
 /* PR tree-optimization/56205 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-stdarg" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdarg.h>
 

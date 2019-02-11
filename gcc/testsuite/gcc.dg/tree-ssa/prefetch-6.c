@@ -1,5 +1,6 @@
 /* { dg-do compile { target { i?86-*-* x86_64-*-* } } } */
 /* { dg-options "-O2 -fprefetch-loop-arrays -march=amdfam10 --param simultaneous-prefetches=100 --param min-insn-to-prefetch-ratio=6 -fdump-tree-aprefetch-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 1000
 #define K 900

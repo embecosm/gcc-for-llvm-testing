@@ -1,5 +1,6 @@
 /* { dg-do compile { target {{ i?86-*-* x86_64-*-* } && lp64 } } } */
 /* { dg-options "-O2 -fgimple -m64 -fdump-tree-ivopts-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Exit tests 'i < N1' and 'p2 > p_limit2' can be replaced, so
  * two ivs i and p2 can be eliminate.  */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-c -O2 -ftree-vectorize -fdump-tree-ifcvt-stats" { target *-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct ht
 {

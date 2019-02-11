@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cunrolli-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 int a[1];
 void
 test(int c)

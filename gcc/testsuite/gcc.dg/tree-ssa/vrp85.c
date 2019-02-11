@@ -1,6 +1,7 @@
 /* PR tree-optimization/54810 */
 /* { dg-do link } */
 /* { dg-options "-O2 -fdump-tree-vrp1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error (void);
 

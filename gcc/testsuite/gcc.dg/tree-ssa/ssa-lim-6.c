@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-lim2-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double a[16][64], y[64], x[16];
 void foo(void)
