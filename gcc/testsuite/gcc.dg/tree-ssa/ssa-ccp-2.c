@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -fdump-tree-optimized -std=gnu89" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error (void);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool f1(unsigned x, unsigned y)
 {

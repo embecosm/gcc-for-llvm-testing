@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fno-strict-aliasing" } */
+/* { dg-require-effective-target gcc_frontend } */
 /* Test with fixed address */
 static int *foo =  (int *) (unsigned long) __INTPTR_MAX__;
 

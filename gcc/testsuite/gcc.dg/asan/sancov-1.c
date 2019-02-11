@@ -6,6 +6,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-options "-fsanitize-coverage=trace-pc -fsanitize=address -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(volatile int *a, int *b)
 {

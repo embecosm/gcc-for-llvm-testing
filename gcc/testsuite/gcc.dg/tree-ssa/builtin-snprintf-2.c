@@ -2,6 +2,7 @@
    with -Wformat-truncation=2
    { dg-do compile }
    { dg-options "-O2 -Wall -Wformat-truncation=2 -fprintf-return-value -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char d[2];
 

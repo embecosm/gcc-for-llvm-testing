@@ -2,6 +2,7 @@
    doesn't account for conversion failureâ€‹
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;

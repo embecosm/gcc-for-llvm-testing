@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-gimple-raw -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f0(int a, int b){
   return a * 33 * b * 55;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Og -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern long long __sdt_unsp;
 void

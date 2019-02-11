@@ -1,6 +1,7 @@
 /* PR tree-optimization/79408 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void link_error (void);
 

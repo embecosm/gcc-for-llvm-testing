@@ -1,6 +1,7 @@
 /* PR tree-optimization/86204 - wrong strlen result after prior strnlen
    { dg-do run }
    { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

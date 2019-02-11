@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdisable-tree-evrp -fdisable-tree-ethread -fdisable-tree-threadfull1 -fdump-tree-vrp1 -fdump-tree-optimized" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__ ((noinline))
 int foo ()

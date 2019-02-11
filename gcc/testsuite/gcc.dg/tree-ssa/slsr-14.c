@@ -1,4 +1,5 @@
 /* Straight-line strength reduction control flow variation.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O3 -fdump-tree-optimized" } */

@@ -1,4 +1,5 @@
 /* x's mask should be meet(0xc, 0x3) == 0xf  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-early-inlining -fdump-ipa-cp -fdump-tree-optimized" } */

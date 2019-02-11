@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-lower -fdump-tree-cddce-details -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f(void)
 {

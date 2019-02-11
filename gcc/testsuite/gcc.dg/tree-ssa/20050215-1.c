@@ -1,6 +1,7 @@
 /* PR middle-end/19857 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i;
 int foo (void)

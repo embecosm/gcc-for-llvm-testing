@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned f(unsigned i){
   i >>= __SIZEOF_INT__ * __CHAR_BIT__ - 3;

@@ -1,6 +1,7 @@
 /* PR tree-optimization/77357 - strlen of constant strings not folded
    { dg-do compile }
    { dg-options "-O0 -Wall -fdump-tree-gimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fstrict-overflow -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f (long *a, long *b, long *c) {
     __PTRDIFF_TYPE__ l1 = b - a;

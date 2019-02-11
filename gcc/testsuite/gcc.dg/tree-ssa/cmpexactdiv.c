@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(int *p, int *q){
   __SIZE_TYPE__ n = q - p;

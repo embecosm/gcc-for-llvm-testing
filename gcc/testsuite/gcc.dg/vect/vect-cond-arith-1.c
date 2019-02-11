@@ -1,4 +1,5 @@
 /* { dg-additional-options "-fdump-tree-optimized -fno-trapping-math -ffinite-math-only" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "tree-vect.h"
 

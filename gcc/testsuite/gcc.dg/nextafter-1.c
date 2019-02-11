@@ -5,6 +5,7 @@
 /* { dg-skip-if "not IEEE float" { "pdp11-*-*" } } */
 /* { dg-final { scan-tree-dump-not "nextafter" "optimized" } } */
 /* { dg-final { scan-tree-dump-not "nexttoward" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifndef _NEXT_AFTER_2
 float nextafterf (float, float);

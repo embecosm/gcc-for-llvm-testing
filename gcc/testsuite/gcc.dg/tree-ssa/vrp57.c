@@ -1,6 +1,7 @@
 /* PR40052 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-vrp -fno-tree-ccp -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo(_Bool b)
 {

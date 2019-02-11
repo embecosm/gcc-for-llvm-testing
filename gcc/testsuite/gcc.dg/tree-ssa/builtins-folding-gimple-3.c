@@ -5,6 +5,7 @@
    builtins-folding-gimple-2.c).
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SHRT_MAX   __SHRT_MAX__
 #define SHRT_MIN   (-SHRT_MAX - 1)

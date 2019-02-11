@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fno-tree-vrp -fno-tree-copy-prop -fno-tree-ccp -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 volatile int x;

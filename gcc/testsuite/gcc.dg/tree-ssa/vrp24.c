@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-forwprop -fdump-tree-evrp-details -fdump-tree-optimized -fno-tree-ccp --param logical-op-non-short-circuit=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 struct rtx_def;

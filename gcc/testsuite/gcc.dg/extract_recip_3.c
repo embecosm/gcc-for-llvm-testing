@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fdump-tree-optimized-raw" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float
 extract_square (float *a, float *b, float x, float y)

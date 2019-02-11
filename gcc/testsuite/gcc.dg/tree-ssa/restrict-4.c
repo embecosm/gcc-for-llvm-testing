@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized -fno-ipa-icf" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int *x, int y)

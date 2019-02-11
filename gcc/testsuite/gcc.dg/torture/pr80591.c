@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "" { *-*-* } "-flto" } */
 /* { dg-additional-options "-fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static inline __attribute__((always_inline)) int *
 foo (void)

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-ipa-bit-cp -fno-early-inlining -fdump-ipa-cp -fdump-tree-optimized" } */
 /* { dg-skip-if "No alignment restrictions" { { ! natural_alignment_32 } && { ! natural_alignment_64 } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdint.h>
 

@@ -9,6 +9,7 @@
    { dg-require-effective-target builtin_malloc }
    { dg-require-effective-target builtin_realloc }
    { dg-additional-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void sink (void*);
 

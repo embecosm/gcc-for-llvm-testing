@@ -2,6 +2,7 @@
 /* { dg-options "-O -fdump-tree-optimized" } */
 /* { dg-require-effective-target builtin_free } */
 /* { dg-require-effective-target builtin_malloc } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error (void);
 void foo(int n)

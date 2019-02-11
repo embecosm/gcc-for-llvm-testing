@@ -1,5 +1,6 @@
 /* Make sure that gcc understands that an in/out operand is a use as well
    as a def.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O -fdump-tree-optimized-nouid" } */

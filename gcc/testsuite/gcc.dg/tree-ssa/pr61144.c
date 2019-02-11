@@ -2,6 +2,7 @@
 /* { dg-require-weak "" } */
 /* { dg-require-alias "" } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 static int dummy = 0;
 extern int foo __attribute__((__weak__, __alias__("dummy")));
 int bar() { if (foo) return 1; return 0; }

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-O2 -fdump-tree-optimized-blocks" } */
 int a[8];

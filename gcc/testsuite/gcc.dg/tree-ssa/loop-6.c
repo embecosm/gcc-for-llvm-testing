@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -funswitch-loops -fdump-tree-unswitch-details -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int ch;
 int a[100];

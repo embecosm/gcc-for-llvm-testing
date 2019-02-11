@@ -5,6 +5,7 @@
 
    { dg-do compile }
    { dg-options "-O1 -Wall -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

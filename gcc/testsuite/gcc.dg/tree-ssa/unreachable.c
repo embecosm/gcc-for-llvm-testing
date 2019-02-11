@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized -fdelete-null-pointer-checks" } */
+/* { dg-require-effective-target gcc_frontend } */
 static void bad_boy()
 {
 }

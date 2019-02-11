@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int f (unsigned int a0, unsigned int a1, unsigned int a2,
 		unsigned int a3, unsigned int a4) 

@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target c99_runtime } */
 /* { dg-options "-O2 -fdump-tree-optimized -funsafe-math-optimizations -fno-math-errno -ffinite-math-only" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define FOO(type, cmp, suffix, no)  \
 int f_##no(type x, type y) \

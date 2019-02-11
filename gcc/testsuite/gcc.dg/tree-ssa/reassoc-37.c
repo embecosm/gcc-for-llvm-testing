@@ -1,6 +1,7 @@
 /* PR tree-optimization/63464 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (void);
 

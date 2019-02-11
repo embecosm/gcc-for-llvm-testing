@@ -1,5 +1,6 @@
 /* { dg-do compile { target { nonpic || pie_enabled } } } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 static int a;
 int f;
 void bar (void)  __attribute__((noinline));

@@ -1,4 +1,5 @@
 /* PR 32283 */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fdump-tree-optimized -fassociative-math -fno-trapping-math -fno-signed-zeros" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "tree-vect.h"
 

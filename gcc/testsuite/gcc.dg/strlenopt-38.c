@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-final { scan-tree-dump-not "abort \\(\\)" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "strlenopt.h"
 

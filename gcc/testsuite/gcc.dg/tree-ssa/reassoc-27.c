@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffast-math -frounding-math -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double baz (double foo, double bar)
 {

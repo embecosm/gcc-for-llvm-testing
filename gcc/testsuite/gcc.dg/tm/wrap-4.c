@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -fdump-tree-optimized -O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bark (void);
 void candycane (void);

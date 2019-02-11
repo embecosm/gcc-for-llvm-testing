@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-strict-aliasing -fdump-tree-optimized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned u32;
 typedef unsigned short u16;

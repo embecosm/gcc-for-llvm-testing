@@ -3,6 +3,7 @@
 /* __stpncpy_chk could return buf up to buf + 64, so
    the minimum object size might be far smaller than 64.  */
 /* { dg-final { scan-tree-dump-not "return 64;" "optimized" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 
