@@ -1,4 +1,5 @@
 /* { dg-options "-g -O2 -ftree-loop-distribution -fgraphite-identity" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int *x)

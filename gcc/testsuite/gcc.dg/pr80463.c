@@ -1,5 +1,6 @@
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options "-g -O2 -fvar-tracking-assignments -fselective-scheduling2 -ftree-loop-vectorize -fnon-call-exceptions -fno-tree-vrp -fno-gcse-lm -fno-tree-loop-im -fno-reorder-blocks-and-partition -fno-reorder-blocks -fno-move-loop-invariants -w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 short int t2;
 int cd, aa, ft;

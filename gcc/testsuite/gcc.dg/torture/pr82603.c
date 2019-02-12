@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-ftree-loop-vectorize" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 mr (unsigned int lf, int ms)

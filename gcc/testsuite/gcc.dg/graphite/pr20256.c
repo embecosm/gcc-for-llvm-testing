@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-linear" } */
 /* { dg-require-effective-target size32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo()
 {

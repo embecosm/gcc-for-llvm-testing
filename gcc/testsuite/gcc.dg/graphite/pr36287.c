@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int tab[2][2];
 

@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-inline -fno-tree-ch -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort ();
 

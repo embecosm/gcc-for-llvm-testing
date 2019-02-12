@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-linear -floop-strip-mine" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct m {
   char *A;

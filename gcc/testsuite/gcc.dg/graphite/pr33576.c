@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a1[6][4][4];
 short b1[16];
