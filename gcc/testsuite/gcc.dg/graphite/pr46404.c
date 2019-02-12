@@ -1,4 +1,5 @@
 /* { dg-options "-O -fgraphite-identity -fno-tree-scev-cprop" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int l[200];
 

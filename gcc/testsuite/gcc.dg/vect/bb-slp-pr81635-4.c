@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fno-tree-loop-vectorize -fno-tree-dominator-opts" } */
 /* { dg-require-effective-target lp64 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* A ranger based DOM causes many more SSA names to be exported, which
    causes slp1 to vectorize more things.  Disabling DOM to avoid

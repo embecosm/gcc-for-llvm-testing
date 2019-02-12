@@ -1,6 +1,7 @@
 /* { dg-lto-do run } */
 /* { dg-lto-options { { -O2 -flto -fno-tree-copy-prop -fno-tree-dce } } } */
 /* { dg-require-effective-target builtin_exit } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int try (int num) {
   __label__ lab1, lab2, lab3, lab4, lab5, lab6, default_lab;

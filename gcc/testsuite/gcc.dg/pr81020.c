@@ -1,6 +1,7 @@
 /* PR rtl-optimization/81020 */
 /* { dg-do run } */
 /* { dg-options "-O -fno-tree-bit-ccp -fno-tree-coalesce-vars -fno-tree-vrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned v = 4;
 

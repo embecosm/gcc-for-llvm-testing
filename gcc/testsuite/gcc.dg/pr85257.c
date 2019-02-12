@@ -1,6 +1,7 @@
 /* PR tree-optimization/85257 */
 /* { dg-do run { target int128 } } */
 /* { dg-options "-O2 -fno-tree-ccp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __int128 V __attribute__ ((__vector_size__ (16 * sizeof (__int128))));
 

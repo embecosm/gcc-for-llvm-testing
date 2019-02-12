@@ -1,6 +1,7 @@
 /* PR tree-optimization/83957 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-parallelize-loops=2 -fno-tree-dce --param parloops-schedule=dynamic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (int *x, int y)

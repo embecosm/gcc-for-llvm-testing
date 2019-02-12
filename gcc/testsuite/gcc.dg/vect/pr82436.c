@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Ofast -fno-tree-scev-cprop" } */
 /* { dg-additional-options "-mavx2" { target { x86_64-*-* i?86-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct reflection_type
 {

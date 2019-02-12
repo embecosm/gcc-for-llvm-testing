@@ -1,6 +1,7 @@
 /* PR rtl-optimization/84872 */
 /* { dg-do compile { target pthread } } */
 /* { dg-options "-O1 -floop-parallelize-all -freorder-blocks-and-partition -fschedule-insns2 -fselective-scheduling2 -fsel-sched-pipelining -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (int x)

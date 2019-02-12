@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-vrp -fno-tree-ccp" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 v4 (unsigned a, unsigned b)

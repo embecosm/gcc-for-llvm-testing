@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgraphite -funroll-loops -fno-tree-ccp -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int ue;
 

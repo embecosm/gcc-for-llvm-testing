@@ -1,4 +1,5 @@
 /* { dg-options "-fno-tree-forwprop" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int zy, h4;
 

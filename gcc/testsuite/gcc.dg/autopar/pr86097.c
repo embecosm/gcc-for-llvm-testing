@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -ftree-parallelize-loops=2 -fno-tree-dce -Wno-aggressive-loop-optimizations" } */
+/* { dg-require-effective-target gcc_frontend } */
 int rp, vd;
 
 void

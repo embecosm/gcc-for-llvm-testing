@@ -3,6 +3,7 @@
 /* This test is too big for small targets.  */
 /* { dg-require-effective-target size32plus } */
 /* { dg-options "-O -floop-nest-optimize -ffast-math -fno-tree-copy-prop -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[1000][1000];
 

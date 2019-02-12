@@ -1,6 +1,7 @@
 /* PR debug/83585 */
 /* { dg-do assemble } */
 /* { dg-options "-std=gnu89 -O2 -g -fno-tree-dce -fno-guess-branch-probability" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int x)

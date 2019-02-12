@@ -1,6 +1,7 @@
 /* PR target/83507 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fmodulo-sched -fno-tree-ter -fno-tree-coalesce-vars" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (unsigned short int x, unsigned char y)

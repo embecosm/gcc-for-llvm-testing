@@ -1,5 +1,6 @@
 /* { dg-do compile { target int128 } } */
 /* { dg-options "-O2 -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b, c, d;
 

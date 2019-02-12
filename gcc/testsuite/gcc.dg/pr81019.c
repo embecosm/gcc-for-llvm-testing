@@ -2,6 +2,7 @@
 /* PR rtl-optimization/81019 */
 /* { dg-do run } */
 /* { dg-options "-O -fno-tree-ccp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned long long __attribute__((noinline, noclone))
 foo (unsigned char a, unsigned short b, unsigned c, unsigned long long d,

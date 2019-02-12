@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O1 -fno-tree-vrp -fwrapv" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* PR tree-optimization/22236
 

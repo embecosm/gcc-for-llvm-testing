@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -floop-nest-optimize -fno-tree-copy-prop -fno-tree-fre -fno-tree-loop-ivcanon" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int cx;
 

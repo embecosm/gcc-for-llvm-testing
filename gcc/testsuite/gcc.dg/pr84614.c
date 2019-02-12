@@ -1,6 +1,7 @@
 /* PR target/84614 */
 /* { dg-do run { target int128 } } */
 /* { dg-options "-Og -fno-split-wide-types -fno-tree-coalesce-vars -g --param=max-combine-insns=3 -fcompare-debug" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned __int128 a;
 
