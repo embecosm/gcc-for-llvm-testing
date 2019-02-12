@@ -1,4 +1,5 @@
 /* { dg-options "-O -fgimple" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int __GIMPLE ()
 p (int n)
