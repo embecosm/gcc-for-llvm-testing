@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -ftree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f(void);
 void acceptloop_th(int *t, int options) {
