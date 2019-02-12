@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -ftree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef enum
 {

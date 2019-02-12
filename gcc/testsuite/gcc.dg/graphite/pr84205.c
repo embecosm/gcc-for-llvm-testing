@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -floop-nest-optimize -ftree-pre -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long long unsigned int od;
 int zj, fk, ea;

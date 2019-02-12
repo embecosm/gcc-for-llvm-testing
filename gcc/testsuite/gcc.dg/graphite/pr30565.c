@@ -1,4 +1,5 @@
 /* PR tree-optimization/30565  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-pre -ftree-loop-linear" } */
