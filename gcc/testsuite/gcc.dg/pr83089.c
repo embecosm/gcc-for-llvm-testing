@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target pthread } */
 /* { dg-options "-O2 -ftree-loop-if-convert -ftree-parallelize-loops=2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int rl, s8;
 

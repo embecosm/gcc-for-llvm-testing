@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This testcase was causing an ICE in building distance vectors because
    we weren't ignoring the fact that one of the induction variables

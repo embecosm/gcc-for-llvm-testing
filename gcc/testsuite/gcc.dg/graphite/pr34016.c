@@ -1,6 +1,7 @@
 /* PR tree-optimization/34016 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar (double *);
 

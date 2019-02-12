@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-loop-linear -fcompare-debug" } */
 /* { dg-xfail-if "" { powerpc-ibm-aix* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int A[];
 

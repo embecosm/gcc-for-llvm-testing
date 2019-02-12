@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Checks if loop distribution works correctly if the subscript used
    is assigned to a loop invariant value.  */

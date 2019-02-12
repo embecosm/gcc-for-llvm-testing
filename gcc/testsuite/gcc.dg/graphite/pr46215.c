@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fstrict-overflow -fno-tree-ch -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int y[], x1[], x2[];
 void

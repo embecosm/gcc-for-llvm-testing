@@ -1,5 +1,6 @@
 /* { dg-do compile { target powerpc*-*-* } } */
 /* { dg-options "-O3 -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned char inUse[256];
 unsigned char len[6][258];

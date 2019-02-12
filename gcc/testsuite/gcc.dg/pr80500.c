@@ -1,6 +1,7 @@
 /* PR rtl-optimization/80500 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -funroll-loops -ftree-loop-if-convert -fvariable-expansion-in-unroller" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 signed char v;
 
