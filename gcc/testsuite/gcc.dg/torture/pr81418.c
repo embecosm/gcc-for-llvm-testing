@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-ftree-loop-optimize" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 ol (int ku)

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution -floop-nest-optimize" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct
 {

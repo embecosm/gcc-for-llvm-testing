@@ -1,5 +1,6 @@
 /* { dg-do compile } */ 
 /* { dg-options "-O2 -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int buf[256 * 9];
 int f() 

@@ -1,6 +1,7 @@
 /* PR tree-optimization/29330 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-loop-linear -std=gnu99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int buf[2][2][2][2];
 

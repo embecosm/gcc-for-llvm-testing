@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __extension__ typedef __SIZE_TYPE__ size_t;
 typedef struct   {

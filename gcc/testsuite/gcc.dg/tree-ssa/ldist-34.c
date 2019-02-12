@@ -1,5 +1,6 @@
 /* { dg-do compile { target size32plus } } */
 /* { dg-options "-O2 -ftree-loop-distribution" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define X (3.0)
 int b, c;

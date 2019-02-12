@@ -1,6 +1,7 @@
 /* PR tree-optimization/71854 */
 /* { dg-do compile } */
 /* { dg-additional-options "-O3 -ftree-loop-if-convert" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char a, f = 1;
 int b, c, e[8];
