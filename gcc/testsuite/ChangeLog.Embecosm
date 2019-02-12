@@ -1,3 +1,16 @@
+2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/autopar/pr46799.c: Mark test which uses -ftree-pre
+	option as requiring gcc frontend.
+	* gcc.dg/graphite/pr30565.c: Likewise.
+	* gcc.dg/graphite/pr84205.c: Likewise.
+	* gcc.dg/graphite/run-id-pr47653.c: Likewise.
+	* gcc.dg/torture/pr82129.c: Likewise.
+	* gcc.dg/tree-ssa/pr20490.c: Likewise.
+	* gcc.dg/tree-ssa/pr32540-1.c: Likewise.
+	* gcc.dg/tree-ssa/pr32540-2.c: Likewise.
+	* gcc.dg/tree-ssa/pr33922.c: Likewise.
+
 2019-02-11  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/asan/pr78106.c: Mark test which use various
