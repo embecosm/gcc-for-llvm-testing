@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is a collection of unittests for ranges within string literals,
    using diagnostic_plugin_test_string_literals, which handles

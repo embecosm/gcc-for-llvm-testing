@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wmisleading-indentation -Wall -fplugin-arg-location_overflow_plugin-value=0x50000001" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We use location_overflow_plugin.c, which injects the case that location_t
    values have exceeded LINE_MAP_MAX_LOCATION_WITH_PACKED_RANGES, and hence

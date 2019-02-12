@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify that the C/C++ frontends show the pertinent opening symbol when
    a closing symbol is missing.  */

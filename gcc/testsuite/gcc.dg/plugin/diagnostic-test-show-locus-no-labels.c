@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret -fno-diagnostics-show-labels" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify that -fno-diagnostics-show-labels works.  */
 

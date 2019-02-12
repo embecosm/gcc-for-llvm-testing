@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wno-switch-unreachable" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int foo (void);
 

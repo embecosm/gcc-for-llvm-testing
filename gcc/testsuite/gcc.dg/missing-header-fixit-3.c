@@ -1,6 +1,7 @@
 /* Example of a fix-it hint that adds a #include directive,
    adding them to the top of the file, given that there is no
    pre-existing #include.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-options "-fdiagnostics-show-caret -fdiagnostics-show-line-numbers" } */
 

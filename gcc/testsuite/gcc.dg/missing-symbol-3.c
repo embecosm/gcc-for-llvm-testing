@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* A sequence of bogus _Static_assert.
    We can offer fix-it hints for some of these, but not all.  */

@@ -1,4 +1,5 @@
 /* This is padding (to avoid the output containing DejaGnu directives).  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* We need -fdiagnostics-show-caret to trigger the ICE.  */
 
