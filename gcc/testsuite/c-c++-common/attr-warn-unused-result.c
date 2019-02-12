@@ -1,6 +1,7 @@
 /* warn_unused_result attribute tests.  */
 /* { dg-do compile } */
 /* { dg-options "-O -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define WUR __attribute__((warn_unused_result))
 #define WURAI __attribute__((warn_unused_result, always_inline)) inline

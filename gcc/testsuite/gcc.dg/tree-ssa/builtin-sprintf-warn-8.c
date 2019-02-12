@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wformat -Wformat-overflow -Wno-nonnull -ftrack-macro-expansion=0" }
    { dg-require-effective-target builtin_sprintf } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __builtin_va_list va_list;
 

@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wall -Wformat-overflow=1 -ftrack-macro-expansion=0" }
    { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void sink (char*);
 

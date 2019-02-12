@@ -1,5 +1,6 @@
  /* { dg-options "-ftrack-macro-expansion=2" } */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define do_paste 1.0e ## -1
 

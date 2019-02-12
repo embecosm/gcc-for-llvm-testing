@@ -6,6 +6,7 @@
    { dg-skip-if "not IEEE float layout" { "pdp11-*-*" } }
    { dg-require-effective-target builtin_sprintf }
    { dg-options "-O2 -Wformat -Wformat-overflow -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __builtin_va_list va_list;
 

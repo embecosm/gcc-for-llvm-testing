@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds=2 -ftrack-macro-expansion=0" }
    { dg-skip-if "too many arguments in function call" { bpf-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "range.h"
 

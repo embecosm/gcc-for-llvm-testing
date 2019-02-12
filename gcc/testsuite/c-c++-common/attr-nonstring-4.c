@@ -2,6 +2,7 @@
    tests on PowerPC
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow -ftrack-macro-expansion=0" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __cplusplus
 extern "C" {

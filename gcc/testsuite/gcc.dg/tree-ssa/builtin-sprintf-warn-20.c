@@ -3,6 +3,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target 4byte_wchar_t } */
 /* { dg-options "-O2 -Wall -Wformat-overflow -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __WCHAR_TYPE__ wchar_t;
 

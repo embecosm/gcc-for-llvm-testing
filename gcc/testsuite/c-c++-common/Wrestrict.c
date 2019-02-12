@@ -1,6 +1,7 @@
 /* PR 35503 - Warn about restricted pointers
    { dg-do compile }
    { dg-options "-O2 -Wrestrict -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "../gcc.dg/range.h"
 

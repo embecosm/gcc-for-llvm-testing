@@ -1,5 +1,6 @@
 /* Spurious uninitialized variable warnings.
    This one inspired by java/class.c:build_utf8_ref.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-Wuninitialized -ftrack-macro-expansion=2" } */

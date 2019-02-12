@@ -2,6 +2,7 @@
    of source
    { dg-do compile }
    { dg-options "-O2 -Wno-array-bounds -Wsizeof-pointer-memaccess -Wstringop-truncation -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "../gcc.dg/range.h"
 

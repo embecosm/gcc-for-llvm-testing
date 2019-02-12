@@ -1,6 +1,7 @@
 /* PR tree-optimization/85259 - Missing -Wstringop-overflow= since r256683
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define bos1(p) __builtin_object_size (p, 1)
 #define strcat(d, s) __builtin___strcat_chk (d, s, bos1 (d))

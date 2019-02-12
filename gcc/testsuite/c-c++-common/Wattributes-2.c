@@ -1,6 +1,7 @@
 /* PR c/81566 - invalid attribute aligned accepted on functions
    { dg-do compile }
    { dg-options "-Wall -Wattributes -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ATTR(list) __attribute__ (list)
 #define ALIGN(n)   ATTR ((aligned (n)))

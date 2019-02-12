@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-require-effective-target size32plus }
    { dg-options "-O -Walloc-size-larger-than=1MiB -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void sink (void*);
 

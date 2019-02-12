@@ -2,6 +2,7 @@
    with -O2
    { dg-do compile }
    { dg-options "-O2 -Wstringop-truncation -ftrack-macro-expansion=0 -g" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define strncpy __builtin_strncpy
 

@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-require-effective-target alloca }
    { dg-options "-O2 -Walloca-larger-than=0 -Wvla-larger-than=0 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void* alloca (__SIZE_TYPE__);
 
