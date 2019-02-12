@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-sra -fipa-pta -fdump-ipa-pta2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct X
 {

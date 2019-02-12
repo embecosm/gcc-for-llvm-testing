@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-O1 -fno-tree-fre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 volatile unsigned char g_324[4] = {0, 1, 0, 1};
 void foo (int);

@@ -3,6 +3,7 @@
 /* { dg-require-effective-target fopenmp } */
 /* { dg-require-effective-target vect_int } */
 /* { dg-additional-options "-fopenmp -fipa-pta" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

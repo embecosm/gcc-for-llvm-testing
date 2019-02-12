@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -funroll-loops -fno-tree-dominator-opts -fno-tree-loop-im -fno-code-hoisting -fno-tree-pre -fno-guess-branch-probability" } */
+/* { dg-require-effective-target gcc_frontend } */
 int tw, be;
 
 void

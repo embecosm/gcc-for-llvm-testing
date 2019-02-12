@@ -2,6 +2,7 @@
 /* { dg-additional-options "--param vect-epilogues-nomask=0" } */
 /* { dg-do compile } */
 /* { dg-require-effective-target vect_int } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdarg.h>
 #include "tree-vect.h"

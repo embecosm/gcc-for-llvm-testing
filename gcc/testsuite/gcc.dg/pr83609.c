@@ -1,6 +1,7 @@
 /* PR middle-end/83609 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-forwprop -fno-tree-ccp -fno-tree-fre -fno-tree-pre -fno-code-hoisting" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __SIZEOF_LONG_LONG__ == 2 * __SIZEOF_FLOAT__
 _Complex float

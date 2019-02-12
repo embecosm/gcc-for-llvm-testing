@@ -3,6 +3,7 @@
 /* { dg-options "-Og -fno-tree-ccp" } */
 /* { dg-require-effective-target tls } */
 /* { dg-add-options tls } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static int b;
 static __thread int c;

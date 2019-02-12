@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-inline -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b, c;
 long *d;

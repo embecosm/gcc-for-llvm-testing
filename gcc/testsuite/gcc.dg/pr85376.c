@@ -1,6 +1,7 @@
 /* PR rtl-optimization/85376 */
 /* { dg-do run { target int128 } } */
 /* { dg-options "-Og -fno-dce -fgcse -fno-tree-ccp -fno-tree-copy-prop -Wno-psabi" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned int U __attribute__ ((vector_size (64)));
 typedef unsigned __int128 V __attribute__ ((vector_size (64)));

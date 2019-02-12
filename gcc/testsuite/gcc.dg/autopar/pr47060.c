@@ -1,6 +1,7 @@
 /* PR tree-optimization/47060 */
 /* { dg-do compile } */
 /* { dg-options "-O -ffast-math -ftree-parallelize-loops=2 -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S
 {

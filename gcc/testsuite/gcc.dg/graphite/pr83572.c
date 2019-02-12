@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -floop-nest-optimize -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int u0, l1;
 

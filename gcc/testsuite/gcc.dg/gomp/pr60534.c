@@ -1,6 +1,7 @@
 /* PR middle-end/60534 */
 /* { dg-do compile } */
 /* { dg-options "-fopenmp -O -fno-tree-loop-optimize" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int d[];
 

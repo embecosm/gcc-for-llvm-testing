@@ -1,4 +1,5 @@
 /* { dg-options "-O -fgraphite-identity -ffast-math -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo ()
 {

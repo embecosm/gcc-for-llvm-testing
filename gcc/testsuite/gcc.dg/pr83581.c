@@ -1,6 +1,7 @@
 /* PR tree-optimization/83581 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-copy-prop -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b, c;
 

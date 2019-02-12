@@ -1,4 +1,5 @@
 /* { dg-options "-O -fgraphite-identity -ffast-math -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S
 {

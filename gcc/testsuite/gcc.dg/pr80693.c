@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-O -fno-tree-coalesce-vars" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned u32;
