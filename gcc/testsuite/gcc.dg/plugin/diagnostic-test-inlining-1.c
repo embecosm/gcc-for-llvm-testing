@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wno-attributes -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void __emit_warning (const char *message);
 
@@ -25,9 +26,9 @@ int main()
    when reporting the warning.  */
 
 /* { dg-regexp "In function 'foo'," "" } */
-/* { dg-regexp "    inlined from 'bar' at .+/diagnostic-test-inlining-1.c:15:3," "" } */
-/* { dg-regexp "    inlined from 'main' at .+/diagnostic-test-inlining-1.c:20:3:" "" } */
-/* { dg-warning "3: message" "" { target *-*-* } 9 } */
+/* { dg-regexp "    inlined from 'bar' at .+/diagnostic-test-inlining-1.c:16:3," "" } */
+/* { dg-regexp "    inlined from 'main' at .+/diagnostic-test-inlining-1.c:21:3:" "" } */
+/* { dg-warning "3: message" "" { target *-*-* } 10 } */
 /* { dg-begin-multiline-output "" }
    __emit_warning ("message");
    ^~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wpointer-sign" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* A collection of calls where argument 2 is of the wrong type.  */
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret -fplugin-arg-diagnostic_plugin_test_show_locus-color" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is a collection of unittests for diagnostic_show_locus;
    see the overview in diagnostic_plugin_test_show_locus.c.

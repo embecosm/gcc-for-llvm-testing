@@ -1,6 +1,7 @@
 /* PR c/81417 */
 /* { dg-do compile } */
 /* { dg-options "-Wsign-compare -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int
 f0 (int x, unsigned int y)

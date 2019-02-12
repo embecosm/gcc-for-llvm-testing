@@ -6,7 +6,7 @@
 int main()
 {
   const char *s = LINE;
-  if (s[0] != '8' || s[1] != '8')
+  if (s[0] != '9' || s[1] != '9')
     __builtin_abort ();
   return 0;
 }

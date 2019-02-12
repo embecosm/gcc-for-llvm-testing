@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is a collection of unittests for ranges within string literals,
    using diagnostic_plugin_test_string_literals, which handles
@@ -332,8 +333,8 @@ pr87652 (const char *stem, int counter)
 				OFFSET + end_idx);		\
   } while (0)
 
-/* { dg-error "unable to read substring location: unable to read source line" "" { target c } 329 } */
-/* { dg-error "unable to read substring location: failed to get ordinary maps" "" { target c++ } 329 } */
+/* { dg-error "unable to read substring location: unable to read source line" "" { target c } 330 } */
+/* { dg-error "unable to read substring location: failed to get ordinary maps" "" { target c++ } 330 } */
 /* { dg-begin-multiline-output "" }
      __emit_string_literal_range(__FILE__":%5d: " format,        \
                                  ^~~~~~~~

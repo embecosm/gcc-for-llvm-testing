@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret -fdiagnostics-show-line-numbers" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is a collection of unittests for diagnostic_show_locus;
    see the overview in diagnostic_plugin_test_show_locus.c.
@@ -14,7 +15,7 @@ void test_simple (void)
   myvar = myvar.x; /* { dg-warning "test" } */
 
 /* { dg-begin-multiline-output "" }
-   14 |   myvar = myvar.x;
+   15 |   myvar = myvar.x;
       |           ~~~~~^~
    { dg-end-multiline-output "" } */
 #endif
@@ -27,9 +28,9 @@ void test_multiline (void)
        + second_function ()); /* { dg-warning "test" } */
 
 /* { dg-begin-multiline-output "" }
-   26 |   x = (first_function ()
+   27 |   x = (first_function ()
       |        ~~~~~~~~~~~~~~~~~
-   27 |        + second_function ());
+   28 |        + second_function ());
       |        ^ ~~~~~~~~~~~~~~~~~~
       |        |
       |        label
@@ -45,7 +46,7 @@ void test_very_wide_line (void)
       |        0         0         0         0         0         1         1  
       |        5         6         7         8         9         0         1  
       | 3456789012345678901234567890123456789012345678901234567890123456789012
-   43 |                                       float f = foo * bar;
+   44 |                                       float f = foo * bar;
       |                                                 ~~~~^~~~~
       |                                                     |
       |                                                     label 0
@@ -62,7 +63,7 @@ void test_fixit_insert (void)
 #if 0
    int a[2][2] = { 0, 1 , 2, 3 }; /* { dg-warning "insertion hints" } */
 /* { dg-begin-multiline-output "" }
-   63 |    int a[2][2] = { 0, 1 , 2, 3 };
+   64 |    int a[2][2] = { 0, 1 , 2, 3 };
       |                    ^~~~
       |                    {   }
    { dg-end-multiline-output "" } */
@@ -76,7 +77,7 @@ void test_fixit_remove (void)
 #if 0
   int a;; /* { dg-warning "example of a removal hint" } */
 /* { dg-begin-multiline-output "" }
-   77 |   int a;;
+   78 |   int a;;
       |         ^
       |         -
    { dg-end-multiline-output "" } */
@@ -90,7 +91,7 @@ void test_fixit_replace (void)
 #if 0
   gtk_widget_showall (dlg); /* { dg-warning "example of a replacement hint" } */
 /* { dg-begin-multiline-output "" }
-   91 |   gtk_widget_showall (dlg);
+   92 |   gtk_widget_showall (dlg);
       |   ^~~~~~~~~~~~~~~~~~
       |   gtk_widget_show_all
    { dg-end-multiline-output "" } */
@@ -111,9 +112,9 @@ void test_fixit_insert_newline (void)
       x = b;
     }
 /* { dg-begin-multiline-output "" }
-  109 |       x = a;
+  110 |       x = a;
   +++ |+      break;
-  110 |     case 'b':
+  111 |     case 'b':
       |     ^~~~~~~~
    { dg-end-multiline-output "" } */
 #endif

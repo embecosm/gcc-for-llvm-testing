@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is an example file for use with
    diagnostic_plugin_show_trees.c.

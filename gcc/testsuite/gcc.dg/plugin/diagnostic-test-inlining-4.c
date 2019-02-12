@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wno-attributes -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void __emit_warning (const char *message);
 
@@ -44,12 +45,12 @@ int main()
    inlining.  */
 
 /* { dg-regexp "In function 'depth_0'," "" } */
-/* { dg-regexp "    inlined from 'depth_1' at .+/diagnostic-test-inlining-4.c:15:3," "" } */
-/* { dg-regexp "    inlined from 'depth_2' at .+/diagnostic-test-inlining-4.c:21:3," "" } */
-/* { dg-regexp "    inlined from 'depth_3' at .+/diagnostic-test-inlining-4.c:27:3," "" } */
-/* { dg-regexp "    inlined from 'depth_4' at .+/diagnostic-test-inlining-4.c:33:3," "" } */
-/* { dg-regexp "    inlined from 'main' at .+/diagnostic-test-inlining-4.c:38:3:" "" } */
-/* { dg-warning "3: message" "" { target *-*-* } 9 } */
+/* { dg-regexp "    inlined from 'depth_1' at .+/diagnostic-test-inlining-4.c:16:3," "" } */
+/* { dg-regexp "    inlined from 'depth_2' at .+/diagnostic-test-inlining-4.c:22:3," "" } */
+/* { dg-regexp "    inlined from 'depth_3' at .+/diagnostic-test-inlining-4.c:28:3," "" } */
+/* { dg-regexp "    inlined from 'depth_4' at .+/diagnostic-test-inlining-4.c:34:3," "" } */
+/* { dg-regexp "    inlined from 'main' at .+/diagnostic-test-inlining-4.c:39:3:" "" } */
+/* { dg-warning "3: message" "" { target *-*-* } 10 } */
 /* { dg-begin-multiline-output "" }
    __emit_warning ("message");
    ^~~~~~~~~~~~~~~~~~~~~~~~~~

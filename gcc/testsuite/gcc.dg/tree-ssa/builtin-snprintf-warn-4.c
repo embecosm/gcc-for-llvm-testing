@@ -1,6 +1,7 @@
 /* PR c/83448 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wformat-truncation -fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int snprintf (char *, __SIZE_TYPE__, const char *, ...);
 

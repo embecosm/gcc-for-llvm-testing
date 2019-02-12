@@ -1,5 +1,42 @@
 2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* c-c++-common/missing-close-symbol.c: Mark test which uses
+	-fdiagnostics-show-caret as requiring gcc frontend.
+	* c-c++-common/missing-symbol.c: Likewise.
+	* c-c++-common/pr44515.c: Likewise.
+	* gcc.dg/Wsign-compare-1.c: Likewise.
+	* gcc.dg/fixits-pr84852-1.c: Likewise.
+	* gcc.dg/fixits-pr84852-2.c: Likewise.
+	* gcc.dg/missing-header-fixit-3.c: Likewise.
+	* gcc.dg/missing-header-fixit-4.c: Likewise.
+	* gcc.dg/missing-symbol-2.c: Likewise.
+	* gcc.dg/missing-symbol-3.c: Likewise.
+	* gcc.dg/param-type-mismatch.c: Likewise.
+	* gcc.dg/plugin/diagnostic-group-test-1.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-expressions-1.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-inlining-1.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-inlining-2.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-inlining-3.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-inlining-4.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-show-locus-bw-line-numbers.c:
+	Likewise.
+	* gcc.dg/plugin/diagnostic-test-show-locus-bw.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-show-locus-color-line-numbers.c:
+	Likewise.
+	* gcc.dg/plugin/diagnostic-test-show-locus-color.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-show-locus-no-labels.c:
+	Likewise.
+	* gcc.dg/plugin/diagnostic-test-show-trees-1.c: Likewise.
+	* gcc.dg/plugin/diagnostic-test-string-literals-1.c: Likewise.
+	* gcc.dg/plugin/location-overflow-test-2.c: Likewise.
+	* gcc.dg/pr7356-2.c: Likewise.
+	* gcc.dg/pr7356.c: Likewise.
+	* gcc.dg/semicolon-fixits.c: Likewise.
+	* gcc.dg/tree-ssa/builtin-snprintf-warn-4.c: Likewise.
+	* gcc.dg/tree-ssa/builtin-sprintf-warn-4.c: Likewise.
+
+2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/gimplefe-27.c: Mark test which uses -fgimple as
 	requiring gcc frontend.
 	* gcc.dg/gimplefe-28.c: Likewise.
