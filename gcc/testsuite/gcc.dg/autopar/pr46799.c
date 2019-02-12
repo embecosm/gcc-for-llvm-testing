@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-parallelize-loops=2 -fno-tree-dce -ftree-pre -fcompare-debug" } */
 /* { dg-xfail-if "compare-debug failure" { powerpc-ibm-aix* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int i, int *a)

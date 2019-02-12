@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-ftree-pre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int pj;
 
