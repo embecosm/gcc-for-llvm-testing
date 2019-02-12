@@ -1,6 +1,7 @@
 /* { dg-do compile { target sqrt_insn } } */
 /* { dg-options "-fgimple -O2" } */
 /* { dg-add-options sqrt_insn } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double __GIMPLE
 f1 (double x)

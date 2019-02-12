@@ -1,5 +1,16 @@
 2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/gimplefe-27.c: Mark test which uses -fgimple as
+	requiring gcc frontend.
+	* gcc.dg/gimplefe-28.c: Likewise.
+	* gcc.dg/gimplefe-error-4.c: Likewise.
+	* gcc.dg/gimplefe-error-5.c: Likewise.
+	* gcc.dg/gimplefe-error-6.c: Likewise.
+	* gcc.dg/gimplefe-error-7.c: Likewise.
+	* gcc.dg/tree-ssa/pr80887.c: Likewise.
+
+2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr83575.c: Mark test which uses an
 	-fno-tree option as requiring gcc frontend.
 	* gcc.c-torture/compile/pr84178-1.c: Likewise.
