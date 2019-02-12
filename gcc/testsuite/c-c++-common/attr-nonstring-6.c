@@ -2,6 +2,7 @@
    in -Wstringop-overflow
   { dg-do compile }
   { dg-options "-O2 -Wstringop-overflow -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "../gcc.dg/range.h"
 

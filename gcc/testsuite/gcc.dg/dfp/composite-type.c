@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -Wall -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* C99 6.2.7: Compatible type and composite type.  */
 

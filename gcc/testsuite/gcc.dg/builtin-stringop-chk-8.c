@@ -1,6 +1,7 @@
 /* Test exercising -Wstringop-overflow warnings for reading past the end.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wstringop-overflow=1 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define PTRDIFF_MAX   __PTRDIFF_MAX__
 #define SIZE_MAX      __SIZE_MAX__

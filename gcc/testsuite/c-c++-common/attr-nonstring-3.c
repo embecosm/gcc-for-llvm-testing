@@ -2,6 +2,7 @@
    is passed to a function that expects a nul-terminated string as an argument.
    { dg-do compile }
    { dg-options "-O2 -Wattributes -Wstringop-overflow -ftrack-macro-expansion=0" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__       size_t;
 typedef __builtin_va_list   va_list;

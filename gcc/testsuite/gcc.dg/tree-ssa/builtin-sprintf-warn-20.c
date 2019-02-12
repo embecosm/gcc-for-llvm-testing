@@ -2,6 +2,7 @@
    %s with a wide string
    { dg-do compile }
    { dg-options "-O2 -Wall -Wformat-overflow -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __WCHAR_TYPE__ wchar_t;
 

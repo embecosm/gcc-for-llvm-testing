@@ -1,6 +1,7 @@
 /* Test -Wsizeof-pointer-memaccess warnings.  */
 /* { dg-do compile } */
 /* { dg-options "-Wsizeof-pointer-memaccess -Wno-stringop-overflow -Wno-stringop-truncation -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define bos(ptr) __builtin_object_size (ptr, 1)
 #define bos0(ptr) __builtin_object_size (ptr, 0)

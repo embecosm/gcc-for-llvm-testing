@@ -1,6 +1,7 @@
 /* PR middle-end/82063 - issues with arguments enabled by -Wall
    { dg-do compile }
    { dg-options "-O2 -Walloca-larger-than=0 -Wvla-larger-than=0 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void* alloca (__SIZE_TYPE__);
 

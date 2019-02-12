@@ -3,6 +3,7 @@
    Test to exercise indices into wide string literals.
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "range.h"
 

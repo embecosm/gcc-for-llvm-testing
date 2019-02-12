@@ -8,6 +8,7 @@
    { dg-require-effective-target builtin_malloc }
    { dg-require-effective-target builtin_sprintf }
    { dg-options "-O2 -Wformat -Wformat-overflow=1 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 

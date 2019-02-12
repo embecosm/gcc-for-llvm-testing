@@ -1,5 +1,6 @@
 /* { dg-do compile }
    { dg-options "-Wall -Wattributes -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ATTR(attrlist) __attribute__ (attrlist)
 

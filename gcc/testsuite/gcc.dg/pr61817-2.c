@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -ftrack-macro-expansion=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A(x) _Static_assert(x, #x)
 #define F(x, y, z) a = __LINE__, b = x ## y, c = z

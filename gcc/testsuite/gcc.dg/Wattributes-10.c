@@ -2,6 +2,7 @@
    free_lang_data since r255469
    { dg-do compile }
    { dg-options "-Wall -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A(expr) do { int a[1 - 2 * !(expr)]; (void)&a; } while (0)
 

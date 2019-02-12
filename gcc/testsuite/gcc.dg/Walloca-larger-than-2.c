@@ -2,6 +2,7 @@
    Verify that alloca() calls in loops are not diagnosed by default.
    { dg-do compile }
    { dg-options "-O2 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void* alloca (__SIZE_TYPE__);
 

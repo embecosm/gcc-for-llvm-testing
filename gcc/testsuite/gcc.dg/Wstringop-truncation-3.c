@@ -1,6 +1,7 @@
 /* PR c/85931 - -Wsizeof-pointer-memaccess for strncpy with size of source
    { dg-do compile }
    { dg-options "-O2 -Wall -Wstringop-truncation -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 

@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-require-iconv "IBM1047" }
    { dg-options "-O2 -Wall -Wno-format -Wformat-overflow -fexec-charset=IBM1047 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char buf[1];
 void sink (void*);

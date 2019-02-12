@@ -1,6 +1,7 @@
 /* PR middle-end/82063 - issues with arguments enabled by -Wall
    { dg-do compile }
    { dg-options "-O -Walloc-size-larger-than=1kB -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void sink (void*);
 

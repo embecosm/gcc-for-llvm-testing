@@ -1,4 +1,5 @@
 /* Copyright (C) 2001-2017 Free Software Foundation, Inc.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99 -pedantic -Wtraditional -ftrack-macro-expansion=0" } */

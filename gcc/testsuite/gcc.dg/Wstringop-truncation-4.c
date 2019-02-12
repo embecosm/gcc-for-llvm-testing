@@ -2,6 +2,7 @@
    with strncat
    { dg-do compile }
    { dg-options "-O2 -Wno-stringop-overflow -Wstringop-truncation -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define NOIPA __attribute__ ((noipa))
 #define strncat __builtin_strncat
