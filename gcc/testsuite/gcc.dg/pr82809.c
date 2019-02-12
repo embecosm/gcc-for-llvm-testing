@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct locale_time_t
 {

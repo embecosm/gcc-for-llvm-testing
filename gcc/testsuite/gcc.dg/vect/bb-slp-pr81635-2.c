@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fno-tree-loop-vectorize" } */
 /* { dg-require-effective-target lp64 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double p[1000];
 double q[1000];

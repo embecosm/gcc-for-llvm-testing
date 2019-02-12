@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-ccp -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests generated via  */
 

@@ -2,6 +2,7 @@
 /* PR target/82703 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-sra -ftree-vectorize" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((noinline, noclone)) void
 compare (const double *p, const double *q)

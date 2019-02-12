@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fgraphite-identity -fno-tree-copy-prop --param lim-expensive=3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned int dj;
 

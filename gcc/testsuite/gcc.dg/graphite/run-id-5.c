@@ -1,5 +1,6 @@
 /* { dg-options "-O2 -ftree-vectorize -fno-vect-cost-model -fno-tree-scev-cprop -fgraphite-identity" } */
 /* { dg-require-effective-target vect_int } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* gcc.dg/vect/no-scevccp-outer-22.c was miscompiled by Graphite.
    Adding it here to always test it with Graphite.  */

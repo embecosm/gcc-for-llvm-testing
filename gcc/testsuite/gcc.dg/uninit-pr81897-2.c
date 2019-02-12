@@ -1,5 +1,6 @@
 /* { dg-do compile }  */
 /* { dg-options "-O1 -fno-tree-ccp -fno-tree-dse -Wmaybe-uninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int oo;
 

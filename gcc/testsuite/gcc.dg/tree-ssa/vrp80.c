@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-O2 -fno-tree-switch-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error (void);
 

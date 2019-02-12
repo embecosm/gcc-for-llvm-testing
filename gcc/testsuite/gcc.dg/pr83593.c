@@ -1,5 +1,6 @@
 /* PR tree-optimization/83593 */
 /* { dg-options "-O2 -fno-tree-dominator-opts -fnon-call-exceptions -fno-tree-pre -fexceptions -fno-code-hoisting -fno-tree-fre" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 hr (int *ed, signed char *ju)

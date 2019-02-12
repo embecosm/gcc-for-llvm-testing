@@ -1,6 +1,7 @@
 /* PR tree-optimization/20913
    COPY-PROP did not fold COND_EXPR, blocking some copy propagation
    opportunities.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do link } */
 /* { dg-options "-O2 -fno-tree-dominator-opts" } */

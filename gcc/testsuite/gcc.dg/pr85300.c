@@ -1,6 +1,7 @@
 /* PR rtl-optimization/85300 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -g -funroll-all-loops -fno-tree-ter -fno-web" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (double x, unsigned char y)

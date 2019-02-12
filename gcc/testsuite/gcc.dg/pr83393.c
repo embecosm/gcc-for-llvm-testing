@@ -2,6 +2,7 @@
 /* PR rtl-optimization/83393 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-forward-propagate -fno-tree-bit-ccp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned char u8;
 typedef unsigned short u16;

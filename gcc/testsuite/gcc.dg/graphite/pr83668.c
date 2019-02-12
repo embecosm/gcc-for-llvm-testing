@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O -fno-tree-dominator-opts -fgraphite-identity" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a, b, c;
 int d[14];

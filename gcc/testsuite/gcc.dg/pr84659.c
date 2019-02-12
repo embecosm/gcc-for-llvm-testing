@@ -1,6 +1,7 @@
 /* PR rtl-optimization/84659 */
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O2 -fselective-scheduling -fsel-sched-pipelining -fno-split-wide-types -fno-strict-aliasing -fno-tree-dce" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 jk (int **lq, int *k4, long long int qv, int od)

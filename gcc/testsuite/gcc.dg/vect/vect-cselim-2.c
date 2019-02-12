@@ -2,6 +2,7 @@
 /* We now if-convert the loop unconditonally as the memory locations
    are always stored to.  */
 /* { dg-additional-options "-fno-tree-loop-if-convert" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdarg.h>
 #include "tree-vect.h"
