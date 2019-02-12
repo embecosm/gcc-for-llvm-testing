@@ -1,6 +1,7 @@
 /* PR middle-end/33670 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fsched-stalled-insns=0" } */
+/* { dg-require-effective-target scheduling } */
 
 struct B
 {

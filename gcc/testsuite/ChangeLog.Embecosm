@@ -1,5 +1,31 @@
 2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr72749.c: Mark test which uses
+	scheduling option.
+	* gcc.dg/debug/pr47498.c: Likewise.
+	* gcc.dg/pr28726.c: Likewise.
+	* gcc.dg/pr33670.c: Likewise.
+	* gcc.dg/pr41762.c: Likewise.
+	* gcc.dg/pr42396.c: Likewise.
+	* gcc.dg/pr45352-1.c: Likewise.
+	* gcc.dg/pr45352-2.c: Likewise.
+	* gcc.dg/pr45352-3.c: Likewise.
+	* gcc.dg/pr45472.c: Likewise.
+	* gcc.dg/pr48144.c: Likewise.
+	* gcc.dg/pr48235.c: Likewise.
+	* gcc.dg/pr48374.c: Likewise.
+	* gcc.dg/pr49994-1.c: Likewise.
+	* gcc.dg/pr50764.c: Likewise.
+	* gcc.dg/pr54921.c: Likewise.
+	* gcc.dg/pr56117.c: Likewise.
+	* gcc.dg/pr57662.c: Likewise.
+	* gcc.dg/pr82975.c: Likewise.
+	* gcc.dg/pr83962.c: Likewise.
+	* gcc.dg/pr83986.c: Likewise.
+	* gcc.dg/pr84068.c: Likewise.
+
+2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* c-c++-common/Warray-bounds-3.c: Mark test which uses
 	-ftrack-macro-expansion as requiring gcc frontend.
 	* c-c++-common/Warray-bounds-4.c: Likewise.
