@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dce -fno-tree-ccp -fno-tree-copy-prop -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This caused the compiler to enter an infinite loop if copies are not
    fully propagated.   The options are to disable copy propagation and

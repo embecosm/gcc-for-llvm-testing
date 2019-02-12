@@ -2,6 +2,7 @@
 /* PR rtl-optimization/83424 */
 /* { dg-do run { target int128 } } */
 /* { dg-options "-O -fno-tree-ccp -fno-tree-coalesce-vars" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned char u8;
 typedef unsigned int u32;

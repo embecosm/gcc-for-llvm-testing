@@ -1,6 +1,7 @@
 /* { dg-require-effective-target vect_long } */
 /* { dg-require-effective-target vect_shift } */
 /* { dg-additional-options "-fno-tree-scev-cprop" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "tree-vect.h"
 

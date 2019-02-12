@@ -1,6 +1,7 @@
 /* PR debug/83480 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -fselective-scheduling2 -ftree-vectorize -freorder-blocks-algorithm=simple -fnon-call-exceptions -fno-guess-branch-probability -fno-peephole2 -fno-tree-sink -fno-tree-scev-cprop" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 signed char a, b;
 

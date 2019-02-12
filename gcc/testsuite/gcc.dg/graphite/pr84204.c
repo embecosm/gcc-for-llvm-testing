@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -floop-parallelize-all -fno-tree-loop-im --param scev-max-expr-size=3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int oc;
 

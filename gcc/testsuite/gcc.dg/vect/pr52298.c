@@ -1,4 +1,5 @@
 /* { dg-additional-options "-O1 -fno-tree-pre -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "tree-vect.h"
 

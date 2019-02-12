@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-g -fno-tree-sra" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 

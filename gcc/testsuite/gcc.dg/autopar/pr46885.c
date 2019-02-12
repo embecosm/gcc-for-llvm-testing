@@ -1,6 +1,7 @@
 /* PR debug/46885 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-parallelize-loops=4 -fcompare-debug -fno-tree-dominator-opts -funswitch-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static inline void
 bar (int i)

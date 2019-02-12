@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-fno-tree-ch -fno-tree-vrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int x0;
 

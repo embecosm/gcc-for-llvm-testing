@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -floop-nest-optimize -fno-tree-loop-im --param scev-max-expr-size=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 h8 (int cv, int od)

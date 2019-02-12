@@ -1,6 +1,7 @@
 /* PR bootstrap/82916 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-tree-dse" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { struct A *next; };
 struct C

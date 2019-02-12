@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -floop-nest-optimize -fnon-call-exceptions -fno-guess-branch-probability -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __INTPTR_TYPE__ uf;
 

@@ -1,6 +1,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do run } */
 /* { dg-options "-ftree-tail-merge -Wno-div-by-zero -O2 -fno-dce -fno-isolate-erroneous-paths-dereference -fno-tree-dce -fno-tree-vrp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int b, c, d, e;
 

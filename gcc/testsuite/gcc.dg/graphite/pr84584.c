@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fgraphite-identity -fno-tree-loop-im" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int q3, w1;
 

@@ -1,5 +1,6 @@
 /* { dg-do "compile" } */
 /* { dg-options "-O -ftree-parallelize-loops=2 -ftree-vectorize -fno-tree-ch -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void abort (void);
 
