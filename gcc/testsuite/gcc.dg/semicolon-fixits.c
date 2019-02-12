@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wpedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Struct with extra semicolon.  */
 struct s1 { int i;; }; /* { dg-warning "19: extra semicolon in struct or union specified" } */
