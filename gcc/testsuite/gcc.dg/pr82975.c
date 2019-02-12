@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-sched-pressure -O2" } */
 /* { dg-additional-options "-mtune=cortex-a57" { target arm*-*-* aarch64*-*-* } } */
+/* { dg-require-effective-target scheduling } */
 
 typedef __SIZE_TYPE__ size_t;
 

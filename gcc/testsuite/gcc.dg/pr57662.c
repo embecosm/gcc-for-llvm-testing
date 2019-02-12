@@ -2,6 +2,7 @@
 /* { dg-options " -O -fno-guess-branch-probability -fpeel-loops -freorder-blocks-and-partition -fschedule-insns2 -fsel-sched-pipelining -fselective-scheduling2 -ftree-pre" } */
 /* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target fpeel_loops } */
+/* { dg-require-effective-target scheduling } */
 
 struct intC
 {

@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fsched2-use-superblocks -ftree-tail-merge" } */
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target scheduling } */
 
 typedef int aligned __attribute__ ((aligned (64)));
 extern void abort (void);

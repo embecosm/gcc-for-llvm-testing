@@ -1,5 +1,6 @@
 /* PR rtl-optimization/28726 */
 /* Origin: Sigurd Schneider <sg313d@gmail.com> */
+/* { dg-require-effective-target scheduling } */
 
 /* { dg-do run } */
 /* { dg-options "-O2 -fsched2-use-superblocks" } */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-sched-critical-path-heuristic -fno-sched-rank-heuristic --param=max-sched-extend-regions-iters=5 --param sched-pressure-algorithm=2" } */
+/* { dg-require-effective-target scheduling } */
 
 #ifdef __SIZEOF_INT128__
 typedef __int128 largeint;
