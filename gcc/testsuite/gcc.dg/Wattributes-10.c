@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-Wall -ftrack-macro-expansion=0" }
    { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A(expr) do { int a[1 - 2 * !(expr)]; (void)&a; } while (0)
 

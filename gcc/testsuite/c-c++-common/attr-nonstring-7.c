@@ -2,6 +2,7 @@
    warning
   { dg-do compile }
   { dg-options "-O2 -Wall -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define strncpy   __builtin_strncpy
 

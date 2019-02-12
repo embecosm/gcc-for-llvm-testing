@@ -3,6 +3,7 @@
 /* { dg-options "-Wall -O2 -Wno-array-bounds -Wno-sizeof-array-argument -Wno-stringop-truncation -ftrack-macro-expansion=0" } */
 /* { dg-options "-Wall -O2 -Wno-array-bounds -Wno-sizeof-array-argument -Wno-stringop-truncation -Wno-c++-compat -ftrack-macro-expansion=0" {target c} } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define bos(ptr) __builtin_object_size (ptr, 1)
 #define bos0(ptr) __builtin_object_size (ptr, 0)

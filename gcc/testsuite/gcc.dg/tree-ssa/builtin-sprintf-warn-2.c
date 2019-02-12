@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wformat -Wformat-overflow=2 -ftrack-macro-expansion=0" } */
 /* { dg-require-effective-target builtin_sprintf } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* When debugging, define LINE to the line number of the test case to exercise
    and avoid exercising any of the others.  The buffer and objsize macros

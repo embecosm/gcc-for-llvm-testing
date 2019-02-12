@@ -1,4 +1,5 @@
 /* { dg-options "-Wparentheses -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifndef __cplusplus
 #define bool _Bool

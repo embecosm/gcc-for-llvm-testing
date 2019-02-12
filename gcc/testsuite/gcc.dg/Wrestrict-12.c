@@ -2,6 +2,7 @@
    a non-overlapping memcpy in an inline function
    { dg-do compile }
    { dg-options "-O2 -Wrestrict -ftrack-macro-expansion=0" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void* memcpy (void*, const void*, __SIZE_TYPE__);
 

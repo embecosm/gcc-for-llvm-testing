@@ -1,6 +1,7 @@
 /* PR preprocessor/58844 */
 /* { dg-do compile } */
 /* { dg-options "-ftrack-macro-expansion=2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A x######x
 int A = 1;

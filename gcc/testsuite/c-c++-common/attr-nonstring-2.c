@@ -1,6 +1,7 @@
 /* Test to exercise attribute "nonstring".
    { dg-do compile }
    { dg-options "-O2 -Wattributes -Wstringop-truncation -ftrack-macro-expansion=0" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ATTR(list) __attribute__ (list)
 #define NONSTR     ATTR ((nonstring))
