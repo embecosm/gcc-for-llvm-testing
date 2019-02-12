@@ -1,5 +1,6 @@
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O -fschedule-insns2 -fsel-sched-pipelining -fsel-sched-pipelining-outer-loops -fselective-scheduling2 --param max-sched-extend-regions-iters=2"  } */
+/* { dg-require-effective-target scheduling } */
 
 void foo (int y)
 {

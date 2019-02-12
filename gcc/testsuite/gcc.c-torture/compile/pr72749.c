@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -fsched2-use-superblocks" } */
+/* { dg-require-effective-target scheduling } */
 
 int as;
 

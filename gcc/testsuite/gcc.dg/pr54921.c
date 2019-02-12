@@ -4,6 +4,7 @@
 /* { dg-additional-options "-fstack-protector" { target fstack_protector } } */
 /* { dg-require-effective-target noclone } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target scheduling } */
 
 struct A
 {
