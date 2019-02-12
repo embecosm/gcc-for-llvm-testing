@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fdiagnostics-show-caret -Wno-psabi" } */
 /* { dg-require-effective-target builtin_shuffle } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This is a collection of unittests to verify that we're correctly
    capturing the source code ranges of various kinds of expression.

@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret -Wno-return-type" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int foo (void);
 extern int bar (void);

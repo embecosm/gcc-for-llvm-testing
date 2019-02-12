@@ -1,5 +1,6 @@
 /* Example of a fix-it hint that adds a #include directive,
    adding them after a pre-existing #include directive.  */
+/* { dg-require-effective-target gcc_frontend } */
 #include "empty.h"
 int the_next_line;
 

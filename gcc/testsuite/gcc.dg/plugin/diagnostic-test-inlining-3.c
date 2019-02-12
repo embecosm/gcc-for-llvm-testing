@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wno-attributes -fdiagnostics-show-caret -O1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void __emit_warning (const char *message);
 

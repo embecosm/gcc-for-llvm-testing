@@ -1,4 +1,5 @@
 /* { dg-options "-fdiagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int i /* { dg-error "6: expected ';' before 'int'" } */
 int j;
