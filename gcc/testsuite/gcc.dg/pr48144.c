@@ -1,6 +1,7 @@
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options "-O -frerun-cse-after-loop -fschedule-insns2 -fselective-scheduling2 -fno-tree-ch -funroll-loops --param=max-sched-extend-regions-iters=2 --param=max-sched-region-blocks=15" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target scheduling } */
 extern void *memcpy(void *dest, const void *src, __SIZE_TYPE__ n);
 
 void bar (void *, void *, void *);

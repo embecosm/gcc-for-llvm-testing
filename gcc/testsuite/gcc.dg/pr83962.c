@@ -1,5 +1,6 @@
 /* { dg-do compile { target powerpc*-*-* ia64-*-* i?86-*-* x86_64-*-* } } */
 /* { dg-options "-std=gnu99 -O1 -fselective-scheduling2 -fschedule-insns2 -fcse-follow-jumps -fno-ssa-phiopt -fno-guess-branch-probability" } */
+/* { dg-require-effective-target scheduling } */
 unsigned int ca;
 
 void
