@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-require-effective-target alloca }
    { dg-options "-O2 -Warray-bounds -Wno-stringop-overread -ftrack-macro-expansion=0" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "../gcc.dg/range.h"
 

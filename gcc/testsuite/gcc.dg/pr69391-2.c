@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-additional-options "-ftrack-macro-expansion=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 #define STR_I(X) #X
 #define STR(X) STR_I(X)
 #define LINE STR(__LINE__) STR(__LINE__)

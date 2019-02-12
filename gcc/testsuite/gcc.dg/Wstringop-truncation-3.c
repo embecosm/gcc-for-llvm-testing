@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-require-effective-target alloca }
    { dg-options "-O2 -Wall -Wstringop-truncation -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 

@@ -1,5 +1,6 @@
 /* Similar to diagnostic-test-string-literals-1.c, but with
    -ftrack-macro-expansion=1.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O -ftrack-macro-expansion=1" } */

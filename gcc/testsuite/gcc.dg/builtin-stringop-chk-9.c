@@ -2,6 +2,7 @@
    on strncpy with range to a member array
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define bos(p)   __builtin_object_size (p, 1)
 

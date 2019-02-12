@@ -5,6 +5,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wrestrict -ftrack-macro-expansion=0" }
    { dg-skip-if "too many arguments in function call" { bpf-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 

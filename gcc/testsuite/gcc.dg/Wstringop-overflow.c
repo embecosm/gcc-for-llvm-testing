@@ -2,6 +2,7 @@
    buffer overflow
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow -ftrack-macro-expansion=0" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SIZE_MAX   __SIZE_MAX__
 #define DIFF_MAX   __PTRDIFF_MAX__

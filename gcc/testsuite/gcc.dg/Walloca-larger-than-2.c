@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-require-effective-target alloca }
    { dg-options "-O2 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void* alloca (__SIZE_TYPE__);
 

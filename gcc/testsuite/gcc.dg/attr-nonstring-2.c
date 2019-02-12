@@ -1,6 +1,7 @@
 /* PR middle-end/81384 - built-in form of strnlen missing
    { dg-do compile }
    { dg-options "-O2 -Wall -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "range.h"
 

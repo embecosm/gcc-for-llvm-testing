@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fgnu-tm -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define TC	__attribute__((transaction_callable))
 #define TU	__attribute__((transaction_unsafe))
