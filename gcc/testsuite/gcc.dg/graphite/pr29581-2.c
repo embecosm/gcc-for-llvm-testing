@@ -2,6 +2,7 @@
 /* Origin: gcc.dg/vect/vect-86.c */
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int a[4096], int mi, int mj)

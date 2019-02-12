@@ -1,5 +1,59 @@
 2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr86636.c: Mark test which uses an
+	-ftree-loop option as requiring gcc frontend.
+	* gcc.dg/graphite/pr18792.c: Likewise.
+	* gcc.dg/graphite/pr19910.c: Likewise.
+	* gcc.dg/graphite/pr20041110-1.c: Likewise.
+	* gcc.dg/graphite/pr20256.c: Likewise.
+	* gcc.dg/graphite/pr23625.c: Likewise.
+	* gcc.dg/graphite/pr23820.c: Likewise.
+	* gcc.dg/graphite/pr24309.c: Likewise.
+	* gcc.dg/graphite/pr26435.c: Likewise.
+	* gcc.dg/graphite/pr29330.c: Likewise.
+	* gcc.dg/graphite/pr29581-1.c: Likewise.
+	* gcc.dg/graphite/pr29581-2.c: Likewise.
+	* gcc.dg/graphite/pr29581-3.c: Likewise.
+	* gcc.dg/graphite/pr29581-4.c: Likewise.
+	* gcc.dg/graphite/pr31183.c: Likewise.
+	* gcc.dg/graphite/pr33576.c: Likewise.
+	* gcc.dg/graphite/pr33766.c: Likewise.
+	* gcc.dg/graphite/pr34016.c: Likewise.
+	* gcc.dg/graphite/pr34017.c: Likewise.
+	* gcc.dg/graphite/pr34123.c: Likewise.
+	* gcc.dg/graphite/pr36287.c: Likewise.
+	* gcc.dg/graphite/pr37686.c: Likewise.
+	* gcc.dg/graphite/pr41888.c: Likewise.
+	* gcc.dg/graphite/pr42917.c: Likewise.
+	* gcc.dg/graphite/pr43567.c: Likewise.
+	* gcc.dg/graphite/pr43657.c: Likewise.
+	* gcc.dg/graphite/pr46168.c: Likewise.
+	* gcc.dg/graphite/pr46215.c: Likewise.
+	* gcc.dg/graphite/pr46970.c: Likewise.
+	* gcc.dg/graphite/pr61929.c: Likewise.
+	* gcc.dg/graphite/pr71824-3.c: Likewise.
+	* gcc.dg/graphite/pr83563.c: Likewise.
+	* gcc.dg/pr80463.c: Likewise.
+	* gcc.dg/pr80500.c: Likewise.
+	* gcc.dg/pr83089.c: Likewise.
+	* gcc.dg/torture/pr81418.c: Likewise.
+	* gcc.dg/torture/pr82603.c: Likewise.
+	* gcc.dg/tree-ssa/ldist-34.c: Likewise.
+	* gcc.dg/tree-ssa/ldist-pr45948-2.c: Likewise.
+	* gcc.dg/tree-ssa/pr36908.c: Likewise.
+	* gcc.dg/tree-ssa/pr38250.c: Likewise.
+	* gcc.dg/tree-ssa/pr38385.c: Likewise.
+	* gcc.dg/tree-ssa/pr38997.c: Likewise.
+	* gcc.dg/tree-ssa/pr39007.c: Likewise.
+	* gcc.dg/tree-ssa/pr42640.c: Likewise.
+	* gcc.dg/tree-ssa/pr81369.c: Likewise.
+	* gcc.dg/tree-ssa/pr82472.c: Likewise.
+	* gcc.dg/tree-ssa/pr84969.c: Likewise.
+	* gcc.dg/vect/bb-slp-pattern-2.c: Likewise.
+	* gcc.dg/vect/pr71854.c: Likewise.
+
+2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/autopar/pr46799.c: Mark test which uses -ftree-pre
 	option as requiring gcc frontend.
 	* gcc.dg/graphite/pr30565.c: Likewise.

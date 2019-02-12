@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-Os -ftree-loop-linear" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define N 16
 

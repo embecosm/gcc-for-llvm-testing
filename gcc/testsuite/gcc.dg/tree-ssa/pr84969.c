@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -ftree-loop-distribute-patterns" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static void
 __attribute__((noipa, noinline))
