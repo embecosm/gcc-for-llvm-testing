@@ -1,5 +1,10 @@
 2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* lib/target-supports.exp: Prevent -Wunused-value causing target
+	checks to fail erroneously.
+
+2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/20020418-1.c: Provide -Wno-return-type
 	as an additional option to prevent excess errors.
 	* gcc.c-torture/compile/20020927-1.c: Likewise.
