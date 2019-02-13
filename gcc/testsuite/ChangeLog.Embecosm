@@ -1,5 +1,11 @@
 2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr35441.c: Mark test which uses
+	-fno-diagnostics-show-caret as requiring gcc frontend.
+	* gcc.dg/pr85045.c: Likewise.
+
+2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr45352-1.c: Mark test which uses
 	-fselective-scheduling2 as requiring gcc internals.
 	* gcc.dg/pr45352-2.c: Likewise.
