@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-finstrument-functions" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 /* Add empty implementations of __cyg_profile_func_enter() and
    __cyg_profile_func_exit() to avoid problems on non-glibc

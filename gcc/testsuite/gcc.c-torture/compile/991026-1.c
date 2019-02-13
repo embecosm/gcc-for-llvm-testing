@@ -1,3 +1,4 @@
+/* { dg-additional-options "-Wno-return-type" } */
 void something_f(float);
 
 int foo(void)

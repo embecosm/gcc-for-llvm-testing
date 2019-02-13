@@ -1,6 +1,7 @@
 /* PR rtl-optimization/47899 */
 /* { dg-do compile } */
 /* { dg-options "-O -funroll-loops" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 extern unsigned int a, b, c;
 extern int d;

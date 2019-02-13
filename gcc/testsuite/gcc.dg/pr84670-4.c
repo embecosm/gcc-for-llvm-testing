@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fwrapv" } */
 /* { dg-require-effective-target ptr_eq_long } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 char *a;
 int b(void)

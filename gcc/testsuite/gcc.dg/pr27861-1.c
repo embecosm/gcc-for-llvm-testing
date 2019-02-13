@@ -5,6 +5,7 @@
    the VAR_DECL's type's mode.  */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef struct sim_state *SIM_DESC;
 typedef enum

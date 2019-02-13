@@ -6,6 +6,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-O2 -ffast-math" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 extern void abort (void);
 

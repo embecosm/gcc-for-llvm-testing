@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 #ifdef __SIZE_TYPE__
 _mark (__SIZE_TYPE__ obj, int i, char *a)
