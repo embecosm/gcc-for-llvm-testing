@@ -2,6 +2,7 @@
 /* { dg-options "-O3 -fschedule-insns -fschedule-insns2 -fselective-scheduling2 -fsel-sched-pipelining -funroll-loops -fprefetch-loop-arrays" } */
 /* { dg-additional-options "-march=i686 -msse" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
 /* { dg-require-effective-target scheduling } */
+/* { dg-require-effective-target gcc_internals } */
 
 void main1 (float *pa, float *pc)
 {
