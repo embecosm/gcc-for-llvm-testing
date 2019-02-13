@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Warray-bounds -O2" } */
+/* { dg-additional-options "-Wno-return-type" } */
 struct PhaseEntryType
 {
   char raw_field[50 + 1];

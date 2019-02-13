@@ -1,4 +1,5 @@
 /* { dg-options "-fno-strict-overflow" } */
+/* { dg-additional-options "-Wno-return-type" } */
 typedef unsigned char __uint8_t;
 typedef __uint8_t uint8_t;
 typedef uint8_t u8_t;

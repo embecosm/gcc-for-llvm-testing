@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef struct a {
   struct a *b;

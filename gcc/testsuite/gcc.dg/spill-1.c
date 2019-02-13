@@ -6,6 +6,7 @@
    doubleword addition.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-omit-frame-pointer" } */
+/* { dg-additional-options "-Wno-return-type" } */
 void z(int);
 int foo(int a, int b, int c, int d, long long *q) 
 { 

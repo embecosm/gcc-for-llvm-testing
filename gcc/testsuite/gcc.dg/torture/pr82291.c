@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int a, c, d, *h;
 unsigned b;

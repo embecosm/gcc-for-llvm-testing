@@ -1,6 +1,7 @@
 /* PR rtl-optimization/56992 */
 /* { dg-do compile } */
 /* { dg-options "-Og -g" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 inline int
 foo (const char *x)

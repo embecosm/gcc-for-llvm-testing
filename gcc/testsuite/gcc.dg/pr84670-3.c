@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fno-strict-overflow" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef unsigned char u8;
 typedef unsigned short u16;

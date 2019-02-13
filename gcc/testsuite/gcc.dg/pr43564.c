@@ -1,5 +1,6 @@
 /* { dg-options "-O0" } */
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 static inline __attribute__ ((__always_inline__))
 unsigned __clz (unsigned input)

@@ -1,5 +1,5 @@
 /* { dg-do compile } */
-/* { dg-additional-options "-w" } */
+/* { dg-additional-options "-w -Wno-return-type" } */
 
 int a[7], b;
 int c()

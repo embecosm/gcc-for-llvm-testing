@@ -1,5 +1,72 @@
 2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/20020418-1.c: Provide -Wno-return-type
+	as an additional option to prevent excess errors.
+	* gcc.c-torture/compile/20020927-1.c: Likewise.
+	* gcc.c-torture/compile/20180605-1.c: Likewise.
+	* gcc.c-torture/compile/920817-1.c: Likewise.
+	* gcc.c-torture/compile/991026-1.c: Likewise.
+	* gcc.c-torture/compile/991026-2.c: Likewise.
+	* gcc.c-torture/compile/pr36172.c: Likewise.
+	* gcc.c-torture/compile/pr56571.c: Likewise.
+	* gcc.c-torture/compile/pr60655-1.c: Likewise.
+	* gcc.c-torture/compile/pr65803.c: Likewise.
+	* gcc.c-torture/compile/pr72802.c: Likewise.
+	* gcc.dg/20020415-1.c: Likewise.
+	* gcc.dg/20020607-2.c: Likewise.
+	* gcc.dg/20061026.c: Likewise.
+	* gcc.dg/Wimplicit-int-3.c: Likewise.
+	* gcc.dg/Wparentheses-4.c: Likewise.
+	* gcc.dg/c90-impl-int-1.c: Likewise.
+	* gcc.dg/c90-left-shift-1.c: Likewise.
+	* gcc.dg/decl-6.c: Likewise.
+	* gcc.dg/loop-3.c: Likewise.
+	* gcc.dg/noreorder.c: Likewise.
+	* gcc.dg/pr19633.c: Likewise.
+	* gcc.dg/pr20100.c: Likewise.
+	* gcc.dg/pr24561.c: Likewise.
+	* gcc.dg/pr26004.c: Likewise.
+	* gcc.dg/pr27861-1.c: Likewise.
+	* gcc.dg/pr28121.c: Likewise.
+	* gcc.dg/pr29254.c: Likewise.
+	* gcc.dg/pr29299.c: Likewise.
+	* gcc.dg/pr31507-2.c: Likewise.
+	* gcc.dg/pr31529-1.c: Likewise.
+	* gcc.dg/pr31529-2.c: Likewise.
+	* gcc.dg/pr32135.c: Likewise.
+	* gcc.dg/pr33692.c: Likewise.
+	* gcc.dg/pr35065.c: Likewise.
+	* gcc.dg/pr43564.c: Likewise.
+	* gcc.dg/pr46878-1.c: Likewise.
+	* gcc.dg/pr47899.c: Likewise.
+	* gcc.dg/pr49705.c: Likewise.
+	* gcc.dg/pr52549.c: Likewise.
+	* gcc.dg/pr56992.c: Likewise.
+	* gcc.dg/pr60647-1.c: Likewise.
+	* gcc.dg/pr78333.c: Likewise.
+	* gcc.dg/pr80775.c: Likewise.
+	* gcc.dg/pr84670-2.c: Likewise.
+	* gcc.dg/pr84670-3.c: Likewise.
+	* gcc.dg/pr84670-4.c: Likewise.
+	* gcc.dg/spill-1.c: Likewise.
+	* gcc.dg/torture/pr80565.c: Likewise.
+	* gcc.dg/torture/pr80612.c: Likewise.
+	* gcc.dg/torture/pr80764.c: Likewise.
+	* gcc.dg/torture/pr81118.c: Likewise.
+	* gcc.dg/torture/pr81297.c: Likewise.
+	* gcc.dg/torture/pr81510-2.c: Likewise.
+	* gcc.dg/torture/pr81571.c: Likewise.
+	* gcc.dg/torture/pr82244.c: Likewise.
+	* gcc.dg/torture/pr82264.c: Likewise.
+	* gcc.dg/torture/pr82291.c: Likewise.
+	* gcc.dg/torture/pr82402.c: Likewise.
+	* gcc.dg/torture/pr87177.c: Likewise.
+	* gcc.dg/varpool-1.c: Likewise.
+	* gcc.dg/visibility-14.c: Likewise.
+	* gcc.dg/visibility-8.c: Likewise.
+
+2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr35441.c: Mark test which uses
 	-fno-diagnostics-show-caret as requiring gcc frontend.
 	* gcc.dg/pr85045.c: Likewise.
