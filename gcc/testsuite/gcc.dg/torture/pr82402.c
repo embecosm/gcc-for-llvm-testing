@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef int jmp_buf[1];
 

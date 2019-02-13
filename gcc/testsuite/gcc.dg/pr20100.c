@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int func_pure (void) __attribute__ ((pure));
 void func_other (int);

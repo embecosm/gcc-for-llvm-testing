@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef int h;
 typedef int k;

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int __attribute__((noinline)) my_printf (const char *p, ...)
 {

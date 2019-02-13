@@ -1,6 +1,7 @@
 /* PR c/26004 */
 /* Bug: the return slot optimization was taking the address of s_3,
    causing an error. */
+/* { dg-additional-options "-Wno-return-type" } */
 
 struct s_3 { short s[3]; } z_3, s_3;
 struct s_3 add_struct_3 (struct s_3 s){}

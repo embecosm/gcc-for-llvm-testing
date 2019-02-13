@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 /* The function order in this file is opposite from what the cgraph
    topological sort would output. So we can check the order is preserved. */

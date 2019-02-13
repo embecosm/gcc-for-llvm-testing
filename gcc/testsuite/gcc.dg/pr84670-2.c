@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Ofast" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 enum b
 {

@@ -1,6 +1,7 @@
 /* PR middle-end/80775 ICE: -O3 produces ice in group_case_labels_stmt.  */
 /* { dg-do compile }  */
 /* { dg-options "-O3" }  */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef struct { short a; } b;
 b c[10];

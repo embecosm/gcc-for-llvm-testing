@@ -1,3 +1,5 @@
+/* { dg-additional-options "-Wno-return-type" } */
+
 void f (int *p, int n)
 {
     int j = 0, k;

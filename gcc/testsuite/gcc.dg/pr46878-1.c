@@ -2,6 +2,7 @@
 /* Make sure this doesn't ICE.  */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int __foo (void);
 int __bar (void);

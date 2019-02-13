@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 static int bof __attribute__((used));
 int foo()

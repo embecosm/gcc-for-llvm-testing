@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-final { scan-assembler-not "unnecesary_static_initialized_variable" } } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 static int unnecesary_static_initialized_variable;
 static int *unnecesary_static_initialized_variable2 =

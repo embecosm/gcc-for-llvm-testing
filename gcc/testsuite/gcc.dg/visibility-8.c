@@ -3,6 +3,7 @@
 /* { dg-options "-std=gnu99" } */
 /* { dg-require-visibility "" } */
 /* { dg-final { scan-hidden "__GI_fputs_unlocked" } } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int fputs_unlocked (const char *restrict, int *restrict)
    __asm__ ("__GI_fputs_unlocked")

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fwrapv" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 char *a;
 int b(void)

@@ -4,6 +4,7 @@
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O2 -fpic -g" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 static inline char *
 bar (unsigned long x, char *y)
