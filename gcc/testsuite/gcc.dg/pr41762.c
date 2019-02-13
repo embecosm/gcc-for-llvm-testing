@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -ftracer -fsched2-use-superblocks" } */
 /* { dg-options "-O2 -ftracer -fsched2-use-superblocks -fpic" { target fpic } } */
 /* { dg-require-effective-target scheduling } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern __SIZE_TYPE__ strlen (const char *);
 extern int f1 (void *);

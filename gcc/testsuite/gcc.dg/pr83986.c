@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-g -O2 -fsched2-use-superblocks -funwind-tables --param max-pending-list-length=1" } */
 /* { dg-require-effective-target scheduling } */
+/* { dg-require-effective-target gcc_internals } */
 
 int v;
 
