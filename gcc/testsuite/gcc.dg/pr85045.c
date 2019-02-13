@@ -1,6 +1,7 @@
 /* PR c/85045 */
 /* { dg-do compile } */
 /* { dg-options "-fno-diagnostics-show-caret" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 f (double a, double b)
