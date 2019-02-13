@@ -1,6 +1,7 @@
 /* PR target/31507 */
 /* { dg-do compile } */
 /* { dg-options "-Os -fno-omit-frame-pointer" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef int (*closure_test_type3)(float, float, float, float, float, float,
 				  float, float, double, int, float, float, int,

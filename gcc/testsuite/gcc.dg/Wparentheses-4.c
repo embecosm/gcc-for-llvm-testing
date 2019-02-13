@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-Wparentheses" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int foo (int);
 

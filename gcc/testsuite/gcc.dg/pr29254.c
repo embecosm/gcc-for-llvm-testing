@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -Werror" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int value_compare ();
 

@@ -1,6 +1,7 @@
 /* PR debug/35065 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -funroll-loops" } */
+/* { dg-additional-options "-Wno-return-type" } */
 typedef int vlc_bool_t;
 typedef __SIZE_TYPE__ size_t;
 typedef struct vlc_object_t vlc_object_t;

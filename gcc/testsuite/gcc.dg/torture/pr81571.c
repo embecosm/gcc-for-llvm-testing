@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 int a, b, c, d;
 short fn1(int p1, int p2) { return p1; }

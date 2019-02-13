@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 enum E { A = -2 << 1 };
 int i = -1 << 0;

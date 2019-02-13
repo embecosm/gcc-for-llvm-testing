@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 struct S
 {

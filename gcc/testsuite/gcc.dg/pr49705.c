@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wstrict-overflow" } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 struct glyph
 {
