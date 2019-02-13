@@ -2,6 +2,7 @@
 /* { dg-options "-O1 -freorder-blocks -fschedule-insns2 -funswitch-loops -fselective-scheduling2 -fsel-sched-pipelining -funroll-all-loops" } */
 /* { dg-require-effective-target freorder } */
 /* { dg-require-effective-target scheduling } */
+/* { dg-require-effective-target gcc_internals } */
 void
 foo1 (int *s)
 {
