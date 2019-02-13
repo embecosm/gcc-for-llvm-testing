@@ -4,6 +4,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-O2 -fsched2-use-superblocks" } */
+/* { dg-require-effective-target gcc_internals } */
 
 extern void abort (void);
 

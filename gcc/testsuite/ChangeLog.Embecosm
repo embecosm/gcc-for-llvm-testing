@@ -1,3 +1,14 @@
+2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/pr72749.c: Mark test which uses
+	-fsched2-use-superblocks as requiring gcc internals.
+	* gcc.dg/pr28726.c: Likewise.
+	* gcc.dg/pr41762.c: Likewise.
+	* gcc.dg/pr42396.c: Likewise.
+	* gcc.dg/pr49994-1.c: Likewise.
+	* gcc.dg/pr56117.c: Likewise.
+	* gcc.dg/pr83986.c: Likewise.
+
 2019-02-12  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/compile/pr72749.c: Mark test which uses
