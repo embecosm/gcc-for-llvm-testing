@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-diagnostics-show-caret" } */
 /* { dg-bogus "not supported by" "" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo1(char **p, char **q)
 {
