@@ -9618,10 +9618,10 @@ proc check_effective_target_builtin_finite {} {
     return [check_builtin_support finite "__builtin_finite (0);"]
 }
 proc check_effective_target_builtin_ceil {} {
-    return [check_builtin_support ceil "__builtin_ceil (0.0);"]
+    return [check_builtin_support ceil "int _ = __builtin_ceil (0.0);"]
 }
 proc check_effective_target_builtin_floor {} {
-    return [check_builtin_support floor "__builtin_floor (0.0);"]
+    return [check_builtin_support floor "int _ = __builtin_floor (0.0);"]
 }
 proc check_effective_target_builtin_significand {} {
     return [check_builtin_support significand "__builtin_significand (0.0);"]
@@ -9657,10 +9657,10 @@ proc check_effective_target_builtin_sprintf {} {
     return [check_builtin_support sprintf "__builtin_sprintf (NULL, \"%d\", 1);"]
 }
 proc check_effective_target_builtin_isinf {} {
-    return [check_builtin_support isinf "__builtin_isinf (0.0);"]
+    return [check_builtin_support isinf "int _ = __builtin_isinf (0.0);"]
 }
 proc check_effective_target_builtin_isnan {} {
-    return [check_builtin_support isnan "__builtin_isnan (0.0);"]
+    return [check_builtin_support isnan "int _ = __builtin_isnan (0.0);"]
 }
 proc check_effective_target_builtin_return {} {
     return [check_builtin_support return "__builtin_return (NULL);"]
