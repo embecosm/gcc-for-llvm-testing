@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fwhole-program" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 
 #include <stdio.h>
