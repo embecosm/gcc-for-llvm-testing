@@ -1,5 +1,18 @@
 2019-02-14  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/torture/matrix-1.c: Provide
+	-Wno-ignored-optimization-argument as an additional option to
+	prevent excess errors.
+	* gcc.dg/torture/matrix-2.c: Likewise.
+	* gcc.dg/torture/matrix-5.c: Likewise.
+	* gcc.dg/torture/matrix-6.c: Likewise.
+	* gcc.dg/torture/transpose-2.c: Likewise.
+	* gcc.dg/torture/transpose-3.c: Likewise.
+	* gcc.dg/torture/transpose-4.c: Likewise.
+	* gcc.dg/torture/transpose-5.c: Likewise.
+
+2019-02-14  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/c11-align-8.c: Provide -Wno-unused-value as an
 	additional option to prevent excess errors.
 	* gcc.dg/c90-const-expr-2.c: Likewise.
