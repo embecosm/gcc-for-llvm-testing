@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 #ifdef __SIZE_TYPE__
 _mark (__SIZE_TYPE__ obj, int i, char *a)

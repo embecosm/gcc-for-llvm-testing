@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fkeep-inline-functions -O" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 static inline __attribute__ ((const))
 int baz (int i)
