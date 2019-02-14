@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 struct s { int *a; } *p, q, *r[2], *g();
 int *i[2];

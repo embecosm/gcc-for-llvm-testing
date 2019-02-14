@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 unsigned a;
 short b;

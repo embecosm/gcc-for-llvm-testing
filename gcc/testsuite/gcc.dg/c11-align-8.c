@@ -3,6 +3,7 @@
    of DR#444.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 #include <stddef.h>
 

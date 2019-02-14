@@ -1,6 +1,7 @@
 /* PR middle-end/69801 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 struct {
     char c[1];

@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 extern const void v;
 void f(void);
