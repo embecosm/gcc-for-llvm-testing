@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 typedef int int32_t __attribute__((mode (__SI__)));
 

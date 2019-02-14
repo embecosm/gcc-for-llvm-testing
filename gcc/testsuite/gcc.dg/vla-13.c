@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do run } */
 /* { dg-options "-std=c99" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 extern void exit (int);
 extern void abort (void);

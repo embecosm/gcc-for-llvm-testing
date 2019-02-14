@@ -1,6 +1,7 @@
 /* Test whether -fverbose-asm works.  */
 /* { dg-do compile } */
 /* { dg-options "-fverbose-asm" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 void foo (int *x)
 {

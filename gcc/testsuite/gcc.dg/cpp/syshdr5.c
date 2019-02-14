@@ -2,6 +2,7 @@
 
    { dg-do compile }
    { dg-options -no-integrated-cpp }  */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 #include "syshdr5.h"
 

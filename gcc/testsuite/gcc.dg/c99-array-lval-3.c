@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 struct s { char c[1]; };
 struct s a, b, c;

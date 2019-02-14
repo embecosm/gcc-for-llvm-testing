@@ -3,6 +3,7 @@
 /* { dg-require-effective-target lto } */
 /* { dg-options "-flto -g -O2" } */
 /* { dg-additional-sources "pr43557-2.c" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 struct S
 {

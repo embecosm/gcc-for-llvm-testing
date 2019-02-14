@@ -1,3 +1,42 @@
+2019-02-14  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/c11-align-8.c: Provide -Wno-unused-value as an
+	additional option to prevent excess errors.
+	* gcc.dg/c90-const-expr-2.c: Likewise.
+	* gcc.dg/c99-array-lval-1.c: Likewise.
+	* gcc.dg/c99-array-lval-3.c: Likewise.
+	* gcc.dg/c99-array-lval-7.c: Likewise.
+	* gcc.dg/c99-bool-1.c: Likewise.
+	* gcc.dg/c99-const-expr-1.c: Likewise.
+	* gcc.dg/c99-const-expr-2.c: Likewise.
+	* gcc.dg/c99-func-2.c: Likewise.
+	* gcc.dg/cpp/syshdr5.c: Likewise.
+	* gcc.dg/delay-slot-1.c: Likewise.
+	* gcc.dg/pointer-arith-5.c: Likewise.
+	* gcc.dg/pointer-arith-6.c: Likewise.
+	* gcc.dg/pointer-arith-7.c: Likewise.
+	* gcc.dg/pointer-arith-8.c: Likewise.
+	* gcc.dg/pr17036-1.c: Likewise.
+	* gcc.dg/pr27382-1.c: Likewise.
+	* gcc.dg/pr43557-1.c: Likewise.
+	* gcc.dg/pr43557-2.c: Likewise.
+	* gcc.dg/pr44964.c: Likewise.
+	* gcc.dg/pr52549.c: Likewise.
+	* gcc.dg/pr53887.c: Likewise.
+	* gcc.dg/pr68317.c: Likewise.
+	* gcc.dg/pr69801.c: Likewise.
+	* gcc.dg/pr81737.c: Likewise.
+	* gcc.dg/pr86046.c: Likewise.
+	* gcc.dg/precedence-1.c: Likewise.
+	* gcc.dg/redecl-9.c: Likewise.
+	* gcc.dg/torture/pr80842.c: Likewise.
+	* gcc.dg/torture/pr80974.c: Likewise.
+	* gcc.dg/torture/pr87168.c: Likewise.
+	* gcc.dg/vector-1.c: Likewise.
+	* gcc.dg/verbose-asm.c: Likewise.
+	* gcc.dg/vla-13.c: Likewise.
+	* gcc.dg/vla-4.c: Likewise.
+
 2019-02-13  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* lib/target-supports.exp: Prevent -Wunused-value causing target
