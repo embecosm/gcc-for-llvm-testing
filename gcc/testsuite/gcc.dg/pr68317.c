@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fdisable-tree-ethread" } */
 
 /* Note: Threader will collapse loop.  */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 typedef int int32_t __attribute__((mode (__SI__)));
 

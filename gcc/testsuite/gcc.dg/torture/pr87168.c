@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 int a, b, c, d, e, f, *g;
 

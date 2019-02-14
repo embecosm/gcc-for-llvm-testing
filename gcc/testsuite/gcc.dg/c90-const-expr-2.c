@@ -9,6 +9,7 @@
    needed to make (say) (0, 0) not be a constant expression, this is a
    bug.
 */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 int *a;
 int b;

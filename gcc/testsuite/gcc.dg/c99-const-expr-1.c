@@ -9,6 +9,7 @@
 */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-additional-options "-Wno-unused-value" } */
 
 /* The comma operator is in a subexpression that is not evaluated, so OK
    by C99.  In C90 a diagnostic is required since it is not in a sizeof.
