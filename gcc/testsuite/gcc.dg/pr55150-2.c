@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target fpic } */
 /* { dg-options "-Os -g -fPIC" } */
+/* { dg-additional-options "-Wno-pointer-sign" } */
 
 typedef unsigned char DES_cblock[8];
  typedef struct DES_ks {

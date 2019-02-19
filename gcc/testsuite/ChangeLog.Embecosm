@@ -1,5 +1,13 @@
 2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/c99-stdint-3.c: Provide -Wno-pointer-sign as an
+	additional option to prevent excess errors.
+	* gcc.dg/c99-stdint-4.c: Likewise.
+	* gcc.dg/pr55150-2.c: Likewise.
+	* gcc.dg/torture/pr87197.c: Likewise.
+
+2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr69167.c: Provide -Wno-builtin-requires-header as an
 	additional option to prevent excess errors.
 	* gcc.dg/pr70152.c: Likewise.

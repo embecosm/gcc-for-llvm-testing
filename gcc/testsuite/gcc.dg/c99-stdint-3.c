@@ -3,6 +3,7 @@
    c99-stdint-1.c).  */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -fhosted" } */
+/* { dg-additional-options "-Wno-pointer-sign" } */
 
 #include <stdint.h>
 
