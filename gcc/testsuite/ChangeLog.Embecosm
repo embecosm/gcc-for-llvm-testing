@@ -1,5 +1,17 @@
 2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr69167.c: Provide -Wno-builtin-requires-header as an
+	additional option to prevent excess errors.
+	* gcc.dg/pr70152.c: Likewise.
+	* gcc.dg/pr71084.c: Likewise.
+	* gcc.dg/torture/pr81083.c: Likewise.
+	* gcc.dg/torture/pr82244.c: Likewise.
+	* gcc.dg/torture/pr82264.c: Likewise.
+	* gcc.dg/torture/pr82276.c: Likewise.
+	* gcc.dg/torture/pr83685.c: Likewise.
+
+2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* lib/c-torture.exp: Remove custom -Wno arguments from command
 	line of LLVM targets.
 	* lib/gcc-dg.exp: Likewise.

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-builtin-requires-header" } */
 
 void setjmp();
 void func();
