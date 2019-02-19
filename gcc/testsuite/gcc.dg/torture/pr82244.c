@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-additional-options "-Wno-builtin-requires-header" } */
 
 typedef struct a {
   struct a *b;

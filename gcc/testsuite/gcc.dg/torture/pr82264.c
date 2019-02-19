@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-additional-options "-Wno-builtin-requires-header" } */
 
 char a;
 int c;
