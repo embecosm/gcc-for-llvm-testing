@@ -1,6 +1,7 @@
 /* PR tree-optimization/71084 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-builtin-requires-header" } */
 
 __extension__ typedef __INTPTR_TYPE__ intptr_t;
 
