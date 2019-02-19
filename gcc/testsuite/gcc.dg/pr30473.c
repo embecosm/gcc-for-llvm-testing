@@ -2,6 +2,7 @@
 /* Make sure this doesn't ICE.  */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-format" } */
 
 extern int sprintf (char *, const char *, ...);
 
