@@ -1,6 +1,7 @@
 /* PR tree-optimization/69167 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-builtin-requires-header" } */
 
 int sigsetjmp (char *);
 void foo ();
