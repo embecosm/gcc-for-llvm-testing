@@ -1,5 +1,11 @@
 2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr30473.c: Provide -Wno-format as an additional option
+	to prevent excess errors.
+	* gcc.dg/torture/matrix-2.c: Likewise.
+
+2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/c99-stdint-3.c: Provide -Wno-pointer-sign as an
 	additional option to prevent excess errors.
 	* gcc.dg/c99-stdint-4.c: Likewise.
