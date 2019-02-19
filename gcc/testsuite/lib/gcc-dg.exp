@@ -125,14 +125,6 @@ if [info exists TORTURE_OPTIONS] {
     }
 }
 
-if [check_effective_target_llvm] {
-    set TEMP_TORTURE_OPTIONS [list]
-    foreach OPTION_LIST $DG_TORTURE_OPTIONS {
-	lappend TEMP_TORTURE_OPTIONS [concat $OPTION_LIST -Wno-unused-value -Wno-builtin-requires-header]
-    }
-    set DG_TORTURE_OPTIONS $TEMP_TORTURE_OPTIONS
-}
-
 if [info exists ADDITIONAL_TORTURE_OPTIONS] {
     set DG_TORTURE_OPTIONS \
 	[concat $DG_TORTURE_OPTIONS $ADDITIONAL_TORTURE_OPTIONS]

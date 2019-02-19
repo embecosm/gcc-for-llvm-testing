@@ -1,3 +1,9 @@
+2019-02-19  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* lib/c-torture.exp: Remove custom -Wno arguments from command
+	line of LLVM targets.
+	* lib/gcc-dg.exp: Likewise.
+
 2019-02-14  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/torture/matrix-1.c: Provide
