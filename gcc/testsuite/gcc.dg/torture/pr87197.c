@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-pointer-sign" } */
 
 int a, c, e, f, g;
 void
