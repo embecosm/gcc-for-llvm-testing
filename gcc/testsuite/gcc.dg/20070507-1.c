@@ -4,6 +4,7 @@
 
 /* { dg-options "-O3 -fPIC" } */
 /* { dg-do run { target fpic } } */
+/* { dg-additional-options "-Wno-parentheses" } */
 
 typedef __SIZE_TYPE__ size_t;
 int memcmp(const void *s1, const void *s2, size_t n);

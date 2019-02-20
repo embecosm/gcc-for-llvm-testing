@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do run } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-additional-options "-Wno-parentheses" } */
 
 extern void abort (void);
 extern void exit (int);

@@ -1,5 +1,14 @@
 2019-02-20  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/20070507-1.c: Provide -Wno-parentheses as an additional
+	option to prevent excess errors.
+	* gcc.dg/c99-scope-2.c: Likewise.
+	* gcc.dg/init-bad-4.c: Likewise.
+	* gcc.dg/pr79499.c: Likewise.
+	* gcc.dg/torture/pr80842.c: Likewise.
+
+2019-02-20  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/20040203-1.c: Provide -Wno-pointer-bool-conversion as
 	an additional option to prevent excess errors.
 	* gcc.dg/c99-bool-3.c: Likewise.

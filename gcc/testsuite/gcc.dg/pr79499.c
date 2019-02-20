@@ -1,6 +1,7 @@
 /* PR middle-end/79499 */
 /* { dg-do compile { target split_stack } } */
 /* { dg-options "-O2 -fsplit-stack -fno-omit-frame-pointer" } */
+/* { dg-additional-options "-Wno-parentheses" } */
 
 struct S { struct S *a, *b; };
 

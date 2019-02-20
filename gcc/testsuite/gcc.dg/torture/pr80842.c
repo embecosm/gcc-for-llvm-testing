@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-unused-value" } */
 /* { dg-additional-options "-Wno-pointer-bool-conversion" } */
+/* { dg-additional-options "-Wno-parentheses" } */
 
 unsigned a;
 short b;
