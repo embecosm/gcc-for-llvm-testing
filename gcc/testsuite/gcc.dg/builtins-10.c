@@ -7,6 +7,7 @@
 
 /* { dg-do link } */
 /* { dg-options "-O2 -ffast-math" } */
+/* { dg-additional-options "-Wno-unsequenced" } */
 
 extern void link_error(void);
 

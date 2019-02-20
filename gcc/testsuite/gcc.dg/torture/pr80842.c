@@ -2,6 +2,7 @@
 /* { dg-additional-options "-Wno-unused-value" } */
 /* { dg-additional-options "-Wno-pointer-bool-conversion" } */
 /* { dg-additional-options "-Wno-parentheses" } */
+/* { dg-additional-options "-Wno-unsequenced" } */
 
 unsigned a;
 short b;
