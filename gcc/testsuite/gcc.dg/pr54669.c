@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fexceptions -fnon-call-exceptions" } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-additional-options "-Wno-pointer-bool-conversion" } */
 
 int a[10];
 
