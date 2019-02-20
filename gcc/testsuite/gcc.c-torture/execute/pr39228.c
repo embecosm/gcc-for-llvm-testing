@@ -1,5 +1,7 @@
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isinff } */
+/* { dg-require-effective-target builtin_isinfl } */
 
 extern void abort (void);
 
