@@ -10,6 +10,8 @@
 /* { dg-options "-fno-finite-math-only" { target sh*-*-* } } */
 /* { dg-options "-funsafe-math-optimizations -fsigned-zeros -fno-associative-math" { target powerpc-*-darwin* powerpc*-*-linux* } } */
 /* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isinff } */
+/* { dg-require-effective-target builtin_isinfl } */
 /* { dg-require-effective-target builtin_isnan } */
 
 extern void link_error(int);

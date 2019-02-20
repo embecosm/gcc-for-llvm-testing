@@ -1,5 +1,17 @@
 2019-02-20  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/execute/pr39228.c: Annotate test as requiring
+	use of builtin_isinff & builtin_isinfl.
+	* gcc.dg/torture/builtin-frexp-1.c: Likewise.
+	* gcc.dg/torture/builtin-ldexp-1.c: Likewise.
+	* gcc.dg/torture/builtin-modf-1.c: Likewise.
+	* lib/target-supports.exp
+	(check_effective_target_builtin_isinff,
+	 check_effective_target_builtin_isinfl): Add procedures to check
+	if the target supports builtin_isinf{f,l}.
+
+2019-02-20  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/builtins-10.c: Provide -Wno-unsequenced as an
 	additional option to prevent excess errors.
 	* gcc.dg/pr55010.c: Likewise.
