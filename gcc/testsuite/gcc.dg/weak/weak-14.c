@@ -2,6 +2,7 @@
 // { dg-require-weak "" }
 // { dg-require-alias "" }
 // { dg-options "-O2 -fno-common" }
+/* { dg-additional-options "-Wno-pointer-bool-conversion" } */
 
 // Copyright 2005 Free Software Foundation, Inc.
 // Contributed by Alexandre Oliva <aoliva@redhat.com>
