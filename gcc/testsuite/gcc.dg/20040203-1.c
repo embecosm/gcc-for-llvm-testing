@@ -1,6 +1,7 @@
 /* PR/13994; bug_cond2 was rejected on gcc up to version 3.4.x */
 /* { dg-do compile  }*/
 /* { dg-options "-std=gnu89"  }*/
+/* { dg-additional-options "-Wno-pointer-bool-conversion" } */
 
 struct s { char c[1]; };
 struct s a;
