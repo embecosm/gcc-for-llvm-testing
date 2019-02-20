@@ -9659,6 +9659,12 @@ proc check_effective_target_builtin_sprintf {} {
 proc check_effective_target_builtin_isinf {} {
     return [check_builtin_support isinf "int _ = __builtin_isinf (0.0);"]
 }
+proc check_effective_target_builtin_isinff {} {
+    return [check_builtin_support isinff "__builtin_isinff (0.0);"]
+}
+proc check_effective_target_builtin_isinfl {} {
+    return [check_builtin_support isinfl "__builtin_isinfl (0.0);"]
+}
 proc check_effective_target_builtin_isnan {} {
     return [check_builtin_support isnan "int _ = __builtin_isnan (0.0);"]
 }

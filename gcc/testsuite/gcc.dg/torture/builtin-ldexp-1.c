@@ -9,6 +9,8 @@
 /* { dg-options "-fno-finite-math-only" { target sh*-*-* } } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 /* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target builtin_isinff } */
+/* { dg-require-effective-target builtin_isinfl } */
 /* { dg-require-effective-target builtin_isnan } */
 
 extern void link_error(int);
