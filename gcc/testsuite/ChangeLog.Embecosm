@@ -1,3 +1,10 @@
+2019-02-25  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/torture/pr87169.c: Provide
+	-Wno-unused-command-line-argument as an additional option to
+	test which uses '--param -rpo-vn-max-loop-depth=7' to prevent
+	excess errors.
+
 2019-02-20  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/execute/pr39228.c: Annotate test as requiring
