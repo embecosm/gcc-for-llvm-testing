@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "--param rpo-vn-max-loop-depth=7" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 int a, b, c;
 
