@@ -1,5 +1,14 @@
 2019-02-25  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr18921-1.c: Provide -Wno-unused-comparison as an
+	additional option to prevent excess errors.
+	* gcc.dg/pr27382-2.c: Likewise.
+	* gcc.dg/pr42662.c: Likewise.
+	* gcc.dg/pr80468.c: Likewise.
+	* gcc.dg/volatile1.c: Likewise.
+
+2019-02-25  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/torture/pr87169.c: Provide
 	-Wno-unused-command-line-argument as an additional option to
 	test which uses '--param -rpo-vn-max-loop-depth=7' to prevent

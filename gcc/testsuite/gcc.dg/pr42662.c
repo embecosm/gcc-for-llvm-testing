@@ -1,6 +1,7 @@
 /* PR debug/42662 */
 /* { dg-do compile } */
 /* { dg-options "-g -O2" } */
+/* { dg-additional-options "-Wno-unused-comparison" } */
 
 struct S { unsigned long s[17]; };
 
