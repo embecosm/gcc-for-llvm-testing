@@ -1,6 +1,7 @@
 /* PR middle-end/18921 */
 /* { dg-do run } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-unused-comparison" } */
 
 extern void abort (void);
 
