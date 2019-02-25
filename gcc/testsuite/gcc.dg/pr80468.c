@@ -1,6 +1,7 @@
 /* PR c/80468 */
 /* { dg-do compile { target { ! int128 } } } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-unused-comparison" } */
 
 void
 foo (void)
