@@ -1,3 +1,9 @@
+2019-02-27  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* lib/target-supports.exp
+	(check_effective_target_return_vector): Correct typo in target
+	check procedure.
+
 2019-02-25  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/pr18921-1.c: Provide -Wno-unused-comparison as an
