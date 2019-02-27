@@ -9567,7 +9567,7 @@ proc check_effective_target_asm_goto {} {
 proc check_effective_target_return_vector {} {
     return [check_no_compiler_messages return_vector assembly {
 	typedef int v16i32 __attribute__ ((__vector_size__ (64)));
-	v8i foo(v16i32 vec) {
+	v16i32 foo(v16i32 vec) {
 	    return vec;
 	}
     }]
