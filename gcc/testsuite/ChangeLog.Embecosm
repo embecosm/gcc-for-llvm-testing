@@ -157,6 +157,13 @@
 	* gcc.dg/string-opt-1.c: Likewise.
 	* gcc.dg/torture/pr82697.c: Likewise.
 
+2019-02-28  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc.c-torture/compile/20011119-2.c: Provide
+	-Wno-ignored-attributes as an additonal option to prevent
+	excess errors.
+	* gcc.dg/pr47276.c: Likewise.
+
 2019-02-27  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/torture/pr36891.c: Annotate test which requires 
