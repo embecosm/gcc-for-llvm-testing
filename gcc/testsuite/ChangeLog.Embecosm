@@ -1,5 +1,13 @@
 2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/execute/bcp-1.c: Fix requre->require typo in
+	test annotation.
+	* gcc.dg/attr-externally-visible-1.c: Likewise.
+	* gcc.dg/builtin-protos-1.c: Fix effect->effective typo in test
+	annotation.
+
+2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* lib/target-supports.exp (check_effective_target_builtin_puts):
 	Escape quotes in target test for builtin_puts.
 
