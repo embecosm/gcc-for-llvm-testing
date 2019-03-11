@@ -1,7 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options -Wtraditional-conversion } */
-/* { dg-require-effect-target builtin_clrsb } */
+/* { dg-require-effective-target builtin_clrsb } */
 
 int
 test_s (signed int x)
