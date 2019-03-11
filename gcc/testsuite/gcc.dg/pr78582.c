@@ -8,7 +8,7 @@
 void reader_loop () {}
 
 int
-main (int argc, char argv, char env)
+main (int argc, char **argv, char **env)
 {
   int a;
   setjmp (0);
