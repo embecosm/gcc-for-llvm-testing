@@ -1,5 +1,12 @@
 2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr22269.c: Correct main function
+	signature.
+	* gcc.dg/pr78582.c: Likewise.
+	* gcc.dg/pr83415.c: Likewise.
+
+2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/call.c: Mark tests which
 	uses nonstandard main function signature as requiring GCC
 	frontend.

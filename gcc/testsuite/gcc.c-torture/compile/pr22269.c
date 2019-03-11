@@ -1,7 +1,7 @@
 /* We used to ICE in tree-ssa-reassoc because we did look at the correct operand to
    see if it was a SSA_NAME.  */
 int printf(const char*, ...);
-int main(int argv, char*argc) {
+int main(int argv, char**argc) {
 
     int d1;
     int d2;
