@@ -1,5 +1,12 @@
 2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr25795-1.c: Add -Wno-unused-optimization-argument as
+	an additional option to prevent excess errors.
+	* gcc.dg/torture/transpose-1.c: Likewise.
+	* gcc.dg/torture/transpose-6.c: Likewise.
+
+2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr22269.c: Correct main function
 	signature.
 	* gcc.dg/pr78582.c: Likewise.
