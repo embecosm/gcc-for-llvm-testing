@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-O2" } */
 
 char *buffer;
