@@ -1,4 +1,5 @@
 /* PR tree-optimization/84339 */
+/* { dg-require-effective-target builtin_malloc } */
 
 struct S { int a; char b[1]; };
 

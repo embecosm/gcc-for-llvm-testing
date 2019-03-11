@@ -1,5 +1,6 @@
 /* PR tree-optimization/84503 */
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-O3" } */
 
 typedef __SIZE_TYPE__ size_t;
