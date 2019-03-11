@@ -1,6 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fwhole-program" } */
-/* { dg-requre-effective-target externally_visible } */
+/* { dg-require-effective-target externally_visible } */
 /* { dg-final { scan-assembler "foo1" } } */
 /* { dg-final { scan-assembler "foo2" } } */
 /* { dg-final { scan-assembler "foo3" } } */
