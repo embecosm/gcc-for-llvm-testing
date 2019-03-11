@@ -1,3 +1,5 @@
+/* { dg-require-effective-target gcc_frontend } */
+
 main (int *p)
 {
   int a;
