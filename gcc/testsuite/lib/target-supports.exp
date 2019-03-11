@@ -9636,7 +9636,7 @@ proc check_effective_target_builtin_fputs {} {
     return [check_builtin_support fputs "__builtin_fputs (NULL, NULL);"]
 }
 proc check_effective_target_builtin_puts {} {
-    return [check_builtin_support puts "__builtin_puts ("hello");"]
+    return [check_builtin_support puts "__builtin_puts (\"hello\");"]
 }
 proc check_effective_target_builtin_calloc {} {
     return [check_builtin_support calloc "__builtin_calloc (10, 10);"]
