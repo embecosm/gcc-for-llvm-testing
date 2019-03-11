@@ -1,5 +1,6 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_malloc } */
 
 __attribute__((noinline,noclone))
 void test(int *pi, long *pl, int f)

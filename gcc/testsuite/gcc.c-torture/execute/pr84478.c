@@ -1,4 +1,5 @@
 /* PR tree-optimization/84478 */
+/* { dg-require-effective-target builtin_malloc } */
 
 long poolptr;
 unsigned char *strpool;
