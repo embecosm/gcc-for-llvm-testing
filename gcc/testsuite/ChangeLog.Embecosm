@@ -1,3 +1,13 @@
+2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/execute/pr84339.c: Annotate test as requiring
+	use of builtin_malloc.
+	* gcc.c-torture/execute/pr84478.c: Likewise.
+	* gcc.dg/pr81650.c: Likewise.
+	* gcc.dg/pr84503-1.c: Likewise.
+	* gcc.dg/string-opt-1.c: Likewise.
+	* gcc.dg/torture/pr82697.c: Likewise.
+
 2019-02-27  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/torture/pr36891.c: Annotate test which requires 
