@@ -1,5 +1,13 @@
 2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/call.c: Mark tests which
+	uses nonstandard main function signature as requiring GCC
+	frontend.
+	* gcc.c-torture/compile/foo.c: Likewise.
+	* gcc.c-torture/compile/v.c: Likewise.
+
+2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/execute/pr84339.c: Annotate test as requiring
 	use of builtin_malloc.
 	* gcc.c-torture/execute/pr84478.c: Likewise.

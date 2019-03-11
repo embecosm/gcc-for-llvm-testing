@@ -1,3 +1,5 @@
+/* { dg-require-effective-target gcc_frontend } */
+
 int *
 main (s1, s2)
      int *s1; int *s2;
