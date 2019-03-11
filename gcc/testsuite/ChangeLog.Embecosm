@@ -1,5 +1,14 @@
 2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/builtins-19.c: Add -Wno-absolute-value as an additional
+	option to prevent excess errors.
+	* gcc.dg/pow-sqrt-1.c: Likewise.
+	* gcc.dg/pow-sqrt-2.c: Likewise.
+	* gcc.dg/pow-sqrt-3.c: Likewise.
+	* gcc.dg/torture/builtin-math-6.c: Likewise.
+
+2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/execute/bcp-1.c: Fix requre->require typo in
 	test annotation.
 	* gcc.dg/attr-externally-visible-1.c: Likewise.
