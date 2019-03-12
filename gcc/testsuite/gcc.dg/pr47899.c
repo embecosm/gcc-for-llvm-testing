@@ -11,12 +11,13 @@ foo (void)
 {
 lab:
   if (b)
-    for (d = 0; d >= 0; d--)
+    for (d = 0; d >= 0; d--) {
       if (a || c)
 	for (; c; c++)
 	  ;
       else
 	goto lab;
+    }
 }
 
 int
