@@ -1,3 +1,11 @@
+2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/pr33923.c: Add -Wno-constant-conversion as an
+	additional option to prevent excess errors.
+	* gcc.dg/pr59350.c: Likewise.
+	* gcc.dg/pr59963-2.c: Likewise.
+	* gcc.dg/pr79405.c: Likewise.
+
 2019-03-11  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/builtins-19.c: Add -Wno-absolute-value as an additional
