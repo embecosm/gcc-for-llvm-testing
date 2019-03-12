@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
 
 extern void abort ();
 extern int printf (char *__format, ...);

@@ -1,6 +1,7 @@
 /* PR middle-end/86202 */
 /* { dg-do compile } */
 /* { dg-options "-Wint-conversion" } */
+/* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
 
 void *memcpy (void *, void *, __SIZE_TYPE__ *);
 void *a, *b;

@@ -1,5 +1,16 @@
 2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/Wint-conversion-2.c: Add
+	-Wno-incompatible-library-redeclaration as an additional option
+	to prevent excess errors.
+	* gcc.dg/Wstringop-overflow-3.c: Likewise.
+	* gcc.dg/pr86114.c: Likewise.
+	* gcc.dg/torture/pr38405.c: Likewise.
+	* gcc.dg/torture/pr55890-1.c: Likewise.
+	* gcc.dg/torture/pr82102.c: Likewise.
+
+2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/Wrestrict-10.c: Rearrange annotation for dg check.
 	* gcc.dg/pr35691-6.c: Likewise.
 	* gcc.dg/pr56727-1.c: Likewise.
