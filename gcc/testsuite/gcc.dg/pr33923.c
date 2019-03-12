@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O3 --param max-partial-antic-length=0" } */
+/* { dg-additional-options "-Wno-constant-conversion" } */
 
 static int pendingCommand;
 static int currentModifiers;
