@@ -1,5 +1,5 @@
-/* { dg-require-effective-target noclone } */
 /* { dg-do run } */
+/* { dg-require-effective-target noclone } */
 
 typedef __UINT8_TYPE__ uint8_t;
 
