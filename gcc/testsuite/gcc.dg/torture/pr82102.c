@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
 
 void *a, *b;
 struct pt3_i2cbuf {
