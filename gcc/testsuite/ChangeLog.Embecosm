@@ -1,5 +1,14 @@
 2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/builtin-object-size-1.c: Add -Wno-array-bounds as an
+	additional option to prevent excess errors.
+	* gcc.dg/builtin-object-size-2.c: Likewise.
+	* gcc.dg/builtin-object-size-3.c: Likewise.
+	* gcc.dg/builtin-object-size-4.c: Likewise.
+	* gcc.dg/pr71279.c: Likewise.
+
+2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/Wint-conversion-2.c: Add
 	-Wno-incompatible-library-redeclaration as an additional option
 	to prevent excess errors.
