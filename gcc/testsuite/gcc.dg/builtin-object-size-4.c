@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-additional-options "-Wno-array-bounds" } */
 
 typedef __SIZE_TYPE__ size_t;
 extern void abort (void);
