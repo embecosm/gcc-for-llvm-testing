@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O -g" } */
+/* { dg-additional-options "-Wno-constant-conversion" } */
 
 typedef union
 {

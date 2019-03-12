@@ -1,6 +1,7 @@
 /* PR rtl-optimization/79405 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-constant-conversion" } */
 
 char cz;
 long long int xx, u2;
