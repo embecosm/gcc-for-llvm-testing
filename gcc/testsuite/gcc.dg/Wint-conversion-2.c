@@ -2,6 +2,7 @@
    declaration */
 /* { dg-do compile } */
 /* { dg-options "-Wint-conversion" } */
+/* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
 
 void *memcpy (void *, void *, __SIZE_TYPE__ *);   /* { dg-warning "conflicting types for built-in function .memcpy." } */
 void *a, *b;

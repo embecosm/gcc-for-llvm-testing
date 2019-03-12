@@ -2,6 +2,7 @@
    an invalid call to strnlen
    { dg-do compile }
    { dg-options "-O2" }  */
+/* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
 
 typedef __SIZE_TYPE__ size_t;
 

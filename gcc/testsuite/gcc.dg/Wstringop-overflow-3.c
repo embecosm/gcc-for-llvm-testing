@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
 
 char a[1];
 int b;
