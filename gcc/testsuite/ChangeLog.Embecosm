@@ -1,5 +1,11 @@
 2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/torture/ftrapv-2.c: Mark test as requiring 32 bit
+	integers.
+	* gcc.dg/torture/pr66863.c: Likewise.
+
+2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr33923.c: Add -Wno-constant-conversion as an
 	additional option to prevent excess errors.
 	* gcc.dg/pr59350.c: Likewise.

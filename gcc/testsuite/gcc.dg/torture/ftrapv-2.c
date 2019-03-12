@@ -3,6 +3,7 @@
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-additional-options "-ftrapv" } */
 /* { dg-require-effective-target trapping } */
+/* { dg-require-effective-target int32 } */
 /* { dg-require-fork unused } */
 
 #include <stdlib.h>
