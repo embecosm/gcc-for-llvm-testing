@@ -1,5 +1,10 @@
 2019-03-13  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* lib/target-supports.exp
+	(check_effective_target_builtin_shuffle): Fix typing error.
+
+2019-03-13  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/execute/simd-6.c: Annotate test as requiring
 	returning vectors.
 	* gcc.dg/Wstrict-aliasing-bogus-ref-all-2.c: Likewise.
