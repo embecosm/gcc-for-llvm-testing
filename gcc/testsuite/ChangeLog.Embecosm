@@ -1,5 +1,12 @@
 2019-03-13  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/c11-align-8.c: Annotate test which uses GNU
+	extension(s) as requiring GCC internals.
+	* gcc.dg/c99-init-6.c: Likewise.
+	* gcc.dg/init-bad-4.c: Likewise.
+
+2019-03-13  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/execute/pr85331.c: Annotate test as requiring
 	builtin_shuffle.
 
