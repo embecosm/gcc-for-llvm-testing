@@ -1,5 +1,6 @@
 /* PR tree-optimization/85331 */
 /* { dg-require-effective-target double64plus } */
+/* { dg-require-effective-target builtin_shuffle } */
 
 typedef double V __attribute__((vector_size (2 * sizeof (double))));
 typedef long long W __attribute__((vector_size (2 * sizeof (long long))));
