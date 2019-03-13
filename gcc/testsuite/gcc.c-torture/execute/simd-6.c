@@ -1,3 +1,5 @@
+/* { dg-require-effective-target return_vector } */
+
 extern void abort (void);
 extern int memcmp (const void *, const void *, __SIZE_TYPE__);
 

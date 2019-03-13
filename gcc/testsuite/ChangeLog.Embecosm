@@ -1,3 +1,10 @@
+2019-03-13  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/execute/simd-6.c: Annotate test as requiring
+	returning vectors.
+	* gcc.dg/Wstrict-aliasing-bogus-ref-all-2.c: Likewise.
+	* gcc.dg/simd-7.c: Likewise.
+
 2019-03-12  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/pr47899.c: Fix dangling else.
