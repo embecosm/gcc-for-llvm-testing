@@ -9672,7 +9672,7 @@ proc check_effective_target_builtin_return {} {
     return [check_builtin_support return "__builtin_return (NULL);"]
 }
 proc check_effective_target_builtin_shuffle {} {
-    return [check_builtin_support return "
+    return [check_builtin_support shuffle "
 	int __attribute__ ((vector_size (16))) a, b;
 	__builtin_shuffle (a, b);
     "]
