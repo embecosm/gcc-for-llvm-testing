@@ -2,6 +2,7 @@
    memcpy within array
    { dg-do compile }
    { dg-options "-O2 -Wrestrict" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct { int i; } a[8];
 

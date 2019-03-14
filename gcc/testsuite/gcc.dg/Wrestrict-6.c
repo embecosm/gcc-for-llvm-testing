@@ -5,6 +5,7 @@
    correctly.
    { dg-do compile }
    { dg-options "-O2 -Wrestrict" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "range.h"
 

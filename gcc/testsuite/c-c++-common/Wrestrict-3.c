@@ -1,6 +1,7 @@
 /* PR c/83989 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wrestrict" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((__malloc__)) extern void *my_malloc (__SIZE_TYPE__);
 void baz (void *);

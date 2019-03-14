@@ -3,6 +3,7 @@
    issued for a problem where either would be appropriate.
    { dg-do compile }
    { dg-options "-O2 -Wrestrict -Wstringop-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define DIFF_MAX __PTRDIFF_MAX__
 

@@ -5,6 +5,7 @@
    of the false positives reported in PR 83456 is tested in Wrestrict-12.c.
    { dg-do compile }
    { dg-options "-O2 -Wall -Wrestrict -Wno-stringop-truncation" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 
