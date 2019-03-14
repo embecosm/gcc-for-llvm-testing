@@ -4,6 +4,7 @@
    pointers to qualified forms of characters of all three types.
    { dg-do compile }
    { dg-options "-O2 -Wall -Wstringop-truncation" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if __cplusplus
 extern "C"

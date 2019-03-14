@@ -1,6 +1,7 @@
 /* PR middle-end/87099 */
 /* { dg-do compile } */
 /* { dg-options "-Wstringop-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (char *);
 

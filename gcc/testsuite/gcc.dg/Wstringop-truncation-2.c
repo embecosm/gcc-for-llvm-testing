@@ -2,6 +2,7 @@
    assignment after conditional strncpy
    { dg-do compile }
    { dg-options "-O2 -Wstringop-truncation -g" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern char* strncpy (char*, const char*, __SIZE_TYPE__);
 
