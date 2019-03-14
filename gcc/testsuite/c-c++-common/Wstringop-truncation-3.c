@@ -1,6 +1,7 @@
 /* PR tree-optimization/84228 */
 /* { dg-do compile } */
 /* { dg-options "-Wstringop-truncation -O2 -g" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char *strncpy (char *, const char *, __SIZE_TYPE__);
 struct S

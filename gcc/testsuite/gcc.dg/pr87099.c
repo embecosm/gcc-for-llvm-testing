@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
 /* { dg-options "-Wstringop-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (char *);
 

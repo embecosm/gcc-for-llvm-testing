@@ -1,6 +1,7 @@
 /* PR tree-optimization/85259 - Missing -Wstringop-overflow= since r256683
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern char* strcpy (char*, const char*);
 extern char* strcat (char*, const char*);
