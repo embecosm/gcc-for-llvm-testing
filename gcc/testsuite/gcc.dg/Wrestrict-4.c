@@ -5,6 +5,7 @@
    { dg-do compile }
    { dg-prune-output "conflicting types for built-in" }
    { dg-options "-O2 -Warray-bounds -Wrestrict" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void* memcpy ();
 void* memmove ();
