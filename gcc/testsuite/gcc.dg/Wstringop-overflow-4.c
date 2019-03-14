@@ -1,5 +1,6 @@
 /* { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern char* strchr (const char*, int);
 extern char* strcpy (char*, const char*);
