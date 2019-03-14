@@ -4,6 +4,7 @@
 
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SCHAR_MAX __SCHAR_MAX__
 #define UCHAR_MAX (SCHAR_MAX * 2 + 1)

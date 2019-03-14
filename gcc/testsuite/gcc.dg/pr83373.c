@@ -1,6 +1,7 @@
 /* PR middle-end/83373 - False positive reported by -Wstringop-overflow
    { dg-do compile }
    { dg-options "-O2 -Wstringop-overflow" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 
