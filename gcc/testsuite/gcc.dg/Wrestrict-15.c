@@ -1,6 +1,7 @@
 /* PR 85365 - -Wrestrict false positives with -fsanitize=undefined
    { dg-do compile }
    { dg-options "-O2 -Wrestrict -fsanitize=undefined" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 

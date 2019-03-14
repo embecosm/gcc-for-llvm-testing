@@ -2,6 +2,7 @@
    strcpy to a non-member array
    { dg-do compile }
    { dg-options "-O2 -Wall -Wrestrict" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern char* stpcpy (char*, const char*);   // work around bug 82429
 

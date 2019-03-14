@@ -1,5 +1,6 @@
 /* { dg-do compile }
    { dg-options "-O2 -Wall -Wextra -Warray-bounds -Wrestrict" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 

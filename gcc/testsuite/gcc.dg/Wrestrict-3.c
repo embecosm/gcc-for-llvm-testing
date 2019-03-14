@@ -2,6 +2,7 @@
    doesn't trigger an internal assertion and is diagnosed.
    { dg-do compile }
    { dg-options "-O2 -Wrestrict" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define DIFF_MAX   __PTRDIFF_MAX__
 

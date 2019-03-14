@@ -1,3 +1,22 @@
+2019-03-14  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* c-c++-common/Wrestrict-2.c: Annotate test which uses
+	-Wrestrict as requiring GCC frontend.
+	* c-c++-common/Wrestrict-3.c: Likewise.
+	* gcc.dg/Warray-bounds-27.c: Likewise.
+	* gcc.dg/Wrestrict-10.c: Likewise.
+	* gcc.dg/Wrestrict-13.c: Likewise.
+	* gcc.dg/Wrestrict-14.c: Likewise.
+	* gcc.dg/Wrestrict-15.c: Likewise.
+	* gcc.dg/Wrestrict-3.c: Likewise.
+	* gcc.dg/Wrestrict-4.c: Likewise.
+	* gcc.dg/Wrestrict-5.c: Likewise.
+	* gcc.dg/Wrestrict-6.c: Likewise.
+	* gcc.dg/Wrestrict.c: Likewise.
+	* gcc.dg/Wstringop-overflow-2.c: Likewise.
+	* gcc.dg/pr83463.c: Likewise.
+	* gcc.dg/pr84095.c: Likewise.
+
 2019-03-13  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/c11-align-8.c: Annotate test which uses GNU

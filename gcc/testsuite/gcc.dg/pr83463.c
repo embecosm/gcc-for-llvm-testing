@@ -1,6 +1,7 @@
 /* PR middle-end/83463 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wrestrict -Wno-pointer-to-int-cast" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *a;
 void *memcpy ();
