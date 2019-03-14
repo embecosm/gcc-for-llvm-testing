@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-prune-output "conflicting types for built-in" } */
 /* { dg-options "-O2 -Wrestrict -Wno-pointer-to-int-cast" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *a;
 void *memcpy ();
