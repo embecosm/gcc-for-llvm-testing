@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftracer" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 int **fn1 () __attribute__ ((__const__));
 int main ()
