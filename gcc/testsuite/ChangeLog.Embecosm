@@ -1,3 +1,14 @@
+2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc.c-torture/compile/pr56571.c: Provide
+	-Wno-ignored-optimization-argument as an additonal option 
+	to prevent excess errors.
+	* gcc.dg/pr28243.c: Likewise.
+	* gcc.dg/pr52808.c: Likewise.
+	* gcc.dg/pr54838.c: Likewise.
+	* gcc.dg/pr68670-1.c: Likewise.
+	* gcc.dg/pr69915.c: Likewise.
+
 2019-03-14  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* c-c++-common/Wstringop-truncation-3.c: Annotate test which
