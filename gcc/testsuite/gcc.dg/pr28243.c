@@ -5,6 +5,7 @@
 /* { dg-require-effective-target fpic } */
 /* { dg-options "-O2 -ftracer -fPIC" } */
 /* { dg-skip-if "requires unsupported run-time relocation" { spu-*-* } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 struct displayfuncs {
   void (*init) ();

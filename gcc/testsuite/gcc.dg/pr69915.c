@@ -1,6 +1,7 @@
 /* PR middle-end/69915 */
 /* { dg-do compile } */
 /* { dg-options "-O -ftracer" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 typedef unsigned short V __attribute__ ((vector_size (32)));
 
