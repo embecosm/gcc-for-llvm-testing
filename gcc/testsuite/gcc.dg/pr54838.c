@@ -1,6 +1,7 @@
 /* PR middle-end/54838 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-forward-propagate -ftracer" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 void bar (void);
 
