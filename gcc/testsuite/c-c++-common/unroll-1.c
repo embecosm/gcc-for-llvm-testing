@@ -11,27 +11,27 @@ void test (void)
   #pragma GCC unroll 8
   for (unsigned long i = 1; i <= 8; ++i)
     bar(i);
-  /* { dg-final { scan-tree-dump "11:.*: loop with 8 iterations completely unrolled" "cunrolli" } } */
+  /* { dg-final { scan-tree-dump "12:.*: loop with 8 iterations completely unrolled" "cunrolli" } } */
 
   #pragma GCC unroll 8
   for (unsigned long i = 1; i <= 7; ++i)
     bar(i);
-  /* { dg-final { scan-tree-dump "16:.*: loop with 7 iterations completely unrolled" "cunrolli" } } */
+  /* { dg-final { scan-tree-dump "17:.*: loop with 7 iterations completely unrolled" "cunrolli" } } */
 
   #pragma GCC unroll 8
   for (unsigned long i = 1; i <= 15; ++i)
     bar(i);
-  /* { dg-final { scan-rtl-dump "21:.*: optimized: loop unrolled 7 times" "loop2_unroll" } } */
+  /* { dg-final { scan-rtl-dump "22:.*: optimized: loop unrolled 7 times" "loop2_unroll" } } */
 
   #pragma GCC unroll 8
   for (unsigned long i = 1; i <= j; ++i)
     bar(i);
-  /* { dg-final { scan-rtl-dump "26:.*: optimized: loop unrolled 7 times" "loop2_unroll" } } */
+  /* { dg-final { scan-rtl-dump "27:.*: optimized: loop unrolled 7 times" "loop2_unroll" } } */
 
   #pragma GCC unroll 7
   for (unsigned long i = 1; i <= j; ++i)
     bar(i);
-  /* { dg-final { scan-rtl-dump "31:.*: optimized: loop unrolled 3 times" "loop2_unroll" } } */
+  /* { dg-final { scan-rtl-dump "32:.*: optimized: loop unrolled 3 times" "loop2_unroll" } } */
 
   unsigned long i = 0;
   #pragma GCC unroll 3

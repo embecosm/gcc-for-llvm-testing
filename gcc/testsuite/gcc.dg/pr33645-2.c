@@ -1,7 +1,7 @@
 /* PR tree-optimization/33645 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -funit-at-a-time" } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 __attribute__((noinline)) int
 bar (int *x)
