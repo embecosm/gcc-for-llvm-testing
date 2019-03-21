@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cunrolli-details -fdump-rtl-loop2_unroll-details" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar (int);
 

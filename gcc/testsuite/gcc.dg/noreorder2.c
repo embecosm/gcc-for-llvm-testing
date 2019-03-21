@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-toplevel-reorder" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((no_reorder)) int foobar;
 

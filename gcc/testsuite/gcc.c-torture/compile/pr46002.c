@@ -1,4 +1,5 @@
 /* { dg-options "-fira-algorithm=priority" } */
+/* { dg-require-effective-target gcc_frontend } */
 char **
 foo (char **p, char *cmp, unsigned i)
 {
