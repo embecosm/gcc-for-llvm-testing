@@ -1,5 +1,11 @@
 2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.c-torture/compile/20001116-1.c: Mark test as
+	requiring gcc fronted to prevent excess errors.
+	* gcc.c-torture/compile/foo.c: Likewise.
+
+2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.c-torture/compile/pr56571.c: Provide
 	-Wno-ignored-optimization-argument as an additonal option 
 	to prevent excess errors.
