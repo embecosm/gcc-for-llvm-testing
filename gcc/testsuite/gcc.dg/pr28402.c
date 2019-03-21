@@ -1,4 +1,5 @@
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 typedef long long ll;
 typedef unsigned long long ull;
 

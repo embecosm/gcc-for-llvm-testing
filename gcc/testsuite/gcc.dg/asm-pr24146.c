@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 /* Test that asm with no outputs are treated as volatile.  */
 

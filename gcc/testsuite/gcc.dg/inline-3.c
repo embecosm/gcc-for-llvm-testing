@@ -1,5 +1,6 @@
 /* { dg-options "-O2 -funit-at-a-time" } */
 /* { dg-final { scan-assembler-not "big_function_2" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 int t(void);
 static void

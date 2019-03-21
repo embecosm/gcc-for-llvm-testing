@@ -1,5 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -ffast-math -lm -fno-ident" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-unused-command-line-argument"} */
 
 #include <math.h>
 

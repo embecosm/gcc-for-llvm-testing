@@ -7,6 +7,7 @@
 /* { dg-final { scan-hidden "varc" } } */
 /* { dg-final { scan-hidden "vard" } } */
 /* { dg-final { scan-assembler "a b cde f g h" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 #define FOO(y, x) y #x
 #define BAR(x) x

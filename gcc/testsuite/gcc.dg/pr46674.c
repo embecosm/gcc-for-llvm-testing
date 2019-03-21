@@ -1,6 +1,8 @@
 /* { dg-do compile } */
 /* { dg-require-alias "" } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-ignored-attributes"} */
 
 #define LABEL3(pfx, x) # pfx x
 #define LABEL2(pfx, x) LABEL3(pfx, x)
