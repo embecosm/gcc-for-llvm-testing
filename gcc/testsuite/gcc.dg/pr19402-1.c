@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 float test_powif(float x)
 {

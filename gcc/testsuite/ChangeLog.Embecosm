@@ -1,5 +1,50 @@
 2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/20021029-2.c: Provide
+	-Wno-ignored-optimization-argument as an additonal option
+	to prevent excess errors.
+	* gcc.dg/PR68002.c: Likewise.
+	* gcc.dg/and-1.c: Likewise.
+	* gcc.dg/asm-4.c: Likewise.
+	* gcc.dg/asm-pr24146.c: Likewise.
+	* gcc.dg/attr-alwaysinline.c: Likewise.
+	* gcc.dg/builtin-bswap-1.c: Likewise.
+	* gcc.dg/builtins-16.c: Likewise.
+	* gcc.dg/cleanup-6.c: Likewise.
+	* gcc.dg/const-elim-2.c: Likewise.
+	* gcc.dg/cpp/pr34692.c: Likewise.
+	* gcc.dg/gnu89-init-2.c: Likewise.
+	* gcc.dg/h8300-div-delay-slot.c: Likewise.
+	* gcc.dg/inline-13.c: Likewise.
+	* gcc.dg/inline-3.c: Likewise.
+	* gcc.dg/inline-4.c: Likewise.
+	* gcc.dg/instrument-2.c: Likewise.
+	* gcc.dg/instrument-3.c: Likewise.
+	* gcc.dg/intermod-1.c: Likewise.
+	* gcc.dg/pr19402-1.c: Likewise.
+	* gcc.dg/pr25376.c: Likewise.
+	* gcc.dg/pr28402.c: Likewise.
+	* gcc.dg/pr33645-2.c: Likewise.
+	* gcc.dg/pr34985.c: Likewise.
+	* gcc.dg/pr39443.c: Likewise.
+	* gcc.dg/pr43213.c: Likewise.
+	* gcc.dg/pr44974.c: Likewise.
+	* gcc.dg/pr45416.c: Likewise.
+	* gcc.dg/pr46674.c: Likewise, plus 
+	'-Wno-ignored-attributes'.
+	* gcc.dg/pr46728-6.c: Likewise, plus 
+	'-Wno-unused-command-line-argument'.
+	* gcc.dg/pr49551.c: Likewise.
+	* gcc.dg/pr52171.c: Likewise.
+	* gcc.dg/pr56727-1.c: Likewise, plus
+	'-Wno-unknown-attributes'.
+	* gcc.dg/pr61868.c: Likewise.
+	* gcc.dg/pr64015.c: Likewise.
+	* gcc.dg/pr86617.c: Likewise.
+	* gcc.dg/varpool-1.c: Likewise.
+
+2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* c-c++-common/fold-bitand-4.c: Mark test as requiring
 	GCC frontend to prevent excess errors due to unsupported
 	flags.

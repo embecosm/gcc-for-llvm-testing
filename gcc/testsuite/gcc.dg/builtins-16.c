@@ -10,6 +10,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ansi" } */
 /* { dg-final { scan-assembler-not "__builtin_" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 double test(__complex__ double x)
 {

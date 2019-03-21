@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu89 -O2" } */
 /* { dg-final { scan-assembler-not "__compound_literal" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 struct A { int i; int j; int k[4]; };
 struct B { };
