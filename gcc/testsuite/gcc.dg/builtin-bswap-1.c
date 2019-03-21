@@ -2,7 +2,7 @@
 /* { dg-require-effective-target stdint_types } */
 /* { dg-options "" } */
 /* { dg-final { scan-assembler-not "__builtin_" } } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #include <stdint.h>
 

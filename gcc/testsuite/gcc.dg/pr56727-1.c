@@ -1,8 +1,8 @@
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O2 -fPIC" } */
 /* { dg-require-effective-target noclone } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
-/* { dg-additional-options "-Wno-unknown-attributes"} */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 #define define_func(type) \
   void f_ ## type (type b) { f_ ## type (0); } \

@@ -1,7 +1,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "Skip for Thumb1." { { arm*-*-* } && { arm_thumb1_ok } } } */
 /* { dg-options "-O2" } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 int foo(long long a)
 {

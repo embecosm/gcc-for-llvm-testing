@@ -1,5 +1,5 @@
 /* { dg-do compile } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 struct S {
   int i;
