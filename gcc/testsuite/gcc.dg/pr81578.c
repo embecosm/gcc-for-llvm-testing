@@ -1,6 +1,7 @@
 /* PR tree-optimization/81578 */
 /* { dg-do compile { target pthread } } */
 /* { dg-options "-O2 -ftree-parallelize-loops=2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (int *x)

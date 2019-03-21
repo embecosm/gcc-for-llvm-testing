@@ -1,6 +1,7 @@
 /* { dg-do compile { target { c } } } */
 /* { dg-options "-fdump-tree-original" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef char char4[4] __attribute__ ((aligned (4)));
 char4 c4[4] __attribute__ ((aligned (16)));
