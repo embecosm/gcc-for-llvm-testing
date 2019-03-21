@@ -1,6 +1,7 @@
 /* PR middle-end/44974 */
 /* { dg-do compile } */
 /* { dg-options "-O -fno-optimize-sibling-calls" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern void foo (int status) __attribute__ ((__noreturn__,__noinline__));
 extern void bar (int status) __attribute__ ((__noreturn__,__noinline__));

@@ -1,5 +1,13 @@
 2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/PR68002.c: Provide -Wno-ignored-optimization-argument
+	as an additonal option to prevent excess errors.
+	* gcc.dg/instrument-2.c: Likewise.
+	* gcc.dg/instrument-3.c: Likewise.
+	* gcc.dg/pr44974.c: Likewise.
+
+2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* c-c++-common/fold-bitand-4.c: Mark test as requiring
 	GCC frontend to prevent excess errors due to unsupported
 	flags.

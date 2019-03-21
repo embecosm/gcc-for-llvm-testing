@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-finstrument-functions -finstrument-functions-exclude-file-list=instrument-3" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 void fn () { }
 
