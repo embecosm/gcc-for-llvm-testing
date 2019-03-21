@@ -1,6 +1,6 @@
 /* { dg-do compile } */
 /* { dg-final { scan-assembler-not {foo[1-9]\.[0-9]} } } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* Check that we don't get .0 suffixes on static variables when not using
    intermodule analysis.  */
