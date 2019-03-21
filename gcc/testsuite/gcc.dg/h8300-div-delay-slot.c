@@ -3,6 +3,7 @@
 /* { dg-options "-Os" } */
 /* { dg-skip-if "" { "h8300*-*-*" } "*" "-msx*" }  */
 /* { dg-final { scan-assembler-not "\tbra/s\t.*\n\tdiv*" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 extern volatile unsigned long timer_ticks;
 #define timer_ms_elapsed(ticks) (((unsigned long)(timer_ticks-ticks))/10)

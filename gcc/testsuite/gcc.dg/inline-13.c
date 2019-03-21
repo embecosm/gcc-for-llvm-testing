@@ -11,6 +11,7 @@
 /* { dg-final { scan-assembler "func7" } } */
 /* { dg-final { scan-assembler "func8" } } */
 /* { dg-final { scan-assembler "func9" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 inline int dontgenerate1 (void)
 {

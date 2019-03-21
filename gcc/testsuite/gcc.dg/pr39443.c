@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-final { scan-assembler-not "memcmp" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 typedef __SIZE_TYPE__ size_t;
 

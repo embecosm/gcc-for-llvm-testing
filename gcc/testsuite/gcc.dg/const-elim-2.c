@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-final { scan-assembler-times "hi there" 1 { xfail nvptx-*-* pdp11-*-* } } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 static inline int returns_23() { return 23; }
 

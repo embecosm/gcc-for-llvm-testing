@@ -1,4 +1,5 @@
 /* { dg-options "-Os -fdump-rtl-final" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 volatile unsigned char u8;
 

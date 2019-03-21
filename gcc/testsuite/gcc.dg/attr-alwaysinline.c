@@ -3,6 +3,7 @@
 /* Origin: Aldy Hernandez <aldyh@redhat.com>.  */
 /* { dg-do compile } */
 /* { dg-options "-O0" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument"} */
 
 static inline int sabrina (void) __attribute__((always_inline));
 
