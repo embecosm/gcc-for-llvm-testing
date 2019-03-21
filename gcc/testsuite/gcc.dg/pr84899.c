@@ -1,6 +1,7 @@
 /* PR target/84899 */
 /* { dg-do compile } */
 /* { dg-options "-O -funroll-all-loops -fno-move-loop-invariants" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (int x)

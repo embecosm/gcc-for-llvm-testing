@@ -6,6 +6,7 @@
    directives).  */
 
 /* { dg-options "-fdiagnostics-generate-patch" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void test (int i, int j)
 {
