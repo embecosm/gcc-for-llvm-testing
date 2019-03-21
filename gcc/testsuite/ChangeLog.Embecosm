@@ -1,5 +1,29 @@
 2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* c-c++-common/fold-bitand-4.c: Mark test as requiring
+	GCC frontend to prevent excess errors due to unsupported
+	flags.
+	* c-c++-common/unroll-1.c: Likewise.
+	* c-c++-common/unroll-2.c: Likewise.
+	* c-c++-common/unroll-3.c: Likewise.
+	* c-c++-common/unroll-4.c: Likewise.
+	* gcc.c-torture/compile/pr46002.c: Likewise.
+	* gcc.dg/iec-559-macros-8.c: Likewise.
+	* gcc.dg/missing-header-fixit-1.c: Likewise.
+	* gcc.dg/missing-header-fixit-2.c: Likewise.
+	* gcc.dg/noreorder2.c: Likewise.
+	* gcc.dg/noreorder4.c: Likewise.
+	* gcc.dg/pr52803.c: Likewise.
+	* gcc.dg/pr54838.c: Likewise.
+	* gcc.dg/pr79255.c: Likewise.
+	* gcc.dg/pr81578.c: Likewise.
+	* gcc.dg/pr83363.c: Likewise.
+	* gcc.dg/pr83506.c: Likewise.
+	* gcc.dg/pr84710.c: Likewise.
+	* gcc.dg/pr84899.c: Likewise.
+
+2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.c-torture/compile/pr56571.c: Provide
 	-Wno-ignored-optimization-argument as an additonal option 
 	to prevent excess errors.
@@ -167,6 +191,13 @@
 	* gcc.dg/pr84503-1.c: Likewise.
 	* gcc.dg/string-opt-1.c: Likewise.
 	* gcc.dg/torture/pr82697.c: Likewise.
+
+2019-02-28  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc.c-torture/compile/20011119-2.c: Provide
+	-Wno-ignored-attributes as an additonal option to prevent
+	excess errors.
+	* gcc.dg/pr47276.c: Likewise.
 
 2019-02-27  Paolo Savini  <paolo.savini@embecosm.com>
 

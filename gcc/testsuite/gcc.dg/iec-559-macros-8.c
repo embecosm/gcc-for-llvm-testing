@@ -1,6 +1,7 @@
 /* Test __GCC_IEC_559 and __GCC_IEC_559_COMPLEX macros values.  */
 /* { dg-do preprocess } */
 /* { dg-options "-fcx-fortran-rules" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifndef __GCC_IEC_559
 # error "__GCC_IEC_559 not defined"

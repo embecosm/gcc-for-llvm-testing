@@ -2,6 +2,7 @@
 /* PR rtl-optimization/83363 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-forward-propagate" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 unsigned char a;
 unsigned int b;

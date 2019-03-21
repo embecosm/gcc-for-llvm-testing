@@ -10,6 +10,7 @@
 /* { dg-warning "incompatible implicit declaration of built-in function 'printf'" "" { target *-*-* } 6 } */
 
 /* { dg-options "-fdiagnostics-generate-patch" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify the output from -fdiagnostics-generate-patch.
    We expect the patch to begin with a header, containing the

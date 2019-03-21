@@ -1,6 +1,7 @@
 /* PR bootstrap/79255 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -fno-toplevel-reorder -Wno-attributes" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static inline __attribute__((always_inline)) int foo (int x);
 
