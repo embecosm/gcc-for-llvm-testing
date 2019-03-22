@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-g" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* Make sure we didn't eliminate foo because we thought it was unused.  */
 

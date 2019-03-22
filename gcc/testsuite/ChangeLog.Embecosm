@@ -1,3 +1,53 @@
+2019-03-22  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc.dg/20040123-1.c: Provide
+	-Wno-ignored-optimization-argument as an additonal option
+	to prevent excess errors.
+	* gcc.dg/20050503-1.c: Likewise.
+	* gcc.dg/20060410.c: Likewise.
+	* gcc.dg/array-quals-1.c: Likewise.
+	* gcc.dg/asm-2.c: Likewise.
+	* gcc.dg/asm-names.c: Likewise and mark as
+	requiring GCC frontend.
+	* gcc.dg/attr-may-alias-1.c: Likewise.
+	* gcc.dg/builtin-ffs-1.c: Likewise.
+	* gcc.dg/builtins-58.c: Likewise.
+	* gcc.dg/builtins-66.c: Likewise.
+	* gcc.dg/const-elim-1.c: Likewise.
+	* gcc.dg/delay-slot-2.c: Likewise.
+	* gcc.dg/errno-1.c: Likewise.
+	* gcc.dg/inline-19.c: Likewise.
+	* gcc.dg/inline-2.c: Likewise.
+	* gcc.dg/inline-20.c: Likewise.
+	* gcc.dg/instrument-1.c: Likewise.
+	* gcc.dg/noreorder.c: Likewise.
+	* gcc.dg/noreorder3.c: Likewise.
+	* gcc.dg/nrv2.c: Likewise.
+	* gcc.dg/old-style-asm-1.c: Likewise.
+	* gcc.dg/pg-override.c: Likewise.
+	* gcc.dg/pr25795-1.c: Likewise.
+	* gcc.dg/pr27095.c: Likewise.
+	* gcc.dg/pr29299.c: Likewise.
+	* gcc.dg/pr30643.c: Likewise.
+	* gcc.dg/pr37303.c: Likewise and fix unmatching
+	comment delimiter.
+	* gcc.dg/pr50078.c: Likewise.
+	* gcc.dg/pr52592.c: Likewise.
+	* gcc.dg/pr56727-2.c: Likewise and mark as
+	requiring GCC frontend.
+	* gcc.dg/pr63637-1.c: Likewise.
+	* gcc.dg/pr63637-3.c: Likewise.
+	* gcc.dg/pragma-re-4.c: Likewise.
+	* gcc.dg/section1.c: Likewise.
+	* gcc.dg/sibcall-11.c: Likewise.
+	* gcc.dg/strcmpopt_5.c: Likewise and mark as
+	requiring GCC frontend.
+	* gcc.dg/string-opt-1.c: Likewise and mark as
+	requiring GCC frontend.
+	* gcc.dg/typeof-1.c: Likewise.
+	* gcc.dg/unused-5.c: Likewise.
+	* gcc.dg/verbose-asm-2.c: Likewise.
+
 2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/20021029-2.c: Fix syntax of dg directive.

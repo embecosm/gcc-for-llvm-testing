@@ -2,6 +2,7 @@
    a memcpy.  Throw in a bit of control flow to make its job a bit harder.  */
 
 /* { dg-options "-O" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 struct A { int i[100]; };
 

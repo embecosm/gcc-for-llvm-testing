@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-g -O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern int printf (__const char *__restrict __format, ...);
 extern void print_c_condition (const char *);

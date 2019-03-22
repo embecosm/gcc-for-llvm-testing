@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ffast-math -std=c99 -fno-ident" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #include "builtins-config.h"
 

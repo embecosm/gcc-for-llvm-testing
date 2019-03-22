@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* On MIPS, disable generating hints (R_MIPS_JALR) for PIC calls.  In addition
    to the load from the GOT this also contains the name of the function so for

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 enum { E0 = 0, E1 = 1, E2 = 2 } e;
 

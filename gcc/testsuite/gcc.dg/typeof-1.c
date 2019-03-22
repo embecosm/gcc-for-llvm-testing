@@ -1,6 +1,7 @@
 /* Test typeof with __asm redirection. */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern int foo1;
 extern int foo1 __asm ("bar1");

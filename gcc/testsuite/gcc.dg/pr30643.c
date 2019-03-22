@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-final { scan-assembler-not "undefined" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* Make sure we optimize all calls away.  */
 

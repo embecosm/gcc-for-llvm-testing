@@ -2,6 +2,7 @@
    it has been deferred.  */
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O3 -finline-limit=0 -fpic" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 static int foo(void)
 {
