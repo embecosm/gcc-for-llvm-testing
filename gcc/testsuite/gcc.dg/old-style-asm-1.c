@@ -1,6 +1,8 @@
 /* PR inline-asm/8832 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -dP" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 /* Verify that GCC doesn't optimize
    old style asm instructions.  */
