@@ -3,6 +3,7 @@
    initializer.  The variable named C.0 was created by
    gimplify_init_constructor. */
 /* { dg-final { scan-assembler-not "C\\.0" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 int main()
 {

@@ -4,6 +4,7 @@
 /* { dg-options "" } */
 /* NVPTX's weak is applied to the definition,  not declaration.  */
 /* { dg-skip-if "" { nvptx-*-* } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* { dg-final { scan-assembler "weak\[^ \t\]*\[ \t\]_?foo" } } */
 
