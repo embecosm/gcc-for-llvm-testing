@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-final { scan-assembler "abort" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern void abort (void);
 extern char a[];

@@ -2,6 +2,8 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-options "-O2 -fPIC" } */
 /* { dg-require-alias "" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((noinline, noclone))
 void f (short b)

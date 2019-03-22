@@ -1,6 +1,7 @@
 /* PR middle-end/52592 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99 -O2 -ffast-math" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #define T(type, name) \
 type name (type);		\

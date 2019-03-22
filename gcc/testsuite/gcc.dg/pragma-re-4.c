@@ -4,6 +4,7 @@
 /* Origin: Carlos O'Donell <carlos@codesourcery.com> */
 /* { dg-final { scan-assembler "_foo" } } */
 /* { dg-final { scan-assembler-not "_foo64" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #define foo     _foo
 #define foo64   _foo64

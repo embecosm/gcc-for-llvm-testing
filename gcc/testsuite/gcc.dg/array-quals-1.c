@@ -8,6 +8,8 @@
 /* The MMIX port always switches to the .data section at the end of a file.  */
 /* { dg-final { scan-assembler-not "\\.data(?!\\.rel\\.ro)" { xfail powerpc*-*-aix* mmix-*-* x86_64-*-mingw* } } } */
 /* { dg-final { scan-assembler-symbol-section {^_?a$} {^\.(const|rodata|srodata)|\[RO\]} } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-additional-options "-Wno-incompatible-pointer-types-discards-qualifiers" } */
 static const int a[2] = { 1, 2 };
 /* { dg-final { scan-assembler-symbol-section {^_?a1$} {^\.(const|rodata|srodata|sdata)|\[RO\]} } } */
 const int a1[2] = { 1, 2 };

@@ -8,6 +8,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -std=c99" } */
 /* { dg-final { scan-assembler-not "L\\\$?C\[^A-Z\]" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #define I (__extension__ 1.0iF)
 

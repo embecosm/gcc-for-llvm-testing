@@ -1,5 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fdump-rtl-expand" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct { char s[8]; int x; } S;
 __attribute__ ((noinline)) int

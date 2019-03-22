@@ -1,6 +1,7 @@
 /* PR tree-optimization/50078 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 unsigned nonvolvar[2];
 

@@ -1,6 +1,8 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char *buffer;
 char *test;

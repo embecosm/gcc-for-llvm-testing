@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-final { scan-assembler "dont_delete" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 typedef struct { int x; } __attribute__((may_alias)) S;
 

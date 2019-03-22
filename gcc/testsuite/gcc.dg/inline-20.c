@@ -1,6 +1,7 @@
 /* Test -fno-gnu89-extern-inline.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c99 -fno-gnu89-inline" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 /* { dg-final { scan-assembler-not "dontgenerate" } } */
 /* { dg-final { scan-assembler "func1" } } */
 /* { dg-final { scan-assembler "func2" } } */

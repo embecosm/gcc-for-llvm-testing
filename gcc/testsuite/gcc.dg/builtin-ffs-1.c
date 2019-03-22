@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern int ffs (int) __asm ("__GI_ffs") __attribute__ ((nothrow, const));
 

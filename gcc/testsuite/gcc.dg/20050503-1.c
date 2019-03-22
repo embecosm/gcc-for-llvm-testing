@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "" { { i?86-*-* x86_64-*-* } && { ia32 && { ! nonpic } } } } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 typedef __SIZE_TYPE__ size_t;
 
