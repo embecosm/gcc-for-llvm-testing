@@ -48,7 +48,7 @@
 	* gcc.dg/unused-5.c: Likewise.
 	* gcc.dg/verbose-asm-2.c: Likewise.
 
-2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-21  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/20021029-2.c: Fix syntax of dg directive.
 	* gcc.dg/PR68002.c: Likewise.
@@ -88,7 +88,7 @@
 	* gcc.dg/pr86617.c: Likewise.
 	* gcc.dg/varpool-1.c: Likewise.
 
-2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-21  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/20021029-2.c: Provide
 	-Wno-ignored-optimization-argument as an additonal option
@@ -133,7 +133,7 @@
 	* gcc.dg/pr86617.c: Likewise.
 	* gcc.dg/varpool-1.c: Likewise.
 
-2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-21  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* c-c++-common/fold-bitand-4.c: Mark test as requiring
 	GCC frontend to prevent excess errors due to unsupported
@@ -157,7 +157,7 @@
 	* gcc.dg/pr84710.c: Likewise.
 	* gcc.dg/pr84899.c: Likewise.
 
-2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-21  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.c-torture/compile/20001116-1.c: Mark test as
 	requiring gcc fronted to prevent excess errors.
