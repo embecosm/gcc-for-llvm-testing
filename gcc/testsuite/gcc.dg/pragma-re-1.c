@@ -1,5 +1,6 @@
 /* { dg-final { scan-assembler "bar" } } */
 /* { dg-final { scan-assembler-not "foo" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #ifndef __PRAGMA_REDEFINE_EXTNAME
 #error 

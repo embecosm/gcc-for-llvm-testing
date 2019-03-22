@@ -1,5 +1,35 @@
 2019-03-22  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/array-init-1.c: Provide
+	-Wno-ignored-optimization-argument as an additonal option
+	to prevent excess errors.
+	* gcc.dg/asm-3.c: Likewise.
+	* gcc.dg/ctor1.c: Likewise.
+	* gcc.dg/funcorder.c: Likewise.
+	* gcc.dg/inline-17.c: Likewise.
+	* gcc.dg/inline-18.c: Likewise.
+	* gcc.dg/pg.c: Likewise.
+	* gcc.dg/pr24561.c: Likewise.
+	* gcc.dg/pr63637-2.c: Likewise.
+	* gcc.dg/pr63637-4.c: Likewise.
+	* gcc.dg/pr63637-5.c: Likewise.
+	* gcc.dg/pr63637-6.c: Likewise.
+	* gcc.dg/pragma-re-1.c: Likewise.
+	* gcc.dg/weak/typeof-2.c: Likewise.
+	* gcc.dg/weak/weak-1.c: Likewise.
+	* gcc.dg/weak/weak-10.c: Likewise.
+	* gcc.dg/weak/weak-11.c: Likewise.
+	* gcc.dg/weak/weak-12.c: Likewise.
+	* gcc.dg/weak/weak-15.c: Likewise.
+	* gcc.dg/weak/weak-16.c: Likewise.
+	* gcc.dg/weak/weak-2.c: Likewise.
+	* gcc.dg/weak/weak-3.c: Likewise.
+	* gcc.dg/weak/weak-4.c: Likewise.
+	* gcc.dg/weak/weak-5.c: Likewise.
+	* gcc.dg/weak/weak-9.c: Likewise.
+
+2019-03-22  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/20040123-1.c: Provide
 	-Wno-ignored-optimization-argument as an additonal option
 	to prevent excess errors.

@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-options "-O2 -mtune=i686" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 struct A { char c[10]; };
 extern void baz (struct A *);

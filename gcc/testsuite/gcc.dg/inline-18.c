@@ -5,6 +5,7 @@
 /* { dg-final { scan-assembler-not "func2" } } */
 /* { dg-final { scan-assembler "func3" } } */
 /* { dg-final { scan-assembler "func4" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #ifndef __GNUC_GNU_INLINE__
 #error __GNUC_GNU_INLINE__ is not defined

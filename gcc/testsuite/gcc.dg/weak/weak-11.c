@@ -3,6 +3,7 @@
 /* { dg-require-weak "" } */
 /* { dg-require-alias "" } */
 /* { dg-options "-funit-at-a-time" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* { dg-final { scan-assembler "xyzzy" } } */
 

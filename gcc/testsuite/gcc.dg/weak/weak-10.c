@@ -6,6 +6,7 @@
 /* { dg-require-weak "" } */
 /* { dg-require-alias "" } */
 /* { dg-options "-fno-common" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 /* { dg-final { scan-assembler "weak\[^ \t\]*\[ \t\]_?bar1" } } */
 

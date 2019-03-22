@@ -8,6 +8,7 @@
 /* Using -mshort-calls avoids loading the function addresses in
    registers and thus getting the counts wrong.  */
 /* { dg-additional-options "-mshort-calls" { target epiphany-*-* } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern int foo1 (int x) __asm ("baz1");
 int bar1 (int x) { return x; }

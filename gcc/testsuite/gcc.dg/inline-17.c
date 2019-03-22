@@ -5,6 +5,7 @@
 /* { dg-final { scan-assembler-not "func2" } } */
 /* { dg-final { scan-assembler "func3" } } */
 /* { dg-final { scan-assembler "func4" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 #if __STDC_VERSION__ >= 199901L
 # define inline __attribute__((gnu_inline)) inline
