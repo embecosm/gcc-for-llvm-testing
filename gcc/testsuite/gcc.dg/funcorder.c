@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funit-at-a-time" } */
 /* { dg-final { scan-assembler-not "link_error" } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 /*  In unit-at-time the functions should be assembled in order
     e q t main, so we realize that they are pure.  */
  

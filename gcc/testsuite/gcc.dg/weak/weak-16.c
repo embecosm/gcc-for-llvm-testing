@@ -7,6 +7,7 @@
 /* { dg-skip-if "" { x86_64-*-mingw* } } */
 /* NVPTX's weak is applied to the definition,  not declaration.  */
 /* { dg-skip-if "" { nvptx-*-* } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 extern int kallsyms_token_index[] __attribute__((weak));
 extern int kallsyms_token_table[] __attribute__((weak));
