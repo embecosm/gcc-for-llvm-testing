@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fprofile-use -fopt-info -Wno-missing-profile" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void process(const char *s);
 

@@ -1,5 +1,6 @@
 /* { dg-options "-fstrict-volatile-bitfields" } */
 /* { dg-do run } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int puts(const char *);
 extern void abort(void) __attribute__((noreturn));

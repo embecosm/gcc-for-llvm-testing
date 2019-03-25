@@ -1,6 +1,7 @@
 /* PR rtl-optimization/83361 */
 /* { dg-do compile } */
 /* { dg-options "-O2 -freorder-blocks-and-partition -Wno-div-by-zero" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <limits.h>
 

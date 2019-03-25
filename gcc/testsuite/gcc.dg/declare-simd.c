@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fopenmp-simd" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma omp declare simd linear (p2, p3)
 extern void fn2 (float p1, float *p2, float *p3);

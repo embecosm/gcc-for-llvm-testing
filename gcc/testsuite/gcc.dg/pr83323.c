@@ -1,5 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -floop-unroll-and-jam --param unroll-jam-min-percent=0" } */
+/* { dg-require-effective-target gcc_frontend } */
+
 int x[1024], y[1024];
 
 void __attribute__((noipa)) foo ()

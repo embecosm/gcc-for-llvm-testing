@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -fsplit-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int fn1 (int b, int c)
 {

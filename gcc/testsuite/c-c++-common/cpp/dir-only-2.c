@@ -3,6 +3,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-fpreprocessed -fdirectives-only -DNOT_SET" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests -fdirectives-only + -fpreprocessed. */
 

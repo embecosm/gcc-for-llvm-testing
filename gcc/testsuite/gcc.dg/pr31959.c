@@ -1,6 +1,7 @@
 /* PR middle-end/31959 */
 /* { dg-do compile } */
 /* { dg-options "-O0 -fguess-branch-probability" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { int i; };
 
