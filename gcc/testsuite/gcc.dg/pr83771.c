@@ -1,6 +1,7 @@
 /* PR rtl-optimization/83771 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fmodulo-sched -fno-ssa-phiopt" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 long int a;
 int b;

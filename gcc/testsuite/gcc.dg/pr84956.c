@@ -1,4 +1,5 @@
 /* { dg-options "-O2 -ftree-tail-merge" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char a;
 int c;

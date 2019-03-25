@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-fpreprocessed" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Source: Neil Booth, 16 Sep 2001.
 

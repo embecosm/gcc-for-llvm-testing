@@ -3,6 +3,7 @@
 /* { dg-options "-w -fno-inline-atomics" } */
 /* { dg-do run } */
 /* { dg-additional-sources "atomic-noinline-aux.c" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that -fno-inline-atomics works as expected.  
    atomic-generic-aux provide the expected routines which simply set the

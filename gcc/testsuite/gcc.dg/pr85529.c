@@ -2,6 +2,7 @@
 /* PR tree-optimization/85529 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-ssa-phiopt" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __attribute__((noinline, noclone)) int
 foo (int x)

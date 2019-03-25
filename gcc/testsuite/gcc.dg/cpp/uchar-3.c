@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-funsigned-char -fpreprocessed" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Source: Ziemowit Laski.  -fpreprocessed doesn't define macros, but
    CPP would interpret charconsts based upon whether __CHAR_UNSIGNED__

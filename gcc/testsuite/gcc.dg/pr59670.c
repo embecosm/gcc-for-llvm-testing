@@ -1,6 +1,7 @@
 /* PR middle-end/59670 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fopenmp-simd" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int d[1024];
 

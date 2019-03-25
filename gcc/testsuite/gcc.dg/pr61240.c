@@ -1,5 +1,6 @@
 /* PR c/61240 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __PTRDIFF_TYPE__ ptrdiff_t;
 

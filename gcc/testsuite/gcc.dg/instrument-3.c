@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-finstrument-functions -finstrument-functions-exclude-file-list=instrument-3" } */
 /* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void fn () { }
 

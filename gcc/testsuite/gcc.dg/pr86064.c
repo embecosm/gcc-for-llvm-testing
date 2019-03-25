@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-skip-if "split DWARF unsupported" { *-*-darwin* } } */
 /* { dg-options "-g -O2 -fno-var-tracking-assignments -gsplit-dwarf" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This used to fail with location views (implicitly) enabled, because
    var-tracking (not at assignments) creates a range for d starting at

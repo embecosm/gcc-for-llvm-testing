@@ -1,6 +1,8 @@
 /* PR c/66618 */
 /* { dg-do compile } */
 /* { dg-options "-pedantic-errors" } */
+/* { dg-additional-options "-Wno-array-bounds" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a = "foo"[2];
 int b = 1["bar"];

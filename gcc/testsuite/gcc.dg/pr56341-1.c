@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fstrict-volatile-bitfields" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

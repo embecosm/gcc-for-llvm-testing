@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options -fpreprocessed } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Source: Jason Merrill, 19 Nov 2001.  We'd try and back up a token
    and move to a non-existent token run with -fpreprocessed on a file
