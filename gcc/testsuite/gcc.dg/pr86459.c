@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-g -O2 -fno-var-tracking-assignments -gsplit-dwarf -g3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Same as pr86064.c but compiled with -g3 it showed an issue in
    output_macinfo_op because of a typo in an assert.  */

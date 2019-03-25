@@ -1,6 +1,7 @@
 /* PR tree-optimization/78384
    { dg-do compile }
    { dg-options "-O3 -w -fsplit-loops" } */
+/* { dg-require-effective-target gcc_frontend } */
 void
 a2 (int wv, int yg, int r9)
 {

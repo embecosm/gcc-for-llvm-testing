@@ -1,6 +1,8 @@
 /* PR target/82190 */
 /* { dg-do run } */
 /* { dg-options "-O2 -fno-optimize-strlen -fweb" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char src[64] __attribute__ ((aligned)) = "aaaaaaa";
 char dst[64] __attribute__ ((aligned));

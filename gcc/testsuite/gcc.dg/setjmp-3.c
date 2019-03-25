@@ -1,6 +1,8 @@
 /* { dg-do run } */
 /* { dg-options "-O" } */
 /* { dg-require-effective-target indirect_jumps } */
+/* { dg-require-effective-target gcc_frontend } */
+/* { dg-additional-options "-Wno-incompatible-pointer-types" } */
 
 #include <setjmp.h>
 

@@ -1,6 +1,7 @@
 /* PR82337: SLSR needs to prevent abnormal SSA names from
    serving as a basis. */
 /* { dg-require-effective-target nonlocal_goto } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char *a, *b, *c;
 

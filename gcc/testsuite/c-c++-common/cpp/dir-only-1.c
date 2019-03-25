@@ -3,6 +3,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options -fdirectives-only } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests scan_translation_unit_directives_only()'s handling of corner cases. */
 

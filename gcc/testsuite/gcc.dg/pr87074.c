@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O3 -floop-unroll-and-jam --param unroll-jam-min-percent=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 long b;
 unsigned c[5];
 unsigned long long d = 3;

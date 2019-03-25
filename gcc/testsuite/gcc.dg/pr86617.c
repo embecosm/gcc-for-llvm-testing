@@ -1,5 +1,6 @@
 /* { dg-options "-Os -fdump-rtl-final" } */
 /* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 volatile unsigned char u8;
 

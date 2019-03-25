@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-Wuninitialized -ftrack-macro-expansion=2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stddef.h>
 
