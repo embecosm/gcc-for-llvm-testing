@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Walloca-larger-than=128 -O2" } */
 
 typedef __SIZE_TYPE__ size_t;
