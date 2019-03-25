@@ -1,5 +1,31 @@
 2019-03-25  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* c-c++-common/Wrestrict-3.c: Mark as
+	requiring GCC frontend.
+	* gcc.c-torture/execute/pr84339.c: Likewise.
+	* gcc.c-torture/execute/pr84478.c: Likewise.
+	* gcc.c-torture/execute/pr85331.c: Likewise.
+	* gcc.dg/Walloca-15.c: Likewise.
+	* gcc.dg/builtin-tgmath-err-1.c: Likewise.
+	* gcc.dg/builtin-tgmath-err-2.c: Likewise.
+	* gcc.dg/builtins-57.c: Likewise.
+	* gcc.dg/pr79538.c: Likewise.
+	* gcc.dg/pr80776-1.c: Likewise.
+	* gcc.dg/pr81650.c: Likewise.
+	* gcc.dg/pr82123.c: Likewise.
+	* gcc.dg/pr82274-2.c: Likewise.
+	* gcc.dg/pr83198.c: Likewise.
+	* gcc.dg/pr84503-1.c: Likewise.
+	* gcc.dg/spec-barrier-3.c: Likewise.
+	* gcc.dg/strlenopt-42.c: Likewise.
+	* gcc.dg/torture/builtin-complex-1: Likewise..c
+	* gcc.dg/torture/builtin-minmax-1.c: Likewise.
+	* gcc.dg/torture/builtin-rounding-1.c: Likewise.
+	* gcc.dg/torture/builtin-sprintf.c: Likewise.
+	* gcc.dg/torture/pr82697.c: Likewise.
+
+2019-03-25  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.c-torture/compile/20000804-1.c: Mark as
 	requiring GCC frontend.
 	* gcc.c-torture/compile/20011029-1.c: Likewise.

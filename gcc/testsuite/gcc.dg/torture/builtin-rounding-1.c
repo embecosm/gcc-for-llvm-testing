@@ -8,6 +8,7 @@
 /* { dg-do link } */
 /* { dg-require-effective-target builtin_floor } */
 /* { dg-require-effective-target builtin_ceil } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int link_error (int);
 

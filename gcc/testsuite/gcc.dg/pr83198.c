@@ -1,6 +1,7 @@
 /* PR tree-optimization/83198 */
 /* { dg-do compile } */
 /* { dg-options "-Wall -Wno-format" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (char *d[6], int x)

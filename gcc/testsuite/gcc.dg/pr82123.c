@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wformat-overflow=1" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void acpi_gpiochip_request_interrupt(unsigned short s)
 {

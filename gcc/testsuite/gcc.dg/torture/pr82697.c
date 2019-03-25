@@ -1,4 +1,5 @@
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target gcc_frontend } */
 /* { dg-do run } */
 /* { dg-require-effective-target builtin_malloc } */
 
