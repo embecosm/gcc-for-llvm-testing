@@ -2,6 +2,7 @@
    to a type-generic macro, non-DFP.  */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 float f_f (float);
 double f_d (double);

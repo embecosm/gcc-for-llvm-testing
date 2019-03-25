@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target builtin_malloc } */
 /* { dg-options "-O3" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__ size_t;
 typedef __UINTPTR_TYPE__ uintptr_t;

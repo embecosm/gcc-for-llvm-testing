@@ -2,6 +2,7 @@
    { dg-do run }
    { dg-options "-O2 -Wall" }
    { dg-additional-options "-Wl,-u,_printf_float" { target newlib_nano_io } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define X        "0xdeadbeef"
 #define nan(x)   __builtin_nan (x)
