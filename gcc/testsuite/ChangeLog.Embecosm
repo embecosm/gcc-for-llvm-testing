@@ -1,5 +1,11 @@
 2019-03-26  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/Wint-conversion-2.c: Mark as
+	requiring GCC frontend.
+	* gcc.dg/diagnostic-types-1.c: Likewise.
+
+2019-03-26  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/pr20216.c: Annotate with
 	-Wno-tautological-constant-out-of-range-compare
 	* gcc.dg/pr32573.c: Likewise.
