@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wc++-compat -Wpedantic" } */
 /* Test we're printing the types, like the good compiler we are.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum E1 { A } e;
 enum E2 { B };
