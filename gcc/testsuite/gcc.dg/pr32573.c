@@ -1,6 +1,7 @@
 /* PR tree-optimization/32573 */
 /* { dg-do compile } */
 /* { dg-options "-O3" } */
+/* { dg-additional-options "-Wno-tautological-constant-out-of-range-compare" } */
 
 long long bar (void *);
 

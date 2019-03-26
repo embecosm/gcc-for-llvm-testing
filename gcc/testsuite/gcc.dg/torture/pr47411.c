@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-tautological-constant-out-of-range-compare" } */
 
 typedef long unsigned int size_t;
 
