@@ -1,3 +1,11 @@
+2019-03-26  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc.dg/c99-init-5.c: Mark as
+	requiring GCC frontend.
+	* gcc.dg/pr36901-1.c: Likewise.
+	* gcc.dg/pr36901-2.c: Likewise.
+	* gcc.dg/pr36901.h: Likewise.
+
 2019-03-25  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* c-c++-common/Wrestrict-3.c: Mark as
