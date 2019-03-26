@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -std=c99" } */
+/* { dg-additional-options "-Wno-int-conversion" } */
 
 void
 foo (void)
