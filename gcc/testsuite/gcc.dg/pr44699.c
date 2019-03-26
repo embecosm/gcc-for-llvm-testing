@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-tautological-constant-out-of-range-compare" } */
 typedef long unsigned int size_t;
 typedef long int intmax_t;
 typedef long unsigned int uintmax_t;

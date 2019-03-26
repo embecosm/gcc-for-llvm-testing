@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1" } */
+/* { dg-additional-options "-Wno-tautological-constant-out-of-range-compare" } */
 
 static unsigned int *buffer;
 
