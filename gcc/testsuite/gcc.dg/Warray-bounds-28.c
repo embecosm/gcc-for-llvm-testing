@@ -2,6 +2,7 @@
    bound array access
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char foo1 (int i)
 {

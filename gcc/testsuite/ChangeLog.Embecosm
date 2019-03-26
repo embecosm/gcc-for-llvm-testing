@@ -1,5 +1,18 @@
 2019-03-26  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/Warray-bounds-28.c: Mark as
+	requiring GCC frontend.
+	* gcc.dg/builtin-object-size-1.c: Annotate 
+	with -Wno-array-bounds.
+	* gcc.dg/builtin-object-size-2.c: Likewise.
+	* gcc.dg/builtin-object-size-3.c: Likewise.
+	* gcc.dg/builtin-object-size-4.c: Likewise.
+	* gcc.dg/pr71279.c: Likewise.
+	* gcc.dg/pr82596.c: Mark as requiring GCC 
+	frontend.
+
+2019-03-26  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/c99-init-5.c: Mark as
 	requiring GCC frontend.
 	* gcc.dg/pr36901-1.c: Likewise.
