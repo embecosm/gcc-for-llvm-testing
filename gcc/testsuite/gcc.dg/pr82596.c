@@ -2,6 +2,7 @@
    index into string literal
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SIZE_MAX  __SIZE_MAX__
 #define SSIZE_MAX __PTRDIFF_MAX__
