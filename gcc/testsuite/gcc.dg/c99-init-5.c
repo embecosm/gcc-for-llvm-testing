@@ -3,6 +3,7 @@
    whole.  */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char g[] = { [7] = "abcd" }; /* { dg-error "initial" } */
 char h[10][10] = { [1][1] = "abcd" }; /* { dg-error "initial" } */
