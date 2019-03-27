@@ -1,7 +1,7 @@
 /* PR middle-end/35691 */
 /* { dg-do run } */
 /* { dg-options "-O2" } */
-/* { dg-require-effective-target noclone } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 __attribute__((noinline, noclone)) int
 foo (int *p, unsigned long long *q)

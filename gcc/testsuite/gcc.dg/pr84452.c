@@ -1,6 +1,7 @@
 /* PR tree-optimization/84452 */
 /* { dg-do compile } */
 /* { dg-options "-Ofast" } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 double pow (double, double) __attribute__((simd));
 double exp (double) __attribute__((simd));

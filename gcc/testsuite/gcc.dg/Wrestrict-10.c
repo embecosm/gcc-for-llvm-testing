@@ -1,8 +1,7 @@
 /* PR tree-optimization/84526 - ICE in generic_overlap
    { dg-do compile }
    { dg-options "-O2 -Wrestrict" } */
-/* { dg-require-effective-target noclone } */
-/* { dg-require-effective-target gcc_frontend } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 typedef __SIZE_TYPE__ size_t;
 
