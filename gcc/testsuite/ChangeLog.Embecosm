@@ -1,3 +1,8 @@
+2019-03-27  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/torture/pr82697.c: Fix
+	annotation to require GCC frontend.
+
 2019-03-26  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/pr26865.c: Annotate with
