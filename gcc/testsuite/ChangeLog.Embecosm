@@ -1,5 +1,11 @@
 2019-03-27  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/builtin-tgmath-1.c: Mark as
+	requiring GCC frontend.
+	* gcc.dg/typeof-2.c: Likewise.
+
+2019-03-27  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/Wrestrict-15.c: Mark as
 	requiring GCC frontend.
 	* gcc.dg/completion-1.c: Likewise.
