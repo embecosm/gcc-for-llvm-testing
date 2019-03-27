@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wall -fno-strict-overflow  -Wstrict-overflow=2 -fsanitize=signed-integer-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdio.h>
 

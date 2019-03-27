@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "--completion=-flto-parti" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-begin-multiline-output "" }
 -flto-partition=1to1

@@ -1,5 +1,15 @@
 2019-03-27  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/Wrestrict-15.c: Mark as
+	requiring GCC frontend.
+	* gcc.dg/completion-1.c: Likewise.
+	* gcc.dg/completion-2.c: Likewise.
+	* gcc.dg/completion-3.c: Likewise.
+	* gcc.dg/opts-4.c: Likewise.
+	* gcc.dg/pr81592.c: Likewise.
+
+2019-03-27  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/Wstringop-overflow-3.c: Annotate with
 	-Wno-incompatible-library-redeclaration.
 	* gcc.dg/pr86114.c: Likewise.
