@@ -2,6 +2,7 @@
 /* Radar 3069179 */
 
 /* { dg-options "-O3" } */
+/* { dg-additional-options "-Wno-int-conversion" } */
 
 static void foo (p)
      int p;

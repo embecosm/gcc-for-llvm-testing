@@ -5,6 +5,7 @@
    invalid calls are ignored.
   { dg-do compile }
   { dg-options "-O2 -Wrestrict" }  */
+/* { dg-additional-options "-Wno-int-conversion" } */
 /* { dg-require-effective-target gcc_frontend } */
 
 void* memcpy ();
