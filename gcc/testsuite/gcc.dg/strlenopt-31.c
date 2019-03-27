@@ -1,6 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2" } */
-/* { dg-require-effective-target noclone } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 #include "strlenopt.h"
 

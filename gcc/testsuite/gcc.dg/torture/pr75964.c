@@ -1,5 +1,5 @@
 /* { dg-do run } */
-/* { dg-require-effective-target noclone } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 typedef __UINT8_TYPE__ uint8_t;
 

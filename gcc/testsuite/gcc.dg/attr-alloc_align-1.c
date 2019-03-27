@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3" } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 double *my_alloc1 (int len, int align) __attribute__((__alloc_align__ (2)));
 double *my_alloc2 (int align, int len) __attribute__((alloc_align (1)));

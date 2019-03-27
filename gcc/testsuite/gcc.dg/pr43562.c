@@ -1,5 +1,6 @@
 /* { dg-options "-O0" } */
 /* { dg-do compile } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 extern unsigned foo (void);
 extern void bar (void);

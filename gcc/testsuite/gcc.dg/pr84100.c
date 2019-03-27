@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-skip-if "no code alignment > 2" { "pdp11-*-*" } } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 void bar (void);
 

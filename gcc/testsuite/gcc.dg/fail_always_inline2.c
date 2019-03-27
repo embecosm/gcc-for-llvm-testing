@@ -1,3 +1,5 @@
+/* { dg-additional-options "-Wno-unknown-attributes" } */
+
 extern char *__realpath_alias (__const char *__restrict __name, char 
 *__restrict __resolved) __asm__ ("" "realpath") __attribute__ 
 ((__nothrow__)) __attribute__ ((__warn_unused_result__));
