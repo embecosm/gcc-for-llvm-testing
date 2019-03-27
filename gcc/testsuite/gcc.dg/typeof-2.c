@@ -1,6 +1,7 @@
 /* Test qualifier preservation of typeof and discarded for __auto_type. */
 /* { dg-do compile } */
 /* { dg-options "-std=c11" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Check that the qualifiers are preserved for atomic types. */
 
