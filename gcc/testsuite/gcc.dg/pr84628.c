@@ -1,6 +1,7 @@
 /* PR ipa/84628 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 int f0 (void);
 __attribute__((error ("err"))) void f1 (void) { f0 (); f0 (); }

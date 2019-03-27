@@ -1,4 +1,5 @@
 /* { dg-options "-ffast-math" } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 float farg;
 unsigned val;

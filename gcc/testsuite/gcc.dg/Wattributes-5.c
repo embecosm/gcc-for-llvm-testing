@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options -Wattributes } */
+/* { dg-additional-options "-Wno-unknown-attributes" } */
 
 void __attribute__((_foobar)) foo() { }		/* { dg-warning "attribute directive ignored" } */
 void __attribute__((_xformat__)) foo2() { }	/* { dg-warning "attribute directive ignored" } */
