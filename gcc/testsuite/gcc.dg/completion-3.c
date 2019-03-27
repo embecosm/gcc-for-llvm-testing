@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "--completion=--param=asan-" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-begin-multiline-output "" }
 --param=asan-globals=
