@@ -3,6 +3,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-O2 -funroll-all-loops" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 static float tfcos12[3];
 __attribute__((noinline)) double f(double x) { return x; }

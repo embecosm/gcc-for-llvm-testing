@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-frounding-math -funsafe-math-optimizations" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 int test ()
 {

@@ -4,6 +4,7 @@
 /* { dg-options "-O2 -fdelete-null-pointer-checks" } */
 /* { dg-skip-if "" { powerpc-ibm-aix* } } */
 /* { dg-skip-if "function pointers can be NULL" { keeps_null_pointer_checks } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 void abort (void);
 extern int undef_var0, undef_var1;
 extern __attribute__ ((weak)) int weak_undef_var0;
