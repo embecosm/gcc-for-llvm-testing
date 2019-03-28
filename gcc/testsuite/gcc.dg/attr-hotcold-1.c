@@ -1,3 +1,4 @@
+/* { dg-additional-options "-Wno-ignored-attributes" } */
 void f(void)
 {
   goto A;
