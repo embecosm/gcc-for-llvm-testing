@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options -pedantic-errors } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if 'a' != 'a' || '\001' != 1 || '\x12' != 0x12
 #error a,1,0x12 /* { dg-bogus "#error" "basic charconst recognition" } */

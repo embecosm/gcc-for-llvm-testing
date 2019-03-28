@@ -1,4 +1,5 @@
 /* PR debug/83547 */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (void)
