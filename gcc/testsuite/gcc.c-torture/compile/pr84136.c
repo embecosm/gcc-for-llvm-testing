@@ -1,4 +1,5 @@
 /* { dg-require-effective-target indirect_jumps } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void* a;
 
