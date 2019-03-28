@@ -2,6 +2,7 @@
    calls properly.  */
 /* { dg-do compile } */
 /* { dg-options "-w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that the generic builtins make calls as expected.  */
 

@@ -2,6 +2,7 @@
    the mode of a register.  The bug appeared to be latent until web
    was moved after combine.  This is the reduced test that fails 
    by crashing in reload.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 typedef struct cpp_reader cpp_reader;
