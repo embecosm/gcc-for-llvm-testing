@@ -1,5 +1,14 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.c-torture/compile/20011119-1.c: Annotate
+	with -Wno-ignored-attributes
+	* gcc.dg/attr-hotcold-1.c: Likewise.
+	* gcc.dg/torture/pr80612.c: Likewise.
+	* gcc.dg/attr-nest.c: Mark as requiring
+	GCC frontend.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/attr-nonstring.c: Annotate with
 	-Wno-format-security.
 

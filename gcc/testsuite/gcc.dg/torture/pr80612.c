@@ -1,6 +1,7 @@
 /* PR tree-optimization/80612 */
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-additional-options "-Wno-ignored-attributes" } */
 
 struct obstack *a;
 struct obstack {
