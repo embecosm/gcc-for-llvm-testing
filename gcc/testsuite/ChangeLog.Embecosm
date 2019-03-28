@@ -1,5 +1,10 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/attr-nonstring.c: Annotate with
+	-Wno-format-security.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/addr_equal-1.c: Annotate with
 	-Wno-ignored-optimization-argument.
 	* gcc.dg/c99-const-expr-13.c: Likewise.
