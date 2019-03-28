@@ -1,5 +1,10 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/qual-return-4.c: Add
+	option -Wno-qualified-void-return-type.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/Waddress.c: Add
 	-Wno-tautological-pointer-compare.
 
