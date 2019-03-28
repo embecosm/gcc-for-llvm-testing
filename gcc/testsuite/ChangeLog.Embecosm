@@ -1,5 +1,15 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/addr_equal-1.c: Annotate with
+	-Wno-ignored-optimization-argument.
+	* gcc.dg/c99-const-expr-13.c: Likewise.
+	* gcc.dg/loop-6.c: Likewise.
+	* gcc.dg/pr67107.c: Likewise.
+	* gcc.dg/pr69070.c: Likewise.
+	* gcc.dg/pr82875.c: Likewise.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/qual-return-4.c: Add
 	option -Wno-qualified-void-return-type.
 
