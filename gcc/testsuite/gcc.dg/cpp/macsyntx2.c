@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-pedantic -std=c99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests macro syntax, for both definition and invocation, including:-
 
