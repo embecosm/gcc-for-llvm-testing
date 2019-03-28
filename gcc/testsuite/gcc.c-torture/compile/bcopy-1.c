@@ -1,5 +1,6 @@
 /* PR middle-end/31095, expand_builtin_memmove_args forgot to take into
    account that tree folding of builtins can add an extra NOP_EXPR.   */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct timeval
 {
