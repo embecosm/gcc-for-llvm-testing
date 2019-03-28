@@ -4,6 +4,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "-pedantic -std=gnu99" } */
+/* { dg-additional-options "-Wno-qualified-void-return-type" } */
 
 volatile void (*y)(int);
 
