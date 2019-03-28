@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wall" } */
 /* { dg-additional-options "-Wno-unknown-attributes" } */
+/* { dg-additional-options "-Wno-format-security" } */
 
 typedef __SIZE_TYPE__       size_t;
 typedef __builtin_va_list   va_list;
