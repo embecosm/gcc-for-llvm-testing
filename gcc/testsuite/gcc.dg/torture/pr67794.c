@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *b;
 static void fn1(int *best, int *dmin) {
