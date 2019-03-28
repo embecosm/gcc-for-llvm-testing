@@ -1,6 +1,7 @@
 /* Check that constant constraints like "i", "n" and "s" can be used in
    cases where the operand is an initializer constant.  */
 /* { dg-require-effective-target nonpic } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int x[2] = { 1, 2 };
 
