@@ -1,5 +1,15 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.c-torture/compile/20060109-1.c: Mark as
+	requiring GCC frontend.
+	* gcc.c-torture/compile/pr84195.c: Likewise.
+	* gcc.dg/atomic-generic-aux.c: Likewise.
+	* gcc.dg/atomic-lockfree-aux.c: Likewise.
+	* gcc.dg/atomic-noinline-aux.c: Likewise.
+	* gcc.dg/qual-return-5.c: Likewise.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.c-torture/compile/pr27528.c: Mark as
 	requiring GCC frontend.
 	* gcc.dg/torture/pr67794.c: Likewise.

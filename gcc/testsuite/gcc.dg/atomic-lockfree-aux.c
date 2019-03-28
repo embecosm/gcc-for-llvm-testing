@@ -2,6 +2,7 @@
 /* Just compile it on its own.  */
 /* { dg-do compile } */
 /* { dg-options "-w" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that __atomic_{is,always}_lock_free builtins execute.  */
 
