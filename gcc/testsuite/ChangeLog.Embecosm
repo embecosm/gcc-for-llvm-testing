@@ -1,3 +1,8 @@
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/Waddress.c: Add
+	-Wno-tautological-pointer-compare.
+
 2019-03-27  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.c-torture/compile/pr52555.c: Annotate
