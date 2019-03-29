@@ -3,6 +3,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-dI -C" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 #include "cmdlne-dI-C.h" /* #include comment */
 /* comment 2 */

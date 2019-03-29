@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-dN -M" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 /* Test -dN -M does not fail.  It should print just
    the Makefile rule with dependencies.  */

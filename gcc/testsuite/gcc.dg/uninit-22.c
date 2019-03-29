@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -Wuninitialized --param vect-max-version-for-alias-checks=20" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 #include <stdint.h>
 
