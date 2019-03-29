@@ -1,5 +1,51 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/cpp/cmdlne-dI-C.c: Add the option
+	-Wno-unused-command-line-argument.
+	* gcc.dg/cpp/cmdlne-dI-M.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dN-M.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-1.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-10.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-11.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-12.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-13.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-14.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-15.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-16.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-17.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-18.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-19.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-2.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-20.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-21.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-22.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-23.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-3.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-4.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-5.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-6.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-7.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-8.c: Likewise.
+	* gcc.dg/cpp/cmdlne-dU-9.c: Likewise.
+	* gcc.dg/cpp/pr71681-1.c: Likewise.
+	* gcc.dg/cpp/pr71681-2.c: Likewise.
+	* gcc.dg/dx-test.c: Likewise.
+	* gcc.dg/pr17957.c: Likewise.
+	* gcc.dg/pr23408.c: Likewise.
+	* gcc.dg/pr33923.c: Likewise.
+	* gcc.dg/pr44509.c: Likewise.
+	* gcc.dg/pr48186.c: Likewise.
+	* gcc.dg/pr48189.c: Likewise.
+	* gcc.dg/pr51505.c: Likewise.
+	* gcc.dg/pr71619.c: Likewise.
+	* gcc.dg/pr79574-2.c: Likewise.
+	* gcc.dg/pr79574.c: Likewise.
+	* gcc.dg/pr83422.c: Likewise.
+	* gcc.dg/uninit-22.c: Likewise.
+	* gcc.dg/vla-23.c: Likewise.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.c-torture/execute/pr82210.c: Mark as
 	requiring GCC frontend.
 

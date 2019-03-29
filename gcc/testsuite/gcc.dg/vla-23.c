@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-O --param max-cse-insns=1" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 int
 foo (int a)
