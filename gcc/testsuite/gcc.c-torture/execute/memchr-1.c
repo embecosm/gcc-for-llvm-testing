@@ -2,6 +2,7 @@
 
    Verify that memchr() of arrays initialized with string literals
    where the nul doesn't fit in the array doesn't find the nul.  */
+/* { dg-require-effective-target gcc_frontend } */
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;
 
