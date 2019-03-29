@@ -1,5 +1,11 @@
 2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/cpp/ucnid-6.c: Add option
+	-Wno-unicode.
+	* gcc.dg/cpp/ucnid-7.c: Likewise.
+
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/cpp/lexident.c: Add option 
 	-Wno-trigraphs.
 	* gcc.dg/cpp/lexnum.c: Likewise.
