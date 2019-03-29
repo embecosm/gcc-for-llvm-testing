@@ -1,5 +1,10 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.c-torture/execute/pr82210.c: Mark as
+	requiring GCC frontend.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/pr57286.c: Mark as requiring GCC frontend.
 	* gcc.dg/pr59261.c: Likewise.
 	* gcc.dg/torture/pr69886.c: Likewise.
