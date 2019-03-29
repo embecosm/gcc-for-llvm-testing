@@ -1,5 +1,6 @@
 /* PR c/82210 */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (int size)
