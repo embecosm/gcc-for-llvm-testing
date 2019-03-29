@@ -1,4 +1,4 @@
-2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/cpp/cmdlne-dI-C.c: Add the option
 	-Wno-unused-command-line-argument.
@@ -44,12 +44,12 @@
 	* gcc.dg/uninit-22.c: Likewise.
 	* gcc.dg/vla-23.c: Likewise.
 
-2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.c-torture/execute/pr82210.c: Mark as
 	requiring GCC frontend.
 
-2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/pr57286.c: Mark as requiring GCC frontend.
 	* gcc.dg/pr59261.c: Likewise.
