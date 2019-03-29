@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "--param=gcse-unrestricted-cost=0 -w -Wno-psabi" } */
 /* { dg-additional-options "-mavx" { target { i?86-*-* x86_64-*-* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned v32su __attribute__ ((vector_size (32)));
 
