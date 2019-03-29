@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 --param max-partial-antic-length=0" } */
 /* { dg-additional-options "-Wno-constant-conversion" } */
+/* { dg-additional-options "-Wno-unused-command-line-argument" } */
 
 static int pendingCommand;
 static int currentModifiers;
