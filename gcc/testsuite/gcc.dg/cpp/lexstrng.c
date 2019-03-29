@@ -2,6 +2,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-trigraphs" } */
+/* { dg-additional-options "-Wno-trigraphs" } */
 
 /* Test lexing of strings and character constants.  */
 
