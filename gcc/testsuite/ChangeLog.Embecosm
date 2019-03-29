@@ -1,5 +1,10 @@
 2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/cpp/if-oppr2.c: Mark as requiring
+	GCC frontend.
+
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/cpp/cmdlne-dI-C.c: Add the option
 	-Wno-unused-command-line-argument.
 	* gcc.dg/cpp/cmdlne-dI-M.c: Likewise.

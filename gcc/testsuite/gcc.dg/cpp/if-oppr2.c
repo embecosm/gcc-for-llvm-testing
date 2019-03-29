@@ -4,6 +4,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if 1 ? 2 : 3 , 0
 #error
