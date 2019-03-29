@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-trigraphs -fdollars-in-identifiers" } */
+/* { dg-additional-options "-Wno-trigraphs" } */
 
 /* Test lexing of identifiers.  */
 

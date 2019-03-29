@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-ansi" } */
+/* { dg-additional-options "-Wno-trigraphs" } */
 
 extern void abort (void);
 
