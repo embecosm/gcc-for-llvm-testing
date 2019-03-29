@@ -3,5 +3,6 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99 -trigraphs" } */
+/* { dg-additional-options "-Wno-trigraphs" } */
 
 int a??(2??);

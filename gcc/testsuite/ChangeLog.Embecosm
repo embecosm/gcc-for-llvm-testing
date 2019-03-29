@@ -1,5 +1,14 @@
 2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/cpp/lexident.c: Add option 
+	-Wno-trigraphs.
+	* gcc.dg/cpp/lexnum.c: Likewise.
+	* gcc.dg/cpp/lexstrng.c: Likewise.
+	* gcc.dg/cpp/trigraphs.c: Likewise.
+	* gcc.dg/pr18502-1.c: Likewise.
+
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/cpp/if-oppr2.c: Mark as requiring
 	GCC frontend.
 
