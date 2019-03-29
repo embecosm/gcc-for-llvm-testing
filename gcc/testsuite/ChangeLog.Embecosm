@@ -1,5 +1,11 @@
 2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/pr57286.c: Mark as requiring GCC frontend.
+	* gcc.dg/pr59261.c: Likewise.
+	* gcc.dg/torture/pr69886.c: Likewise.
+
+2019-03-28  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.c-torture/execute/memchr-1.c: Mark as
 	requiring GCC frontend.
 	* gcc.c-torture/execute/scal-to-vec1.c: Likewise.
