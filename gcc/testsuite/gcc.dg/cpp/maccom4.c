@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-CC" } */
+/* { dg-additional-options "-Wno-comment" } */
 
 /* This tests to make sure the comment is saved in the macro and copied
    to the output file when the macro is expanded when the -CC option is

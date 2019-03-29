@@ -1,4 +1,4 @@
-/* Problem noticed on SH for DImode comparison with constants.
+/* Problem noticed on SH for DImode comparison with constants. */
 /* { dg-do run } */
 /* { dg-options "-O0" } */
 
