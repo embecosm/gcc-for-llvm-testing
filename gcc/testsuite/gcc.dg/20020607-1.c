@@ -1,6 +1,6 @@
 /* PR middle-end/6950
    gcc 3.0.4 mistakenly set lhs.low to 0 at the beginning of the num_eq
-   expansion; it should use a temporary.
+   expansion; it should use a temporary. */
 /* { dg-do run } */
 
 typedef struct cpp_num cpp_num;

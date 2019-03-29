@@ -1,5 +1,17 @@
 2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
 
+	* gcc.dg/20020607-1.c: Fix unmatched comment
+	delimiters.
+	* gcc.dg/cpp/maccom4.c: Add option -Wno-comment
+	to prevent excess warnings while testing comments.
+	* gcc.dg/cpp/maccom5.c: Likewise.
+	* gcc.dg/cpp/trigraphs.c: Likewise.
+	* gcc.dg/long-long-compare-1.c: Fix unmatched comment
+	delimiters.
+	* gcc.dg/pr71071.c: Likewise.
+
+2019-03-29  Paolo Savini  <paolo.savini@embecosm.com>
+
 	* gcc.dg/cpp/ucnid-6.c: Add option
 	-Wno-unicode.
 	* gcc.dg/cpp/ucnid-7.c: Likewise.

@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-CC" } */
+/* { dg-additional-options "-Wno-comment" } */
 
 /* This tests to make sure that C++ comments are converted to C comments
    when saved in the macro and copied to the output file when the macro
