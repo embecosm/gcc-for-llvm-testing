@@ -1,3 +1,8 @@
+2019-04-25  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/20021029-2.c: Mark test for -fmerge-all-constants
+	behaviour as requiring GCC frontend.
+
 2019-03-20  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/PR68002.c: Provide -Wno-ignored-optimization-argument
