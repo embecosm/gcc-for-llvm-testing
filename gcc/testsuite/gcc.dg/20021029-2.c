@@ -3,7 +3,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fmerge-all-constants" } */
 /* { dg-final { scan-assembler-not ".rodata.cst" } } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int a)
 {
