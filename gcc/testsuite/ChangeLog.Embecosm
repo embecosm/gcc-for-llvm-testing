@@ -1,5 +1,10 @@
 2019-04-29  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* lib/gcc-dg.exp: Set gcc_force_conventional_output to
+	"-fno-lto" on non-GCC targets.
+
+2019-04-29  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/asm-names.c: Mark test which uses -fleading-underscore
 	as requiring GCC frontend.
 	* gcc.dg/unwind-1.c: Likewise.
