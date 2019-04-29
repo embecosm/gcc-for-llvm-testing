@@ -1,5 +1,11 @@
 2019-04-29  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/asm-names.c: Mark test which uses -fleading-underscore
+	as requiring GCC frontend.
+	* gcc.dg/unwind-1.c: Likewise.
+
+2019-04-29  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/array-quals-1.c: Provide
 	-Wno-incompatible-pointer-types-discards-qualifiers as an
 	additional option to prevent excess errors.

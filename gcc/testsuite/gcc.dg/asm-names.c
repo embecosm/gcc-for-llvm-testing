@@ -5,6 +5,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fleading-underscore" } */
 /* { dg-final { scan-assembler-not "____frob14" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void frobnicate (void) asm ("___frob14");  /* three underscores */
 
