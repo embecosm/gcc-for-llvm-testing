@@ -121,7 +121,11 @@ if [info exists TORTURE_OPTIONS] {
 	      { -O2 -flto }
            ]
         }
-        set gcc_force_conventional_output "-ffat-lto-objects"
+        if [check_effective_target_llvm] {
+            set gcc_force_conventional_output "-fno-lto"
+        } else {
+            set gcc_force_conventional_output "-ffat-lto-objects"
+        }
     }
 }
 
