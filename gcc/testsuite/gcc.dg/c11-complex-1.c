@@ -5,6 +5,7 @@
 /* { dg-require-effective-target builtin_isnan } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target builtin_complex } */
 
 extern void abort (void);
 extern void exit (int);
