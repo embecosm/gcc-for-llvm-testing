@@ -1,5 +1,10 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr82274-2.c: Annotate test which requires use of
+	__builtin_mul_overflow_p.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/builtin-tgmath-1.c: Annotate test which requires use of
 	__builtin_tgmath.
 	* gcc.dg/builtin-tgmath-2.c: Likewise.
