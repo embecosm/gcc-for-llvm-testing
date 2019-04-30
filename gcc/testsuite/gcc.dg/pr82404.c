@@ -1,8 +1,8 @@
-/* { dg-require-effective-target gcc_frontend } */
 // PR middle-end/82404
 
 // { dg-do compile }
-// { dg-options "-O3 -Wall -fdump-tree-optimized -Wno-return-type" } 
+// { dg-options "-O3 -Wall -fdump-tree-optimized -Wno-return-type" }
+/* { dg-require-effective-target gcc_frontend } */
 
 enum eShape { eSquare, eCircle, eShpere, eTetraeder };
 
