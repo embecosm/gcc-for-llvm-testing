@@ -1,6 +1,7 @@
 /* Test __builtin_tgmath: valid uses, standard floating-point types.  */
 /* { dg-do run } */
 /* { dg-options "" } */
+/* { dg-require-effective-target builtin_tgmath } */
 
 extern void abort (void);
 extern void exit (int);

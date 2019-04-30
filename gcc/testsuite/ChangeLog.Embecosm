@@ -1,5 +1,16 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/builtin-tgmath-1.c: Annotate test which requires use of
+	__builtin_tgmath.
+	* gcc.dg/builtin-tgmath-2.c: Likewise.
+	* gcc.dg/builtin-tgmath-3.c: Likewise.
+	* gcc.dg/builtin-tgmath-err-1.c: Likewise.
+	* gcc.dg/builtin-tgmath-err-2.c: Likewise.
+	* lib/target-supports.exp: Add test for target supports
+	__builtin_tgmath.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr83198.c: Annotate test which requires use of
 	__builtin_sprintf.
 	* gcc.dg/strlenopt-42.c: Likewise.

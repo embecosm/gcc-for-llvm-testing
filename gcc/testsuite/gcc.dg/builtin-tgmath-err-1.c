@@ -2,6 +2,7 @@
    type-generic macro rather than bad arguments in a call to it.  */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target builtin_tgmath } */
 
 void *p;
 double d;

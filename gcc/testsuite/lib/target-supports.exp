@@ -9693,6 +9693,13 @@ proc check_effective_target_builtin_imaxabs {} {
     return [check_builtin_support imaxabs "__builtin_imaxabs (0);"]
 }
 
+proc check_effective_target_builtin_tgmath {} {
+    return [check_no_compiler_messages builtin_tgmath assembly "
+	float f(float);
+	int main (void) { float _ = __builtin_tgmath(f, 0.0f); }
+    " "" ]
+}
+
 # Check whether the compiler has gcc internals. This is basically just a
 # check that the compiler is gcc and should be used for tests in otherwise
 # generic testsuites which are testing gcc internal behavior - Basically

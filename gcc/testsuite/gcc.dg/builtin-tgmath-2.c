@@ -3,6 +3,7 @@
 /* { dg-options "" } */
 /* { dg-add-options float32 } */
 /* { dg-require-effective-target float32_runtime } */
+/* { dg-require-effective-target builtin_tgmath } */
 
 extern void abort (void);
 extern void exit (int);
