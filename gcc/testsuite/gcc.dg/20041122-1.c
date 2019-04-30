@@ -1,6 +1,7 @@
 /* PR rtl-optimization/18611 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fmove-loop-invariants" } */
+/* { dg-require-effective-target gcc_internals } */
 
 void dumpCineonChannelInfo ();
 typedef struct {
