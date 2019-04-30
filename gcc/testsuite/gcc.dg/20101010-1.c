@@ -1,7 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-crossjumping" } */
 /* { dg-require-effective-target alloca } */
-/* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target gcc_internals } */
 
 int bar1 ();
 int bar2 ();

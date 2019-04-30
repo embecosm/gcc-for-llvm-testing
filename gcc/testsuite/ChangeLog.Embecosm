@@ -1,5 +1,12 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/20101010-1.c: Mark test with the -fno-crossjumping
+	option as requiring GCC internals.
+	* gcc.dg/pr48156.c: Mark test with the -fcrossjumping option as
+	requiring GCC internals.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr25483.c: Mark test with the
 	-fmove-loop-invariants option as requiring GCC internals.
 	* gcc.dg/20041122-1.c: Likewise.
