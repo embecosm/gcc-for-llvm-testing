@@ -2,6 +2,7 @@
 /* { dg-options "-O1 -funroll-loops" } */
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target builtin_isnan } */
+/* { dg-require-effective-target builtin_complex } */
 
 extern void exit (int);
 extern void abort (void);

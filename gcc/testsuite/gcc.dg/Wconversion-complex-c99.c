@@ -9,6 +9,7 @@
 /* { dg-options " -std=c99 -pedantic -Wconversion " } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target double64plus } */
+/* { dg-require-effective-target builtin_complex } */
 
 /* A number which does not fit into float.  */
 #define MAX_FLOAT_PLUS 16777217.
