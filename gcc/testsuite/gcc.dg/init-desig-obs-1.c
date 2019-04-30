@@ -4,6 +4,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-gnu-designator" } */
 struct s { int a; };
 struct s s0 = { .a = 1 };
 struct s s1 = { a: 1 };
