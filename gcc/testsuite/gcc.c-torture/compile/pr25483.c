@@ -1,5 +1,5 @@
 /* { dg-options "-fmove-loop-invariants" } */
-/* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target gcc_internals } */
 
 static int mdct_win[8];
 int x;
