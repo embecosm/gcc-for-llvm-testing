@@ -1,5 +1,11 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/init-desig-obs-1.c: Provide -Wno-gnu-designator as an
+	additional option to prevent excess errors.
+	* gcc.dg/noncompile/951123-1.c: Likewise.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/20031012-1.c: Provide -Wno-pointer-bool-conversion as
 	an additional option too prevent excess errors.
 	* gcc.dg/pr64536.c: Likewise.
