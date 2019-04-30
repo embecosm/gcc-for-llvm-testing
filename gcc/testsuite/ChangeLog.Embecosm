@@ -1,5 +1,11 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr83198.c: Annotate test which requires use of
+	__builtin_sprintf.
+	* gcc.dg/strlenopt-42.c: Likewise.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* lib/target-supports.exp: Use (void *)0 instead of NULL when
 	checking builtin support.
 
