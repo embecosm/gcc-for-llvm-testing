@@ -1,5 +1,11 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr25483.c: Mark test with the
+	-fmove-loop-invariants option as requiring GCC internals.
+	* gcc.dg/20041122-1.c: Likewise.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/attr-alloc_size-11.c: Rearrange dg annotation to fix
 	unmatched brace.
 
