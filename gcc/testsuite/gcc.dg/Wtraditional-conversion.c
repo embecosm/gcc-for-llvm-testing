@@ -6,6 +6,7 @@
 
 /* { dg-do compile } */
 /* { dg-options -Wtraditional-conversion } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef enum { a } __attribute__((packed)) t;
 void f(t x) {}

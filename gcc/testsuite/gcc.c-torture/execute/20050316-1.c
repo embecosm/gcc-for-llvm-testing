@@ -2,6 +2,7 @@
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target return_vector } */
 /* { dg-options "-Wno-psabi" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 

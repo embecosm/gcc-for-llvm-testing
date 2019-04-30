@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu90 -Wpedantic -Wno-c90-c99-compat" } */
 /* { dg-require-effective-target builtin_complex } */
+/* { dg-require-effective-target gcc_frontend } */
 
 _Bool b;
 _Complex double c = __builtin_complex (0.0, 0.0);

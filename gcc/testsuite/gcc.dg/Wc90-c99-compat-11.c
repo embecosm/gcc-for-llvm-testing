@@ -1,6 +1,7 @@
 /* PR c/85318 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu11 -Wc90-c99-compat -Wno-pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void bar (int);
 
