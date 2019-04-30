@@ -9594,7 +9594,7 @@ proc check_effective_target_builtin_aligned_alloc {} {
     return [check_builtin_support sub_overflow_p "__builtin_aligned_alloc (4, 10);" "-std=c11"]
 }
 proc check_effective_target_builtin_apply {} {
-    return [check_builtin_support apply "__builtin_apply (NULL);"]
+    return [check_builtin_support apply "__builtin_apply ((void *)0);"]
 }
 proc check_effective_target_builtin_clrsb {} {
     return [check_builtin_support clrsb "__builtin_clsrb (5);"]
@@ -9627,13 +9627,13 @@ proc check_effective_target_builtin_significand {} {
     return [check_builtin_support significand "__builtin_significand (0.0);"]
 }
 proc check_effective_target_builtin_sincos {} {
-    return [check_builtin_support sincos "__builtin_sincos (0.0, NULL, NULL);"]
+    return [check_builtin_support sincos "__builtin_sincos (0.0, (void *)0, (void *)0);"]
 }
 proc check_effective_target_builtin_fputc {} {
-    return [check_builtin_support fputc "__builtin_fputc (0, NULL);"]
+    return [check_builtin_support fputc "__builtin_fputc (0, (void *)0);"]
 }
 proc check_effective_target_builtin_fputs {} {
-    return [check_builtin_support fputs "__builtin_fputs (NULL, NULL);"]
+    return [check_builtin_support fputs "__builtin_fputs ((void *)0, (void *)0);"]
 }
 proc check_effective_target_builtin_puts {} {
     return [check_builtin_support puts "__builtin_puts (\"hello\");"]
@@ -9642,19 +9642,19 @@ proc check_effective_target_builtin_calloc {} {
     return [check_builtin_support calloc "__builtin_calloc (10, 10);"]
 }
 proc check_effective_target_builtin_free {} {
-    return [check_builtin_support free "__builtin_free (NULL);"]
+    return [check_builtin_support free "__builtin_free ((void *)0);"]
 }
 proc check_effective_target_builtin_malloc {} {
     return [check_builtin_support malloc "__builtin_malloc (1);"]
 }
 proc check_effective_target_builtin_realloc {} {
-    return [check_builtin_support realloc "__builtin_realloc (NULL, 1);"]
+    return [check_builtin_support realloc "__builtin_realloc ((void *)0, 1);"]
 }
 proc check_effective_target_builtin_fwrite {} {
-    return [check_builtin_support fwrite "__builtin_fwrite (NULL, 1, 1, NULL);"]
+    return [check_builtin_support fwrite "__builtin_fwrite ((void *)0, 1, 1, (void *)0);"]
 }
 proc check_effective_target_builtin_sprintf {} {
-    return [check_builtin_support sprintf "__builtin_sprintf (NULL, \"%d\", 1);"]
+    return [check_builtin_support sprintf "__builtin_sprintf ((void *)0, \"%d\", 1);"]
 }
 proc check_effective_target_builtin_isinf {} {
     return [check_builtin_support isinf "int _ = __builtin_isinf (0.0);"]
@@ -9669,7 +9669,7 @@ proc check_effective_target_builtin_isnan {} {
     return [check_builtin_support isnan "int _ = __builtin_isnan (0.0);"]
 }
 proc check_effective_target_builtin_return {} {
-    return [check_builtin_support return "__builtin_return (NULL);"]
+    return [check_builtin_support return "__builtin_return ((void *)0);"]
 }
 proc check_effective_target_builtin_shuffle {} {
     return [check_builtin_support shuffle "
@@ -9680,14 +9680,14 @@ proc check_effective_target_builtin_shuffle {} {
 proc check_effective_target_stack_save_restore {} {
     return [check_builtin_support stack_save_restore "
 	__builtin_stack_save ();
-	__builtin_stack_restore (NULL);
+	__builtin_stack_restore ((void *)0);
     "]
 }
 proc check_effective_target_builtin_va_arg_pack {} {
     return [check_builtin_support va_arg_pack "__builtin_va_arg_pack ();"]
 }
 proc check_effective_target_builtin_next_arg {} {
-    return [check_builtin_support next_arg "__builtin_next_arg (NULL);"]
+    return [check_builtin_support next_arg "__builtin_next_arg ((void *)0);"]
 }
 proc check_effective_target_builtin_imaxabs {} {
     return [check_builtin_support imaxabs "__builtin_imaxabs (0);"]

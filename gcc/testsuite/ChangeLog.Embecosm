@@ -1,5 +1,10 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* lib/target-supports.exp: Use (void *)0 instead of NULL when
+	checking builtin support.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/Wconversion-complex-c99.c: Annotate test which requires
 	use of __builtin_complex.
 	* gcc.dg/c11-complex-1.c: Likewise.
