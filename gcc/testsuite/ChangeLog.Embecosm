@@ -1,14 +1,14 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
-	* gcc.c-torture/execute/20050316-1.c: Mark test for a
+	* gcc.dg/attr-alloc_size-11.c: Rearrange dg annotation to fix
+	unmatched brace.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/Walloc-size-larger-than-16.c: Mark test for a
 	GCC-specific warning as requiring GCC frontend.
-	* gcc.c-torture/execute/20050316-3.c: Likewise.
-	* gcc.c-torture/execute/pr23135.c: Likewise.
-	* gcc.c-torture/execute/pr38151.c: Likewise.
-	* gcc.dg/Walloc-size-larger-than-16.c: Likewise.
 	* gcc.dg/Walloca-15.c: Likewise.
 	* gcc.dg/Walloca-16.c: Likewise.
-	* gcc.dg/Wc90-c99-compat-10.c: Likewise.
 	* gcc.dg/Wc90-c99-compat-11.c: Likewise.
 	* gcc.dg/Wc90-c99-compat-4.c: Likewise.
 	* gcc.dg/Wc90-c99-compat-5.c: Likewise.
@@ -17,7 +17,6 @@
 	* gcc.dg/Wtraditional-conversion.c: Likewise.
 	* gcc.dg/attr-alloc_size-10.c: Likewise.
 	* gcc.dg/cold-1.c: Likewise.
-	* gcc.dg/const-2.c: Likewise.
 	* gcc.dg/cpp/normalize-4.c: Likewise.
 	* gcc.dg/pr32061.c: Likewise.
 	* gcc.dg/pr53037-2.c: Likewise.

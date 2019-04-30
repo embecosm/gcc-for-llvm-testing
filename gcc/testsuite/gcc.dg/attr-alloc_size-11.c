@@ -3,8 +3,8 @@
    in the argument being represented as an anti-range.
 
    { dg-do compile }
-/* { dg-require-effective-target gcc_frontend } */
    { dg-options "-O2 -Walloc-size-larger-than=12 -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SCHAR_MAX __SCHAR_MAX__
 #define SCHAR_MIN (-SCHAR_MAX - 1)
