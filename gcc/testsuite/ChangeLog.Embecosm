@@ -1,5 +1,14 @@
 2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/complex-6.c: Mark test with an -fdump-tree option as
+	requiring GCC frontend.
+	* gcc.dg/complex-7.c: Likewise.
+	* gcc.dg/enum-mode-2.c: Likewise.
+	* gcc.dg/pr82404.c: Likewise.
+	* gcc.dg/predict-20.c: Likewise.
+
+2019-04-30  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/20101010-1.c: Mark test with the -fno-crossjumping
 	option as requiring GCC internals.
 	* gcc.dg/pr48156.c: Mark test with the -fcrossjumping option as

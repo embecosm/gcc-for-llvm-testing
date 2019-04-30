@@ -1,8 +1,8 @@
 /* PR tree-optimization/70291.  */
-/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-cplxlower" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __complex double
 foo (__complex double a, __complex double b)
