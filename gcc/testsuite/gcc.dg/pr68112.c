@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Waggressive-loop-optimizations" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int *a;
 

@@ -3,6 +3,7 @@
    for sh-elf -m4 -O2.  */
 /* { dg-options "-Wno-psabi" } */
 /* { dg-add-options stack_size } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #ifndef STACK_SIZE
 #define STACK_SIZE (256*1024)

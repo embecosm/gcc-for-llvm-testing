@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wformat-overflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int sprintf (char *restrict, const char *restrict, ...)
      __attribute__ ((__nothrow__));
