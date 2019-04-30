@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu11 -Wc99-c11-compat" } */
 /* { dg-require-effective-target tls } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __extension__ struct S { int i; struct { int a; }; };
 __extension__ _Noreturn void foo (void);

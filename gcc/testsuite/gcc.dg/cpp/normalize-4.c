@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99 -Wnormalized=none" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 \u00AA
 \u00B7
