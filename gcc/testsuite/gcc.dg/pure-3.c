@@ -2,6 +2,7 @@
    -Wattributes warning about const attribute on function returning void
    { dg-do compile { target nonpic } }
    { dg-options "-O2 -Wsuggest-attribute=pure" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int global;
 

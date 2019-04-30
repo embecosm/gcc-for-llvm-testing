@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wmaybe-uninitialized" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 foo (void)

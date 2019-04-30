@@ -1,5 +1,6 @@
 /* { dg-do compile { target nonpic } } */
 /* { dg-options "-O2 -Wsuggest-attribute=cold" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void abort (void);
 extern void do_something_interesting_and_never_return ();
