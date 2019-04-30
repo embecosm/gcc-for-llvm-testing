@@ -5,6 +5,7 @@
 /* { dg-add-options float64 } */
 /* { dg-require-effective-target float32_runtime } */
 /* { dg-require-effective-target float64_runtime } */
+/* { dg-require-effective-target builtin_tgmath } */
 
 extern void abort (void);
 extern void exit (int);
