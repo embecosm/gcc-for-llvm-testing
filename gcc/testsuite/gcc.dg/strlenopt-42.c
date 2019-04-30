@@ -5,6 +5,7 @@
    of the pointed-to strings.
    { dg-do compile }
    { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 const char* const ap[32] = { "1", "12", "123" };
 

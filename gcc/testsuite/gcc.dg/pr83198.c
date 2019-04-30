@@ -1,6 +1,7 @@
 /* PR tree-optimization/83198 */
 /* { dg-do compile } */
 /* { dg-options "-Wall -Wno-format" } */
+/* { dg-require-effective-target builtin_sprintf } */
 
 int
 foo (char *d[6], int x)
