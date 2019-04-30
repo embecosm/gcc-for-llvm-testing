@@ -1,6 +1,7 @@
 /* PR target/82274 */
 /* { dg-do run } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target builtin_mul_overflow_p } */
 
 int
 main ()
