@@ -1,5 +1,12 @@
 2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/Warray-bounds-28.c: Annotate test for Warray-bounds
+	output as requiring GCC frontend.
+	* gcc.dg/pr66618-2.c: Likewise.
+	* gcc.dg/pr82596.c: Likewise.
+
+2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr52555.c: Annotate test which requires
 	use of optimize attribute.
 	* gcc.dg/O16384.c: Likewise.
