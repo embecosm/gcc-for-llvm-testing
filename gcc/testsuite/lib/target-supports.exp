@@ -9542,6 +9542,14 @@ proc check_effective_target_leaf {} {
     }]
 }
 
+# Return 1 if the target supports the 'optimize' attribute
+
+proc check_effective_target_attr_optimize { } {
+    return [check_no_compiler_messages attr_optimize assembly {
+	void __attribute__((optimize("O")) foo (void) {}
+    }]
+}
+
 # Return 1 if the target supports the -fdelete-null-pointer-checks
 # flag
 

@@ -1,4 +1,5 @@
 /* { dg-options "-ffast-math" } */
+/* { dg-require-effective-target attr_optimize } */
 
 float farg;
 unsigned val;

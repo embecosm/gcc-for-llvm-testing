@@ -1,6 +1,7 @@
 /* PR c/84100 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target attr_optimize } */
 
 void bar (void);
 

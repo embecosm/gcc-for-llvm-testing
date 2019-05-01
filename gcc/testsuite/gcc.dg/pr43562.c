@@ -1,5 +1,6 @@
 /* { dg-options "-O0" } */
 /* { dg-do compile } */
+/* { dg-require-effective-target attr_optimize } */
 
 extern unsigned foo (void);
 extern void bar (void);

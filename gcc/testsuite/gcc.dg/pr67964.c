@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target attr_optimize } */
 /* { dg-require-alias "" } */
 
 extern int fn0 (void) __attribute__ ((const const)); /* { dg-error "expected" } */

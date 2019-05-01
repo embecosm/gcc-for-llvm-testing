@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1" } */
 /* { dg-options "-O1 -fpic" { target fpic } } */
+/* { dg-require-effective-target attr_optimize } */
 
 #define SIZE 256
 float a[SIZE], b[SIZE], c[SIZE];
