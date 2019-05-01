@@ -4,6 +4,7 @@
    the warning was never issued.  */
 /* { dg-do compile } */
 /* { dg-options "-O -foptimize-sibling-calls -Wreturn-type" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void foo(void);
 

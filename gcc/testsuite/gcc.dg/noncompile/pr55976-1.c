@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Werror=return-type" } */
 /* { dg-prune-output "some warnings being treated as errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify warnings for return type become errors.  */
 
