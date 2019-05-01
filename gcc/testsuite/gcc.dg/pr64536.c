@@ -3,6 +3,7 @@
 /* { dg-options "-O2" } */
 /* { dg-additional-options "-fPIC" { target fpic } } */
 /* { dg-require-effective-target ptr32plus } */
+/* { dg-additional-options "-Wno-pointer-bool-conversion" } */
 
 struct S { long q; } *h;
 long a, b, g, j, k, *c, *d, *e, *f, *i;
