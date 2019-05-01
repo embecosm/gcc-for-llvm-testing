@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wpedantic" } */
+/* { dg-require-effective-target builtin_speculation_safe_value } */
 
 /* __builtin_speculation_safe_value returns a value with the same type
    as its first argument.  There should be a warning if that isn't

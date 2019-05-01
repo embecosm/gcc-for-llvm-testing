@@ -1,5 +1,14 @@
 2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* c-c++-common/spec-barrier-1.c: Annotate test which requires
+	use of __builtin_speculation_safe_value.
+	* c-c++-common/spec-barrier-2.c: Likewise.
+	* gcc.dg/spec-barrier-3.c: Likewise.
+	* lib/target-supports.exp: Add test for target supports
+	__builtin_speculation_safe_value.
+
+2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/builtins-57.c: Annotate test which requires use of
 	__builtin_lfloor.
 	* lib/target-supports.exp: Add test for target supports

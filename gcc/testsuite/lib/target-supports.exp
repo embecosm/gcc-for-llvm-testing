@@ -9696,6 +9696,12 @@ proc check_effective_target_builtin_imaxabs {} {
     return [check_builtin_support imaxabs "__builtin_imaxabs (0);"]
 }
 
+proc check_effective_target_builtin_speculation_safe_value {} {
+    return [check_builtin_support speculation_safe_value "
+	int _ = __builtin_speculation_safe_value (0);
+    "]
+}
+
 proc check_effective_target_builtin_tgmath {} {
     return [check_no_compiler_messages builtin_tgmath assembly "
 	float f(float);

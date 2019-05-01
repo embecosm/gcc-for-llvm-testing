@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target builtin_speculation_safe_value } */
 
 /* Even on targets that don't need the optional failval parameter,
    side-effects on the operand should still be calculated.  */
