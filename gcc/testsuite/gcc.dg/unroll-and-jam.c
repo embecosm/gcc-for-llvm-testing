@@ -4,6 +4,7 @@
 /* { dg-additional-options "--param max-completely-peel-times=16" { target { s390*-*-* } } } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target attr_optimize } */
 
 #include <stdio.h>
 extern unsigned int a[];

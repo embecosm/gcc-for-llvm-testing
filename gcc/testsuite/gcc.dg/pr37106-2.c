@@ -2,7 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3" } */
 /* { dg-options "-O3 -fpic" { target fpic } } */
-/* { dg-additional-options "-Wno-unknown-attributes" } */
+/* { dg-require-effective-target attr_optimize } */
 
 #define SIZE 256
 float a[SIZE], b[SIZE], c[SIZE];

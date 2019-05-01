@@ -3,6 +3,7 @@
 /* { dg-options "-O2" } */
 /* { dg-skip-if "no code alignment > 2" { "pdp11-*-*" } } */
 /* { dg-additional-options "-Wno-unknown-attributes" } */
+/* { dg-require-effective-target attr_optimize } */
 
 void bar (void);
 
