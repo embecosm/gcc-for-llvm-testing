@@ -3,6 +3,7 @@
 /* Warn if a function address of a non-weak function is used
    as a truth value.  */
 /* See thread starting at http://gcc.gnu.org/ml/gcc/2003-10/msg00414.html  */
+/* { dg-additional-options "-Wno-pointer-bool-conversion" } */
 
 void foo(void)
 {}
