@@ -3,6 +3,7 @@
    http://gcc.gnu.org/ml/gcc-bugs/1999-03n/msg00221.html */
 /* { dg-do compile } */
 /* { dg-options "-O -Wreturn-type" } */
+/* { dg-require-effective-target gcc_frontend } */
 int
 foo(void)
 {
