@@ -4,6 +4,7 @@
 /* { dg-options "-O2 -fdump-tree-optimized" } */
 /* { dg-require-effective-target gcc_internals } */
 /* { dg-require-effective-target noclone } */
+/* { dg-require-effective-target attr_optimize } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 
 typedef double V __attribute__((vector_size (256)));
