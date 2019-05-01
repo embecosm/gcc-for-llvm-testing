@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O" } */
+/* { dg-require-effective-target builtin_speculation_safe_value } */
 
 /* Test that __builtin_speculation_safe_value returns the correct value.  */
 /* This test will cause an unfiltered warning to be emitted on targets
