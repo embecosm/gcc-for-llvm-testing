@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-named-sections "" } */
 /* { dg-require-effective-target ptr32plus } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 __extension__ typedef __UINTPTR_TYPE__ uintptr_t;
 
