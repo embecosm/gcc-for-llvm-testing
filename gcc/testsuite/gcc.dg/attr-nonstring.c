@@ -2,6 +2,7 @@
    with a nonstring pointer
    { dg-do compile }
    { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __SIZE_TYPE__       size_t;
 typedef __builtin_va_list   va_list;

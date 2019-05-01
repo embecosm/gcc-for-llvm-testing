@@ -1,5 +1,10 @@
 2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/attr-nonstring.c: Annotate test for nonstring attribute
+	as requiring GCC frontend.
+
+2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/Wreturn-type.c: Annotate test for Wreturn-type output
 	as requiring GCC frontend.
 	* gcc.dg/noncompile/pr55976-1.c: Likewise.
