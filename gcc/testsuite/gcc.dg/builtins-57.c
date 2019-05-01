@@ -1,6 +1,7 @@
 /* { dg-do link } */
 /* { dg-options "-std=c99 -ffinite-math-only -O" } */
 /* { dg-require-effective-target builtin_floor } */
+/* { dg-require-effective-target builtin_lfloor } */
 
 #include "builtins-config.h"
 

@@ -9623,6 +9623,9 @@ proc check_effective_target_builtin_ceil {} {
 proc check_effective_target_builtin_floor {} {
     return [check_builtin_support floor "int _ = __builtin_floor (0.0);"]
 }
+proc check_effective_target_builtin_lfloor {} {
+    return [check_builtin_support lfloor "long _ = __builtin_lfloor (0.0);"]
+}
 proc check_effective_target_builtin_significand {} {
     return [check_builtin_support significand "__builtin_significand (0.0);"]
 }
