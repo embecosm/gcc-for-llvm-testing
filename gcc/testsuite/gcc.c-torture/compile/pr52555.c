@@ -1,5 +1,5 @@
 /* { dg-options "-ffast-math" } */
-/* { dg-additional-options "-Wno-unknown-attributes" } */
+/* { dg-require-effective-target attr_optimize } */
 
 float farg;
 unsigned val;

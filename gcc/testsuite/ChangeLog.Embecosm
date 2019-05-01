@@ -1,5 +1,22 @@
 2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr52555.c: Annotate test which requires
+	use of optimize attribute.
+	* gcc.dg/O16384.c: Likewise.
+	* gcc.dg/Wattributes-4.c: Likewise.
+	* gcc.dg/pr37106-1.c: Likewise.
+	* gcc.dg/pr37106-2.c: Likewise.
+	* gcc.dg/pr43562.c: Likewise.
+	* gcc.dg/pr43564.c: Likewise.
+	* gcc.dg/pr67964.c: Likewise.
+	* gcc.dg/pr70317.c: Likewise.
+	* gcc.dg/pr84100.c: Likewise.
+	* gcc.dg/unroll-and-jam.c: Likewise.
+	* lib/target-supports.exp: Add test for target supports the
+	optimize attribute.
+
+2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/attr-nonstring.c: Annotate test for nonstring attribute
 	as requiring GCC frontend.
 
