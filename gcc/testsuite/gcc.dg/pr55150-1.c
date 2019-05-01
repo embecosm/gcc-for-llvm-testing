@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -g" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 typedef unsigned int KEY_TABLE_TYPE[(272 / 4)];
   typedef unsigned int u32;
