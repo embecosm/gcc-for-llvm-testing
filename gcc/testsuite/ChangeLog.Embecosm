@@ -1,3 +1,9 @@
+2019-05-03  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/torture/tls/thr-init-1.c: Correct library function
+	redeclaration to prevent excess warnings.
+	* gcc.dg/torture/tls/thr-init-2.c: Likewise.
+
 2019-05-01  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/Warray-bounds-28.c: Annotate test for Warray-bounds
