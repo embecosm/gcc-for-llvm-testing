@@ -11184,7 +11184,7 @@ proc check_effective_target_leaf {} {
 
 proc check_effective_target_attr_optimize { } {
     return [check_no_compiler_messages attr_optimize assembly {
-	void __attribute__((optimize("O")) foo (void) {}
+	void __attribute__((optimize("O"))) foo (void) {}
     }]
 }
 
@@ -11356,8 +11356,11 @@ proc check_effective_target_builtin_speculation_safe_value {} {
 
 proc check_effective_target_builtin_tgmath {} {
     return [check_no_compiler_messages builtin_tgmath assembly "
-	float f(float);
-	int main (void) { float _ = __builtin_tgmath(f, 0.0f); }
+       float f1(float);
+       float f2(double);
+       int main (void) { float _ = __builtin_tgmath(f1, f2, 0.0f); }
+       float f1(float a) { return a; }
+       float f2(double b) { return b; }
     " "" ]
 }
 

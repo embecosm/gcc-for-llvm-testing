@@ -2,7 +2,7 @@
 /* { dg-require-effective-target tls_runtime } */
 /* { dg-add-options tls } */
 
-extern int printf (char *,...);
+extern int printf (const char *,...);
 extern void abort() ;
 
 static __thread int fstat ;
