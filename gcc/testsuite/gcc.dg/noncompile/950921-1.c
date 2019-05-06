@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 typedef enum
 {
   a = (X) 0,	/* { dg-error "undeclared|not integer|parse error|syntax error|expected" } */

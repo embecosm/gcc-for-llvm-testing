@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 f4(const foo x) /* { dg-error "10:unknown type name" } */

@@ -1,4 +1,5 @@
 /* { dg-require-ifunc "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int F (void);
 

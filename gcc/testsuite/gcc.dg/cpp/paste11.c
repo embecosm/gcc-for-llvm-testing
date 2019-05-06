@@ -1,6 +1,7 @@
 /* Copyright (C) 2000 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test correct pasting of identifiers and numbers.  We can paste any
    number, as long as no '.', '-' or '+' appears in its spelling.  */

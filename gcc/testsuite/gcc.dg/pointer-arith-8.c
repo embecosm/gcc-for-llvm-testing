@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "-pedantic-errors" } */
 /* { dg-additional-options "-Wno-unused-value" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern const void v;
 void f(void);

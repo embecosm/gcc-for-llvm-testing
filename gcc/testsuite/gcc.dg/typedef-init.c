@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu89" } // suppress default -pedantic-errors */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This code used to be a legitimate, if dubious, extension.  However,
    it's been broken since GCC 3.0 (caused ICE) and we have now removed

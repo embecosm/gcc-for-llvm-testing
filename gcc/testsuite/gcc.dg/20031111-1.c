@@ -1,6 +1,7 @@
 /* Make sure that dead code isn't eliminated too early, avoiding 
    detection of errors.  */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(void)
 {

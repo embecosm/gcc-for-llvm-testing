@@ -1,6 +1,7 @@
 /* PR/18160 */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This should yield an error even without -pedantic.  */
 /* { dg-options "-ansi" } */

@@ -1,6 +1,7 @@
 /* PR c/65901 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S;
 enum E;

@@ -1,6 +1,7 @@
 /* PR c/81231 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum E;
 

@@ -3,5 +3,6 @@
    .eh_frame.  The warning therefore belongs on the second decl.  */
 /* { dg-options "-fno-unit-at-a-time" } */
 /* { dg-require-named-sections "" } */
+/* { dg-require-effective-target gcc_frontend } */
 int a __attribute__((section (".eh_frame"))) = 1;
 const int b __attribute__((section (".eh_frame"))) = 1; /* { dg-error "section type conflict" } */

@@ -1,5 +1,6 @@
 /* Verify that the "aka" descriptions for typedefs are correctly
    quoted (PR 62170).  */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct s1 t1;
 

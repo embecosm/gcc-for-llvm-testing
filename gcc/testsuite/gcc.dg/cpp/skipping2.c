@@ -1,6 +1,7 @@
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests that excess tokens in skipped conditional blocks don't warn.  */
 

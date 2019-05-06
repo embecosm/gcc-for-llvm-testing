@@ -1,5 +1,6 @@
 /* Test for broken long long suffixes.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* The following are valid integer suffixes, according to C99:
 

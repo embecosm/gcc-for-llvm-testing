@@ -1,5 +1,6 @@
 /* PR c/84853 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef float V __attribute__((__vector_size__ (16)));
 typedef int W __attribute__((__vector_size__ (16)));

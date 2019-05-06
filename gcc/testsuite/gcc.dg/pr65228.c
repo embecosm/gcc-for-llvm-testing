@@ -1,6 +1,7 @@
 /* PR c/65228 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __auto_type a = b; /* { dg-error "undeclared" } */
 

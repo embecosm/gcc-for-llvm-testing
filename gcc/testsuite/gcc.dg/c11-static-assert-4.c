@@ -1,6 +1,7 @@
 /* Test C11 static assertions.  More invalid assertions.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Static assertions not valid in old-style parameter declarations
    because declarations there must have declarators.  */
