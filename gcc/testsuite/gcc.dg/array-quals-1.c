@@ -5,7 +5,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wno-discarded-array-qualifiers" } */
 /* { dg-additional-options "-fno-pie" { target pie } } */
-/* { dg-additional-options "-Wno-incompatible-pointer-types-discards-qualifiers" } */
+/* { dg-additional-options "-Wno-unknown-warning-option -Wno-incompatible-pointer-types-discards-qualifiers" } */
 /* The MMIX port always switches to the .data section at the end of a file.  */
 /* { dg-final { scan-assembler-not "\\.data(?!\\.rel\\.ro)" { xfail powerpc*-*-aix* mmix-*-* x86_64-*-mingw* } } } */
 /* { dg-final { scan-assembler-symbol-section {^_?a$} {^\.(const|rodata|srodata)|\[RO\]} } } */

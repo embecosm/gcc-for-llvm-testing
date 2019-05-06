@@ -2,6 +2,7 @@
    not used" warning.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wall -Wno-stringop-truncation" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 #include <string.h>
 void
