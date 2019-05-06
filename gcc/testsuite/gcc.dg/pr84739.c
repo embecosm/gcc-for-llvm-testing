@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-weak "" } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static void baz (void) __attribute__((weakref("bar")));	/* { dg-warning "alias between functions of incompatible types" } */
 

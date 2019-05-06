@@ -1,6 +1,7 @@
 /* PR preprocessor/29612 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 # 6 "pr29612-1.c"
 

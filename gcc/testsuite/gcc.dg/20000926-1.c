@@ -3,6 +3,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <limits.h>
 
 struct PDATA

@@ -1,6 +1,7 @@
 /* PR c/59963 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu89 -Wdouble-promotion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void baz ();
 extern void qux (int, ...);

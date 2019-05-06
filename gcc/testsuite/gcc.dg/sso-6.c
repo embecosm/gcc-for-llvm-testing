@@ -2,6 +2,7 @@
 
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #pragma scalar_storage_order /* { dg-warning "missing .big-endian.little-endian.default." } */
 

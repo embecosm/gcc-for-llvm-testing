@@ -2,6 +2,7 @@
 /* Test for a warning on comparison on out-of-range data.  */
 /* { dg-do compile } */
 /* { dg-options "-Wtype-limits" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 signed char sc;
 unsigned char uc;

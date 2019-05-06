@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int main; /* { dg-warning "'main' is usually a function" } */
 

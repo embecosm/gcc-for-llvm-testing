@@ -4,6 +4,7 @@
    as a truth value.  */
 /* See thread starting at http://gcc.gnu.org/ml/gcc/2003-10/msg00414.html  */
 /* { dg-additional-options "-Wno-pointer-bool-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo(void)
 {}

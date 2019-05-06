@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options -no-integrated-cpp }  */
 /* { dg-additional-options "-Wno-unused-value" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "syshdr5.h"
 

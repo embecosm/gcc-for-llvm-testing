@@ -6,6 +6,7 @@
 
    { dg-do compile }
    { dg-options "-Wall -Wno-unused-local-typedefs" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A(expr) typedef char A[-1 + 2 * !!(expr)];
 

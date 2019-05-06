@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Verify that GCC's initialized flexible array member extension
    works properly.  */

@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -g" } */
 /* { dg-options "-O -g -mstrict-align" { target { powerpc*-*-linux* powerpc*-*-elf* } } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void ProjectOverlay(const float localTextureAxis[2], char *lump)
 {

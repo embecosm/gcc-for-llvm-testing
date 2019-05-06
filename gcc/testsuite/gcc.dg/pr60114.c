@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wconversion" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { int n, u[2]; };
 const signed char z[] = {

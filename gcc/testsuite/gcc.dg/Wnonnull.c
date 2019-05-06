@@ -1,6 +1,7 @@
 /* PR tree-optimization/83369 - Missing diagnostics during inlining
    { dg-do compile }
    { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern __SIZE_TYPE__ strlen (const char *__s)
 			     __attribute ((pure)) __attribute ((nonnull (1)));

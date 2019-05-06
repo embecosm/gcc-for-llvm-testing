@@ -1,6 +1,7 @@
 /* PR c/60036 */
 /* { dg-do compile } */
 /* { dg-options "-Wconversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int fn (void);
 

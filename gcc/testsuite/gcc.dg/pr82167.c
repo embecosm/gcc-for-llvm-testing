@@ -1,5 +1,6 @@
 /* PR c/82167 */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 fn1 (int a[])

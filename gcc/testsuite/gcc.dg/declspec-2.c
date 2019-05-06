@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu89 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* These should all be diagnosed, but only once, not for every
    identifier declared.  */

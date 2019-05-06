@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wconversion -Wsign-conversion" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 short  mask1(short x)
 {
