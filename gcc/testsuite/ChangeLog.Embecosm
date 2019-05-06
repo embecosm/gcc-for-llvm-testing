@@ -1,3 +1,8 @@
+2019-05-06  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/pragma-diag-7.c: Annotate test with use of
+	-Wtraditional as requiring GCC frontend.
+
 2019-05-03  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/torture/tls/thr-init-1.c: Correct library function
