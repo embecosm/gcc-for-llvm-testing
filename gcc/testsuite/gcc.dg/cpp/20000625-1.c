@@ -3,6 +3,7 @@
    syscall stub logic in glibc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ENTRY(name)	name##:
 #define socket bind

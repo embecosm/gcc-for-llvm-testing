@@ -1,4 +1,5 @@
 /* Missing <stddef.h>.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void *ptr = NULL; /* { dg-error "'NULL' undeclared here" } */
 /* { dg-message "'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?" "" { target *-*-* } .-1 } */

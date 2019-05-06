@@ -1,4 +1,5 @@
 /* { dg-options "-fshow-column" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo()

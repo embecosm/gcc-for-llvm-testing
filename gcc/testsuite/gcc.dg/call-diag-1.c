@@ -4,6 +4,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo (void);
 void bar (void) { ((long (*)(int))foo) (); } /* { dg-error "too few arguments to function" } */

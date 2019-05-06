@@ -1,4 +1,5 @@
 /* PR other/69968.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct {
   int coordx, coordy, coordz;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* ISO C99 flexible array members don't have a size.  GCC's zero-length
    array extension does.  */

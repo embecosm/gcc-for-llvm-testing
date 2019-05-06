@@ -1,6 +1,7 @@
 /* PR c/35440 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A {};
 struct B { int i; char j[2]; };

@@ -2,6 +2,7 @@
    cases: typedefs disallowed by N1549.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct
 {

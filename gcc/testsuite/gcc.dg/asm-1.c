@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct x {
   int selector;

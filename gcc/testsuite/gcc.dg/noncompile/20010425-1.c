@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 __inline__ void bar(int x)
 {
   (void)x;

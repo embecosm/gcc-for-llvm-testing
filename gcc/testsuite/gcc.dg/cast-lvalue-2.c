@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int x;
 

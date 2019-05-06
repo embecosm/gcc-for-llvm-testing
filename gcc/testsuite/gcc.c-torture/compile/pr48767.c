@@ -1,4 +1,5 @@
 /* PR target/48767 */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (__builtin_va_list ap)

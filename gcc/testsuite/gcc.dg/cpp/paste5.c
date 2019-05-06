@@ -8,6 +8,7 @@
    Jakub Jelinek <jakub@redhat.com>; this test is synthetic.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define glue(a,b) a##b
 #define struct(x) B(x)

@@ -1,6 +1,7 @@
 /* Check that you can't redefine a C99 inline function.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern inline int func1 (void) /* { dg-message "note: previous definition" } */
 {

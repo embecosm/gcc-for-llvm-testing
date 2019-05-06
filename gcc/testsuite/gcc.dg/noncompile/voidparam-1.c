@@ -1,5 +1,6 @@
 /* Test for bad uses of 'void' in parameter lists.  */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef const void cv;
 typedef volatile void vv;

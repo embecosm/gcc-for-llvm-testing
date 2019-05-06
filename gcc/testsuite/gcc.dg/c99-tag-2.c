@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s;
 struct t { struct s *p; } x;
