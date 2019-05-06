@@ -1,6 +1,7 @@
 /* Test C11 constraint against pointer / floating-point casts.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void *p;
 float f;

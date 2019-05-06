@@ -1,4 +1,5 @@
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests for line numbering around function-like macro calls.
    Bug found by Mark Mitchell.  */

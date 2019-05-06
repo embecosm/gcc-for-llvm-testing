@@ -1,6 +1,7 @@
 /* PR c/20043 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef union { int *i; long *l; } U
   __attribute__((transparent_union));

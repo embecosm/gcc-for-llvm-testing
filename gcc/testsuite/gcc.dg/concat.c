@@ -2,6 +2,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test we output an error for concatenation of artificial strings.
 

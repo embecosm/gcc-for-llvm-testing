@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do preprocess } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #if (1, 2) /* { dg-error "comma" "evaluated comma" } */
 #endif

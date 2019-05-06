@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk>, from PR c/3347 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct { int i : 1999; } x; /* { dg-bogus "warning" "warning in place of error" } */
 /* { dg-error "width" "bit-field too wide" { target *-*-* } .-1 } */

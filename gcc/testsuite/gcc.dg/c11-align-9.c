@@ -2,6 +2,7 @@
    are at least some alignment constraints), case of compound literals.  */
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stddef.h>
 

@@ -2,6 +2,7 @@
    enumerations.  */
 /* { dg-do compile } */
 /* { dg-options "-Wall -Wextra -pedantic-errors -Wconversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 typedef enum OMX_ERRORTYPE
 {
   OMX_ErrorNone = 0,

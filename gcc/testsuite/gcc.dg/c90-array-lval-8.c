@@ -2,6 +2,7 @@
    array variables.  PR 58235.  */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct s { char c[1]; } x;
 struct s f (void) { return x; }

@@ -3,6 +3,7 @@
    be formed rather than just copying the function type.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef int a[];
 typedef int a5[5];

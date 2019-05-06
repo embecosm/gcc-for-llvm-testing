@@ -2,6 +2,7 @@
    struct or union as first field.  PR 46889.  */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct foo {
   union {

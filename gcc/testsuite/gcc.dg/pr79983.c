@@ -1,6 +1,7 @@
 /* PR c/79983 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S;
 struct S { int i; }; /* { dg-message "originally defined here" } */

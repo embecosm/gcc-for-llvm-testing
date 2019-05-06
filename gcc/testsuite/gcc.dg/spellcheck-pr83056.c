@@ -1,3 +1,4 @@
+/* { dg-require-effective-target gcc_frontend } */
 enum { TYPE_A };
 
 /* Verify that the incorrect "TYPE_B" etc don't get re-used for

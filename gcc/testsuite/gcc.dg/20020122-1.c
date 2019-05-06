@@ -2,6 +2,7 @@
    by Hans-Peter Nilsson  <hp@axis.com> */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct
  {
