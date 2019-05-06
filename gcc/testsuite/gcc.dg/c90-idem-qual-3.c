@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef const int cia[2];
 const cia a; /* { dg-bogus "warning" "warning in place of error" } */

@@ -3,6 +3,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1990 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __extension__ typedef __INTPTR_TYPE__ intptr_t;
 

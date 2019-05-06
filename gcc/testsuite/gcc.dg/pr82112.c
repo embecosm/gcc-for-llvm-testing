@@ -1,6 +1,7 @@
 /* PR target/82112 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu90" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { int a[10]; } bar (void);
 int b, c;

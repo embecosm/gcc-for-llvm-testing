@@ -1,6 +1,7 @@
 /* PR c/53037.  */
 /* { dg-do compile } */
 /* { dg-options "-O0" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo1 __attribute__((warn_if_not_aligned(8))); /* { dg-error "'warn_if_not_aligned' may not be specified for 'foo1'" } */
 

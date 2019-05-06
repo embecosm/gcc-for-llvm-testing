@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99" } */
 /* { dg-bogus "not supported by" "" { target *-*-* } 0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 __complex__ unsigned int i;
 int j;

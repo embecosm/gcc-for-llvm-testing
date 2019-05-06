@@ -1,6 +1,7 @@
 /* Copyright (C) 2000, 2003 Free Software Foundation, Inc.  */
 
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Test that multi-line tokens are rejected by the compiler.  Source:
    Neil Booth.  */

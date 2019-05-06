@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-require-ifunc "" }
    { dg-options "-Wextra" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 const char* __attribute__ ((weak, alias ("f0_target")))
 f0 (void);          /* { dg-error "alias between function and variable" } */

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target tls } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static __thread int fstat ;
 static __thread int fstat = 1 ; /* { dg-line fstat_prev } */

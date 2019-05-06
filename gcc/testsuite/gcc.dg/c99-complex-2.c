@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Use of ++ and -- on complex types (both prefix and postfix) is a
    C99 constraint violation (6.5.2.4p1, 6.5.3.1p1).

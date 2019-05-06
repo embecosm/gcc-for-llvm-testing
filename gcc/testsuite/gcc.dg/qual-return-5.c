@@ -3,6 +3,7 @@
    for this purpose, a qualifier).  */
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int f1 (void);
 const int f1 (void);

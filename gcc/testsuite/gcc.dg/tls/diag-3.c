@@ -1,5 +1,6 @@
 /* Report invalid extern and __thread combinations.  */
 /* { dg-require-effective-target tls } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int j;		/* { dg-message "note: previous declaration" } */
 __thread int j;		/* { dg-error "follows non-thread-local" } */

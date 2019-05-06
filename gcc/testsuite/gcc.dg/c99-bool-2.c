@@ -7,6 +7,7 @@
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do compile } */
 /* { dg-options "-std=iso9899:1999 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct foo
 {

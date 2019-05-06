@@ -1,5 +1,6 @@
 /* Invalid tls_model attributes.  PR 35435.  */
 /* { dg-require-effective-target tls } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int v __attribute__((tls_model("initial-exec"))); /* { dg-warning "attribute ignored" } */
 typedef int X __attribute__((tls_model("initial-exec"))); /* { dg-warning "attribute ignored" } */

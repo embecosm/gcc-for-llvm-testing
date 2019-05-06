@@ -2,6 +2,7 @@
 /* { dg-do compile { target { ! int128 } } } */
 /* { dg-options "" } */
 /* { dg-additional-options "-Wno-unused-comparison" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (void)

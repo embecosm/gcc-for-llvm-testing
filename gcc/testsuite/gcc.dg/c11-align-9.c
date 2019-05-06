@@ -3,6 +3,7 @@
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
 /* { dg-skip-if "no alignment constraints" { "avr-*-*" } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stddef.h>
 

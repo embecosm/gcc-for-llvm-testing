@@ -1,4 +1,5 @@
 /* { dg-do compile { target init_priority } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Priorities must be in the range [0, 65535].  */
 void c1()
