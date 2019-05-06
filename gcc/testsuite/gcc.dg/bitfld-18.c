@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wno-packed-bitfield-compat" } */
 /* { dg-options "-Wno-packed-bitfield-compat -mno-ms-bitfields" { target { i?86-*-mingw* x86_64-*-mingw* } } } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 struct t
 {

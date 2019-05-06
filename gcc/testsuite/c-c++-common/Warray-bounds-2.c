@@ -7,6 +7,7 @@
    the call.
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds -Wno-stringop-overflow" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 #include <stddef.h>
 #include <string.h>

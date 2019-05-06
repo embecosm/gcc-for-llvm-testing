@@ -1,6 +1,7 @@
 /* See declspec-3.c . Test disabling -Wold-style-declaration. */
 /* { dg-do compile } */
 /* { dg-options "-Wextra -Wno-old-style-declaration" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 static int x0;
 int static x1; /* { dg-bogus "not at beginning" } */

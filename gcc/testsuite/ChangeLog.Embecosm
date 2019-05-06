@@ -1,5 +1,25 @@
 2019-05-06  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* c-c++-common/Warray-bounds-2.c: Add
+	-Wno-unknown-warning-option to test with unrecognized -Wno
+	option to prevent excess errors.
+	* gcc.dg/Wc99-c11-compat-4.c: Likewise.
+	* gcc.dg/Wmissing-parameter-type-no.c: Likewise.
+	* gcc.dg/Woverride-init-side-effects-2.c: Likewise.
+	* gcc.dg/array-quals-1.c: Likewise.
+	* gcc.dg/bitfld-16.c: Likewise.
+	* gcc.dg/bitfld-18.c: Likewise.
+	* gcc.dg/builtin-stpncpy.c: Likewise.
+	* gcc.dg/declspec-3-no.c: Likewise.
+	* gcc.dg/pr43245.c: Likewise.
+	* gcc.dg/pr63594-1.c: Likewise.
+	* gcc.dg/pr67784-4.c: Likewise.
+	* gcc.dg/pr83666.c: Likewise.
+	* gcc.dg/strncpy-fix-1.c: Likewise.
+	* gcc.dg/uninit-pr78295.c: Likewise.
+
+2019-05-06  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pragma-diag-7.c: Annotate test with use of
 	-Wtraditional as requiring GCC frontend.
 

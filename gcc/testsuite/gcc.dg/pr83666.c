@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -g -Wno-psabi" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 typedef int __attribute__ ((vector_size (64))) V;
 
