@@ -1,5 +1,10 @@
 2019-05-06  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr28322.c: Annotate test for silently ignoring unknown
+	-Wno arguments as requiring GCC frontend.
+
+2019-05-06  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* c-c++-common/Warray-bounds-2.c: Add
 	-Wno-unknown-warning-option to test with unrecognized -Wno
 	option to prevent excess errors.
