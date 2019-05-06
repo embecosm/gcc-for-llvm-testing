@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-skip-if "small address space" { "pdp11-*-*" } { "avr-*-*" } }
    { dg-options "-Wlarger-than=1MiB" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define MB (1000 * 1000)    /* MegaByte */
 #define MiB (1024 * 1024)   /* MebiByte */

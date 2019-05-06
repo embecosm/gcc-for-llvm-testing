@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-DC -DD=1 -DE" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define A
 #define A 1

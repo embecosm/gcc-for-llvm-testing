@@ -1,6 +1,7 @@
 /* PR 30465 : Test for duplicated warnings in a conversion.  */
 /* { dg-do compile } */
 /* { dg-options "-Woverflow" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 short int
 g (void)

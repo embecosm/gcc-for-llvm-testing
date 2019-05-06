@@ -1,6 +1,7 @@
 /* PR c/61852 */
 /* { dg-do compile } */
 /* { dg-options "-Wimplicit-function-declaration" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 f (int a)

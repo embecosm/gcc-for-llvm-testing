@@ -1,6 +1,7 @@
 /* PR c/66415 */
 /* { dg-do compile } */
 /* { dg-options "-Wformat" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #24
 void

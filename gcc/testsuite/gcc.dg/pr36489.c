@@ -1,6 +1,7 @@
 /* PR c/36489 */
 /* { dg-do compile } */
 /* { dg-options "-Woverride-init" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { int a; int b[3]; };
 union B { int a; int b[3]; };

@@ -5,6 +5,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options -Wall } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define some_macro \
 	blah	\

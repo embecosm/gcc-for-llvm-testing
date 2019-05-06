@@ -5,6 +5,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wparentheses" } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int foo (int);
 

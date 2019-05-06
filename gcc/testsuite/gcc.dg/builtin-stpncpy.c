@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wall -Wno-array-bounds -Wno-restrict -Wno-stringop-truncation" } */
 /* { dg-additional-options "-Wno-unknown-warning-option" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define SIZE_MAX __SIZE_MAX__
 

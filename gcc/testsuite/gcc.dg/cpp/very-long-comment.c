@@ -6,6 +6,7 @@ This is a really long comment. This is a really long comment. This is a really l
 /* { dg-options "-Wall" } */
 /* { dg-do compile } */
 #warning test warning /* { dg-warning "test warning" } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <stdio.h>
 int main()
 {
