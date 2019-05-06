@@ -3,6 +3,7 @@
    http://gcc.gnu.org/ml/gcc-bugs/1998-09/msg00199.html */
 /* { dg-do compile } */
 /* { dg-options "-O -Wall -W" } */
+/* { dg-require-effective-target gcc_frontend } */
 int
 f(c)
      char c; /* { dg-warning "unused parameter" "unused parameter warning" } */

@@ -1,6 +1,7 @@
 /* PR tree-optimization/83369 - Missing diagnostics during inlining
    { dg-do compile }
    { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <string.h>
 

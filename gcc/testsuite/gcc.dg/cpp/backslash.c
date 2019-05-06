@@ -1,4 +1,5 @@
 /* Test backslash newline with and without trailing spaces.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define alpha(a, b, c) \
 	a, \

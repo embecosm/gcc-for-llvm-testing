@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stddef.h>
 

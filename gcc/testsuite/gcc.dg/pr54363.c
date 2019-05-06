@@ -1,6 +1,7 @@
 /* PR c/54363 */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct S { char **a; };
 

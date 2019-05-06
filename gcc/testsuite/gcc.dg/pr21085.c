@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* This used to cause excessive use, or a stack overflow, depending on which
    came first.  */
+/* { dg-require-effective-target gcc_frontend } */
 void foo (void)
 {
   int maxstringlen = 1;

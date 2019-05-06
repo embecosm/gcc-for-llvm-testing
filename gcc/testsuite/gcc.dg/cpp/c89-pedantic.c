@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-std=c89 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This file is for testing the preprocessor in -std=c89 -pedantic mode.
    Neil Booth, 2 Dec 2000.  */

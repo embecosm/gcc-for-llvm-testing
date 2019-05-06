@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Wint-conversion" } */
 /* { dg-additional-options "-Wno-incompatible-library-redeclaration" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void *memcpy (void *, void *, __SIZE_TYPE__ *);
 void *a, *b;

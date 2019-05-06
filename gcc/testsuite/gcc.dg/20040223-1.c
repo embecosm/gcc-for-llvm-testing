@@ -3,6 +3,7 @@
 /* PR c/14156 */
 
 /* { dg-do compile  } */
+/* { dg-require-effective-target gcc_frontend } */
 
 
 int * f( int a)

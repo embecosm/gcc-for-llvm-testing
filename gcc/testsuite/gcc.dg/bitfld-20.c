@@ -2,6 +2,7 @@
    folding to integer constants: PR 42439.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -pedantic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 f (void)

@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-require-effective-target alloca }
    { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void f (void *, ...);
 

@@ -1,6 +1,7 @@
 /* { dg-options "-std=gnu89" } */
 /* In GNU C mode, we recognize the anonymous struct/union extension,
    but not Microsoft extensions.  */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct A { char a; };
 

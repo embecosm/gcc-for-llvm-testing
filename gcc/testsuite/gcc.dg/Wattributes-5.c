@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options -Wattributes } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void __attribute__((_foobar)) foo() { }		/* { dg-warning "attribute directive ignored" } */
 void __attribute__((_xformat__)) foo2() { }	/* { dg-warning "attribute directive ignored" } */

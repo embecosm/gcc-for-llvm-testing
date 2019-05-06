@@ -1,6 +1,7 @@
 /* PR other/81345 - -Wall resets -Wstringop-overflow to 1 from the default 2
    { dg-do compile }
    { dg-options "-O2 -Wall -Wno-array-bounds" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 char a[3];
 

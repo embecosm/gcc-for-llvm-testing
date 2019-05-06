@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ATTR_PRINTF __attribute__ ((format (printf, 1, 2)))
 #define ATTR_USED __attribute__ ((used))

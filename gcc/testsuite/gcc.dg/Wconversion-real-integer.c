@@ -6,6 +6,7 @@
 /* { dg-options "-std=c99 -Wconversion" } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target double64plus } */
+/* { dg-require-effective-target gcc_frontend } */
 #include <limits.h>
 
 void fsi (signed int x);

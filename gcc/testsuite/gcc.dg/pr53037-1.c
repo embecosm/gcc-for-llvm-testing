@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O0" } */
 /* { dg-skip-if "" { avr-*-* } } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned long long __u64
   __attribute__((aligned(4),warn_if_not_aligned(8)));

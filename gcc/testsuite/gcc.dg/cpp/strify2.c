@@ -2,6 +2,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Tests a whole bunch of things are correctly stringified.  */
 

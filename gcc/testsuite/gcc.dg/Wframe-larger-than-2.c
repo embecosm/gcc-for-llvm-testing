@@ -1,6 +1,7 @@
 /* Exercise -Wframe-larger-than= with a byte-size suffix.
    { dg-do compile }
    { dg-options "-O -Wframe-larger-than=1KB" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void f (void*, ...);
 

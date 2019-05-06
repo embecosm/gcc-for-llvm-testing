@@ -4,6 +4,7 @@
 /* { dg-options "-fno-common -Waddress" } */
 /* { dg-skip-if "" { x86_64-*-mingw* } } */
 /* { dg-additional-options "-Wno-pointer-bool-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* { dg-final { scan-assembler "weak\[^ \t\]*\[ \t\]_?ffoo1a" } } */
 /* { dg-final { scan-assembler "weak\[^ \t\]*\[ \t\]_?ffoo1b" } } */

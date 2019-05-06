@@ -1,6 +1,7 @@
 /* PR43651 */
 /* { dg-do compile } */
 /* { dg-options "-Wduplicate-decl-specifier" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef const int CT1;
 #define CT2 const int

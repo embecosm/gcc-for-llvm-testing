@@ -3,6 +3,7 @@
    --Per Bothner. */
 /* { dg-do compile } */
 /* { dg-options "-Wunused" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef short unused_type __attribute__ ((unused));
 int

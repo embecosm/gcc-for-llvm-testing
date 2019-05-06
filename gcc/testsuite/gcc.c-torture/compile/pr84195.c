@@ -1,4 +1,5 @@
 /* { dg-options "-Wdeprecated-declarations" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Check that MSG is printed without the escape characters being interpreted.
    Especially the newlines.

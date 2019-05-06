@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -std=c99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (void)

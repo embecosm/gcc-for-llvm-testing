@@ -3,6 +3,7 @@
 /* Origin: bug 12625 from nomura at netapp.com */
 /* { dg-do compile } */
 /* { dg-options "-Wparentheses" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 static struct { int i:8; } s; 
 

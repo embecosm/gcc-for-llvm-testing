@@ -1,6 +1,7 @@
 /* PR tree-optimization/86650 - -Warray-bounds missing inlining context
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int a[3];           /* { dg-message "while referencing .a." } */
 int x;

@@ -1,6 +1,7 @@
 /* PR c/81417 */
 /* { dg-do compile } */
 /* { dg-options "-Wsign-compare" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 fn1 (signed int a, unsigned int b)

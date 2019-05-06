@@ -1,6 +1,7 @@
 /* PR c/81779 */
 /* { dg-do compile } */
 /* { dg-options "-Wdeclaration-after-statement" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdbool.h>
 

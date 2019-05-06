@@ -1,6 +1,7 @@
 /* Test overflow in preprocessor arithmetic.  PR 55715.  */
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stdint.h>
 

@@ -8,6 +8,7 @@
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds -Wno-stringop-overflow" } */
 /* { dg-additional-options "-Wno-unknown-warning-option" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stddef.h>
 #include <string.h>

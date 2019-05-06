@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* PR c/24599 */
 

@@ -2,6 +2,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-Wno-multichar -fsigned-char" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This tests how overly-long multichar charconsts are truncated, and
    whether "short" multichar charconsts are incorrectly sign extended
