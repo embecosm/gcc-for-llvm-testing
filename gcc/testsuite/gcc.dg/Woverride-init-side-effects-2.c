@@ -1,6 +1,7 @@
 /* PR c/64918 */
 /* { dg-do compile } */
 /* { dg-options "-Wno-override-init-side-effects" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 struct S { int m, n; };
 union U { short s; long int l; };

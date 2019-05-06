@@ -1,6 +1,7 @@
 /* PR c/67784 */
 /* { dg-do compile } */
 /* { dg-options "-Wno-switch-unreachable" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 typedef int T;
 

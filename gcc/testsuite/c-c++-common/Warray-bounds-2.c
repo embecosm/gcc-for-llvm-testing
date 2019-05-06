@@ -7,6 +7,7 @@
    the call.
    { dg-do compile }
    { dg-options "-O2 -Warray-bounds -Wno-stringop-overflow -fno-tree-vrp" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 #if __has_include (<stddef.h>)
 #  include <stddef.h>

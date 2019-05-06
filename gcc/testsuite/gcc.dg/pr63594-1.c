@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -Wno-psabi" } */
 /* { dg-additional-options "-mno-mmx" { target i?86-*-* x86_64-*-* } } */
 /* { dg-prune-output "non-standard ABI extension" } */
+/* { dg-additional-options "-Wno-unknown-warning-option" } */
 
 #define C1 c
 #define C2 C1, C1
