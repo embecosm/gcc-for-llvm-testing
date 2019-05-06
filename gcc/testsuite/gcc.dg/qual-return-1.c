@@ -2,6 +2,7 @@
 /* Origin: Joseph Myers <jsm28@cam.ac.uk> */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu99 -Wreturn-type -Wignored-qualifiers" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* Qualifying a function return type makes no sense.  */
 

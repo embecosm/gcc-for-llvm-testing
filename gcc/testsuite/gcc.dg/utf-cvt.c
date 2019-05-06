@@ -3,6 +3,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-std=gnu99 -Wall -Wconversion -Wsign-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef __CHAR16_TYPE__ char16_t;
 typedef __CHAR32_TYPE__ char32_t;

@@ -1,6 +1,7 @@
 /* Further -Wswitch tests.  */
 /* { dg-do compile } */
 /* { dg-options "-Wswitch" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 enum e { e1 = 0, e2 = 1, e3 = 1, e4 = 2 };
 

@@ -1,6 +1,7 @@
 /* PR middle-end/79222 - missing -Wstringop-overflow= on a stpcpy overflow
    { dg-do compile }
    { dg-options "-O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern char* stpcpy (char*, const char*);
 

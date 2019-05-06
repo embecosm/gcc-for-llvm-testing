@@ -2,6 +2,7 @@
 /* { dg-do compile { target int32plus } } */
 /* { dg-options "-O0 -Wall" } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef unsigned long long __u64 __attribute__((aligned(4),warn_if_not_aligned(8)));
 void bar (void *, void *, void *);

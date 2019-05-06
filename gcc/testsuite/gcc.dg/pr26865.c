@@ -1,6 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -std=c99" } */
-/* { dg-additional-options "-Wno-int-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void
 foo (void)

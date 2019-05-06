@@ -1,4 +1,5 @@
 /* { dg-options "-std=c99 -pedantic-errors" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo1(int (*o)(int p[*])) { }
 

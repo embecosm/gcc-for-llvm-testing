@@ -2,6 +2,7 @@
    declarations.  Bug 7425.  */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void func(void);
 void func(void) __attribute__((deprecated ("Do not use")));

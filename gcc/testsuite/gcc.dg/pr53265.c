@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wall" } */
 /* { dg-require-effective-target size32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void bar (void *);
 int baz (int);

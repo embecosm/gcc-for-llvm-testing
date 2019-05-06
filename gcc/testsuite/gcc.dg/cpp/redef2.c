@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess }
    { dg-options "-ansi -Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define mac(a, b) (a) + (b)
 #define mac(a, b) (a) * (b)

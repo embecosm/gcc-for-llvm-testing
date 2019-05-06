@@ -8,6 +8,7 @@
 /* { dg-options " -std=gnu99 -Wconversion " } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target double64plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <limits.h>
 

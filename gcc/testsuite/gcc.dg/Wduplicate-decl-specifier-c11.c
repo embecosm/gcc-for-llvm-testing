@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=c11 -Wduplicate-decl-specifier" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef _Atomic int AT1;
 #define AT2 _Atomic int

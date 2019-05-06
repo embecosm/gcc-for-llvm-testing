@@ -8,6 +8,7 @@
    Line 3
    Line 4
 */
+/* { dg-require-effective-target gcc_frontend } */
 "line 1
  line 2
  line 3

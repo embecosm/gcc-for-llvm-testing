@@ -1,6 +1,7 @@
 /* PR c/19999 */
 /* { dg-do compile } */
 /* { dg-options "-Wfloat-equal" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double a, b;
 _Complex double c, d;

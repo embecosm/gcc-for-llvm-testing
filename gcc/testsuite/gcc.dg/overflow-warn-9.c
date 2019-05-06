@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-options "-Wconversion -Woverflow -Wno-override-init -std=c99" }
    { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <limits.h>
 
