@@ -2,6 +2,7 @@
 /* { dg-require-alias "" } */
 /* { dg-require-visibility "" } */
 /* { dg-add-options bind_pic_locally } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ASMNAME(cname)  ASMNAME2 (__USER_LABEL_PREFIX__, cname)
 #define ASMNAME2(prefix, cname) STRING (prefix) cname

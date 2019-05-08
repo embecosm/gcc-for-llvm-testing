@@ -1,6 +1,7 @@
 /* { dg-options "-fgnu89-inline" } */
 /* { dg-require-weak "" } */
 /* { dg-require-alias "" } */
+/* { dg-require-effective-target gcc_frontend } */
 #define ASMNAME(cname)  ASMNAME2 (__USER_LABEL_PREFIX__, cname)
 #define ASMNAME2(prefix, cname) STRING (prefix) cname
 #define STRING(x)    #x

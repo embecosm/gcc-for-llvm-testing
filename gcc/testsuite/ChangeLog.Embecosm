@@ -1,3 +1,10 @@
+2019-05-08  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/20011119-1.c: Annotate test as requiring
+	GCC frontend.
+	* gcc.c-torture/compile/20011119-2.c: Likewise.
+	* gcc.dg/pr47276.c: Likewise.
+
 2019-05-06  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* c-c++-common/Warray-bounds-2.c: Annotate test for GCC-specific
