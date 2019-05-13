@@ -18,15 +18,15 @@
 #define foo(x) x
 #define foo(x)x		/* { dg-bogus "redefined" "redefined foo" } */
 
-/* { dg-warning "-:redefined" "redef mac"     { target *-*-* } 7  }
-   { dg-warning "-:redefined" "redef mac"     { target *-*-* } 8  }
+/* { dg-warning "-:redefined" "redef mac"     { target *-*-* } 8  }
    { dg-warning "-:redefined" "redef mac"     { target *-*-* } 9  }
-   { dg-warning "-:redefined" "redef ro"      { target *-*-* } 12 }
-   { dg-warning "-:redefined" "redef va"      { target *-*-* } 15 }
+   { dg-warning "-:redefined" "redef mac"     { target *-*-* } 10 }
+   { dg-warning "-:redefined" "redef ro"      { target *-*-* } 13 }
+   { dg-warning "-:redefined" "redef va"      { target *-*-* } 16 }
 
-   { dg-message "-:previous"  "prev def mac"  { target *-*-* } 6  }
    { dg-message "-:previous"  "prev def mac"  { target *-*-* } 7  }
    { dg-message "-:previous"  "prev def mac"  { target *-*-* } 8  }
-   { dg-message "-:previous"  "prev def ro"   { target *-*-* } 11 }
-   { dg-message "-:previous"  "prev def va"   { target *-*-* } 14 }
+   { dg-message "-:previous"  "prev def mac"  { target *-*-* } 9  }
+   { dg-message "-:previous"  "prev def ro"   { target *-*-* } 12 }
+   { dg-message "-:previous"  "prev def va"   { target *-*-* } 15 }
 */

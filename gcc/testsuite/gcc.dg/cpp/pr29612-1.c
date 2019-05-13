@@ -3,7 +3,7 @@
 /* { dg-options "" } */
 /* { dg-require-effective-target gcc_frontend } */
 
-# 6 "pr29612-1.c"
+# 7 "pr29612-1.c"
 
 int foo (void) { return 'ab'; } /* { dg-warning "multi-character" } */
 
@@ -11,6 +11,6 @@ int foo (void) { return 'ab'; } /* { dg-warning "multi-character" } */
 
 int bar (void) { return 'ab'; } /* No warning in system header.  */
 
-# 14 "pr29612-1.c" 2
+# 15 "pr29612-1.c" 2
 
 int baz (void) { return 'ab'; } /* { dg-warning "multi-character" } */
