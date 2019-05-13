@@ -1,3 +1,7 @@
+2019-05-13  Lewis Revill  <lewis.revill@embecosm.com>
+
+	gcc.dg/tls/pr78796.c: Fix order of test annotations.
+
 2019-05-08  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/compile/20011119-1.c: Annotate test as requiring
