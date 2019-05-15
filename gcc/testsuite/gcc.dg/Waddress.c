@@ -1,7 +1,7 @@
 /* PR c/36299 */
 /* { dg-do compile } */
 /* { dg-options "-Waddress" } */
-/* { dg-additional-options "-Wno-tautological-constant-out-of-range-compare" } */
+/* { dg-additional-options "-Wno-tautological-pointer-compare" } */
 
 int
 foo(void)

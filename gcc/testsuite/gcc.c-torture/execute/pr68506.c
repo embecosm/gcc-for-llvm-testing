@@ -1,4 +1,5 @@
 /* { dg-options "-fno-builtin-abort" } */
+/* { dg-additional-options "-Wno-tautological-constant-out-of-range-compare" } */
 
 int a, b, m, n, o, p, s, u, i;
 char c, q, y;
