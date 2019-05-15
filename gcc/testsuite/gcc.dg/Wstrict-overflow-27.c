@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -Wstrict-overflow=2 -Werror" } */
+/* { dg-require-effective-target leaf } */
 
 typedef __SIZE_TYPE__ size_t;
 extern char *strtok_r (char *__restrict __s, const char *__restrict __delim,
