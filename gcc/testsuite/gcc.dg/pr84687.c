@@ -1,6 +1,7 @@
 /* PR tree-optimization/84687 */
 /* { dg-do compile } */
 /* { dg-options "-Ofast" } */
+/* { dg-require-effective-target attr_simd } */
 
 int a[64], b;
 double pow (double, double);
