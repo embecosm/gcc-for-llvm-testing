@@ -1,8 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
 /* { dg-additional-options "-Wno-return-type" } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
-/* { dg-additional-options "-Wno-unknown-attributes" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* The function order in this file is opposite from what the cgraph
    topological sort would output. So we can check the order is preserved. */
