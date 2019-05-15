@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-options "-O1 -fno-delete-null-pointer-checks" } */
 /* { dg-require-effective-target delete_null_pointer_checks } */
+/* { dg-additional-options "-Wno-tautological-pointer-compare" } */
 extern void abort (void);
 int g = 0;
 static int __attribute__((noinline)) f (long long a, long long b)
