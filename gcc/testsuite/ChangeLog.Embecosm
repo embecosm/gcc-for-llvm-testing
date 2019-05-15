@@ -1,5 +1,9 @@
 2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr68513.c: Fix parentheses around bitwise expressions.
+
+2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/tls/opt-10.c: Add -Wno-return-type as an additional
 	option to prevent excess errors.
 	* gcc.dg/tls/pr45870.c: Likewise.

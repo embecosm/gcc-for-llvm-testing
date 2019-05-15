@@ -16,9 +16,9 @@ int
 fn1 (void)
 {
   int r = 0;
-  r += (short) (E & ~u | i & u);
-  r += -(short) (E & ~u | i & u);
-  r += (short) -(E & ~u | i & u);
+  r += (short) ((E & ~u) | (i & u));
+  r += -(short) ((E & ~u) | (i & u));
+  r += (short) -((E & ~u) | (i & u));
   return r;
 }
 
