@@ -1,5 +1,10 @@
 2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/Wstrict-overflow-27.c: Annotate test as requiring leaf
+	attribute.
+
+2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr83034.c: Annotate test as requiring simd attribute.
 	* gcc.dg/pr84452.c: Likewise.
 	* gcc.dg/pr84687.c: Likewise.
