@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-additional-options "-Wno-literal-conversion" } */
 struct str {};
 struct {
   struct str b;
