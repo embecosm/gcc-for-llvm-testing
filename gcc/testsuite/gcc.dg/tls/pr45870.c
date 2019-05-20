@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-g -O" } */
 /* { dg-require-effective-target tls } */
+/* { dg-additional-options "-Wno-return-type" } */
 
 __thread int v[30];
 int bar (void);
