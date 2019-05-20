@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-options "-O2" } */
+/* { dg-additional-options "-Wno-bitfield-constant-conversion" } */
 
 extern void abort(void);
 

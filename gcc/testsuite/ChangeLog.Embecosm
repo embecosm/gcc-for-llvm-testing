@@ -1,3 +1,8 @@
+2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/pr17112-1.c: Add -Wno-bitfield-constant-conversion as
+	an additional option to prevent excess errors.
+
 2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/pr68513.c: Fix parentheses around bitwise expressions.
