@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O3" } */
+/* { dg-additional-options "-Wno-literal-conversion" } */
 
 int a, b;
 void fn1() {

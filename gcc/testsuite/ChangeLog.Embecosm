@@ -1,5 +1,12 @@
 2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/c99-bool-3.c: Add -Wno-literal-conversion as an
+	additional option to prevent excess errors.
+	* gcc.dg/pr69328.c: Likewise.
+	* gcc.dg/pr69522.c: Likewise.
+
+2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr52808.c: Add parentheses to silence warnings about
 	logical operations.
 	* gcc.dg/pr69328.c: Likewise.
