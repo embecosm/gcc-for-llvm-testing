@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -fstack-protector" } */
 /* { dg-require-effective-target fstack_protector } */
+/* { dg-additional-options "-Wno-format-security" } */
 
 #ifdef DEBUG
 #include <stdio.h>
