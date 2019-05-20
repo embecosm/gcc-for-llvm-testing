@@ -8,7 +8,7 @@ void fn1() {
   for (; a; ++a) {
     int e, f;
     e = d[a];
-    if (!e && f || !f && e)
+    if ((!e && f) || (!f && e))
       ++c;
   }
   if (c)

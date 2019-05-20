@@ -12,7 +12,7 @@ void fn1() {
     ;
   else if (!a && !b && c)
     ;
-  else if (b && d || a && e)
+  else if ((b && d) || (a && e))
     a = 0;
   f = g || d;
 }
