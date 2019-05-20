@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-require-effective-target alloca }
    { dg-options "-O2 -Wall" }  */
+/* { dg-additional-options "-Wno-implicit-function-declaration" } */
 
 int f (int n)
 {
