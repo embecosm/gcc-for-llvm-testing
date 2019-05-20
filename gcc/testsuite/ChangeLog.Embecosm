@@ -1,5 +1,10 @@
 2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr38902.c: Add -Wno-format-security as an additional
+	option to prevent excess errors.
+
+2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/20020607-1.c: Fix comment in dg annotation.
 	* gcc.dg/long-long-compare-1.c: Likewise.
 	* gcc.dg/pr37303.c: Likewise.
