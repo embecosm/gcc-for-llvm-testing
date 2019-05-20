@@ -2,6 +2,7 @@
    a variable-length struct
    { dg-do compile }
    { dg-options "-O2 -Wall" }  */
+/* { dg-additional-options "-Wno-implicit-function-declaration" } */
 
 int f (int n)
 {
