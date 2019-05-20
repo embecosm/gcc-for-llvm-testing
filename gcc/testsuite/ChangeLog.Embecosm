@@ -1,5 +1,9 @@
 2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr35736.c: Annotate test as requiring GCC frontend.
+
+2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/pr38902.c: Add -Wno-format-security as an additional
 	option to prevent excess errors.
 
