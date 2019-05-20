@@ -1,5 +1,12 @@
 2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/pr52808.c: Add parentheses to silence warnings about
+	logical operations.
+	* gcc.dg/pr69328.c: Likewise.
+	* gcc.dg/pr70807.c: Likewise.
+
+2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.dg/20011130-1.c: Add -Wno-implicit-function-declaration as
 	an additional option to prevent excess errors.
 	* gcc.dg/Wrestrict-17.c: Likewise.
