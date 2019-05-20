@@ -2,6 +2,7 @@
 /* { dg-require-effective-target split_stack } */
 /* { dg-require-effective-target pthread_h } */
 /* { dg-options "-pthread -fsplit-stack" } */
+/* { dg-additional-options "-Wno-implicit-function-declaration" } */
 
 #include <stdlib.h>
 #include <pthread.h>
