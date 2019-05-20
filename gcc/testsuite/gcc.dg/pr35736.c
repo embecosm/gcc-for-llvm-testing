@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -Wall" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 void foo()
 {
