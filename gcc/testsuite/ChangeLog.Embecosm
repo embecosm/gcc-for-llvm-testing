@@ -1,5 +1,11 @@
 2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.dg/tls/opt-10.c: Add -Wno-return-type as an additional
+	option to prevent excess errors.
+	* gcc.dg/tls/pr45870.c: Likewise.
+
+2019-05-15  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/execute/pr68506.c: Add additional option to
 	prevent excess errors from tautological comparisons.
 	* gcc.dg/Waddress.c: Likewise.
