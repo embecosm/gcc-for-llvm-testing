@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-options "-O1 -Wall -fdump-tree-lower" } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target builtin_bcopy } */
 
 void f0 (void *dst, const void *src, unsigned n)
 {

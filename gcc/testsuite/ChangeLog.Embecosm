@@ -1,3 +1,15 @@
+2019-08-27  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/bcopy-1.c: Annotate test as requiring
+	the bcopy builtin.
+	* gcc.c-torture/execute/builtins/memmove.c: Likewise.
+	* gcc.dg/fold-bcopy.c: Likewise.
+	* gcc.dg/nonnull-3.c: Likewise.
+	* gcc.dg/tree-ssa/ssa-dse-30.c: Likewise.
+	* lib/target-supports.exp
+	(check_effective_target_builtin_bcopy): Added function to check
+	target support for __builtin_bcopy.
+
 2019-05-20  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/c99-bool-3.c: Add -Wno-literal-conversion as an

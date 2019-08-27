@@ -11250,6 +11250,9 @@ proc check_effective_target_builtin_aligned_alloc {} {
 proc check_effective_target_builtin_apply {} {
     return [check_builtin_support apply "__builtin_apply ((void *)0);"]
 }
+proc check_effective_target_builtin_bcopy {} {
+    return [check_builtin_support bcopy "__builtin_bcopy ((void *)0, (void *)0, 0);"]
+}
 proc check_effective_target_builtin_clrsb {} {
     return [check_builtin_support clrsb "__builtin_clsrb (5);"]
 }
