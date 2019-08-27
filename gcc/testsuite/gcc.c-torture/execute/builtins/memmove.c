@@ -3,6 +3,7 @@
    Ensure builtin memmove and bcopy perform correctly.
 
    Written by Jakub Jelinek, 4/26/2003.  */
+/* { dg-require-effective-target builtin_bcopy } */
 
 extern void abort (void);
 typedef __SIZE_TYPE__ size_t;
