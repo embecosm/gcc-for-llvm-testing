@@ -2,6 +2,7 @@
    the source block of a crossing fallthru edge ends with a call.  */
 /* { dg-require-effective-target freorder } */
 /* { dg-options "-O2 -freorder-blocks-and-partition" } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 extern int strcmp(const char *, const char *);
 extern char *strcpy(char *, const char *);

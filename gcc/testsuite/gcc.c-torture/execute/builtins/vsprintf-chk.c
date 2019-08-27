@@ -1,6 +1,7 @@
 /* Copyright (C) 2004, 2005  Free Software Foundation.
 
    Ensure builtin __vsprintf_chk performs correctly.  */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 #include <stdarg.h>
 

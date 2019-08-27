@@ -1,4 +1,5 @@
 /* { dg-do run { target i?86-*-linux* i?86-*-gnu* x86_64-*-linux* } } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 #include <setjmp.h>
 #include <signal.h>

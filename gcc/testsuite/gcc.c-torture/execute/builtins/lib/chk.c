@@ -1,3 +1,4 @@
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 #include <stdarg.h>
 #ifdef __unix__
 #include <sys/types.h>

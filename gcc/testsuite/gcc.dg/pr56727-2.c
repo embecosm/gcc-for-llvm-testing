@@ -2,8 +2,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-options "-O2 -fPIC" } */
 /* { dg-require-alias "" } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
-/* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 __attribute__((noinline, noclone))
 void f (short b)

@@ -1,5 +1,38 @@
 2019-08-27  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/20011029-1.c: Annotate test as requiring
+	__builtin_setjmp/__builtin_longjmp.
+	* gcc.c-torture/compile/complex-6.c: Likewise.
+	* gcc.c-torture/compile/pr82337.c: Likewise.
+	* gcc.c-torture/execute/builtins/lib/chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/memcpy-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/memmove-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/mempcpy-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/memset-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/snprintf-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/sprintf-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/stpcpy-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/stpncpy-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/strcat-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/strcpy-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/strncat-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/strncpy-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/vsnprintf-chk.c: Likewise.
+	* gcc.c-torture/execute/builtins/vsprintf-chk.c: Likewise.
+	* gcc.dg/asan/pr82545.c: Likewise.
+	* gcc.dg/pr56727-2.c: Likewise.
+	* gcc.dg/setjmp-2.c: Likewise.
+	* gcc.dg/setjmp-3.c: Likewise.
+	* gcc.dg/torture/pr57147-2.c: Likewise.
+	* gcc.dg/torture/stackalign/setjmp-1.c: Likewise.
+	* gcc.dg/torture/stackalign/setjmp-2.c: Likewise.
+	* gcc.dg/torture/stackalign/setjmp-3.c: Likewise.
+	* gcc.dg/torture/stackalign/setjmp-4.c: Likewise.
+	* gcc.dg/tree-prof/pr34999.c: Likewise.
+	* gcc.dg/tree-ssa/pr79803.c: Likewise.
+
+2019-08-27  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/bcopy-1.c: Annotate test as requiring
 	the bcopy builtin.
 	* gcc.c-torture/execute/builtins/memmove.c: Likewise.

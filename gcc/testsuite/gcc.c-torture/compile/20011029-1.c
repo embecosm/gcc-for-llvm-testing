@@ -1,5 +1,5 @@
 /* { dg-require-effective-target indirect_jumps } */
-/* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 void foo (void *) __attribute__ ((noreturn));
 

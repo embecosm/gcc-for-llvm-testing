@@ -3,6 +3,7 @@
 /* { dg-do run { target i?86-*-linux* i?86-*-gnu* x86_64-*-linux* } } */
 /* { dg-options "-O -fomit-frame-pointer" } */
 /* { dg-options "-O -fomit-frame-pointer -march=i386" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 #include <setjmp.h>
 #include <signal.h>

@@ -1,6 +1,7 @@
 /* Copyright (C) 2004, 2005, 2011  Free Software Foundation.
 
    Ensure builtin __stpncpy_chk performs correctly.  */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 extern void abort (void);
 typedef __SIZE_TYPE__ size_t;
