@@ -1,6 +1,6 @@
 /* PR tree-opt/35737 */
 /* { dg-require-effective-target indirect_jumps } */
-/* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 long buf[10];
 
