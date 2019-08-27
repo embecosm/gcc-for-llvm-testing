@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-require-effective-target indirect_jumps } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 #include <setjmp.h>
 
