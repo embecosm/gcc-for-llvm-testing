@@ -1,3 +1,7 @@
+2019-08-28  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.dg/asm-4.c: Mark test as requiring GCC frontend.
+
 2019-08-27  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/compile/20011029-1.c: Annotate test as requiring
