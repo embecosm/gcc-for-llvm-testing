@@ -1,6 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "" } */
-/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* "p" modifier can't be used to generate a valid memory address with ILP32.  */
 /* { dg-skip-if "" { aarch64*-*-* && ilp32 } } */
