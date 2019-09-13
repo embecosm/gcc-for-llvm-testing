@@ -22,7 +22,7 @@ init_c_lex (void)
   struct cpp_callbacks *cb;
   cb->ident = cb_ident;
 }
-cb_ident (cpp_reader * pfile __attribute__ ((__unused__)), unsigned int
+void cb_ident (cpp_reader * pfile __attribute__ ((__unused__)), unsigned int
 line
           __attribute__ ((__unused__)), const cpp_string * str
           __attribute__ ((__unused__)))
