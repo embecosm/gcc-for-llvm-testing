@@ -1,3 +1,9 @@
+2019-09-13  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/20060109-1.c: Fix conflicting type of
+	function definition & declaration.
+	* gcc.dg/atomic-lockfree-aux.c: Likewise.
+
 2019-08-28  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.dg/asm-4.c: Mark test as requiring GCC frontend.
