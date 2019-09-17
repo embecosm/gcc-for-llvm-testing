@@ -1,3 +1,8 @@
+2019-09-17  Lewis Revill  <lewis.revill@embecosm.com>
+
+	* gcc.c-torture/compile/pr83051-2.c: Annotate test which uses
+	-fno-early-inlining as requiring GCC frontend.
+
 2019-09-13  Lewis Revill  <lewis.revill@embecosm.com>
 
 	* gcc.c-torture/compile/20060109-1.c: Fix conflicting type of
