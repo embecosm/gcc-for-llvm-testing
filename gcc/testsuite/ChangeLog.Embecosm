@@ -1,5 +1,11 @@
 2019-09-17  Lewis Revill  <lewis.revill@embecosm.com>
 
+	* gcc.c-torture/compile/pr60268.c: Annotate test which uses
+	-flive-range-shrinkage as requiring GCC frontend.
+	* gcc.gd/pr60704.c: Likewise.
+
+2019-09-17  Lewis Revill  <lewis.revill@embecosm.com>
+
 	* gcc.c-torture/compile/pr83051-2.c: Annotate test which uses
 	-fno-early-inlining as requiring GCC frontend.
 
