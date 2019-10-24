@@ -3,6 +3,7 @@
 // { dg-require-alias "" }
 // { dg-options "-O2 -fno-common" }
 /* { dg-additional-options "-Wno-pointer-bool-conversion" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 // Copyright 2005 Free Software Foundation, Inc.
 // Contributed by Alexandre Oliva <aoliva@redhat.com>
