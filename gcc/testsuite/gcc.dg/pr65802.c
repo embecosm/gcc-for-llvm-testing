@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O0 -fexceptions" } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-skip-if "" { ! fexceptions } } */ 
 
 #include <stdarg.h>
 

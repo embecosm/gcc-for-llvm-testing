@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -fexceptions -fnon-call-exceptions -ftrapv" } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 void
 foo ()
