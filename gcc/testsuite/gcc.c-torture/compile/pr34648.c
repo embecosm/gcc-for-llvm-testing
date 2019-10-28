@@ -2,6 +2,7 @@
 
 /* { dg-options "-fexceptions" } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 extern const unsigned short int **bar (void) __attribute__ ((const));
 const char *a;

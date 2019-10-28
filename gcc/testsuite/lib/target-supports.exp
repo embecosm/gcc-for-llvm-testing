@@ -1072,6 +1072,15 @@ proc check_effective_target_fgnu_tm {} {
     } "-fgnu-tm"]
 }
 
+# Return 1 if compilation with -fexceptions error-free for trivial
+# code, 0 otherwise.
+
+proc check_effective_target_fexceptions {} {
+    return [check_no_compiler_messages fexceptions object {
+	void foo (void) { }
+    } "-fexceptions"]
+}
+
 # Return 1 if the target supports mmap, 0 otherwise.
 
 proc check_effective_target_mmap {} {

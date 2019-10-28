@@ -24,6 +24,31 @@
 	* gcc.dg/torture/builtins-math-7.c: Likewise.
 	* gcc.dg/torture/builtins-isinf_sign-1.c: Likewise.
 
+2019-10-28  Scott Egerton <scott.egerton@embecosm.com>
+
+	* gcc/testsuite/lib/target-supports.exp: Add
+	check_effective_target_fexceptions to detect compiler support
+	for -fexceptions flag.
+	* gcc/testsuite/gcc.c-torture/compile/pr34648.c: Annotate test
+	as requiring compiler support for -fexceptions flag.
+	* gcc/testsuite/gcc.c-torture/compile/pr41469.c: Likewise.
+	* gcc/testsuite/gcc.dg/20111216-1.c: Likewise.
+	* gcc/testsuite/gcc.dg/cleanup-12.c: Likewise.
+	* gcc/testsuite/gcc.dg/cleanup-13.c: Likewise.
+	* gcc/testsuite/gcc.dg/cleanup-5.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr41470.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr44545.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr47086.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr51644.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr52046.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr54669.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr56424.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr64465.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr65802.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr67563.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr83605.c: Likewise.
+	* gcc/testsuite/gcc.dg/torture/pr85852.c: Likewise.
+
 2019-10-24  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/weak/weak-14.c: Annotate test which use weak symbols

@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fexceptions -fnon-call-exceptions" } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 extern float a[], b[], c[], d[];
 extern int k[];
