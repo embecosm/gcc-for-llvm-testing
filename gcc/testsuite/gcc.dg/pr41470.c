@@ -2,6 +2,7 @@
 /* { dg-options "-fexceptions" } */
 /* { dg-require-effective-target alloca } */
 /* { dg-require-effective-target exceptions } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 void cf (void *);
 
