@@ -6,6 +6,7 @@
 
 /* { dg-do link } */
 /* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* All references to link_error should go away at compile-time.  */
 extern void link_error(int);
