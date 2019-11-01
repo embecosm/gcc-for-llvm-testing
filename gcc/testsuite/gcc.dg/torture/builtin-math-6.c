@@ -7,6 +7,7 @@
 
 /* { dg-do link } */
 /* { dg-additional-options "-Wno-absolute-value" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* All references to link_error should go away at compile-time.  The
    first number is the line number and the second is the value number

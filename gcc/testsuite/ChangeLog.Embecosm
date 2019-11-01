@@ -1,3 +1,10 @@
+2019-11-1  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc.dg/torture/builtins-math-6.c: Annotate test as requiring
+	GCC frontend.
+	* gcc.dg/torture/builtins-math-7.c: Likewise.
+	* gcc.dg/torture/builtins-isinf_sign-1.c: Likewise.
+
 2019-10-24  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/weak/weak-14.c: Annotate test which use weak symbols

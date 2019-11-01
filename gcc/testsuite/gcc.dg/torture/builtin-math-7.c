@@ -11,6 +11,7 @@
 /* { dg-add-options ieee } */
 /* { dg-require-effective-target large_double } */
 /* { dg-require-effective-target builtin_isinf } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error(int);
 
