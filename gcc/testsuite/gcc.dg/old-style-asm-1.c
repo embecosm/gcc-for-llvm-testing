@@ -3,6 +3,7 @@
 /* { dg-options "-O2 -dP" } */
 /* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 /* { dg-additional-options "-Wno-unused-command-line-argument" } */
+/* { dg-require-effective-target invalid_inline_asm } */
 
 /* Verify that GCC doesn't optimize
    old style asm instructions.  */

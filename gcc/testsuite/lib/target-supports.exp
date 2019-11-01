@@ -11396,3 +11396,10 @@ proc check_effective_target_gcc_frontend {} {
     " "-fdump-tree-all" ]
 }
 
+# Return true if the target can compiler invalid inline asm without errors 
+proc check_effective_target_invalid_inline_asm { } {
+    return [check_no_compiler_messages invalid_inline_asm object {
+	void foo (void) { asm ("This is invalid"); }
+    }]
+}
+
