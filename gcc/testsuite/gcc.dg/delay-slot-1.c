@@ -2,6 +2,7 @@
 /* { dg-options "-O2" } */
 /* { dg-options "-O2 -mabi=64" { target { mips*-*-linux* && mips64 } } } */
 /* { dg-additional-options "-Wno-unused-value" } */
+/* { dg-require-effective-target invalid_inline_asm } */
 
 struct offset_v1 {
     int k_uniqueness;

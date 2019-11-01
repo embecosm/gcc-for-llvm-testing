@@ -2,6 +2,7 @@
    end of non-void function' diagnostic.  */
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wreturn-type" } */
+/* { dg-require-effective-target invalid_inline_asm } */
 int
 f(int a, int b)
 {
