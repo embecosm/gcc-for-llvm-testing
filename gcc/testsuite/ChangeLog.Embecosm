@@ -1,5 +1,12 @@
 2019-11-08  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/20001012-1.c: Annotate test which uses
+	GNU old-style field designator extension as requiring gcc frontend.
+	* gcc/testsuite/gcc.dg/20001012-2.c: Likewise.
+	* gcc/testsuite/gcc.dg/980526-1.c: Likewise.
+
+2019-11-08  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/tr-paste.c: Annotate test which uses
 	-traditional-cpp as requiring gcc frontend.
 

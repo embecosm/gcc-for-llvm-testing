@@ -1,5 +1,6 @@
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O2 -fpic" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 int
 test(void)
