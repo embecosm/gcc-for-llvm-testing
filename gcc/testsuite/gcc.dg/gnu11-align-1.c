@@ -2,6 +2,7 @@
    of DR#444: alignment specifiers for compound literals in _Alignof.  */
 /* { dg-do compile } */
 /* { dg-options "-std=gnu11" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include <stddef.h>
 
