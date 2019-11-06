@@ -1,5 +1,12 @@
 2019-11-08  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/Wattributes-8.c: Annotate test as requiring
+	gcc frontend which uses the GNU extension: applying _Alignof to an
+	expression.
+	* gcc/testsuite/gcc.dg/gnu11-align-1.c: Likewise.
+
+2019-11-08  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/20001012-1.c: Annotate test which uses
 	GNU old-style field designator extension as requiring gcc frontend.
 	* gcc/testsuite/gcc.dg/20001012-2.c: Likewise.
