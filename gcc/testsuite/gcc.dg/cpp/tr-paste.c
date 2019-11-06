@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "-traditional-cpp" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern int printf (const char *, ...);
 
