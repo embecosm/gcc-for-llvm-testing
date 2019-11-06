@@ -2,6 +2,7 @@
    conflict on struct members
    { dg-do compile }
    { dg-options "-Wall -Wattributes" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ATTR(list) __attribute__ (list)
 #define ASSERT(e) _Static_assert (e, #e)
