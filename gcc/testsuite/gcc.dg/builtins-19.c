@@ -7,6 +7,7 @@
 /* { dg-do link } */
 /* { dg-options "-O2 -ffast-math" } */
 /* { dg-additional-options "-Wno-absolute-value" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 double cabs (__complex__ double);
 float cabsf (__complex__ float);

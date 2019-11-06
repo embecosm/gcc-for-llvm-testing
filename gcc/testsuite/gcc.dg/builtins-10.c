@@ -8,6 +8,7 @@
 /* { dg-do link } */
 /* { dg-options "-O2 -ffast-math" } */
 /* { dg-additional-options "-Wno-unsequenced" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error(void);
 
