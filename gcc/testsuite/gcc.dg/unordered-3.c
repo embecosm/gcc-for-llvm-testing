@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-fno-finite-math-only" }  */
+/* { dg-require-effective-target gcc_frontend } */
 
 void link_error ();
 

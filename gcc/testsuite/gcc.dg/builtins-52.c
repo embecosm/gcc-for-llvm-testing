@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-options "-O -ffast-math" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error(void);
 

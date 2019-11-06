@@ -7,6 +7,7 @@
 
 /* { dg-do link } */
 /* { dg-options "-O2" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error(void);
 

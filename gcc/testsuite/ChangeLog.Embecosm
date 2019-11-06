@@ -1,3 +1,22 @@
+2019-11-6  Paolo Savini  <paolo.savini@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/builtins-10.c: Annotate test as
+	requiring GCC frontend.
+	* gcc/testsuite/gcc.dg/builtins-11.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-18.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-19.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-20.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-26.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-27.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-31.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-41.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-52.c: Likewise.
+	* gcc/testsuite/gcc.dg/builtins-54.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr15785-1.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr30951.c: Likewise.
+	* gcc/testsuite/gcc.dg/unordered-2.c: Likewise.
+	* gcc/testsuite/gcc.dg/unordered-3.c: Likewise.
+
 2019-11-1  Paolo Savini  <paolo.savini@embecosm.com>
 
 	* gcc.dg/torture/builtins-math-6.c: Annotate test as requiring

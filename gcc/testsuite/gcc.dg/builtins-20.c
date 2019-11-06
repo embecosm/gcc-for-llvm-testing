@@ -7,6 +7,7 @@
 
 /* { dg-do link } */
 /* { dg-options "-O2 -ffast-math" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #include "builtins-config.h"
 
