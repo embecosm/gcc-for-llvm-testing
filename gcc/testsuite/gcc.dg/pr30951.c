@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target gcc_frontend } */
 
 extern void link_error (void);
 
