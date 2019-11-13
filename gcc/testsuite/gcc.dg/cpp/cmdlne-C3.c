@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-C -P" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define macro(X) X
 
