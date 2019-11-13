@@ -1,5 +1,18 @@
 2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dM-dD.c: Annotate test as requiring
+	GCC frontend as this test requires the flags -dM -dD to be passed in
+	a certain way.
+	The flag -dM prints macro definitions *instead of* normal output.
+	The flag -dD prints macro definitions *in addition to* normal
+	output.
+	GCC interprets this as -dD will re-enable normal output if it was
+	previously disabled (such as by -dM).
+	Clang interprets this as -dD will turn on macro definitions and not
+	touch normal output, leaving it disabled.
+
+2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/cmdlne-dM-M.c: Annotate test as requiring
 	GCC frontend as the -M option will suppress the the debug output,
 	such as the output from -dM. This is explicity not the case when
