@@ -1,5 +1,12 @@
 2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dM-M.c: Annotate test as requiring
+	GCC frontend as the -M option will suppress the the debug output,
+	such as the output from -dM. This is explicity not the case when
+	using GCC.
+
+2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/cmdlne-dI-C.c: Annotate test as requiring
 	gcc frontend as the -dI option is unrecognised in Clang unless the
 	-cc1 option is provided.
