@@ -1,3 +1,9 @@
+2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-C3.c: Annotate test as requiring
+	gcc frontend as Clang will remove comments inside macros, even when
+	the -C option is provided.
+
 2019-11-08  Scott Egerton <scott.egerton@embecosm.com>
 
 	* gcc/testsuite/gcc.dg/Wattributes-8.c: Annotate test as requiring
