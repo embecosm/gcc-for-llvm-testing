@@ -1,5 +1,29 @@
 2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-1.c: Annotate test as requiring
+	GCC frontend as this test requires the -dU flag, which is not
+	supported by clang.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-2.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-3.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-4.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-5.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-6.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-7.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-8.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-9.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-10.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-12.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-13.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-14.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-16.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-17.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-18.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-19.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-21.c: Likewise.
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-22.c: Likewise.
+
+2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/cmdlne-dM-dD.c: Annotate test as requiring
 	GCC frontend as this test requires the flags -dM -dD to be passed in
 	a certain way.
