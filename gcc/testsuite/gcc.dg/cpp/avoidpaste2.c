@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-ansi" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This tests that we avoid accidental pasting, as well as gratuitous
    space insertion, in various nasty places _inside_ a macro's

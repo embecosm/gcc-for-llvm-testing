@@ -1,5 +1,12 @@
 2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/cpp/avoidpaste2.c: Annotate test as requiring
+	GCC frontend. This test ensures that the preprocessor inserts spaces
+	between colons during macro expansion to avoid creating the C++
+	operator "::".
+
+2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/cmdlne-dU-1.c: Annotate test as requiring
 	GCC frontend as this test requires the -dU flag, which is not
 	supported by clang.
