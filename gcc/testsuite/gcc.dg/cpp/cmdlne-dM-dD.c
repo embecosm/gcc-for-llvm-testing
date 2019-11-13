@@ -12,3 +12,4 @@ int variable;
 
 /* { dg-final { scan-file cmdlne-dM-dD.i "(^|\\n)#define foo bar($|\\n)" } }
    { dg-final { scan-file cmdlne-dM-dD.i "variable" } } */
+/* { dg-require-effective-target gcc_frontend } */
