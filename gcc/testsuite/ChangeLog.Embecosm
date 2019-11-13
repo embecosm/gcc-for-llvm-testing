@@ -1,5 +1,11 @@
 2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/cpp/cmdlne-dI-C.c: Annotate test as requiring
+	gcc frontend as the -dI option is unrecognised in Clang unless the
+	-cc1 option is provided.
+
+2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/cmdlne-C3.c: Annotate test as requiring
 	gcc frontend as Clang will remove comments inside macros, even when
 	the -C option is provided.
