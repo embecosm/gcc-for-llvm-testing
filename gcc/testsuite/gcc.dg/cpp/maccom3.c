@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-CC" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* This tests to make sure that comments in the definition of a macro
    parameter list are ignored when the -CC option is used.

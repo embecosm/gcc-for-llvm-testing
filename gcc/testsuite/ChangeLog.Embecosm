@@ -1,3 +1,10 @@
+2019-11-19  Scott Egerton <scott.egerton@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/cpp/maccom3.c: Annotate test as requiring
+	GCC frontend. The -CC flag for GCC will exclude comments inside the parameter
+	list of a function type macro definition. This will prevent a compile error.
+	Clang does not do this and consequentually fails to compile.
+
 2019-11-13  Scott Egerton <scott.egerton@embecosm.com>
 
 	* gcc/testsuite/gcc.dg/cpp/avoidpaste2.c: Annotate test as requiring
