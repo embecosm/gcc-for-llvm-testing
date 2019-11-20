@@ -1,5 +1,12 @@
 2019-11-20  Scott Egerton <scott.egerton@embecosm.com>
 
+	* gcc/testsuite/gcc.dg/cpp/pragma-pop_macro-1.c: Annotate test as
+	requiring GCC frontend. Using #pragma pop_macro without a matching
+	push macro is silently ignored when using GCC. Clang will produce a
+	warning in this case causing a test for excess errors to fail.
+
+2019-11-20  Scott Egerton <scott.egerton@embecosm.com>
+
 	* gcc/testsuite/gcc.dg/cpp/pr34692.c: Annotate test as requiring
 	GCC frontend. This test requires embedding a #pragma directive with
 	macro arguments. This is explicitly not supported in other compiliers
