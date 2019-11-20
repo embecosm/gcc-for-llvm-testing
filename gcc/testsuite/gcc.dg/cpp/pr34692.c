@@ -8,6 +8,7 @@
 /* { dg-final { scan-hidden "vard" } } */
 /* { dg-final { scan-assembler "a b cde f g h" } } */
 /* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define FOO(y, x) y #x
 #define BAR(x) x

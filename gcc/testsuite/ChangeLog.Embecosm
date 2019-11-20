@@ -1,3 +1,10 @@
+2019-11-20  Scott Egerton <scott.egerton@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/cpp/pr34692.c: Annotate test as requiring
+	GCC frontend. This test requires embedding a #pragma directive with
+	macro arguments. This is explicitly not supported in other compiliers
+	such as Clang.
+
 2019-11-19  Scott Egerton <scott.egerton@embecosm.com>
 
 	* gcc/testsuite/gcc.dg/cpp/maccom3.c: Annotate test as requiring
