@@ -2,6 +2,7 @@
 /* Do nothing if there is nothing on the macro stack to pop.  */
 
 /* { dg-do preprocess } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define X  1
 /* # pragma push_macro("X") */
