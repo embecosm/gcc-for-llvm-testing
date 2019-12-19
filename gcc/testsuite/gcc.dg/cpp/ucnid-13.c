@@ -2,5 +2,5 @@
    not UTF-8.  */
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99 -dD" } */
-/* { dg-final { scan-file ucnid-13.i "\\\\U000000c1" } } */
+/* { dg-final { scan-file ucnid-13.i "(\\\\U000000c1|Á)" } } */
 #define \u00c1 1
