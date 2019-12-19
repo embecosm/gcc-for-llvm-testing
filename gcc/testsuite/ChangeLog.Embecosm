@@ -1,3 +1,10 @@
+2019-12-19  Scott Egerton <scott.egerton@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/cpp/ucnid-13.c: The scan-file will search for
+	the expected unicode escape codes. Clang will emit the raw unicode
+	symbols instead. The test has been updated to accept either format.
+	* gcc/testsuite/gcc.dg/cpp/ucnid-15.c: Likewise.
+
 2019-11-20  Scott Egerton <scott.egerton@embecosm.com>
 
 	* gcc/testsuite/gcc.dg/cpp/pragma-pop_macro-1.c: Annotate test as
