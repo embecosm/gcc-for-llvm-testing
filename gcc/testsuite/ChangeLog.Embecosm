@@ -1,3 +1,19 @@
+2019-12-20  Scott Egerton <scott.egerton@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/unused-8a.c: Change -Wno-unsed test to
+	-Wno-unsed-parameter. This more specific flag tests the same
+	behaviour. In some compilers, the -Wno-unused group does not contain
+	-Wno-unsed-parameter, resulting in this test failing as
+	-Wunused-paramter is still enabled.
+	* gcc/testsuite/gcc.dg/unused-8b.c: Annotate test as requiring GCC
+	frontend. Whilst this test is very similar to unused-8b.c, this relies
+	on flags being parsed in a different order to what they were provide
+	in.
+	* gcc/testsuite/gcc.dg/unused-5.c: Annotate test as requires GCC
+	frontend. This is testing that variables marked as volatile don't
+	produce a warning when they are unused. This is a GCC specific
+	behaviour that is not present in Clang.
+
 2019-12-19  Scott Egerton <scott.egerton@embecosm.com>
 
 	* gcc/testsuite/gcc.dg/cpp/ucnid-13.c: The scan-file will search for
