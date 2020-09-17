@@ -1,5 +1,9 @@
 2020-09-17  Lewis Revill <lewis.revill@embecosm.com>
 
+	* gcc.dg/20040311-2.c: Fix warning about empty if statement body.
+
+2020-09-17  Lewis Revill <lewis.revill@embecosm.com>
+
 	* gcc.dg/20011130-1.c: Mark test with nested function declaration as
 	requiring GCC frontend.
 	* gcc.dg/20020425-1.c: Mark test which blows up on Clang as requiring

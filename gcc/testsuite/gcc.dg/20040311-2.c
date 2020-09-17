@@ -21,7 +21,7 @@ foo (int x, char *y)
 again:
   for (h = *g; h != (struct S *) g; h = h->m)
     {
-      if (k == 0 && h->n & 0x100000);
+      if (k == 0 && h->n & 0x100000) {}
       l = y - b;
       if (e)
         bar (b, l);
