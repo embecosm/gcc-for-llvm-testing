@@ -7,6 +7,7 @@
 /* { dg-do compile { target fpic } } */
 /* { dg-options "-O2 -frename-registers -fpic" } */
 /* { dg-skip-if "too many arguments in function call" { bpf-*-* } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 typedef unsigned long XID;
 typedef XID Window;

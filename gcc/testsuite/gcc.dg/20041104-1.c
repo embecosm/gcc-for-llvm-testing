@@ -1,5 +1,6 @@
 /* This testcase exposed the same bug as PR 15342.  */
 /* { dg-options "-O2 -frename-registers -fno-schedule-insns" } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 void *memcpy (void *, const void *, __SIZE_TYPE__);
 
