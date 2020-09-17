@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -funroll-all-loops" } */
 /* { dg-options "-O2 -funroll-all-loops -march=pentium3" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 void bar (float);
 

@@ -1,5 +1,13 @@
 2020-09-17  Lewis Revill <lewis.revill@embecosm.com>
 
+	* gcc.dg/20020418-2.c: Add -Wno-ignored-optimization-argument to options
+	to prevent excess warnings.
+	* gcc.dg/20020430-1.c: Likewise.
+	* gcc.dg/20040609-1.c: Likewise.
+	* gcc.dg/20041104-1.c: Likewise.
+
+2020-09-17  Lewis Revill <lewis.revill@embecosm.com>
+
 	* gcc.dg/20040311-2.c: Fix warning about empty if statement body.
 
 2020-09-17  Lewis Revill <lewis.revill@embecosm.com>

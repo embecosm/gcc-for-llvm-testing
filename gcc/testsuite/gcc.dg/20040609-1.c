@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -frename-registers" } */
 /* { dg-options "-mconstant-gp -Os -frename-registers" { target ia64-*-* } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
 
 struct S { struct S *a, *b; };
 struct T { struct S e; unsigned long a; int b, c; void *d; } f;
