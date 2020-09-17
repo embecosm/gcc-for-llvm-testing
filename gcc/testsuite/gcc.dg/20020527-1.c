@@ -3,6 +3,7 @@
    accepted.  */
 /* { dg-do compile } */
 /* { dg-options "-fms-extensions" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 typedef struct {
   unsigned short a;

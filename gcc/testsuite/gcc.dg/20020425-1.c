@@ -1,6 +1,7 @@
 /* PR c/2161: parser stack overflow.  */
 /* { dg-do compile } */
 /* { dg-timeout-factor 4.0 } */
+/* { dg-require-effective-target gcc_frontend } */
 
 #define ONE	else if (0) { }
 #define TEN	ONE ONE ONE ONE ONE ONE ONE ONE ONE ONE
