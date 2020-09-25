@@ -1,4 +1,5 @@
 /* { dg-options "-std=gnu89 -fms-extensions" } */
+/* { dg-additional-options "-Wno-microsoft-anon-tag" } */
 /* Enabling Microsoft mode makes all of the tests equivalent.  Checked vs
    Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
  */
