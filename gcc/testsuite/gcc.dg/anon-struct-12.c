@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-fplan9-extensions" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* When using -fplan9-extensions, we support automatic conversion of
    pointer types, and we support referring to a typedef name

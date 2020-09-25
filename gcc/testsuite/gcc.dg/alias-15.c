@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options  "-O2 -fcommon -fdump-ipa-cgraph" } */
+/* { dg-require-effective-target gcc_frontend } */
 
 /* RTL-level CSE shouldn't introduce LCO (for the string) into varpool */
 char *p;
