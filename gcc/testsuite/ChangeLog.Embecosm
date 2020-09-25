@@ -1,5 +1,14 @@
 2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
 
+	* gcc.dg/addr_equal-1.c: Add -Wno-ignored-optimization-argument to
+	options to prevent excess warnings.
+	* gcc.dg/anon-struct-3.c: Add -Wno-microsoft-anon-tag to options to
+	prevent excess warnings.
+	* gcc.dg/bitfld-18.c: Add -Wno-attribute-packed-for-bitfield to options
+	to prevent excess warnings.
+
+2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
+
 	* gcc.dg/990213-1.c: Mark test which will give a warning on Clang as
 	requiring GCC frontend.
 	* gcc.dg/alias-15.c: Mark test which relies on output from GCC internals
