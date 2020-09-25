@@ -1,3 +1,12 @@
+2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
+
+	* gcc.dg/990213-1.c: Mark test which will give a warning on Clang as
+	requiring GCC frontend.
+	* gcc.dg/alias-15.c: Mark test which relies on output from GCC internals
+	as requiring GCC frontend.
+	* gcc.dg/anon-struct-12.c: Mark test which relies on GCC option to pass
+	as requiring GCC frontend.
+
 2020-09-17  Lewis Revill <lewis.revill@embecosm.com>
 
 	* gcc.dg/20020418-2.c: Add -Wno-ignored-optimization-argument to options
