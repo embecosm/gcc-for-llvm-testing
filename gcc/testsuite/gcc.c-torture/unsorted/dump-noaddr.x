@@ -33,5 +33,8 @@ proc dump_compare { src options } {
     file delete -force $tmpdir/dump2
 }
 
-dump_compare $src $options
+if { [check_effective_target_gcc_internals] } {
+  dump_compare $src $options
+}
+
 return 1
