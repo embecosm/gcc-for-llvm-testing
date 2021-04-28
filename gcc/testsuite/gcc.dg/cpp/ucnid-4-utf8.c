@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 ª
 « /* not a preprocessing error because we lex it into its own token */

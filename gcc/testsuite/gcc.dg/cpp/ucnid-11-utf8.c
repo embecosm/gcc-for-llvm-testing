@@ -2,6 +2,7 @@
    redefinitions.  */
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 /* Different spelling of UCN in expansion.  */
 #define m1 \u00c1 /* { dg-message "-:previous definition" } */

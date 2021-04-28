@@ -4,6 +4,7 @@
 
 /* { dg-do run } */
 /* { dg-options "-fsingle-precision-constant" } */
+/* { dg-require-effective-target-flag { -fsingle-precision-constant } } */
 
 #include <math.h>
 #include <float.h>

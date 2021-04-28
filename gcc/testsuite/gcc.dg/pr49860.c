@@ -1,5 +1,6 @@
 /* { dg-do assemble } */
 /* { dg-options "-O3 -funroll-all-loops" } */
+/* { dg-require-effective-target-flag { -funroll-all-loops } } */
 
 extern char inbuf[];
 extern char outbuf[];

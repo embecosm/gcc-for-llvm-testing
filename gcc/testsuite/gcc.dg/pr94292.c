@@ -1,6 +1,7 @@
 /* PR target/94292 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -g -fno-tree-dce" } */
+/* { dg-require-effective-target-flag { -fno-tree-dce } } */
 
 unsigned short a;
 unsigned long long b;

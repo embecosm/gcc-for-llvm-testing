@@ -1,6 +1,7 @@
 /* PR c/61854 */
 /* { dg-do run } */
 /* { dg-options "-std=c89" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 int
 main (void)

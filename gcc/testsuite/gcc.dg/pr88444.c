@@ -1,6 +1,7 @@
 /* PR tree-optimization/88444 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-vrp -fno-tree-ccp -fno-tree-forwprop -fno-tree-fre" } */
+/* { dg-require-effective-target-flag { -ftree-vrp -fno-tree-ccp -fno-tree-forwprop -fno-tree-fre } } */
 
 int v;
 

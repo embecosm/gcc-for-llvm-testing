@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -finline-small-functions -fno-ipa-pure-const" } */
+/* { dg-require-effective-target-flag { -finline-small-functions -fno-ipa-pure-const } } */
 
 float baz (void)
 {

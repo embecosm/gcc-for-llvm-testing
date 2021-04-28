@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftracer" } */
 /* { dg-additional-options "-mavx512vl" { target x86_64-*-* i?86-*-* } } */
+/* { dg-require-effective-target-flag { -ftracer } } */
 
 typedef int __attribute__ ((__vector_size__ (32))) V;
 

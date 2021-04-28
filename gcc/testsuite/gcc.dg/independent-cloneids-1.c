@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O3 -fipa-cp -fipa-cp-clone -fdump-rtl-final"  } */
 /* { dg-skip-if "Odd label definition syntax" { mmix-*-* } } */
+/* { dg-require-effective-target-flag { -fipa-cp-clone -fdump-rtl-final -fipa-cp } } */
 
 extern int printf (const char *, ...);
 

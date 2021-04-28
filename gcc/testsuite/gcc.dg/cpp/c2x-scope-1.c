@@ -1,6 +1,7 @@
 /* Test :: token in C2x.  */
 /* { dg-do preprocess } */
 /* { dg-options "-std=c2x -pedantic-errors" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #define CONCAT(x, y) x ## y
 

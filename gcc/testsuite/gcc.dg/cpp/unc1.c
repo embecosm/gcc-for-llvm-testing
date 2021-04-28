@@ -1,5 +1,6 @@
 /* Tests for un-terminated conditionals: 1.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #if 1  /* { dg-error "-:unterminated" "unterminated #if" } */
 

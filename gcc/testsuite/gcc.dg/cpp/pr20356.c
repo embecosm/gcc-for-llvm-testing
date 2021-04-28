@@ -1,6 +1,7 @@
 /* PR preprocessor/20356 */
 /* { dg-do compile } */
 /* { dg-options "-I$srcdir/gcc.dg/cpp -I$srcdir/gcc.dg/cpp/inc" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #include <pr20356-aux.h>
 

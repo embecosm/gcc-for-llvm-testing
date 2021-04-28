@@ -3,6 +3,7 @@
    consecutive paste tokens.  */
 /* { dg-do preprocess } */
 /* { dg-options "" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #define str(x) #x /* { dg-message "-:previous definition" } */
 #define str(x) %: x /* { dg-warning "-:redefined" } */

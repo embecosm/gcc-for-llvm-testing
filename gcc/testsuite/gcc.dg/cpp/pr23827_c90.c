@@ -1,5 +1,6 @@
 /* { dg-do run }  */
 /* { dg-options "-std=c90 -pedantic-errors" }  */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #define f (
 #define l )

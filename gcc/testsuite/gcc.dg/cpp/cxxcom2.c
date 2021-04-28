@@ -1,5 +1,6 @@
 /* { dg-do preprocess } */
 /* { dg-options "-pedantic -std=c89 -Wall" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #include "cxxcom2.h"
 

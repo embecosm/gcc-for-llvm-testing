@@ -1,6 +1,7 @@
 /* PR c/95580 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -W -fno-tree-dce" } */
+/* { dg-require-effective-target-flag { -fno-tree-dce } } */
 
 void bar (void);
 

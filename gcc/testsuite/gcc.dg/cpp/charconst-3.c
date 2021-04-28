@@ -2,6 +2,7 @@
 
 /* { dg-do run } */
 /* { dg-options -Wno-multichar } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 /* This tests values and signedness of multichar charconsts.
 

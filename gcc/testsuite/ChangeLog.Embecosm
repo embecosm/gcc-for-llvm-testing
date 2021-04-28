@@ -1,3 +1,71 @@
+2021-04-29  Mary Bennett  <mary.bennett@embecosm.com>
+
+	* lib/target-supports-dg.exp (dg-require-effective-target-flag): Added
+	a proc template to check whether or not an optimisation flag is
+	supported by the target.
+	* lib/target-supports.exp (is-effective-target-flag): Likewise.
+	* gcc.dg/iec-559-macros-6.c: Requires target with support for
+	optimisation flags.
+	* gcc.dg/independent-cloneids-1.c: Likewise.
+	* gcc.dg/nested-func-12.c: Likewise.
+	* gcc.dg/pr49860.c: Likewise.
+	* gcc.dg/pr51039.c: Likewise.
+	* gcc.dg/pr87929.c: Likewise.
+	* gcc.dg/pr88444.c: Likewise.
+	* gcc.dg/pr92591-2.c: Likewise.
+	* gcc.dg/pr94002.c: Likewise.
+	* gcc.dg/pr94292.c: Likewise.
+	* gcc.dg/pr95580.c: Likewise.
+	* gcc.dg/pr97192.c: Likewise.
+	* gcc.dg/pr97396.c: Likewise.
+	* gcc.dg/single-precision-constant.c: Likewise.
+	* gcc.dg/sms-compare-debug-1.c: Likewise.
+	* gcc.dg/type-convert-var.c: Likewise.
+	* gcc.dg/var-expand2.c: Likewise.
+	* gcc.dg/cpp/Wunused.c: Requires target with support for the
+	optimisation flag "-fuse-linker-plugin".
+	* gcc.dg/cpp/builtin-macro-1.c: Likewise.
+	* gcc.dg/cpp/c11-scope-1.c: Likewise.
+	* gcc.dg/cpp/c17-scope-1.c: Likewise.
+	* gcc.dg/cpp/c2x-scope-1.c: Likewise.
+	* gcc.dg/cpp/c2x-scope-2.c: Likewise.
+	* gcc.dg/cpp/c90-scope-1.c: Likewise.
+	* gcc.dg/cpp/c94-scope-1.c: Likewise.
+	* gcc.dg/cpp/c99-scope-1.c: Likewise.
+	* gcc.dg/cpp/charconst-3.c: Likewise.
+	* gcc.dg/cpp/cxxcom2.c: Likewise.
+	* gcc.dg/cpp/gnu11-scope-1.c: Likewise.
+	* gcc.dg/cpp/gnu17-scope-1.c: Likewise.
+	* gcc.dg/cpp/gnu89-scope-1.c: Likewise.
+	* gcc.dg/cpp/gnu99-scope-1.c: Likewise.
+	* gcc.dg/cpp/line10.c: Likewise.
+	* gcc.dg/cpp/line11.c: Likewise.
+	* gcc.dg/cpp/line12.c: Likewise.
+	* gcc.dg/cpp/line9.c: Likewise.
+	* gcc.dg/cpp/mi1.c: Likewise.
+	* gcc.dg/cpp/mi6.c: Likewise.
+	* gcc.dg/cpp/paste16.c: Likewise.
+	* gcc.dg/cpp/pr20356.c: Likewise.
+	* gcc.dg/cpp/pr23827_c90.c: Likewise.
+	* gcc.dg/cpp/pr61854-5.c: Likewise.
+	* gcc.dg/cpp/pr61854-7.c: Likewise.
+	* gcc.dg/cpp/pr71681-1.c: Likewise.
+	* gcc.dg/cpp/pr71681-2.c: Likewise.
+	* gcc.dg/cpp/pr97989-2.c: Likewise.
+	* gcc.dg/cpp/pr98882.c: Likewise.
+	* gcc.dg/cpp/redef4.c: Likewise.
+	* gcc.dg/cpp/strify5.c: Likewise.
+	* gcc.dg/cpp/ucnid-11-utf8.c: Likewise.
+	* gcc.dg/cpp/ucnid-13-utf8.c: Likewise.
+	* gcc.dg/cpp/ucnid-4-utf8.c: Likewise.
+	* gcc.dg/cpp/ucnid-6-utf8.c: Likewise.
+	* gcc.dg/cpp/ucnid-7-utf8.c: Likewise.
+	* gcc.dg/cpp/unc1.c: Likewise.
+	* gcc.dg/cpp/unc2.c: Likewise.
+	* gcc.dg/cpp/utf8-5byte-1.c: Likewise.
+	* gcc.dg/cpp/vararg3.c: Likewise.
+	* gcc.dg/cpp/vararg4.c: Likewise.
+
 2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
 
 	* gcc.dg/addr_equal-1.c: Add -Wno-ignored-optimization-argument to

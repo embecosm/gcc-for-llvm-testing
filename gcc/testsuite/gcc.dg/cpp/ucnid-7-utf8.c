@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 /* When GCC reads UTF-8-encoded input into its internal UTF-8
 representation, it does not apply any transformation to the data, and

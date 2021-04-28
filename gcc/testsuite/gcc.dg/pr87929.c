@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fexceptions -fnon-call-exceptions -fsignaling-nans" } */
+/* { dg-require-effective-target-flag { -fsignaling-nans } } */
 
 #define complex __complex__
 #define _Complex_I (1.0iF)

@@ -3,6 +3,7 @@
 /* { dg-do preprocess } */
 /* Duplicate command line options should not warn.  */
 /* { dg-options "-Wunused-macros -Dfoo -Dfoo" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 /* Test everything related to -Wunused-macros.
 

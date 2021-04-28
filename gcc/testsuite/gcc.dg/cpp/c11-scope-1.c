@@ -1,6 +1,7 @@
 /* Test :: token not in C11.  */
 /* { dg-do preprocess } */
 /* { dg-options "-std=c11 -pedantic-errors" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #define CONCAT(x, y) x ## y
 

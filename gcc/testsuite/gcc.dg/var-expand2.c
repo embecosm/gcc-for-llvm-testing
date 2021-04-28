@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -funroll-loops -ffast-math -fvariable-expansion-in-unroller" } */
+/* { dg-require-effective-target-flag { -fvariable-expansion-in-unroller } } */
 
 extern void abort (void);
 

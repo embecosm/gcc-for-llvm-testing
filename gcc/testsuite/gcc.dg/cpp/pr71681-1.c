@@ -2,5 +2,6 @@
 // { dg-do preprocess }
 // { dg-options "-remap -I$srcdir/gcc.dg/cpp/remap" }
 // { dg-additional-options "-Wno-unused-command-line-argument" }
+// { dg-require-effective-target-flag { -fuse-linker-plugin } }
 
 #include "a/t1.h"

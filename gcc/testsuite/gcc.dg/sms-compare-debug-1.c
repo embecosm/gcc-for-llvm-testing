@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fcompare-debug -fmodulo-sched --param sms-min-sc=1" } */
+/* { dg-require-effective-target-flag { -fmodulo-sched -fcompare-debug } } */
 
 int a, c, e, f, g;
 void

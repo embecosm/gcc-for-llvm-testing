@@ -1,5 +1,6 @@
 /* Tests for unterminated conditionals: 2.  */
 /* { dg-do preprocess } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #ifdef __sparc__  /* { dg-error "-:unterminated" "unterminated if-elif-elif..." } */
 sparc

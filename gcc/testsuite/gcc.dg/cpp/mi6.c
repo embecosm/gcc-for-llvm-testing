@@ -4,6 +4,7 @@
 
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 extern void abort (void);
 

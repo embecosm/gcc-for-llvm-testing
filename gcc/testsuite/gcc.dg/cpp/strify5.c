@@ -1,6 +1,7 @@
 /* Test handling of spaces and empty macro expansions in
    stringifying.  PR 31869.  */
 /* { dg-do run } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 extern int strcmp (const char *, const char *);
 extern int puts (const char *);

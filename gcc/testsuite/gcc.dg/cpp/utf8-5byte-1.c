@@ -2,6 +2,7 @@
    cpplib.  */
 /* { dg-do run { target { 4byte_wchar_t } } } */
 /* { dg-options "-std=gnu99 -w" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 extern void abort (void);
 extern void exit (int);

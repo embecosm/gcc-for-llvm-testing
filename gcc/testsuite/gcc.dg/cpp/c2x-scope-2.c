@@ -1,6 +1,7 @@
 /* Test :: token in C2x: preprocessed output.  */
 /* { dg-do preprocess } */
 /* { dg-options "-std=c2x -pedantic-errors -P" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 #define COLON() :
 #define TEST() ABC

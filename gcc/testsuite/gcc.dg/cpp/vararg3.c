@@ -2,6 +2,7 @@
 
 /* { dg-do preprocess } */
 /* { dg-options "-std=c99" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
 
 /* Source: Neil Booth, 6 Aug 2002.
 
