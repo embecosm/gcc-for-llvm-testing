@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fmodulo-sched -fweb -fno-dce -fno-ivopts -fno-sched-pressure -fno-tree-loop-distribute-patterns --param sms-dfa-history=1" } */
 /* { dg-additional-options "-mcpu=e500mc" { target { powerpc-*-* } } } */
+/* { dg-require-effective-target-flag { -fmodulo-sched -fweb -fno-ivopts } } */
 
 void
 wf (char *mr, int tc)

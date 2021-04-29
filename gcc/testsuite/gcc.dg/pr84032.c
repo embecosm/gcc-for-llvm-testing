@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fmodulo-sched" } */
 /* { dg-additional-options "-mcpu=power6" { target { powerpc-*-* } } } */
+/* { dg-require-effective-target-flag { -fmodulo-sched } } */
 
 void
 yr (int cm)

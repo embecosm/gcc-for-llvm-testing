@@ -1,6 +1,7 @@
 /* { dg-options "-funswitch-loops" } */
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target-flag { -funswitch-loops } } */
 
 static float rgam;
 extern void *jmp(void *);

@@ -1,6 +1,7 @@
 /* PR tree-optimization/92115 */
 /* { dg-do compile } */
 /* { dg-options "-O1 -fexceptions -ffinite-math-only -fnon-call-exceptions -fsignaling-nans -fno-signed-zeros" } */
+/* { dg-require-effective-target-flag { -fsignaling-nans } } */
 
 void
 foo (double x)

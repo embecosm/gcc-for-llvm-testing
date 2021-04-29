@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -funswitch-loops" } */
+/* { dg-require-effective-target-flag { -funswitch-loops } } */
 
 #include <stdlib.h>
 __attribute__ ((noinline))

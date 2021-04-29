@@ -1,3 +1,19 @@
+2021-04-29  Pietra Ferreira  <pietra.ferreira@embecosm.com>
+
+	* gcc.c-torture/compile/pr25224.c: Mark test as requiring a specific flag
+	that Clang doesn't support (-funswitch-loops).
+	* gcc.dg/loop-unswitch-4.c: Likewise.
+	* gcc.dg/pr81455.c: Likewise.
+	* gcc.dg/pr84032.c: Mark test as requiring a specific flag that Clang doesn't
+	support (-fmodulo-sched).
+	* gcc.dg/pr88427.c: Mark test as requiring a specific flag that Clang doesn't
+	support (-fno-tree-dce).
+	* gcc.dg/pr94283.c: Likewise.
+	* gcc.dg/pr92115.c: Mark test as requiring a specific flag that Clang doesn't
+	support (-fsignaling-nans).
+	* gcc.dg/pr92591-1.c: Mark test as requiring specific flags that Clang doesn't
+	support (-fmodulo-sched -fweb -fno-ivopts).
+
 2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
 
 	* gcc.dg/addr_equal-1.c: Add -Wno-ignored-optimization-argument to
