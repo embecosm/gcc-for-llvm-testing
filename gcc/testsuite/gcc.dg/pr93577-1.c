@@ -1,6 +1,7 @@
 /* Test ICE with variable-size struct initializer: bug 93577.  */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void
 f (int c)

@@ -1,6 +1,8 @@
 /* PR libstdc++/88101 */
 /* { dg-do compile } */
 /* { dg-options "" } */
+/* { dg-require-effective-target-flag { -fuse-linker-plugin } } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void
 foo (int n)

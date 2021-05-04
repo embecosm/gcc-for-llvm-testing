@@ -3,6 +3,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wall" }
    { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 extern void sink (void*);
 

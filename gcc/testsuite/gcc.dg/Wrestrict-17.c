@@ -4,6 +4,7 @@
    { dg-require-effective-target alloca }
    { dg-options "-O2 -Wall" }  */
 /* { dg-additional-options "-Wno-implicit-function-declaration" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 int f (int n)
 {

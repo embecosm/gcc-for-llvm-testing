@@ -2,6 +2,7 @@
    PR middle-end/82608 - missing -Warray-bounds on an out-of-bounds VLA index
    { dg-do compile }
    { dg-options "-O2 -Wall" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void sink (void*);
 

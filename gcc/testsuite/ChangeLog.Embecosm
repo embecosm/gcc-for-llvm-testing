@@ -1,3 +1,20 @@
+2021-05-04  Mary Bennett  <mary.bennett@embecosm.com>
+
+	* gcc.dg/Warray-bounds-51.c: Marked as requireing
+	vla_in_struct support.
+	* gcc.dg/Wrestrict-17.c: Likewise.
+	* gcc.dg/Wstringop-overflow-39.c: Likewise.
+	* gcc.dg/builtin-clear-padding-1.c: Likewise.
+	* gcc.dg/pr51628-18.c: Likewise.
+	* gcc.dg/pr51628-19.c: Likewise.
+	* gcc.dg/pr93577-1.c: Likewise.
+	* gcc.dg/pr93577-2.c: Likewise.
+	* gcc.dg/pr93577-3.c: Likewise.
+	* gcc.dg/pr93577-4.c: Likewise.
+	* gcc.dg/pr99122-1.c: Likewise.
+	* gcc.dg/pr99122-2.c: Likewise.
+	* gcc.dg/pr99122-3.c: Likewise.
+
 2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
 
 	* gcc.dg/addr_equal-1.c: Add -Wno-ignored-optimization-argument to

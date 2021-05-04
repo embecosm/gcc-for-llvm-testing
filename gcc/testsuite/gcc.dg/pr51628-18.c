@@ -1,6 +1,7 @@
 /* PR c/51628.  */
 /* { dg-do compile } */
 /* { dg-options "-O" } */
+/* { dg-require-effective-target vla_in_struct } */
 
 void foo (int *);
 
