@@ -1,5 +1,6 @@
-// { dg-require-effective-target alloca }
 /* PR c/77754 */
+/* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 int fn3();
 

@@ -1,5 +1,6 @@
 /* PR middle-end/82564 */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target vla_in_struct } */
 
 int
 main ()
