@@ -1,4 +1,3 @@
-/* { dg-require-effective-target gcc_frontend } */
 #   Copyright (C) 2016-2021 Free Software Foundation, Inc.
 
 # This program is free software; you can redistribute it and/or modify
@@ -19,6 +18,10 @@
 
 # Load support procs.
 load_lib gcc-dg.exp
+
+if { ![check_effective_target_gcc_frontend] } {
+  return
+}
 
 # If a testcase doesn't have special options, use these.
 global DEFAULT_RTLFLAGS

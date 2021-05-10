@@ -1,4 +1,3 @@
-/* { dg-require-effective-target gcc_frontend } */
 # Copyright (C) 1997-2021 Free Software Foundation, Inc.
 
 # This program is free software; you can redistribute it and/or modify
@@ -23,6 +22,10 @@ load_lib gcc-dg.exp
 # Exit immediately if this isn't a x86 target.
 if { (![istarget x86_64-*-*] && ![istarget i?86-*-*])
      || [is-effective-target ia32] } then {
+  return
+}
+
+if { ![check_effective_target_gcc_frontend] } {
   return
 }
 
