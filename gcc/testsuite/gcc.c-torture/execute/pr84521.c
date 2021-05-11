@@ -1,4 +1,5 @@
 /* { dg-require-effective-target indirect_jumps } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 /* { dg-additional-options "-fomit-frame-pointer -fno-inline" }  */
 
 extern void abort (void);

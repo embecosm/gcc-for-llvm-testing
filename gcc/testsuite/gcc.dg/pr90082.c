@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target nonlocal_goto } */
 /* { dg-require-effective-target label_values } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 /* { dg-options "-O1 -fnon-call-exceptions -ftrapv" } */
 
 void *buf[5];

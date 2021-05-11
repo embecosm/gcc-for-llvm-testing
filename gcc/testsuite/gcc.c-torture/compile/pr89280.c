@@ -1,5 +1,6 @@
 // { dg-require-effective-target nonlocal_goto }
 // { dg-require-effective-target label_values }
+// { dg-require-effective-target builtin_setjmp_longjmp }
 /* PR tree-optimization/89280 */
 
 int a;
