@@ -1,6 +1,7 @@
 // PR rtl-optimization/92430
 // { dg-do compile }
 // { dg-options "-Os -fno-if-conversion -fno-tree-dce -fno-tree-loop-optimize -fno-tree-vrp" }
+/* { dg-require-effective-target-flag { -fno-if-conversion -fno-tree-dce -fno-tree-loop-optimize -fno-tree-vrp } } */
 
 int eb, ko;
 

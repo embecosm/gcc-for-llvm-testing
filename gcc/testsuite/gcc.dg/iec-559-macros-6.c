@@ -1,6 +1,7 @@
 /* Test __GCC_IEC_559 and __GCC_IEC_559_COMPLEX macros values.  */
 /* { dg-do preprocess } */
 /* { dg-options "-fsingle-precision-constant" } */
+/* { dg-require-effective-target-flag { -fsingle-precision-constant } } */
 
 #ifndef __GCC_IEC_559
 # error "__GCC_IEC_559 not defined"

@@ -1,3 +1,22 @@
+2021-05-11  Jessica Mills  <jessica.mills@embecosm.com>
+
+	* gcc/testsuite/gcc.dg/c2x-float-6.c: Likewise.: Mark as requiring appropriate flag/s.
+	* gcc/testsuite/gcc.dg/falign-labels-1.c: Likewise.
+	* gcc/testsuite/gcc.dg/iec-559-macros-6.c: Likewise.
+	* gcc/testsuite/gcc.dg/live-patching-3.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr44964.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr87979.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr88855.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr89570.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr91860-1.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr91860-2.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr92263.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr92430.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr94001.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr95854.c: Likewise.
+	* gcc/testsuite/gcc.dg/pr97078.c: Likewise.
+	* gcc/testsuite/gcc.dg/sms-compare-debug-2.c: Likewise.
+
 2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
 
 	* gcc.dg/addr_equal-1.c: Add -Wno-ignored-optimization-argument to

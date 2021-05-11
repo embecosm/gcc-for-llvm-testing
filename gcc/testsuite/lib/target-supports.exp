@@ -8179,6 +8179,27 @@ proc is-effective-target { arg } {
     return $selected
 }
 
+# Return 1 if the effective target supports the specified flag
+# This can be used with any check_flag_* proc that takes no argument and
+# returns only 1 or 0.
+# arg[0] the flag to check for.
+
+proc is-effective-target-flag { arg } {
+    set selected 0
+
+    set selected [check_no_compiler_messages optimisation_flag assembly "
+        int main (void) { return 0; }
+    " "$arg"]
+    if { !$selected } {
+      return 0
+    } else {
+      return 1
+    }
+
+    verbose "is-effective-target-flag: $arg $selected" 2
+    return selected
+}
+
 # Return 1 if the argument is an effective-target keyword, 0 otherwise.
 
 proc is-effective-target-keyword { arg } {
@@ -11402,4 +11423,3 @@ proc check_effective_target_invalid_inline_asm { } {
 	void foo (void) { asm ("This is invalid"); }
     }]
 }
-

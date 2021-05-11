@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Og -fipa-cp -g --param=max-combine-insns=3" } */
+/* { dg-require-effective-target-flag { -fipa-cp } } */
 
 char a;
 int b;

@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -ftree-loop-if-convert -ftree-vrp -fno-tree-copy-prop -fno-tree-dce -fno-tree-dominator-opts" } */
+/* { dg-require-effective-target-flag { -ftree-loop-if-convert -ftree-vrp -fno-tree-copy-prop -fno-tree-dce -fno-tree-dominator-opts } } */
 
 typedef int jmp_buf[1];
 

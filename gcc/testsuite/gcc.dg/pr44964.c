@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-fkeep-inline-functions -O" } */
 /* { dg-additional-options "-Wno-unused-value" } */
+/* { dg-require-effective-target-flag { -fkeep-inline-functions } } */
 
 static inline __attribute__ ((const))
 int baz (int i)

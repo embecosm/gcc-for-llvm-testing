@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -ftree-vectorize -fno-trapping-math -fno-tree-dce -fno-tree-dominator-opts" } */
 /* { dg-additional-options "-mvsx" { target powerpc_vsx_ok } } */
+/* { dg-require-effective-target-flag { -ftree-vectorize -fno-trapping-math -fno-tree-dce -fno-tree-dominator-opts } } */
 
 void
 foo (double *x, double *y, double *z)

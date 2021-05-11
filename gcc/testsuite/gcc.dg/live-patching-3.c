@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -flive-patching -fwhole-program" } */
+/* { dg-require-effective-target-flag { -flive-patching -fwhole-program } } */
 
 int main()
 {

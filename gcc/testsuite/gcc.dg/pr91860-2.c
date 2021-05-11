@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-Og -fexpensive-optimizations -fno-tree-fre -g --param=max-combine-insns=4" } */
+/* { dg-require-effective-target-flag { -fexpensive-optimizations -fno-tree-fre } } */
 
 unsigned a, b, c;
 void

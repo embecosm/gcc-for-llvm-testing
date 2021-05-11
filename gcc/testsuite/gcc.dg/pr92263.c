@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-fno-tree-dce -fno-tree-forwprop -Os -ffloat-store" } */
+/* { dg-require-effective-target-flag { -fno-tree-dce -fno-tree-forwprop -ffloat-store } } */
 
 extern long double cabsl (_Complex long double);
 

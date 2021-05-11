@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-Os -fmodulo-sched -fno-tree-loop-im" } */
 /* { dg-additional-options "-march=z196" { target { s390*-*-* } } } */
+/* { dg-require-effective-target-flag { -fmodulo-sched -fno-tree-loop-im } } */
 
 void foo(void)
 {

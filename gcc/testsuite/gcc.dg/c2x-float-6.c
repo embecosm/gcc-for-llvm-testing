@@ -2,6 +2,7 @@
 /* { dg-do run } */
 /* { dg-options "-std=c2x -pedantic-errors -fsignaling-nans" } */
 /* { dg-add-options ieee } */
+/* { dg-require-effective-target-flag { -fsignaling-nans } } */
 
 #include <float.h>
 
