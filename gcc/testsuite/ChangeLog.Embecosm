@@ -1,3 +1,8 @@
+2021-05-13  Jessica Mills  <jessica.mills@embecosm.com>
+
+	* gcc.c-torture/compile/920520-1.c: Mark as requiring gcc frontend as
+	tests assumes GCC parsing behaviour.
+
 2020-09-25  Lewis Revill <lewis.revill@embecosm.com>
 
 	* gcc.dg/addr_equal-1.c: Add -Wno-ignored-optimization-argument to
