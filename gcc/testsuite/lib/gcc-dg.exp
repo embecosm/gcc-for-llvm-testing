@@ -325,6 +325,24 @@ proc gcc-dg-test-1 { target_compile prog do_what extra_tool_flags } {
 	lappend options "additional_flags=$extra_tool_flags"
     }
 
+
+    # GCC only diagnostic flags for removing the color/caret/etc. information.
+    # Some tests require that information. Therefore, the information must only be removed if
+    # the test does not define a flag which turns on the color/caret/etc. information.
+    if [check_effective_target_gcc_internals] {
+      if { [string first "-fdiagnostics-show-caret" $extra_tool_flags] == -1 } {
+        lappend options "additional_flags=-fno-diagnostics-show-caret"
+      }
+      if { [string first "-fdiagnostics-show-line-numbers" $extra_tool_flags] == -1 } {
+        lappend options "additional_flags=-fno-diagnostics-show-line-numbers"
+      }
+      if { [string first "-fdiagnostics-path-format=inline-events" $extra_tool_flags] == -1 } {
+        lappend options "additional_flags=-fdiagnostics-path-format=separate-events"
+      }
+      lappend options "additional_flags=-fdiagnostics-color=never"
+      lappend options "additional_flags=-fdiagnostics-urls=never"
+    }
+
     verbose "$target_compile $prog $output_file $compile_type $options" 4
     set comp_output [$target_compile "$prog" "$output_file" "$compile_type" $options]
 
