@@ -90,8 +90,7 @@ if [info exists TORTURE_OPTIONS] {
 	  { -O2 } \
 	  { -O3 -fomit-frame-pointer -funroll-loops -finline-functions } \
 	  { -O3 -g } \
-	  { -Os } \
-	  { -Og -g } ]
+	  { -Os } ]
     } else {
         set DG_TORTURE_OPTIONS [list \
 	  { -O0 } \
@@ -99,8 +98,7 @@ if [info exists TORTURE_OPTIONS] {
 	  { -O2 } \
 	  { -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions } \
 	  { -O3 -g } \
-	  { -Os } \
-	  { -Og -g } ]
+	  { -Os } ]
     }
 
     if [check_effective_target_lto] {
