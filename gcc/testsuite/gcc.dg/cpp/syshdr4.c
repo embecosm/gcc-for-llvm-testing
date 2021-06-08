@@ -10,7 +10,7 @@
    such indicates the lack of the bug.
 
    { dg-do compile }
-/* { dg-require-effective-target gcc_frontend } */
+   { dg-require-effective-target gcc_frontend }
    { dg-options -no-integrated-cpp }  */
 
 #include "syshdr4.h"

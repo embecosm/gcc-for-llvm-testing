@@ -1,8 +1,7 @@
 /*
   { dg-options "-Wuninitialized -ftrack-macro-expansion=2" }
   { dg-do compile }
-/* { dg-require-effective-target gcc_frontend } */
-*/
+  { dg-require-effective-target gcc_frontend } */
 
 void f (unsigned);
 

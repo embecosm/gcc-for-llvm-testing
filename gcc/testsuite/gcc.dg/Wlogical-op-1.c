@@ -1,6 +1,6 @@
 /*
    { dg-do compile }
-/* { dg-require-effective-target gcc_frontend } */
+   { dg-require-effective-target gcc_frontend }
    { dg-options "-Wlogical-op" }
 */
 

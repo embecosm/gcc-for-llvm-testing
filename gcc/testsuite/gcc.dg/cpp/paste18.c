@@ -1,8 +1,7 @@
 /* 
    { dg-options "-ftrack-macro-expansion=2" }
    { dg-do compile }
-/* { dg-require-effective-target gcc_frontend } */
- */
+   { dg-require-effective-target gcc_frontend } */
 
 struct x {
   int i;
