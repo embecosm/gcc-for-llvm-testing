@@ -1,4 +1,3 @@
-/* { dg-require-effective-target noclone } */
 /* Make sure that by reference and by value aggregate jump functions do not get
    mixed up.  */
 

@@ -1,4 +1,3 @@
-/* { dg-require-effective-target tls } */
 /* { dg-options "-fPIC" { target { ! sparc*-*-* } } } */
 static void
 f (int n)

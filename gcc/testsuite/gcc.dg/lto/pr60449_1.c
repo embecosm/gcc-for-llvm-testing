@@ -1,4 +1,3 @@
-/* { dg-require-effective-target noclone } */
 extern int printf (const char *__restrict __format, ...);
 typedef long int __time_t;
 typedef long int __suseconds_t;
