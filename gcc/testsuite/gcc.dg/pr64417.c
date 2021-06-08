@@ -1,7 +1,7 @@
 /* PR c/64417 */
 /* { dg-do compile } */
 /* { dg-options "" } */
-/* { dg-require-effective-target flexible_array_member_static_init } */
+/* { dg-require-effective-target gcc_frontend } */
 
 struct foo { int x; char y[]; };
 struct bar { struct foo f; };
