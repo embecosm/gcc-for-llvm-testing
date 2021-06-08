@@ -1,5 +1,4 @@
 /* Test for redefining macros with mismatch token count (and the oddity). */
-
 /* { dg-do preprocess } */
 /* { dg-options "-DC -DD=1 -DE" } */
 /* { dg-require-effective-target gcc_frontend } */

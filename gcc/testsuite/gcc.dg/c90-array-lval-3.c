@@ -23,13 +23,13 @@ bar (void)
   (d, b).c + 1; /* { dg-bogus "warning" "warning in place of error" } */
   (a = b).c + 1; /* { dg-bogus "warning" "warning in place of error" } */
 }
-/* { dg-error "non-lvalue" "array not decaying to lvalue" { target *-*-* } 15 }
-   { dg-error "non-lvalue" "array not decaying to lvalue" { target *-*-* } 16 }
+/* { dg-error "non-lvalue" "array not decaying to lvalue" { target *-*-* } 16 }
    { dg-error "non-lvalue" "array not decaying to lvalue" { target *-*-* } 17 }
-   { dg-error "non-lvalue|incompatible" "array not decaying to lvalue" { target *-*-* } 18 }
+   { dg-error "non-lvalue" "array not decaying to lvalue" { target *-*-* } 18 }
    { dg-error "non-lvalue|incompatible" "array not decaying to lvalue" { target *-*-* } 19 }
    { dg-error "non-lvalue|incompatible" "array not decaying to lvalue" { target *-*-* } 20 }
-   { dg-error "non-lvalue|invalid" "array not decaying to lvalue" { target *-*-* } 21 }
+   { dg-error "non-lvalue|incompatible" "array not decaying to lvalue" { target *-*-* } 21 }
    { dg-error "non-lvalue|invalid" "array not decaying to lvalue" { target *-*-* } 22 }
    { dg-error "non-lvalue|invalid" "array not decaying to lvalue" { target *-*-* } 23 }
+   { dg-error "non-lvalue|invalid" "array not decaying to lvalue" { target *-*-* } 24 }
 */

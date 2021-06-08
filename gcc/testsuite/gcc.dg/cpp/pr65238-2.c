@@ -11,9 +11,9 @@
 #if __has_attribute(__has_attribute(unused))
 #endif
 
-/* { dg-error "macro .__has_attribute. requires an identifier" "" {target "*-*-*"} 4 } */
-/* { dg-error "missing ... after .__has_attribute." "" {target "*-*-*"} 6 } */
-/* { dg-error "missing ... after .__has_attribute." "" {target "*-*-*"} 8 } */
-/* { dg-error "missing binary operator before token .unused." "" {target "*-*-*"} 8 } */
-/* { dg-error "macro .__has_attribute. requires an identifier" "" {target "*-*-*"} 10 } */
-/* { dg-error "missing ... in expression" "" {target "*-*-*"} 10 } */
+/* { dg-error "macro .__has_attribute. requires an identifier" "" {target "*-*-*"} 5 } */
+/* { dg-error "missing ... after .__has_attribute." "" {target "*-*-*"} 7 } */
+/* { dg-error "missing ... after .__has_attribute." "" {target "*-*-*"} 9 } */
+/* { dg-error "missing binary operator before token .unused." "" {target "*-*-*"} 9 } */
+/* { dg-error "macro .__has_attribute. requires an identifier" "" {target "*-*-*"} 11 } */
+/* { dg-error "missing ... in expression" "" {target "*-*-*"} 11 } */

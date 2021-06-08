@@ -1,7 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-O2 -Wall -Wno-array-bounds" } */
-
 #include "Wobjsize-1.h"
 
 char buf[6];

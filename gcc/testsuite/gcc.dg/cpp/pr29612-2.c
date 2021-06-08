@@ -3,7 +3,7 @@
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-Wtraditional" } */
 
-# 6 "pr29612-2.c"
+# 7 "pr29612-2.c"
 
 #if 1U /* { dg-warning "traditional C rejects" "numeric constant suffix" } */
 #endif
@@ -13,7 +13,7 @@
 #if 1U
 #endif /* No warning in system header.  */
 
-# 16 "pr29612-2.c" 2
+# 17 "pr29612-2.c" 2
 
 #if 1U /* { dg-warning "traditional C rejects" "numeric constant suffix" } */
 #endif

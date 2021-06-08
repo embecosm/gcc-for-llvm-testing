@@ -1,5 +1,4 @@
 /* Test for redefining macros with significant differences.  */
-
 /* { dg-do preprocess }
    { dg-options "-ansi -Wall" } */
 /* { dg-require-effective-target gcc_frontend } */

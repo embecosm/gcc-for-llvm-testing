@@ -4,7 +4,6 @@
 /* Various versions of the same C error, with a variety of line spacing,
    and of columns, to exercise the line-span handling in
    diagnostic-show-locus.c (PR other/69554).  */
-
 /* All on one line.  */
 
 int test_1 (const char *p, const char *q)
